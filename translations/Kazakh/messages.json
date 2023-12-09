@@ -141,7 +141,7 @@
       "MessageId": "идентификатор-сообщения",
       "UserId": "идентификатор-пользователя",
       "CaseId": "номер-случая",
-      "WardId": "ескерту-нөмірі",
+      "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
       "Source": "дереккөз",
       "Volume": "дыбыс деңгейі/көлемі",
@@ -152,7 +152,8 @@
       "MultipleAnswers": "множественный-выбор",
       "Role": "рөл",
       "Time": "время",
-      "Award": "награда"
+      "Award": "награда",
+      "Operation": "операция"
     },
     "OptionTypes": {
       "SubCommand": "Подкоманда",
@@ -195,6 +196,7 @@
       "Texts": {
         "ListOfCommands": "Пәрмендер тізімі",
         "HelpForCommand": "Справка по команде {command}",
+        "ControlPanel": "Басқару панелi",
         "UnknownCommand": "{username}, команда не найдена",
         "CommandUsage": "Использование команды",
         "CommandArguments": "Аргументы команды",
@@ -547,7 +549,7 @@
             "User": {
               "Description": "С кого необходимо снять предупреждение"
             },
-            "WardId": {
+            "WarnId": {
               "Description": "Идентификатор, порядковый номер предупреждения или \"all\" для снятие всех предупреждений"
             },
             "Reason": {
@@ -556,8 +558,8 @@
           },
           "Texts": {
             "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять предупреждение",
-            "NoWardId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWardId": "{username}, вы указали неверный идентификатор предупреждения",
+            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
+            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
             "ThisUserHasNoViolations": "{username}, похоже, что этот пользователь не получал ранее предупреждений",
             "UserWarnHasBeenRemoved": "{username}, предупреждение успешно снято",
             "AllUserWarnsHaveBeenRemoved": "{username}, все предупреждения успешно сняты"
@@ -665,21 +667,29 @@
             "AwardHasBeenAssigned": "{username}, награда успешно назначена"
           }
         },
-        "AddWalletBalanceCommand": {
-          "Description": "Пайдаланушыға валюта қосу",
+        "SetWalletBalanceCommand": {
+          "Description": "Установить баланс кошелька для пользователя",
           "Options": {
             "User": {
-              "Description": "Кімге валюта қосу қажет"
+              "Description": "Какому пользователю будет установлен баланс кошелька"
             },
             "Amount": {
-              "Description": "Қанша валюта қосу керек"
+              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
             },
             "Currency": {
-              "Description": "Қосылатын валюта"
+              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+            },
+            "Operation": {
+              "Description": "Выберите операцию для баланса кошелька",
+              "ChoiceSet": "Установить",
+              "ChoiceInc": "Прибавить",
+              "ChoiceSub": "Вычесть"
             }
           },
           "Texts": {
-            "WalletBalanceHasBeenIncreased": "{username}, баланс кошелька {target} увеличен на {amount}"
+            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
+            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
+            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
           }
         },
         "ResetWalletCommand": {
