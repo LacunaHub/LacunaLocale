@@ -153,8 +153,8 @@
       "Role": "role",
       "Time": "time",
       "Award": "award",
-      "Operation": "операция",
-      "ResetAll": "сбросить-все"
+      "Operation": "operation",
+      "ResetAll": "reset-all"
     },
     "OptionTypes": {
       "SubCommand": "Sub command",
@@ -559,8 +559,8 @@
           },
           "Texts": {
             "InvalidUser": "{username}, please specify the user who needs to remove the warning",
-            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
+            "NoWarnId": "{username}, please specify the warning identifier",
+            "InvalidWarnId": "{username}, you specified an incorrect warning identifier",
             "ThisUserHasNoViolations": "{username}, this user does not seem to have received any warnings before",
             "UserWarnHasBeenRemoved": "{username}, warning successfully removed",
             "AllUserWarnsHaveBeenRemoved": "{username}, all warnings have been successfully removed"
@@ -669,28 +669,28 @@
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Set a user's wallet balance",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Which user the wallet balance will be set to"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "How much currency will be set/increased/subtracted"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Which currency will be set/increased/subtracted"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
-              "ChoiceSet": "Установить",
+              "Description": "Select an operation for the wallet balance",
+              "ChoiceSet": "Set",
               "ChoiceInc": "Increment",
-              "ChoiceSub": "Вычесть"
+              "ChoiceSub": "Subtract"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
-            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
+            "InvalidUser": "{username}, please specify the user to whom you want to set the wallet balance",
+            "InvalidAmount": "{username}, please specify the wallet balance to be set",
+            "WalletBalanceHasBeenSet": "{username}, wallet balance {target} is set"
           }
         },
         "ResetWalletCommand": {
