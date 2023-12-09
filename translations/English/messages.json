@@ -153,7 +153,8 @@
       "Role": "role",
       "Time": "time",
       "Award": "award",
-      "Operation": "операция"
+      "Operation": "операция",
+      "ResetAll": "сбросить-все"
     },
     "OptionTypes": {
       "SubCommand": "Sub command",
@@ -698,17 +699,14 @@
             "User": {
               "Description": "Who needs to reset the wallet"
             },
-            "UserId": {
-              "Description": "Reset wallet by user identifier or specify \"all\" to reset all wallets"
+            "ResetAll": {
+              "Description": "Сбросить кошельки всем участникам на сервере"
             }
           },
           "Texts": {
+            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
             "NoExistingWallets": "{username}, no existing wallets",
-            "AreYouSureYouWantToResetAllWallets": "{username}, are you sure you want to reset all wallets on the server? This action will be irreversible",
-            "ResetAllWallets": "Yes, reset all wallets",
-            "CancelResetAllWallets": "No, cancel the reset of the wallets",
             "AllWalletsHaveBeenReset": "{username}, all wallets have been successfully reset",
-            "WalletsResetCancelled": "{username}, reset of all wallets canceled",
             "UserWalletHasBeenReset": "{username}, wallet successfully reset"
           }
         },
@@ -718,12 +716,14 @@
             "User": {
               "Description": "Who needs to reset the level"
             },
-            "UserId": {
-              "Description": "Reset the level by user Id or specify \"all\" to reset the level to all"
+            "ResetAll": {
+              "Description": "Сбросить уровни всем участникам на сервере"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, specify the member, his Id or \"all\" to reset the level to everyone",
+            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
+            "NoExistingLevels": "{username}, нет существующих уровней",
+            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
             "UserLevelHasBeenReset": "{username}, level successfully reset"
           }
         }
