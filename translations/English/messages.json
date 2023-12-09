@@ -700,11 +700,11 @@
               "Description": "Who needs to reset the wallet"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Reset wallets for all members on the server"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
+            "NoRequiredArgs": "{username}, specify the member, their identifier or do a wallet reset for everyone",
             "NoExistingWallets": "{username}, no existing wallets",
             "AllWalletsHaveBeenReset": "{username}, all wallets have been successfully reset",
             "UserWalletHasBeenReset": "{username}, wallet successfully reset"
@@ -717,13 +717,13 @@
               "Description": "Who needs to reset the level"
             },
             "ResetAll": {
-              "Description": "Сбросить уровни всем участникам на сервере"
+              "Description": "Reset levels for all members on the server"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
-            "NoExistingLevels": "{username}, нет существующих уровней",
-            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
+            "NoRequiredArgs": "{username}, specify the member, their identifier or do a level reset for everyone",
+            "NoExistingLevels": "{username}, no existing levels",
+            "AllLevelsHaveBeenReset": "{username}, all levels have been successfully reset",
             "UserLevelHasBeenReset": "{username}, level successfully reset"
           }
         }
