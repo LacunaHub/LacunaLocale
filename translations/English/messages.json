@@ -141,7 +141,7 @@
       "MessageId": "message-id",
       "UserId": "user-id",
       "CaseId": "case-number",
-      "WardId": "warning-number",
+      "WarnId": "warning-number",
       "Query": "query",
       "Source": "source",
       "Volume": "volume",
@@ -152,7 +152,8 @@
       "MultipleAnswers": "multiple-answers",
       "Role": "role",
       "Time": "time",
-      "Award": "award"
+      "Award": "award",
+      "Operation": "операция"
     },
     "OptionTypes": {
       "SubCommand": "Sub command",
@@ -195,6 +196,7 @@
       "Texts": {
         "ListOfCommands": "Command list",
         "HelpForCommand": "Help for the {command} command",
+        "ControlPanel": "Dashboard",
         "UnknownCommand": "{username}, command not found",
         "CommandUsage": "Command usage",
         "CommandArguments": "Command arguments",
@@ -547,7 +549,7 @@
             "User": {
               "Description": "Who needs to have the warning removed"
             },
-            "WardId": {
+            "WarnId": {
               "Description": "Identifier, warning sequence number or \"all\" to remove all warnings"
             },
             "Reason": {
@@ -556,8 +558,8 @@
           },
           "Texts": {
             "InvalidUser": "{username}, please specify the user who needs to remove the warning",
-            "NoWardId": "{username}, please specify the warning identifier",
-            "InvalidWardId": "{username}, you specified an incorrect warning Identifier",
+            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
+            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
             "ThisUserHasNoViolations": "{username}, this user does not seem to have received any warnings before",
             "UserWarnHasBeenRemoved": "{username}, warning successfully removed",
             "AllUserWarnsHaveBeenRemoved": "{username}, all warnings have been successfully removed"
@@ -665,21 +667,29 @@
             "AwardHasBeenAssigned": "{username}, award successfully assigned"
           }
         },
-        "AddWalletBalanceCommand": {
-          "Description": "Add currency to a user",
+        "SetWalletBalanceCommand": {
+          "Description": "Установить баланс кошелька для пользователя",
           "Options": {
             "User": {
-              "Description": "Who needs to add a currency"
+              "Description": "Какому пользователю будет установлен баланс кошелька"
             },
             "Amount": {
-              "Description": "How much currency should be added"
+              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
             },
             "Currency": {
-              "Description": "Addable currency"
+              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+            },
+            "Operation": {
+              "Description": "Выберите операцию для баланса кошелька",
+              "ChoiceSet": "Установить",
+              "ChoiceInc": "Increment",
+              "ChoiceSub": "Вычесть"
             }
           },
           "Texts": {
-            "WalletBalanceHasBeenIncreased": "{username}, wallet balance {target} increased by {amount}"
+            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
+            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
+            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
           }
         },
         "ResetWalletCommand": {
