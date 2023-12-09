@@ -153,7 +153,8 @@
       "Role": "рөл",
       "Time": "время",
       "Award": "награда",
-      "Operation": "операция"
+      "Operation": "операция",
+      "ResetAll": "сбросить-все"
     },
     "OptionTypes": {
       "SubCommand": "Подкоманда",
@@ -698,17 +699,14 @@
             "User": {
               "Description": "Кому необходимо сбросить кошелёк"
             },
-            "UserId": {
-              "Description": "Сброс кошелька по идентификатору пользователя или укажите \"all\" для сброса всех кошельков"
+            "ResetAll": {
+              "Description": "Сбросить кошельки всем участникам на сервере"
             }
           },
           "Texts": {
+            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
             "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AreYouSureYouWantToResetAllWallets": "{username}, вы уверены, что хотите сбросить все кошельки на сервере? Это действие будет необратимым",
-            "ResetAllWallets": "Да, сбросить все кошельки",
-            "CancelResetAllWallets": "Нет, отменить сброс кошельков",
             "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "WalletsResetCancelled": "{username}, сброс всех кошельков отменён",
             "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
           }
         },
@@ -718,12 +716,14 @@
             "User": {
               "Description": "Кому необходимо сбросить уровень"
             },
-            "UserId": {
-              "Description": "Сброс уровня по идентификатору пользователя или укажите \"all\" для сброса уровня всем"
+            "ResetAll": {
+              "Description": "Сбросить уровни всем участникам на сервере"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, укажите участника, его идентификатор или \"all\" для сброса уровня всем",
+            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
+            "NoExistingLevels": "{username}, нет существующих уровней",
+            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
             "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
           }
         }
