@@ -22,7 +22,6 @@
     "Description": "Опис",
     "Identifier": "Ідентифікатор",
     "Date": "Дата",
-    "Amount": "Сума",
     "Other": "Другое",
     "Indefinitely": "Безстроково",
     "CopiedToClipboard": "Скопійовано до буфера обміну",
@@ -85,6 +84,7 @@
     "PreviousPage": "Попередня сторінка",
     "Channels": "Канали",
     "Roles": "Ролі",
+    "Reactions": "Реакції",
     "AddRoles": "Добавить роли",
     "RemoveRoles": "Убрать роли",
     "AllowedChannels": "Разрешенные каналы",
@@ -100,6 +100,8 @@
       "Hours": "Години",
       "Days": "Дні"
     },
+    "Permissions": "Права доступу",
+    "Components": "Компоненты",
     "DiscordMessageTypes": {
       "Default": "Стандартне повідомлення",
       "ChannelPinnedMessage": "Повідомлення закріплено",
@@ -860,6 +862,7 @@
       "NoGuilds": "У Вас немає доступних спільнот.",
       "Bills": "Выставленные счета",
       "BillId": "Номер рахунку",
+      "BillAmount": "Сумма платежа",
       "BillStatus": "Статус платежу"
     },
     "ErrorPage": {
@@ -896,7 +899,6 @@
         "ChannelForMessages": "Канал для повідомлень",
         "MessageTemplate": "Шаблон сообщения",
         "InitialRoles": "Початкові ролі",
-        "InitialRolesDescription": "Видача ролей учаснику при заході на сервер",
         "Restoring": "Відновлення",
         "RestoringDescription": "Відновити ролі і/або нікнейм учаснику, котрий повторно зайшов на сервер",
         "RestoreRoles": "Відновити ролі",
@@ -931,6 +933,7 @@
         "PenaltiesDescription": "Видача покарань при досягненні певної кількості попереджень"
       },
       "CustomBehavior": {
+        "Automation": "Автоматизация",
         "Plugins": "Плагины",
         "AboutCustomPlugins": "Создавайте свои собственные плагины и делитесь ими с сообществом. Эта возможность открывает перед пользователями уникальные перспективы в настройке и оптимизации бота под свои индивидуальные потребности."
       },
@@ -942,7 +945,7 @@
         "LevelsAlerts": "Сповіщення про підвищення рівню",
         "LevelsAwards": "Нагороди",
         "LevelsAwardsDescription": "Видача нагород за досягнення певних рівнів",
-        "EconomyTitle": "Економіка",
+        "Economy": "Економіка",
         "EconomyResetOnLeave": "Скидати гаманець під час виходу учасника",
         "EconomyCurrencies": "Валюти",
         "EconomyStoreItems": "Предмети магазину",
@@ -969,8 +972,7 @@
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
         "InteractiveMessages": "Інтерактивні повідомлення",
         "InteractiveReactions": "Інтерактивні реакції",
-        "InteractiveReactionsDescription": "Отримання ролей та доступів до каналів при натисканні на реакції",
-        "Automation": "Автоматизация"
+        "InteractiveReactionsDescription": "Отримання ролей та доступів до каналів при натисканні на реакції"
       }
     },
     "LandingPage": {
@@ -999,12 +1001,12 @@
       "TotalChannels": "Усього каналів",
       "AvgLatency": "Середня латентність",
       "Clusters": "Кластери",
-      "ClusterCpuUsage": "Використання ЦП",
+      "ClusterCPUUsage": "Використання ЦП",
       "ClusterMemoryUsage": "Використання оперативної пам’яті додатками",
       "Shards": "Фрагменти",
       "ShardLatencies": "Латентність фрагментів",
       "MusicPlayers": "Музичний плеєр",
-      "PlayerCpuLoad": "Навантаження плеєру",
+      "PlayerCPULoad": "Навантаження плеєру",
       "CommandUses": "Кількість використань команд"
     }
   },
@@ -1041,7 +1043,7 @@
       "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
       "AwardMessage": "Сообщение при получении награды"
     },
-    "ActivitiesMultipliers": {
+    "ActivityMultipliers": {
       "LevelMultipliers": "Множник досвіду",
       "EconomyMultipliers": "Множник заробітку",
       "ForTextActivity": "За текстову активність",
@@ -1129,6 +1131,7 @@
       "ModifyWalletUserIdDescription": "Змінити гаманець вказаного користувача (за замовчуванням вказано автора команди)",
       "ModifyWalletCurrencyId": "Ідентифікатор валюти",
       "ModifyWalletCurrencyIdDescription": "Вкажіть, якщо хочете видати іншу валюту, а не стандартну",
+      "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
       "ShowModalFieldPlaceholder": "Заповнювач",
       "ShowModalFieldMinLength": "Мінімум символів",
       "ShowModalFieldMaxLength": "Максимум символів",
@@ -1145,16 +1148,15 @@
       "BonusRespectDescription": "Матеріальна допомога команді проєкт та особлива роль на офіційному сервері підтримки.",
       "SelectPlan": "Оберіть план",
       "SelectPaymentMethod": "Спосіб оплати",
-      "WaitFewMinutes": "Активація бонусів займає деякий час, будь ласка, зачекайте кілька хвилин після оплати",
       "Pay": "Сплатити",
       "PatreonAfterCheckout": "Після того, як ви стали покровителем, нажміть на кнопку перевірки нижче, що б активувати свої бонуси.",
       "PatreonAfterCheckoutImportantInfo": "Для отримання доступу до бонусів необхідно під'єднати свій Discord до {platform} та залишатись на нашому сервері підтримки.",
-      "DnbStep1": "Увійдіть на наш {server}",
-      "DnbStep2": "Ознайомтесь з {article}. В ній є покрокова інструкція про те, як забустити сервер",
-      "DnbStep2Article": "даною статтею",
-      "DnbStep3": "Переконайтеся, що вибрали наш {server}, після чого забустіть його",
-      "DnbStep4": "Після цього, натисніть на кнопку \"Перевірити\" нижче та вам стануть доступні бонуси",
-      "DnbBonusesInfo": "Бонуси будуть доступні до тих пір, поки ви є бустером сервера підтримки. Ви можете активувати бонуси тільки для одного сервера.",
+      "DNBStep1": "Увійдіть на наш {server}",
+      "DNBStep2": "Ознайомтесь з {article}. В ній є покрокова інструкція про те, як забустити сервер",
+      "DNBStep2Article": "даною статтею",
+      "DNBStep3": "Переконайтеся, що вибрали наш {server}, після чого забустіть його",
+      "DNBStep4": "Після цього, натисніть на кнопку \"Перевірити\" нижче та вам стануть доступні бонуси",
+      "DNBBonusesInfo": "Бонуси будуть доступні до тих пір, поки ви є бустером сервера підтримки. Ви можете активувати бонуси тільки для одного сервера.",
       "Check": "Перевірити",
       "TransferringDescription": "Преміум можливості будуть перенесені з вибраної спільноти до поточної.",
       "PlanComparison": "Сравнение планов",
@@ -1236,12 +1238,12 @@
       "ThreadName": "Название ветки"
     },
     "InteractiveMessage": {
-      "ActionsRows": "Операційні ряди",
+      "ActionRows": "Операційні ряди",
       "ActionRowButtons": "Кнопки",
       "ActionRowSelectMenu": "Випадаючий список",
       "ButtonName": "Назва кнопки",
       "ButtonStyle": "Стиль кнопки",
-      "ButtonUrl": "Посилання кнопки",
+      "ButtonURL": "Посилання кнопки",
       "SelectMenuPlaceholder": "Заповнювач",
       "OptionName": "Назва параметра",
       "OptionDescription": "Опис опції",
@@ -1303,6 +1305,24 @@
       "FooterTimestamp": "Тимчасова мітка футера",
       "Replacers": "Замінники",
       "Functions": "Функції"
+    },
+    "EmojiPicker": {
+      "Search": "Пошук",
+      "NotFound": "Нічого не знайдено",
+      "Categories": {
+        "Search": "Результати пошуку",
+        "Recent": "Часто вживані",
+        "Smileys": "Смайлики",
+        "People": "Люди",
+        "Nature": "Природа",
+        "Foods": "Їжа та напої",
+        "Activity": "Активність",
+        "Places": "Подорожі та місця",
+        "Objects": "Об'єкти",
+        "Symbols": "Символи",
+        "Flags": "Прапорці",
+        "Custom": "Користувацьке"
+      }
     }
   },
   "Logs": {
@@ -1407,6 +1427,7 @@
       "WarnRemove": "Попередження прибрано"
     },
     "Actions": {
+      "Title": "Дії",
       "Ban": "Видавати блокування",
       "Mute": "Видавати приглушення",
       "Kick": "Вигнати",
