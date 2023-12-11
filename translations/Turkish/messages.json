@@ -22,7 +22,6 @@
     "Description": "Описание",
     "Identifier": "Идентификатор",
     "Date": "Дата",
-    "Amount": "Сумма",
     "Other": "Другое",
     "Indefinitely": "Süresiz",
     "CopiedToClipboard": "Скопировано в буфер обмена",
@@ -85,6 +84,7 @@
     "PreviousPage": "Предыдущая страница",
     "Channels": "Каналы",
     "Roles": "Роли",
+    "Reactions": "Реакции",
     "AddRoles": "Добавить роли",
     "RemoveRoles": "Убрать роли",
     "AllowedChannels": "Разрешенные каналы",
@@ -100,6 +100,8 @@
       "Hours": "Часы",
       "Days": "Дни"
     },
+    "Permissions": "Разрешения",
+    "Components": "Компоненты",
     "DiscordMessageTypes": {
       "Default": "Стандартное сообщение",
       "ChannelPinnedMessage": "Сообщение закреплено",
@@ -141,7 +143,7 @@
       "MessageId": "идентификатор-сообщения",
       "UserId": "идентификатор-пользователя",
       "CaseId": "номер-случая",
-      "WardId": "номер-предупреждения",
+      "WarnId": "номер-предупреждения",
       "Query": "запрос",
       "Source": "источник",
       "Volume": "громкость",
@@ -152,7 +154,9 @@
       "MultipleAnswers": "множественный-выбор",
       "Role": "rol",
       "Time": "время",
-      "Award": "награда"
+      "Award": "награда",
+      "Operation": "операция",
+      "ResetAll": "сбросить-все"
     },
     "OptionTypes": {
       "SubCommand": "Подкоманда",
@@ -195,6 +199,7 @@
       "Texts": {
         "ListOfCommands": "Список команд",
         "HelpForCommand": "Справка по команде {command}",
+        "ControlPanel": "Панель управления",
         "UnknownCommand": "{username}, команда не найдена",
         "CommandUsage": "Использование команды",
         "CommandArguments": "Аргументы команды",
@@ -547,7 +552,7 @@
             "User": {
               "Description": "С кого необходимо снять предупреждение"
             },
-            "WardId": {
+            "WarnId": {
               "Description": "Идентификатор, порядковый номер предупреждения или \"all\" для снятие всех предупреждений"
             },
             "Reason": {
@@ -556,8 +561,8 @@
           },
           "Texts": {
             "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять предупреждение",
-            "NoWardId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWardId": "{username}, вы указали неверный идентификатор предупреждения",
+            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
+            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
             "ThisUserHasNoViolations": "{username}, похоже, что этот пользователь не получал ранее предупреждений",
             "UserWarnHasBeenRemoved": "{username}, предупреждение успешно снято",
             "AllUserWarnsHaveBeenRemoved": "{username}, все предупреждения успешно сняты"
@@ -665,21 +670,29 @@
             "AwardHasBeenAssigned": "{username}, награда успешно назначена"
           }
         },
-        "AddWalletBalanceCommand": {
-          "Description": "Добавить валюту пользователю",
+        "SetWalletBalanceCommand": {
+          "Description": "Установить баланс кошелька для пользователя",
           "Options": {
             "User": {
-              "Description": "Кому необходимо добавить валюту"
+              "Description": "Какому пользователю будет установлен баланс кошелька"
             },
             "Amount": {
-              "Description": "Сколько валюты необходимо добавить"
+              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
             },
             "Currency": {
-              "Description": "Добавляемая валюта"
+              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+            },
+            "Operation": {
+              "Description": "Выберите операцию для баланса кошелька",
+              "ChoiceSet": "Установить",
+              "ChoiceInc": "Прибавить",
+              "ChoiceSub": "Вычесть"
             }
           },
           "Texts": {
-            "WalletBalanceHasBeenIncreased": "{username}, баланс кошелька {target} увеличен на {amount}"
+            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
+            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
+            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
           }
         },
         "ResetWalletCommand": {
@@ -688,17 +701,14 @@
             "User": {
               "Description": "Кому необходимо сбросить кошелёк"
             },
-            "UserId": {
-              "Description": "Сброс кошелька по идентификатору пользователя или укажите \"all\" для сброса всех кошельков"
+            "ResetAll": {
+              "Description": "Сбросить кошельки всем участникам на сервере"
             }
           },
           "Texts": {
+            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
             "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AreYouSureYouWantToResetAllWallets": "{username}, вы уверены, что хотите сбросить все кошельки на сервере? Это действие будет необратимым",
-            "ResetAllWallets": "Да, сбросить все кошельки",
-            "CancelResetAllWallets": "Нет, отменить сброс кошельков",
             "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "WalletsResetCancelled": "{username}, сброс всех кошельков отменён",
             "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
           }
         },
@@ -708,12 +718,14 @@
             "User": {
               "Description": "Кому необходимо сбросить уровень"
             },
-            "UserId": {
-              "Description": "Сброс уровня по идентификатору пользователя или укажите \"all\" для сброса уровня всем"
+            "ResetAll": {
+              "Description": "Сбросить уровни всем участникам на сервере"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, укажите участника, его идентификатор или \"all\" для сброса уровня всем",
+            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
+            "NoExistingLevels": "{username}, нет существующих уровней",
+            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
             "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
           }
         }
@@ -850,6 +862,7 @@
       "NoGuilds": "У вас нет доступных сообществ.",
       "Bills": "Выставленные счета",
       "BillId": "Номер счёта",
+      "BillAmount": "Сумма платежа",
       "BillStatus": "Статус платежа"
     },
     "ErrorPage": {
@@ -886,7 +899,6 @@
         "ChannelForMessages": "Канал для сообщений",
         "MessageTemplate": "Шаблон сообщения",
         "InitialRoles": "Начальные роли",
-        "InitialRolesDescription": "Выдача ролей участнику при входе на сервер",
         "Restoring": "Восстановление",
         "RestoringDescription": "Восстанавливать роли и/или никнейм участнику, который повторно зашел на сервер",
         "RestoreRoles": "Восстанавливать роли",
@@ -921,6 +933,7 @@
         "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
       },
       "CustomBehavior": {
+        "Automation": "Автоматизация",
         "Plugins": "Плагины",
         "AboutCustomPlugins": "Создавайте свои собственные плагины и делитесь ими с сообществом. Эта возможность открывает перед пользователями уникальные перспективы в настройке и оптимизации бота под свои индивидуальные потребности."
       },
@@ -932,7 +945,7 @@
         "LevelsAlerts": "Оповещения о повышении уровня",
         "LevelsAwards": "Награды",
         "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
-        "EconomyTitle": "Экономика",
+        "Economy": "Экономика",
         "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
         "EconomyCurrencies": "Валюты",
         "EconomyStoreItems": "Предметы магазина",
@@ -959,8 +972,7 @@
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
         "InteractiveMessages": "Интерактивные сообщения",
         "InteractiveReactions": "Интерактивные реакции",
-        "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции",
-        "Automation": "Автоматизация"
+        "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции"
       }
     },
     "LandingPage": {
@@ -989,12 +1001,12 @@
       "TotalChannels": "Всего каналов",
       "AvgLatency": "Средняя латентность",
       "Clusters": "Кластеры",
-      "ClusterCpuUsage": "Загрузка ЦП",
+      "ClusterCPUUsage": "Загрузка ЦП",
       "ClusterMemoryUsage": "Использование ОЗУ",
       "Shards": "Фрагменты",
       "ShardLatencies": "Латентность фрагментов",
       "MusicPlayers": "Музыкальные плееры",
-      "PlayerCpuLoad": "Нагрузка плеера",
+      "PlayerCPULoad": "Нагрузка плеера",
       "CommandUses": "Количество использований команд"
     }
   },
@@ -1031,7 +1043,7 @@
       "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
       "AwardMessage": "Сообщение при получении награды"
     },
-    "ActivitiesMultipliers": {
+    "ActivityMultipliers": {
       "LevelMultipliers": "Множители опыта",
       "EconomyMultipliers": "Множители заработка",
       "ForTextActivity": "За текстовую активность",
@@ -1119,6 +1131,7 @@
       "ModifyWalletUserIdDescription": "Изменить кошелёк указанного пользователя (по умолчанию указан автор команды)",
       "ModifyWalletCurrencyId": "Идентификатор валюты",
       "ModifyWalletCurrencyIdDescription": "Укажите, если хотите выдать другую валюту, а не стандартную",
+      "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
       "ShowModalFieldPlaceholder": "Заполнитель",
       "ShowModalFieldMinLength": "Минимум символов",
       "ShowModalFieldMaxLength": "Максимум символов",
@@ -1135,16 +1148,15 @@
       "BonusRespectDescription": "Материальная помощь команде проекта и особая роль на официальном сервере поддержки.",
       "SelectPlan": "Выберите план",
       "SelectPaymentMethod": "Способ оплаты",
-      "WaitFewMinutes": "Активация бонусов занимает некоторое время, пожалуйста, подождите несколько минут после оплаты",
       "Pay": "Оплатить",
       "PatreonAfterCheckout": "После того, как вы стали покровителем, нажмите на кнопку проверки ниже, чтобы активировать свои бонусы.",
       "PatreonAfterCheckoutImportantInfo": "Для получения доступа к бонусам необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
-      "DnbStep1": "Войдите на наш {server}",
-      "DnbStep2": "Ознакомьтесь с {article}. В ней есть пошаговая инструкция о том, как забустить сервер",
-      "DnbStep2Article": "данной статьёй",
-      "DnbStep3": "Убедитесь, что выбрали наш {server}, затем забустите его",
-      "DnbStep4": "После этого, нажмите на кнопку \"Проверить\" ниже и вам станут доступны бонусы",
-      "DnbBonusesInfo": "Бонусы будут доступны до тех пор, пока вы являетесь бустером сервера поддержки. Вы можете активировать бонусы только для одного сервера.",
+      "DNBStep1": "Войдите на наш {server}",
+      "DNBStep2": "Ознакомьтесь с {article}. В ней есть пошаговая инструкция о том, как забустить сервер",
+      "DNBStep2Article": "данной статьёй",
+      "DNBStep3": "Убедитесь, что выбрали наш {server}, затем забустите его",
+      "DNBStep4": "После этого, нажмите на кнопку \"Проверить\" ниже и вам станут доступны бонусы",
+      "DNBBonusesInfo": "Бонусы будут доступны до тех пор, пока вы являетесь бустером сервера поддержки. Вы можете активировать бонусы только для одного сервера.",
       "Check": "Проверить",
       "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Сравнение планов",
@@ -1226,12 +1238,12 @@
       "ThreadName": "Название ветки"
     },
     "InteractiveMessage": {
-      "ActionsRows": "Операционные ряды",
+      "ActionRows": "Операционные ряды",
       "ActionRowButtons": "Кнопки",
       "ActionRowSelectMenu": "Выпадающий список",
       "ButtonName": "Название кнопки",
       "ButtonStyle": "Стиль кнопки",
-      "ButtonUrl": "Ссылка кнопки",
+      "ButtonURL": "Ссылка кнопки",
       "SelectMenuPlaceholder": "Заполнитель",
       "OptionName": "Название опции",
       "OptionDescription": "Описание опции",
@@ -1293,6 +1305,24 @@
       "FooterTimestamp": "Временная метка футера",
       "Replacers": "Заменители",
       "Functions": "Функции"
+    },
+    "EmojiPicker": {
+      "Search": "Поиск",
+      "NotFound": "Ничего не найдено",
+      "Categories": {
+        "Search": "Результаты поиска",
+        "Recent": "Часто используемые",
+        "Smileys": "Смайлики",
+        "People": "Люди",
+        "Nature": "Природа",
+        "Foods": "Еда и напитки",
+        "Activity": "Деятельность",
+        "Places": "Путешествия и места",
+        "Objects": "Объекты",
+        "Symbols": "Символы",
+        "Flags": "Флаги",
+        "Custom": "Пользовательские"
+      }
     }
   },
   "Logs": {
@@ -1397,6 +1427,7 @@
       "WarnRemove": "Предупреждение убрано"
     },
     "Actions": {
+      "Title": "Действия",
       "Ban": "Выдать блокировку",
       "Mute": "Выдать заглушение",
       "Kick": "Выгнать",

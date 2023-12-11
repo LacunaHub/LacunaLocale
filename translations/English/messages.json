@@ -22,7 +22,6 @@
     "Description": "Description",
     "Identifier": "Identifier",
     "Date": "Date",
-    "Amount": "Amount",
     "Other": "Other",
     "Indefinitely": "Indefinitely",
     "CopiedToClipboard": "Copied to clipboard",
@@ -85,6 +84,7 @@
     "PreviousPage": "Previous page",
     "Channels": "Channels",
     "Roles": "Roles",
+    "Reactions": "Reactions",
     "AddRoles": "Add roles",
     "RemoveRoles": "Remove roles",
     "AllowedChannels": "Allowed channels",
@@ -100,6 +100,8 @@
       "Hours": "Hours",
       "Days": "Days"
     },
+    "Permissions": "Permissions",
+    "Components": "Компоненты",
     "DiscordMessageTypes": {
       "Default": "Default message",
       "ChannelPinnedMessage": "Message pinned",
@@ -141,7 +143,7 @@
       "MessageId": "message-id",
       "UserId": "user-id",
       "CaseId": "case-number",
-      "WardId": "warning-number",
+      "WarnId": "warning-number",
       "Query": "query",
       "Source": "source",
       "Volume": "volume",
@@ -152,7 +154,9 @@
       "MultipleAnswers": "multiple-answers",
       "Role": "role",
       "Time": "time",
-      "Award": "award"
+      "Award": "award",
+      "Operation": "operation",
+      "ResetAll": "reset-all"
     },
     "OptionTypes": {
       "SubCommand": "Sub command",
@@ -195,6 +199,7 @@
       "Texts": {
         "ListOfCommands": "Command list",
         "HelpForCommand": "Help for the {command} command",
+        "ControlPanel": "Dashboard",
         "UnknownCommand": "{username}, command not found",
         "CommandUsage": "Command usage",
         "CommandArguments": "Command arguments",
@@ -547,7 +552,7 @@
             "User": {
               "Description": "Who needs to have the warning removed"
             },
-            "WardId": {
+            "WarnId": {
               "Description": "Identifier, warning sequence number or \"all\" to remove all warnings"
             },
             "Reason": {
@@ -556,8 +561,8 @@
           },
           "Texts": {
             "InvalidUser": "{username}, please specify the user who needs to remove the warning",
-            "NoWardId": "{username}, please specify the warning identifier",
-            "InvalidWardId": "{username}, you specified an incorrect warning Identifier",
+            "NoWarnId": "{username}, please specify the warning identifier",
+            "InvalidWarnId": "{username}, you specified an incorrect warning identifier",
             "ThisUserHasNoViolations": "{username}, this user does not seem to have received any warnings before",
             "UserWarnHasBeenRemoved": "{username}, warning successfully removed",
             "AllUserWarnsHaveBeenRemoved": "{username}, all warnings have been successfully removed"
@@ -665,21 +670,29 @@
             "AwardHasBeenAssigned": "{username}, award successfully assigned"
           }
         },
-        "AddWalletBalanceCommand": {
-          "Description": "Add currency to a user",
+        "SetWalletBalanceCommand": {
+          "Description": "Set a user's wallet balance",
           "Options": {
             "User": {
-              "Description": "Who needs to add a currency"
+              "Description": "Which user the wallet balance will be set to"
             },
             "Amount": {
-              "Description": "How much currency should be added"
+              "Description": "How much currency will be set/increased/subtracted"
             },
             "Currency": {
-              "Description": "Addable currency"
+              "Description": "Which currency will be set/increased/subtracted"
+            },
+            "Operation": {
+              "Description": "Select an operation for the wallet balance",
+              "ChoiceSet": "Set",
+              "ChoiceInc": "Increment",
+              "ChoiceSub": "Subtract"
             }
           },
           "Texts": {
-            "WalletBalanceHasBeenIncreased": "{username}, wallet balance {target} increased by {amount}"
+            "InvalidUser": "{username}, please specify the user to whom you want to set the wallet balance",
+            "InvalidAmount": "{username}, please specify the wallet balance to be set",
+            "WalletBalanceHasBeenSet": "{username}, wallet balance {target} is set"
           }
         },
         "ResetWalletCommand": {
@@ -688,17 +701,14 @@
             "User": {
               "Description": "Who needs to reset the wallet"
             },
-            "UserId": {
-              "Description": "Reset wallet by user identifier or specify \"all\" to reset all wallets"
+            "ResetAll": {
+              "Description": "Reset wallets for all members on the server"
             }
           },
           "Texts": {
+            "NoRequiredArgs": "{username}, specify the member, their identifier or do a wallet reset for everyone",
             "NoExistingWallets": "{username}, no existing wallets",
-            "AreYouSureYouWantToResetAllWallets": "{username}, are you sure you want to reset all wallets on the server? This action will be irreversible",
-            "ResetAllWallets": "Yes, reset all wallets",
-            "CancelResetAllWallets": "No, cancel the reset of the wallets",
             "AllWalletsHaveBeenReset": "{username}, all wallets have been successfully reset",
-            "WalletsResetCancelled": "{username}, reset of all wallets canceled",
             "UserWalletHasBeenReset": "{username}, wallet successfully reset"
           }
         },
@@ -708,12 +718,14 @@
             "User": {
               "Description": "Who needs to reset the level"
             },
-            "UserId": {
-              "Description": "Reset the level by user Id or specify \"all\" to reset the level to all"
+            "ResetAll": {
+              "Description": "Reset levels for all members on the server"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, specify the member, his Id or \"all\" to reset the level to everyone",
+            "NoRequiredArgs": "{username}, specify the member, their identifier or do a level reset for everyone",
+            "NoExistingLevels": "{username}, no existing levels",
+            "AllLevelsHaveBeenReset": "{username}, all levels have been successfully reset",
             "UserLevelHasBeenReset": "{username}, level successfully reset"
           }
         }
@@ -850,6 +862,7 @@
       "NoGuilds": "You don't have any guilds available.",
       "Bills": "Invoices",
       "BillId": "Invoice ID",
+      "BillAmount": "Сумма платежа",
       "BillStatus": "Payment status"
     },
     "ErrorPage": {
@@ -886,7 +899,6 @@
         "ChannelForMessages": "Channel for messages",
         "MessageTemplate": "Message template",
         "InitialRoles": "Initial roles",
-        "InitialRolesDescription": "Adding roles to a member when joining",
         "Restoring": "Restoring",
         "RestoringDescription": "Restore roles and/or nicknames to a member who has joined back to the server",
         "RestoreRoles": "Restore roles",
@@ -921,6 +933,7 @@
         "PenaltiesDescription": "Penalties for reaching a certain number of warnings"
       },
       "CustomBehavior": {
+        "Automation": "Automation",
         "Plugins": "Plugins",
         "AboutCustomPlugins": "Create your own plugins and share them with the community. This feature opens up unique perspectives for users to customize and optimize the bot for their individual needs."
       },
@@ -932,7 +945,7 @@
         "LevelsAlerts": "Level up notifications",
         "LevelsAwards": "Awards",
         "LevelsAwardsDescription": "Adding awards for achieving certain levels",
-        "EconomyTitle": "Economy",
+        "Economy": "Economy",
         "EconomyResetOnLeave": "Reset the wallet when member leaves",
         "EconomyCurrencies": "Currencies",
         "EconomyStoreItems": "Store items",
@@ -959,8 +972,7 @@
         "AutoThreadsDescription": "Automatic creation of threads under messages",
         "InteractiveMessages": "Interactive messages",
         "InteractiveReactions": "Interactive reactions",
-        "InteractiveReactionsDescription": "Adding roles and channel accesses by clicking on reactions",
-        "Automation": "Automation"
+        "InteractiveReactionsDescription": "Adding roles and channel accesses by clicking on reactions"
       }
     },
     "LandingPage": {
@@ -989,12 +1001,12 @@
       "TotalChannels": "Total channels",
       "AvgLatency": "Average latency",
       "Clusters": "Clusters",
-      "ClusterCpuUsage": "CPU usage",
+      "ClusterCPUUsage": "CPU usage",
       "ClusterMemoryUsage": "RAM usage",
       "Shards": "Shards",
       "ShardLatencies": "Latency of shards",
       "MusicPlayers": "Music players",
-      "PlayerCpuLoad": "Player load",
+      "PlayerCPULoad": "Player load",
       "CommandUses": "Number of command uses"
     }
   },
@@ -1031,7 +1043,7 @@
       "RequiredNumberOfSentMessages": "Required number of sent messages",
       "AwardMessage": "Award message"
     },
-    "ActivitiesMultipliers": {
+    "ActivityMultipliers": {
       "LevelMultipliers": "Experience multipliers",
       "EconomyMultipliers": "Earnings multipliers",
       "ForTextActivity": "For text activity",
@@ -1119,6 +1131,7 @@
       "ModifyWalletUserIdDescription": "Change wallet of the specified user (default author of the command)",
       "ModifyWalletCurrencyId": "Currency ID",
       "ModifyWalletCurrencyIdDescription": "Specify if you want to add a different currency than the standard one",
+      "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
       "ShowModalFieldPlaceholder": "Placeholder",
       "ShowModalFieldMinLength": "Min length",
       "ShowModalFieldMaxLength": "Max length",
@@ -1135,16 +1148,15 @@
       "BonusRespectDescription": "Material aid for project team and a special role on the official support server.",
       "SelectPlan": "Select plan",
       "SelectPaymentMethod": "Payment method",
-      "WaitFewMinutes": "Bonuses activation takes some time, please wait a few minutes after payment",
       "Pay": "Pay",
       "PatreonAfterCheckout": "Once you've become a patron, click the verification button below to activate your bonuses.",
       "PatreonAfterCheckoutImportantInfo": "To access the bonuses, you are required to connect your Discord to {platform} and stay on our support server.",
-      "DnbStep1": "Join our {server}",
-      "DnbStep2": "Check out {article}, which has step-by-step instructions on how to boost a server",
-      "DnbStep2Article": "this article",
-      "DnbStep3": "Make sure to select our {server}, then boost it",
-      "DnbStep4": "After that, click on the \"Check\" button below and bonuses will be available to you",
-      "DnbBonusesInfo": "Bonuses will be available as long as you are a support server booster. You can only activate bonuses for one server.",
+      "DNBStep1": "Join our {server}",
+      "DNBStep2": "Check out {article}, which has step-by-step instructions on how to boost a server",
+      "DNBStep2Article": "this article",
+      "DNBStep3": "Make sure to select our {server}, then boost it",
+      "DNBStep4": "After that, click on the \"Check\" button below and bonuses will be available to you",
+      "DNBBonusesInfo": "Bonuses will be available as long as you are a support server booster. You can only activate bonuses for one server.",
       "Check": "Check",
       "TransferringDescription": "Premium features will be transferred from the chosen community to the current one.",
       "PlanComparison": "Plan comparison",
@@ -1226,12 +1238,12 @@
       "ThreadName": "Thread name"
     },
     "InteractiveMessage": {
-      "ActionsRows": "Action rows",
+      "ActionRows": "Action rows",
       "ActionRowButtons": "Buttons",
       "ActionRowSelectMenu": "Select menu",
       "ButtonName": "Button label",
       "ButtonStyle": "Button style",
-      "ButtonUrl": "Button URL",
+      "ButtonURL": "Button URL",
       "SelectMenuPlaceholder": "Placeholder",
       "OptionName": "Option label",
       "OptionDescription": "Option description",
@@ -1293,6 +1305,24 @@
       "FooterTimestamp": "Footer timestamp",
       "Replacers": "Replacers",
       "Functions": "Functions"
+    },
+    "EmojiPicker": {
+      "Search": "Search",
+      "NotFound": "Nothing found",
+      "Categories": {
+        "Search": "Search results",
+        "Recent": "Frequently used",
+        "Smileys": "Emojis",
+        "People": "Humans",
+        "Nature": "Nature",
+        "Foods": "Food and drinks",
+        "Activity": "Activities",
+        "Places": "Travel and places",
+        "Objects": "Objects",
+        "Symbols": "Symbols",
+        "Flags": "Flags",
+        "Custom": "Custom"
+      }
     }
   },
   "Logs": {
@@ -1397,6 +1427,7 @@
       "WarnRemove": "Warning removed"
     },
     "Actions": {
+      "Title": "Actions",
       "Ban": "Ban",
       "Mute": "Mute",
       "Kick": "Kick",
