@@ -8,11 +8,11 @@ const messages = {
   uk: Ukrainian
 }
 
-const languages = {
-  en: { name: 'English', code: 'en' },
-  ru: { name: 'Русский', code: 'ru' },
-  uk: { name: 'Українська', code: 'uk' }
-}
+const languages = [
+  { name: 'English', code: 'en' },
+  { name: 'Русский', code: 'ru' },
+  { name: 'Українська', code: 'uk' }
+]
 
 module.exports = {
   messages,
