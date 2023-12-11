@@ -101,7 +101,7 @@
       "Days": "Days"
     },
     "Permissions": "Permissions",
-    "Components": "Компоненты",
+    "Components": "Components",
     "DiscordMessageTypes": {
       "Default": "Default message",
       "ChannelPinnedMessage": "Message pinned",
@@ -862,7 +862,7 @@
       "NoGuilds": "You don't have any guilds available.",
       "Bills": "Invoices",
       "BillId": "Invoice ID",
-      "BillAmount": "Сумма платежа",
+      "BillAmount": "Payment amount",
       "BillStatus": "Payment status"
     },
     "ErrorPage": {
@@ -1131,7 +1131,7 @@
       "ModifyWalletUserIdDescription": "Change wallet of the specified user (default author of the command)",
       "ModifyWalletCurrencyId": "Currency ID",
       "ModifyWalletCurrencyIdDescription": "Specify if you want to add a different currency than the standard one",
-      "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
+      "OverwriteChannelPermissionsUserOrRoleId": "User or role identifier",
       "ShowModalFieldPlaceholder": "Placeholder",
       "ShowModalFieldMinLength": "Min length",
       "ShowModalFieldMaxLength": "Max length",
