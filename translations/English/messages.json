@@ -1186,7 +1186,7 @@
         "ActivityMultipliersNumber": "Number of experience and earning multipliers",
         "SocialPlatformNumber": "Number of {socialPlatform} subscriptions",
         "PrioritySupport": "Priority support",
-        "ImageEditorElementsNumber": "Количество элементов в редакторе изображения"
+        "ImageEditorElementsNumber": "Number of elements in the image editor"
       }
     },
     "CaseType": {
@@ -1292,53 +1292,53 @@
       "SendImage": "Send image",
       "ImageHeight": "Image height",
       "ImageWidth": "Image width",
-      "ImageBackgroundColor": "Цвет фона изображения",
-      "ImageBackgroundURL": "Ссылка на фоновое изображение",
-      "ImageElements": "Элементы изображения",
-      "AddSampleImageElements": "Добавить пример элементов изображения",
+      "ImageBackgroundColor": "Image background color",
+      "ImageBackgroundURL": "Background image URL",
+      "ImageElements": "Image elements",
+      "AddSampleImageElements": "Add sample image elements",
       "PositionCoordinate": "Position {XY}",
       "Height": "Height",
       "Width": "Width",
       "Text": "Text",
-      "TextColor": "Цвет текста",
-      "TextSize": "Размер текста",
+      "TextColor": "Text color",
+      "TextSize": "Text size",
       "TextSizes": {
         "Header": "Title",
-        "Subtitle": "Подзаголовок",
-        "Body": "Стандартный",
-        "Caption": "Нижний колонтитул"
+        "Subtitle": "Subtitle",
+        "Body": "Regular",
+        "Caption": "Caption"
       },
-      "TextStyle": "Стиль теста",
+      "TextStyle": "Text style",
       "TextStyles": {
-        "Italic": "Курсив"
+        "Italic": "Italic"
       },
-      "TextTransform": "Преобразование текста",
+      "TextTransform": "Text transform",
       "TextTransforms": {
-        "Capitalize": "С заглавной буквы",
-        "Uppercase": "Верхний регистр",
-        "Lowercase": "Нижний регистр"
+        "Capitalize": "Capitalize",
+        "Uppercase": "Upper case",
+        "Lowercase": "Lower case"
       },
-      "TextDecoration": "Оформление текста",
+      "TextDecoration": "Text decoration",
       "TextDecorations": {
-        "Underline": "Подчеркнутый",
-        "LineThrough": "Зачеркнутый"
+        "Underline": "Underline",
+        "LineThrough": "Strike-through"
       },
-      "TextAlign": "Выравнивание текста",
+      "TextAlign": "Text alignment",
       "TextAligns": {
-        "Center": "По центру",
-        "End": "По правому краю",
-        "Start": "По левому краю"
+        "Center": "Center",
+        "End": "Right",
+        "Start": "Left"
       },
       "Image": "Image",
       "ImageURL": "Image link",
       "BorderRadius": "Border radius",
       "BorderRadiuses": {
-        "XS": "Очень маленький",
-        "SM": "Маленький",
+        "XS": "Tiny",
+        "SM": "Small",
         "MD": "Medium",
-        "LG": "Большой",
-        "XL": "Очень большой",
-        "Circle": "Окружность"
+        "LG": "Large",
+        "XL": "Extra large",
+        "Circle": "Circle"
       }
     },
     "MessageEditor": {
