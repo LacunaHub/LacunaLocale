@@ -966,6 +966,8 @@
       "Useful": {
         "Reports": "Репорты",
         "ReportsNotifyAboutUnwantedUsers": "Уведомлять о присоединении потенциально нежелательных пользователей",
+        "BannerRotation": "Ротация баннера",
+        "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
         "AutoReactions": "Автореакции",
         "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
         "AutoThreads": "Автоветки",
@@ -1171,6 +1173,7 @@
         "VoiceRolesNumber": "Количество голосовых ролей",
         "AutoThreadsNumber": "Количество автоветок",
         "AutoReactionsNumber": "Количество автореакций",
+        "ImageRotationInterval": "Интервал ротации изображений",
         "ActionLogWebhookModifying": "Изменение веб-хука журнала действий",
         "ActionLogEventsProcessedPerMinuteNumber": "Количество обрабатываемых событий журнала действий в минуту",
         "PlaylistsPlayback": "Воспроизведение плейлистов",
@@ -1185,7 +1188,8 @@
         "StoreItemsNumber": "Количество предметов в магазине",
         "ActivityMultipliersNumber": "Количество множителей опыта и заработка",
         "SocialPlatformNumber": "Количество {socialPlatform} подписок",
-        "PrioritySupport": "Приоритетная поддержка"
+        "PrioritySupport": "Приоритетная поддержка",
+        "ImageEditorElementsNumber": "Количество элементов в редакторе изображения"
       }
     },
     "CaseType": {
@@ -1287,7 +1291,61 @@
       "Logout": "Выйти",
       "ReleaseNotes": "Список изменений"
     },
+    "ImageEditor": {
+      "SendImage": "Отправлять изображение",
+      "ImageHeight": "Высота изображения",
+      "ImageWidth": "Ширина изображения",
+      "ImageBackgroundColor": "Цвет фона изображения",
+      "ImageBackgroundURL": "Ссылка на фоновое изображение",
+      "ImageElements": "Элементы изображения",
+      "AddSampleImageElements": "Добавить пример элементов изображения",
+      "PositionCoordinate": "Позиция {XY}",
+      "Height": "Высота",
+      "Width": "Ширина",
+      "Text": "Текст",
+      "TextColor": "Цвет текста",
+      "TextSize": "Размер текста",
+      "TextSizes": {
+        "Header": "Заголовок",
+        "Subtitle": "Подзаголовок",
+        "Body": "Стандартный",
+        "Caption": "Нижний колонтитул"
+      },
+      "TextStyle": "Стиль теста",
+      "TextStyles": {
+        "Italic": "Курсив"
+      },
+      "TextTransform": "Преобразование текста",
+      "TextTransforms": {
+        "Capitalize": "С заглавной буквы",
+        "Uppercase": "Верхний регистр",
+        "Lowercase": "Нижний регистр"
+      },
+      "TextDecoration": "Оформление текста",
+      "TextDecorations": {
+        "Underline": "Подчеркнутый",
+        "LineThrough": "Зачеркнутый"
+      },
+      "TextAlign": "Выравнивание текста",
+      "TextAligns": {
+        "Center": "По центру",
+        "End": "По правому краю",
+        "Start": "По левому краю"
+      },
+      "Image": "Изображение",
+      "ImageURL": "Ссылка на изображение",
+      "BorderRadius": "Радиус краёв",
+      "BorderRadiuses": {
+        "XS": "Очень маленький",
+        "SM": "Маленький",
+        "MD": "Средний",
+        "LG": "Большой",
+        "XL": "Очень большой",
+        "Circle": "Окружность"
+      }
+    },
     "MessageEditor": {
+      "SendEmbedMessage": "Отправлять встроенное сообщение",
       "EmbedMessage": "Встроенное сообщение",
       "AuthorName": "Имя автора",
       "AuthorIconURL": "Аватар автора",
@@ -1366,6 +1424,7 @@
     "InvitedDeleted": "Приглашение удалено",
     "InviteCode": "Код приглашения",
     "InviteInviter": "Приглашающий",
+    "MessageCreated": "Сообщение отправлено",
     "MessageDeleted": "Сообщение удалено",
     "MessageDeletedBulk": "Массовое удаление сообщений",
     "MessageUpdated": "Сообщение изменено",
