@@ -91,9 +91,9 @@
     "AllowedRoles": "Дозволені ролі",
     "BlockedChannels": "Заборонені канали",
     "BlockedRoles": "Заборонені ролі",
-    "IgnoredChannels": "Игнорируемые каналы",
-    "IgnoredRoles": "Игнорируемые роли",
-    "IgnoredPermissions": "Игнорируемые разрешения",
+    "IgnoredChannels": "Ігноровані канали",
+    "IgnoredRoles": "Ігноровані ролі",
+    "IgnoredPermissions": "Ігноровані дозволи",
     "IgnoreBots": "Ігнорувати ботів",
     "DateUnits": {
       "Minutes": "Хвилини",
@@ -101,7 +101,7 @@
       "Days": "Дні"
     },
     "Permissions": "Права доступу",
-    "Components": "Компоненты",
+    "Components": "Компоненти",
     "DiscordMessageTypes": {
       "Default": "Стандартне повідомлення",
       "ChannelPinnedMessage": "Повідомлення закріплено",
@@ -117,17 +117,17 @@
     "DiscordButtonStyles": {
       "Primary": "Основний",
       "Secondary": "Вторинний",
-      "Success": "Успех",
-      "Danger": "Опасность",
+      "Success": "Успіх",
+      "Danger": "Небезпека",
       "Link": "Посилання"
     }
   },
   "Commands": {
     "Categories": {
-      "General": "Общие команды",
-      "Moderation": "Команды модерации",
-      "Music": "Управление музыкой",
-      "Useful": "Полезные команды",
+      "General": "Загальні команди",
+      "Moderation": "Команди модерації",
+      "Music": "Управління музикою",
+      "Useful": "Корисні команди",
       "Custom": "Користувацькі команди"
     },
     "Options": {
@@ -140,8 +140,8 @@
       "Duration": "тривалість",
       "Reason": "підстава",
       "Amount": "кількість",
-      "MessageId": "идентификатор-сообщения",
-      "UserId": "идентификатор-пользователя",
+      "MessageId": "ідентифікатор-повідомлення",
+      "UserId": "ідентифікатор-користувача",
       "CaseId": "номер-випадку",
       "WarnId": "номер-попередження",
       "Query": "запит",
@@ -153,10 +153,10 @@
       "QuizMode": "режим-вікторини",
       "MultipleAnswers": "множинний-вибір",
       "Role": "роль",
-      "Time": "время",
-      "Award": "награда",
-      "Operation": "операция",
-      "ResetAll": "сбросить-все"
+      "Time": "час",
+      "Award": "нагорода",
+      "Operation": "операція",
+      "ResetAll": "скинути-все"
     },
     "OptionTypes": {
       "SubCommand": "Підкоманда",
@@ -167,14 +167,14 @@
       "User": "Користувач",
       "Channel": "Канал",
       "Role": "Роль",
-      "Mentionable": "Упоминание",
+      "Mentionable": "Згадування",
       "Number": "Цифровий",
       "Attachment": "Вкладення"
     },
-    "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
-    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
-    "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
-    "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
+    "MissingRequiredPermissionsToExecuteCommand": "{username}, для виконання даної команди необхідні наступні дозволи: {permissions}",
+    "CommandExecutionDenied": "{username}, у вас недостатньо прав для виконання цієї команди",
+    "CommandExecutionOnlyWithPremium": "{username}, виконання даної команди доступне тільки з Lacuna Diamond",
+    "CommandThrottling": "{username}, досягнуто обмеження у використанні команди, спробуйте ще раз о {time}",
     "AboutCommand": {
       "Description": "Базова інформація про бота",
       "Texts": {
@@ -200,13 +200,13 @@
         "ListOfCommands": "Список команд",
         "HelpForCommand": "Довідка за командою",
         "ControlPanel": "Панель керування",
-        "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Использование команды",
+        "UnknownCommand": "{username}, команда не знайдена",
+        "CommandUsage": "Використання команди",
         "CommandArguments": "Аргументи команди",
         "CommandArgumentRequired": "Обов'язковий аргумент",
-        "CommandArgumentOptional": "Необязательный аргумент",
+        "CommandArgumentOptional": "Необов'язковий аргумент",
         "CommandArgumentType": "Тип аргумента: {type}",
-        "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
+        "CommandRequiredPermissions": "Необхідні дозволи для виконання команди",
         "CommandPermissionsForBot": "Для бота",
         "CommandPermissionsForAuthor": "Для автора команди"
       }
@@ -224,11 +224,11 @@
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
-        "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
-        "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
-        "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
-        "ServerLeadersBy": "Лидеры сервера {sortBy}",
+        "LevelsIsDisabled": "{username}, рівні відключені на цьому сервері",
+        "EconomyIsDisabled": "{username}, економіка відключена на цьому сервері",
+        "NoLevelsYet": "{username}, на цьому сервері ще ніхто не отримував рівень",
+        "NoWalletsYet": "{username}, на цьому сервері ще немає гаманців",
+        "ServerLeadersBy": "Лідери сервера {sortBy}",
         "CurrentLevel": "Рів. {level}"
       }
     },
@@ -241,38 +241,38 @@
         }
       },
       "Texts": {
-        "ImageRenderError": "{username}, произошла ошибка при создании уровневой карточки",
-        "LevelCardNotFound": "{username}, уровневая карточка не найдена"
+        "ImageRenderError": "{username}, виникла помилка при створення рівневої картки",
+        "LevelCardNotFound": "{username}, рівнева карта не знайдена"
       }
     },
     "ServerCommand": {
       "Description": "Іфнормація про поточний сервер",
       "Texts": {
-        "GuildOwner": "Владелец сервера",
-        "GuildId": "Идентификатор сообщества",
+        "GuildOwner": "Власник серверу",
+        "GuildId": "Ідентифікатор спільноти",
         "MemberCount": "Кількість учасників",
         "ChannelCount": "Кількість каналів",
         "RoleCount": "Кількість ролей",
         "EmojiCount": "Кількість емодзі",
         "GuildVerificationLevel": "Рівень провірки",
         "GuildVerificationLevels": {
-          "None": "Без проверки",
+          "None": "Без перевірки",
           "Low": "Низький",
           "Medium": "Середній",
           "High": "Високий",
           "VeryHigh": "Дуже високий"
         },
         "GuildAFKChannel": "Канал простою",
-        "GuildDateOfCreation": "Сервер создан {relativeTime}"
+        "GuildDateOfCreation": "Сервер створений {relativeTime}"
       }
     },
     "StoreCommand": {
       "Description": "Магазин предметів сервера",
       "Texts": {
-        "NoItemsForPurchaseInStore": "{username}, в магазине нет предметов для приобретения",
-        "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
-        "ItemPreviouslyPurchased": "{username}, вы уже ранее приобрели этот предмет",
-        "UserHasPurchasedItem": "{username}, вы приобрели предмет {item}"
+        "NoItemsForPurchaseInStore": "{username}, в магазині немає предметів для купівлі",
+        "InsufficientFundsToPurchaseItem": "{username}, недостатньо коштів для купівлі предмета",
+        "ItemPreviouslyPurchased": "{username}, ви вже раніше купили цей предмет",
+        "UserHasPurchasedItem": "{username}, ви купили предмет {item}"
       },
       "SubCommands": {
         "BuyCommand": {
