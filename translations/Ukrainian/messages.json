@@ -283,8 +283,8 @@
             }
           },
           "Texts": {
-            "InvalidSKU": "{username}, пожалуйста, укажите артикул предмета",
-            "ItemNotFound": "{username}, предмет с таким артикулом не найден"
+            "InvalidSKU": "{username}, будь ласка, вкажіть артикул предмету",
+            "ItemNotFound": "{username}, предмет з таким артикулом не знайдений"
           }
         },
         "ItemsCommand": {
@@ -313,8 +313,8 @@
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Дата регистрации аккаунта",
-        "DateOfJoiningServer": "Дата вступления на сервер",
+        "AccountRegistrationDate": "Дата реєстрації акаунта",
+        "DateOfJoiningServer": "Дата вступу до сервера",
         "LinkToAvatar": "Посилання на аватар",
         "LinkToBanner": "Посилання на банер"
       }
@@ -331,7 +331,7 @@
           },
           "Texts": {
             "WalletIsEmpty": "Гаманець пустий",
-            "WalletBalanceOfUser": "Баланс пользователя {username}"
+            "WalletBalanceOfUser": "Баланс користувача {username}"
           }
         },
         "TransferCommand": {
@@ -348,7 +348,7 @@
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите сделать перевод",
+            "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому хочете зробити переказ",
             "InvalidAmount": "{username}, пожалуйста, укажите сумму перевода",
             "NoSuchAmountOfFunds": "{username}, у вас нет такой суммы перевода",
             "SuccessfulFundsTransfer": "{username}, {amount} успешно переведено на счет {target}"
