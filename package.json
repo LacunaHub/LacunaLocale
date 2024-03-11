@@ -1,5 +1,5 @@
 {
-  "name": "lacuna-locale",
+  "name": "@lacunahub/lacuna-locale",
   "version": "1.0.0",
   "description": "Lacuna localization repository",
   "main": "index.js",
