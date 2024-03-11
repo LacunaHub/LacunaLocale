@@ -1,0 +1,26 @@
+name: Patch version
+
+on:
+  pull_request:
+    branches: [master]
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Bump version
+        run: |
+          npm version patch -m "chore: bump version to %s"
+      - name: Push
+        run: |
+          git remote set-url --push origin https://daniquoll:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin ${{ github.ref_name }} --follow-tags
