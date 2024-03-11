@@ -1,16 +1,20 @@
 {
   "name": "lacuna-locale",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lacuna localization repository",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@lacunahub"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LacunaHub/Locale.git"
   },
-  "author": "LacunaHub",
+  "author": "Lacuna (https://github.com/LacunaHub)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LacunaHub/Locale/issues"
