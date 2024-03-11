@@ -1,3 +1,6 @@
+pull_request_title: 'chore: new crowdin updates'
+commit_message: 'locale(%language%): new translations for %original_file_name%'
+append_commit_message: false
 files:
   - source: /translations/Russian/*
     translation: /translations/%language%/%original_file_name%
