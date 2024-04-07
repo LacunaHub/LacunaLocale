@@ -849,6 +849,10 @@
     }
   },
   "Pages": {
+    "AuthorizationPage": {
+      "ShareEmailAddress": "Поделиться адресом эл. почты",
+      "JoinSupportServer": "Присоединиться к серверу поддержки"
+    },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Авторизация прошла успешно",
       "AuthorizationFailed": "Авторизация не удалась",
