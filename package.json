@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LacunaHub/Locale.git"
+    "url": "git+https://github.com/LacunaHub/LacunaLocale.git"
   },
   "author": "Lacuna (https://github.com/LacunaHub)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LacunaHub/Locale/issues"
+    "url": "https://github.com/LacunaHub/LacunaLocale/issues"
   },
-  "homepage": "https://github.com/LacunaHub/Locale#readme"
+  "homepage": "https://github.com/LacunaHub/LacunaLocale#readme"
 }
