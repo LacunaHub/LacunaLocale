@@ -242,44 +242,44 @@
       },
       "Texts": {
         "ImageRenderError": "{username}, деңгейлік карта жасау кезінде қате пайда болды",
-        "LevelCardNotFound": "{username}, уровневая карточка не найдена"
+        "LevelCardNotFound": "{username}, деңгейлік карта табылмады"
       }
     },
     "ServerCommand": {
-      "Description": "Информация о текущем сервере",
+      "Description": "Ағымдағы сервер туралы ақпарат",
       "Texts": {
-        "GuildOwner": "Владелец сервера",
-        "GuildId": "Идентификатор сообщества",
-        "MemberCount": "Количество участников",
-        "ChannelCount": "Количество каналов",
-        "RoleCount": "Количество ролей",
-        "EmojiCount": "Количество эмодзи",
+        "GuildOwner": "Сервердің иесі",
+        "GuildId": "Қоғамдық идентификатор",
+        "MemberCount": "Мүшелер саны",
+        "ChannelCount": "Арналар саны",
+        "RoleCount": "Рөлдер саны",
+        "EmojiCount": "Эмодзи саны",
         "GuildVerificationLevel": "Тексеру деңгейі",
         "GuildVerificationLevels": {
-          "None": "Без проверки",
+          "None": "Тексерусіз",
           "Low": "Төмен",
           "Medium": "Орта",
           "High": "Жоғары",
           "VeryHigh": "Өте жоғары"
         },
-        "GuildAFKChannel": "Канал простоя",
-        "GuildDateOfCreation": "Сервер создан {relativeTime}"
+        "GuildAFKChannel": "Бос уақыт арнасы",
+        "GuildDateOfCreation": "Сервер жасалды {relativeTime}"
       }
     },
     "StoreCommand": {
-      "Description": "Магазин предметов сервера",
+      "Description": "Сервердің заттар дүкені",
       "Texts": {
-        "NoItemsForPurchaseInStore": "{username}, в магазине нет предметов для приобретения",
-        "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
-        "ItemPreviouslyPurchased": "{username}, вы уже ранее приобрели этот предмет",
-        "UserHasPurchasedItem": "{username}, вы приобрели предмет {item}"
+        "NoItemsForPurchaseInStore": "{username}, дүкенде сатып алу үшін ешқандай зат жоқ",
+        "InsufficientFundsToPurchaseItem": "{username}, затты сатып алу үшін жеткілікті қаражат жоқ",
+        "ItemPreviouslyPurchased": "{username}, сіз бұл затты алдында сатып алдыңыз",
+        "UserHasPurchasedItem": "{username}, сіз {item} затын сатып алдыңыз"
       },
       "SubCommands": {
         "BuyCommand": {
-          "Description": "Покупка предметов в магазине сервера",
+          "Description": "Сервер дүкеніндегі заттарды сатып алу",
           "Options": {
             "SKU": {
-              "Description": "Артикул (SKU) предмета в магазине"
+              "Description": "Дүкендегі заттың мақала нөмірі (SKU)"
             }
           },
           "Texts": {
@@ -288,17 +288,17 @@
           }
         },
         "ItemsCommand": {
-          "Description": "Список доступных для покупки предметов в магазине сервера",
+          "Description": "Сервер дүкеніндегі сатып алуға қол жетімді заттар тізімі",
           "Options": {
             "Page": {
-              "Description": "Номер страницы магазина предметов"
+              "Description": "Зат дүкенінің бет нөмірі"
             }
           },
           "Texts": {
             "ServerStore": "Сервер дүкені",
-            "ServerStoreHowToBuyItem": "Выберите предмет в выпадающем списке ниже или введите команду {command}, чтобы приобрести его",
+            "ServerStoreHowToBuyItem": "Төмендегі тізімнен затты таңдаңыз немесе оны сатып алу үшін {command} командасын енгізіңіз",
             "PurchasePrice": "Сатып алу бағасы",
-            "ItemContains": "Содержит в себе",
+            "ItemContains": "Ол ішінде бар",
             "ItemQuantity": "Оставшееся количество",
             "SelectItemToPurchase": "Выберите предмет для покупки"
           }
