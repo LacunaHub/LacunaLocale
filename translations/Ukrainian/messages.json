@@ -374,9 +374,9 @@
         "YouCannotBanYourself": "{username}, не думаю, що я можу дозволити вам заблокувати самого себе",
         "CannotBanThisUser": "{username}, неможливо заблокувати цього користувача",
         "UserRoleIsHigherThanYour": "{username}, користувач знаходиться вище вас в ієрархії ролей",
-        "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
-        "UserHasUnmoderatedRoles": "{username}, пользователь имеет одну или несколько ролей для которых запрещены действия модерирования",
-        "UserHasBeenBanned": "{username}, пользователю {target} выдана блокировка на сервере"
+        "UserIsModerator": "{username}, користувач має права модератора, я не можу дозволити зробити це",
+        "UserHasUnmoderatedRoles": "{username}, користувач має одну або декілька ролей, для яких заборонені дії модерування",
+        "UserHasBeenBanned": "{username}, користувачу {target} видали блокування на сервері"
       }
     },
     "KickCommand": {
@@ -390,10 +390,10 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите выгнать",
-        "YouCannotKickYourself": "{username}, не думаю, что я могу позволить вам выгнать самого себя",
-        "CannotKickThisUser": "{username}, невозможно выгнать этого пользователя",
-        "UserHasBeenKicked": "{username}, пользователь {target} был выгнан с сервера"
+        "InvalidUser": "{username}, будь ласка, вкажіть користувача, якого ви хочете вигнати",
+        "YouCannotKickYourself": "{username}, не думаю, що я можу дозволити вам вигнати самого себе",
+        "CannotKickThisUser": "{username}, неможливо вигнати цього користувача",
+        "UserHasBeenKicked": "{username}, користувач {target} був вигнаний з сервера"
       }
     },
     "MuteCommand": {
@@ -410,11 +410,11 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите выдать заглушение",
-        "YouCannotMuteYourself": "{username}, не думаю, что я могу позволить вам заглушить самого себя",
-        "CannotMuteThisUser": "{username}, невозможно заглушить этого пользователя",
-        "ThisUserIsAlreadyMuted": "{username}, пользователь уже заглушён",
-        "UserHasBeenMuted": "{username}, пользователю {target} было выдано заглушение"
+        "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому хочете видати заглушення",
+        "YouCannotMuteYourself": "{username}, не думаю, що я можу дозволити вам заглушити самого себе",
+        "CannotMuteThisUser": "{username}, неможливо заглушити цього користувача",
+        "ThisUserIsAlreadyMuted": "{username}, користувач вже заглушений",
+        "UserHasBeenMuted": "{username}, користувачу {target} було видано заглушення"
       }
     },
     "PruneCommand": {
@@ -431,9 +431,9 @@
         }
       },
       "Texts": {
-        "InvalidAmount": "{username}, укажите количество сообщений, которое нужно очистить",
-        "InvalidAmountDiapason": "{username}, количество должно быть целым числом в диапазоне от 2 до 100",
-        "MessagesHaveBeenPruned": "{username}, очищено сообщений: {amount}"
+        "InvalidAmount": "{username}, вкажіть кількість повідомлень, які потрібно очистити",
+        "InvalidAmountDiapason": "{username}, кількість повинна бути цілим числом в діапазоні від 2 до 100",
+        "MessagesHaveBeenPruned": "{username}, очищено повідомлень: {amount}"
       }
     },
     "ReasonCommand": {
@@ -447,11 +447,11 @@
         }
       },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, на сервере не установлен канал для журнала модерации",
-        "InvalidCaseId": "{username}, пожалуйста, укажите номер случая журнала модерации",
-        "InvalidReason": "{username}, пожалуйста, укажите причину для случая журнала модерации",
-        "CaseMessageNotFound": "{username}, сообщение с таким номером случая не найдено. Помните, что вы можете изменить только последние 50 случаев модерации",
-        "CaseReasonHasBeenChanged": "{username}, причина случая изменена"
+        "CaseLogIsNotSet": "{username}, на сервері не встановлено канал для журналу модерації",
+        "InvalidCaseId": "{username}, будь ласка, вкажіть номер випадку журналу модерації",
+        "InvalidReason": "{username}, будь ласка, вкажіть причину для випадку журналу модерації",
+        "CaseMessageNotFound": "{username}, повідомлення з таким номером випадку не знайдено. Пам'ятайте, що ви можете змінити лише останні 50 випадків модерації",
+        "CaseReasonHasBeenChanged": "{username}, причина випадку змінена"
       }
     },
     "ReportCommand": {
@@ -466,15 +466,15 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
-        "UnknownUser": "{username}, пользователь не найден",
-        "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
-        "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
-        "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
-        "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
+        "InvalidUser": "{username}, будь ласка, вкажіть користувача, на якого хочете пожалітися",
+        "UnknownUser": "{username}, користувача не знайдено",
+        "InvalidReason": "{username}, будь ласка, правильно вкажіть причину скарги",
+        "YouRecentlyReportedThisUser": "{username}, ви нещодавно вже надіслали скаргу на цього користувача",
+        "YouHaveToManySubmittedReports": "{username}, ви досягли денного обмеження на кількість скарг",
+        "ReportSubmitted": "{username}, дякуємо, що повідомили нам про це",
         "PotentiallyUnwantedUser": "Потенційно небажаний користувач через отримані скарги",
         "RecentReports": "Останні скарги",
-        "ReportCount": "Количество жалоб"
+        "ReportCount": "Кількість скарг"
       }
     },
     "UnbanCommand": {
@@ -488,9 +488,9 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите идентификатор пользователя, которого необходимо разблокировать",
-        "BanNotFound": "{username}, не удалось найти заблокированного пользователя с указанным идентификатором",
-        "UserHasBeenUnbanned": "{username}, пользователь {target} был успешно разблокирован"
+        "InvalidUser": "{username}, будь ласка, вкажіть ідентифікатор користувача, якого необхідно розблокувати",
+        "BanNotFound": "{username}, не вдалося знайти заблокованого користувача з вказаним ідентифікатором",
+        "UserHasBeenUnbanned": "{username}, користувач {target} був успішно розблокований"
       }
     },
     "UnmuteCommand": {
@@ -504,9 +504,9 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять заглушение",
-        "UserIsNotMuted": "{username}, пользователь не был заглушен",
-        "UserHasBeenUnmuted": "{username}, пользователю {target} успешно снято заглушение"
+        "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому потрібно зняти заглушення",
+        "UserIsNotMuted": "{username}, користувач не був заглушений",
+        "UserHasBeenUnmuted": "{username}, користувачу {target} успішно знято заглушення"
       }
     },
     "ViolationsCommand": {
@@ -517,14 +517,14 @@
         }
       },
       "Texts": {
-        "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
-        "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
+        "ThisUserHasNoViolations": "{username}, у цього користувача немає порушень",
+        "NoOneHasAnyViolations": "{username}, ні у кого на сервері немає порушень",
         "UserViolations": "Порушення {target}",
         "ViolationsIn24Hours": "За добу",
         "ViolationsIn7Days": "За 7 днів",
         "Last10Violations": "Останні 10 порушень",
         "TotalViolations": "Всього порушень",
-        "ListOfViolators": "Список нарушителей"
+        "ListOfViolators": "Список порушників"
       }
     },
     "WarnCommand": {
@@ -541,9 +541,9 @@
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно выдать предупреждение",
-            "YouCannotWarnYourself": "{username}, не думаю, что я могу позволить вам предупредить самого себя",
-            "UserHasBeenWarned": "{username}, пользователю {target} было выдано предупреждение"
+            "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому потрібно видати попередження",
+            "YouCannotWarnYourself": "{username}, не думаю, що я можу дозволити вам попередити самого себе",
+            "UserHasBeenWarned": "{username}, користувачу {target} було видано попередження"
           }
         },
         "RemoveCommand": {
@@ -560,25 +560,25 @@
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять предупреждение",
-            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
-            "ThisUserHasNoViolations": "{username}, похоже, что этот пользователь не получал ранее предупреждений",
-            "UserWarnHasBeenRemoved": "{username}, предупреждение успешно снято",
-            "AllUserWarnsHaveBeenRemoved": "{username}, все предупреждения успешно сняты"
+            "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому потрібно зняти попередження",
+            "NoWarnId": "{username}, будь ласка, вкажіть ідентифікатор попередження",
+            "InvalidWarnId": "{username}, ви вказали неправильний ідентифікатор попередження",
+            "ThisUserHasNoViolations": "{username}, здається, що цей користувач раніше не отримував попереджень",
+            "UserWarnHasBeenRemoved": "{username}, попередження успішно знято",
+            "AllUserWarnsHaveBeenRemoved": "{username}, всі попередження успішно знято"
           }
         }
       }
     },
     "FilterCommand": {
-      "Description": "Наложить фильтры на текущее воспроизведение",
+      "Description": "Накласти фільтри на поточне відтворення",
       "Texts": {
-        "FilterSlowed": "Снизить темп",
-        "FilterNightcore": "Увеличить шаг и скорость",
-        "FilterKaraoke": "Устранить вокал",
-        "FilterEightD": "Вращение звука по стерео каналам",
-        "SelectFilter": "Выберите фильтр",
-        "TurnOffAllFilters": "Отключить все фильтры"
+        "FilterSlowed": "Знизити темп",
+        "FilterNightcore": "Збільшити крок і швидкість",
+        "FilterKaraoke": "Усунути вокал",
+        "FilterEightD": "Обертання звуку по стерео каналах",
+        "SelectFilter": "Виберіть фільтр",
+        "TurnOffAllFilters": "Вимкнути всі фільтри"
       }
     },
     "PlayCommand": {
@@ -592,23 +592,23 @@
         }
       },
       "Texts": {
-        "YouNeedToConnectToVoiceChannel": "{username}, сначала нужно подключиться к какому-нибудь голосовому каналу",
-        "YouAreNotConnectedToVoiceChannel": "{username}, вы не подключены к голосовому каналу или находитесь в другом",
-        "PlaybackIsDisallowedInVoiceChannel": "{username}, воспроизведение не разрешено в выбранном канале",
-        "MissingRequiredPermissionsInVoiceChannel": "{username}, у меня недостаточно прав в выбранном голосовом канале",
-        "VoiceChannelIsFull": "{username}, выбранный голосовой канал заполнен",
-        "PlaybackIsNotStarted": "{username}, воспроизведение треков не запущено на этом сервере",
-        "NoQuery": "{username}, нужно указать ссылку на плейлист, ссылку на трек или название",
-        "TrackLoadFailed": "{username}, произошла непредвиденная ошибка при загрузке трека",
-        "NoMatches": "{username}, по указанному запросу ничего не найдено",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
-        "PlaylistLoaded": "{username}, плейлист успешно загружен и добавлен в очередь воспроизведения",
-        "QueueLimitReached": "{username}, достигнуто максимальное количество треков в очереди",
-        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только бонусным серверам",
-        "StreamPlaybackIsDisabled": "{username}, потоковые воспроизведения отключены",
-        "TrackHasBeenAddedToQueue": "{username}, трек {track} добавлен в очередь воспроизведения",
-        "PlaylistHasBeenAddedToQueue": "{username}, плейлист {playlist} добавлен в очередь воспроизведения",
-        "HostIsNotAllowedToBePlayed": "{username}, указанная ссылка не находится в списке разрешенных. Пожалуйста, обратитесь на сервер поддержки",
+        "YouNeedToConnectToVoiceChannel": "{username}, спочатку потрібно з'єднатися з якимось голосовим каналом",
+        "YouAreNotConnectedToVoiceChannel": "{username}, ви не підключені до голосового каналу або знаходитесь в іншому",
+        "PlaybackIsDisallowedInVoiceChannel": "{username}, відтворення не дозволено в обраному каналі",
+        "MissingRequiredPermissionsInVoiceChannel": "{username}, у мене недостатньо прав в обраному голосовому каналі",
+        "VoiceChannelIsFull": "{username}, обраний голосовий канал заповнений",
+        "PlaybackIsNotStarted": "{username}, відтворення треків не запущено на цьому сервері",
+        "NoQuery": "{username}, потрібно вказати посилання на плейлист, посилання на трек або назву",
+        "TrackLoadFailed": "{username}, сталася непередбачена помилка при завантаженні треку",
+        "NoMatches": "{username}, за вказаним запитом нічого не знайдено",
+        "PlaylistsAvailableOnlyForPremium": "{username}, відтворення плейлистів доступне лише бонусним серверам",
+        "PlaylistLoaded": "{username}, плейлист успішно завантажено та додано до черги відтворення",
+        "QueueLimitReached": "{username}, досягнуто максимальної кількості треків в черзі",
+        "StreamPlaybackAvailableOnlyForPremium": "{username}, потокові відтворення доступні лише бонусним серверам",
+        "StreamPlaybackIsDisabled": "{username}, потокові відтворення вимкнено",
+        "TrackHasBeenAddedToQueue": "{username}, трек {track} додано до черги відтворення",
+        "PlaylistHasBeenAddedToQueue": "{username}, плейлист {playlist} додано до черги відтворення",
+        "HostIsNotAllowedToBePlayed": "{username}, вказане посилання не знаходиться в списку дозволених. Будь ласка, зверніться на сервер підтримки",
         "Player": "Плеєр",
         "AddedBy": "Додав(-ла) {requester}"
       }
@@ -616,26 +616,26 @@
     "QueueCommand": {
       "Description": "Поточна черга відтворення музики",
       "Texts": {
-        "PlaybackQueueIsEmpty": "{username}, очередь воспроизведения пуста",
+        "PlaybackQueueIsEmpty": "{username}, черга відтворення порожня",
         "SelectTrackToPlay": "Виберіть трек для відтворення"
       }
     },
     "SeekCommand": {
-      "Description": "Перемотать воспроизведение текущего трека на указанную позицию",
+      "Description": "Перемотати відтворення поточного треку на вказану позицію",
       "Options": {
         "Time": {
-          "Description": "Время в формате чч:мм:сс"
+          "Description": "Час у форматі гг:хв:сс"
         }
       },
       "Texts": {
-        "TrackIsNotSeekable": "{username}, невозможно перемотать текущий трек",
-        "TrackRewoundToPosition": "{username}, трек перемотан на {time}"
+        "TrackIsNotSeekable": "{username}, неможливо перемотати поточний трек",
+        "TrackRewoundToPosition": "{username}, трек перемотано на {time}"
       }
     },
     "StopCommand": {
       "Description": "Зупинити відтворення музики та очистити чергу",
       "Texts": {
-        "PlaybackHasBeenStopped": "{username}, воспроизведение остановлено"
+        "PlaybackHasBeenStopped": "{username}, відтворення зупинено"
       }
     },
     "VolumeCommand": {
@@ -646,53 +646,53 @@
         }
       },
       "Texts": {
-        "InvalidVolume": "{username}, неверно указано значение громкости",
-        "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
-        "VolumeHasBeenChanged": "{username}, громкость изменена с {from} на {to}"
+        "InvalidVolume": "{username}, неправильно вказано значення гучності",
+        "InvalidVolumeDiapason": "{username}, гучність повинна бути в діапазоні від 1 до 100",
+        "VolumeHasBeenChanged": "{username}, гучність змінена з {from} на {to}"
       }
     },
     "ActivitiesCommand": {
       "Description": "Керування активностями",
       "SubCommands": {
         "AssignLevelAwardCommand": {
-          "Description": "Назначить награду пользователю",
+          "Description": "Призначити нагороду користувачу",
           "Options": {
             "User": {
-              "Description": "Кому необходимо назначить награду"
+              "Description": "Кому необхідно призначити нагороду"
             },
             "Award": {
-              "Description": "Выберите из списка или введите идентификатор награды"
+              "Description": "Виберіть зі списку або введіть ідентифікатор нагороди"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите назначить награду",
-            "UnknownAward": "{username}, не удалось найти награду",
-            "AwardHasBeenAssigned": "{username}, награда успешно назначена"
+            "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому хочете призначити нагороду",
+            "UnknownAward": "{username}, не вдалося знайти нагороду",
+            "AwardHasBeenAssigned": "{username}, нагорода успішно призначена"
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Встановити баланс гаманця для користувача",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Якому користувачу буде встановлено баланс гаманця"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "Скільки валюти буде встановлено/додано/віднято"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Яка валюта буде встановлена/додана/віднята"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
-              "ChoiceSet": "Установить",
+              "Description": "\"Виберіть операцію для балансу гаманця",
+              "ChoiceSet": "Встановити",
               "ChoiceInc": "Збільшення гучності",
-              "ChoiceSub": "Вычесть"
+              "ChoiceSub": "Відняти"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
-            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
+            "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому хочете встановити баланс гаманця",
+            "InvalidAmount": "{username}, будь ласка, вкажіть встановлюваний баланс гаманця",
+            "WalletBalanceHasBeenSet": "{username}, баланс гаманця {target} встановлено"
           }
         },
         "ResetWalletCommand": {
@@ -702,14 +702,14 @@
               "Description": "Кому необхідно скинути гаманець"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Скинути гаманці всім учасникам на сервері"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
-            "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
+            "NoRequiredArgs": "{username}, вкажіть учасника, його ідентифікатор або зробіть скидання гаманців всім",
+            "NoExistingWallets": "{username}, немає існуючих гаманців",
+            "AllWalletsHaveBeenReset": "{username}, всі гаманці успішно скинуто",
+            "UserWalletHasBeenReset": "{username}, гаманець успішно скинуто"
           }
         },
         "ResetLevelCommand": {
@@ -719,14 +719,14 @@
               "Description": "Кому необхідно скинути рівень"
             },
             "ResetAll": {
-              "Description": "Сбросить уровни всем участникам на сервере"
+              "Description": "Скинути рівні всім учасникам на сервері"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
-            "NoExistingLevels": "{username}, нет существующих уровней",
-            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
-            "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
+            "NoRequiredArgs": "{username}, вкажіть учасника, його ідентифікатор або зробіть скидання рівня всім",
+            "NoExistingLevels": "{username}, немає існуючих рівнів",
+            "AllLevelsHaveBeenReset": "{username}, всі рівні успішно скинуто",
+            "UserLevelHasBeenReset": "{username}, рівень успішно скинуто"
           }
         }
       }
@@ -751,17 +751,17 @@
             }
           },
           "Texts": {
-            "InvalidPrize": "{username}, вы не указали приз за победу в розыгрыше",
-            "InvalidDuration": "{username}, аргумент длительности указан неверно",
-            "InvalidWinnerCount": "{username}, количество победителей должно быть диапазоне от 1 до 50",
-            "MaxActiveGiveawaysReached": "{username}, достигнуто максимальное количество активных розыгрышей",
+            "InvalidPrize": "{username}, ви не вказали приз за перемогу в розіграші",
+            "InvalidDuration": "{username}, аргумент тривалості вказано невірно",
+            "InvalidWinnerCount": "{username}, кількість переможців повинна бути в діапазоні від 1 до 50",
+            "MaxActiveGiveawaysReached": "{username}, досягнуто максимальної кількості активних розіграшів",
             "GiveawaySponsoredBy": "Розіграш від {sponsor}",
-            "GiveawayWillBeOverIn": "Завершится {relativeTime}",
+            "GiveawayWillBeOverIn": "Завершиться {relativeTime}",
             "WinningPrize": "Приз за виграш",
             "WinnerCount": "Кількість переможців",
-            "GiveawayHasBeenCreated": "{username}, розыгрыш успешно создан",
-            "YouHaveParticipatedInGiveaway": "{username}, вы приняли участие в розыгрыше {giveaway}",
-            "YouAreAlreadyInGiveaway": "{username}, вы уже участвуете в розыгрыше {giveaway}"
+            "GiveawayHasBeenCreated": "{username}, розіграш успішно створено",
+            "YouHaveParticipatedInGiveaway": "{username}, ви взяли участь в розіграші {giveaway}",
+            "YouAreAlreadyInGiveaway": "{username}, ви вже берете участь в розіграші {giveaway}"
           }
         },
         "EndCommand": {
@@ -780,8 +780,8 @@
         "RerollCommand": {
           "Description": "Вибрати переможців розіграшу знову",
           "Texts": {
-            "InvalidMessageId": "{username}, пожалуйста, укажите идентификатор сообщения с розыгрышем",
-            "GiveawayNotFound": "{username}, розыгрыш не найден"
+            "InvalidMessageId": "{username}, будь ласка, вкажіть ідентифікатор повідомлення з розіграшем",
+            "GiveawayNotFound": "{username}, розіграш не знайдено"
           }
         }
       }
@@ -790,12 +790,12 @@
       "Description": "Керування опитуваннями",
       "Texts": {
         "VotesPlural": "{n} голос | {n} голоси | {n} голосів",
-        "YouHaveAlreadyChosenThisOption": "{username}, вы уже выбрали этот вариант ответа",
-        "YouHaveAlreadyChosenQuizOption": "{username}, вы уже выбрали ответ {answer}",
-        "YouHaveChosenCorrectOption": "{username}, вы выбрали правильный ответ ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, к сожалению, ответ неверный",
-        "YouHaveChosenOption": "{username}, вы выбрали вариант {answer}",
-        "YouHaveRemovedYourVote": "{username}, вы убрали свой голос с варианта {answer}"
+        "YouHaveAlreadyChosenThisOption": "{username}, ви вже вибрали цей варіант відповіді",
+        "YouHaveAlreadyChosenQuizOption": "{username}, ви вже вибрали відповідь {answer}",
+        "YouHaveChosenCorrectOption": "{username}, ви вибрали правильну відповідь ({answer})",
+        "YouHaveChosenIncorrectOption": "{username}, на жаль, відповідь невірна",
+        "YouHaveChosenOption": "{username}, ви вибрали варіант {answer}",
+        "YouHaveRemovedYourVote": "{username}, ви зняли свій голос з варіанта {answer}"
       },
       "SubCommands": {
         "CreateCommand": {
@@ -814,13 +814,13 @@
             "CorrectAnswer": "Правильна відповідь",
             "AnswerOptions": "Варіанти відповіді",
             "AnswerOptionsPlaceholder": "Варіанти відповідей вказуються з нового рядка",
-            "NoQuestion": "{username}, пожалуйста, укажите вопрос",
-            "InvalidAnswerOptions": "{username}, пожалуйста, укажите от 2 до 10 вариантов ответа",
-            "NoCorrectAnswer": "{username}, пожалуйста, укажите правильный ответ",
+            "NoQuestion": "{username}, будь ласка, вкажіть питання",
+            "InvalidAnswerOptions": "{username}, будь ласка, вкажіть від 2 до 10 варіантів відповіді",
+            "NoCorrectAnswer": "{username}, будь ласка, вкажіть правильну відповідь",
             "QuizMode": "Вікторина",
             "MultipleAnswers": "Вибір декількох варіантів",
-            "PollHasBeenCreated": "{username}, опрос успешно создан",
-            "FailedToCreatePoll": "{username}, произошла ошибка при создании опроса"
+            "PollHasBeenCreated": "{username}, опитування успішно створено",
+            "FailedToCreatePoll": "{username}, сталася помилка при створенні опитування"
           }
         }
       }
@@ -839,19 +839,19 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому будет выдана временная роль",
-        "NoRole": "{username}, вы не указали роль",
-        "InvalidDuration": "{username}, длительность временной роли указано неверно",
-        "RoleIsNotEditable": "{username}, у меня нет разрешений на выдачу этой роли кому-либо",
-        "UserAlreadyHasThisRole": "{username}, пользователь уже имеет эту роль",
-        "RoleAssignedToUser": "{username}, роль {role} выдана пользователю {target} до {date}"
+        "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому буде видана тимчасова роль",
+        "NoRole": "{username}, ви не вказали роль",
+        "InvalidDuration": "{username}, тривалість тимчасової ролі вказано невірно",
+        "RoleIsNotEditable": "{username}, у мене немає дозволів на видачу цієї ролі кому-небудь",
+        "UserAlreadyHasThisRole": "{username}, користувач вже має цю роль",
+        "RoleAssignedToUser": "{username}, роль {role} видана користувачу {target} до {date}"
       }
     }
   },
   "Pages": {
     "AuthorizationPage": {
-      "ShareEmailAddress": "Поделиться адресом эл. почты",
-      "JoinSupportServer": "Присоединиться к серверу поддержки"
+      "ShareEmailAddress": "Поділитися адресою ел. пошти",
+      "JoinSupportServer": "Приєднатися до сервера підтримки"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Успішна авторизація",
@@ -862,11 +862,11 @@
     "DashboardPage": {
       "Profile": "Профіль",
       "NoActivities": "Здається, ви не проявляли активність",
-      "MyGuilds": "Мои сообщества",
+      "MyGuilds": "Мої спільноти",
       "NoGuilds": "У Вас немає доступних спільнот.",
-      "Bills": "Выставленные счета",
+      "Bills": "Виставлені рахунки",
       "BillId": "Номер рахунку",
-      "BillAmount": "Сумма платежа",
+      "BillAmount": "Сума платежу",
       "BillStatus": "Статус платежу"
     },
     "ErrorPage": {
