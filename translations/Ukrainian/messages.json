@@ -349,9 +349,9 @@
           },
           "Texts": {
             "InvalidUser": "{username}, будь ласка, вкажіть користувача, якому хочете зробити переказ",
-            "InvalidAmount": "{username}, пожалуйста, укажите сумму перевода",
-            "NoSuchAmountOfFunds": "{username}, у вас нет такой суммы перевода",
-            "SuccessfulFundsTransfer": "{username}, {amount} успешно переведено на счет {target}"
+            "InvalidAmount": "{username}, будь ласка, вкажіть суму переказу",
+            "NoSuchAmountOfFunds": "{username}, у вас немає такої суми переказу",
+            "SuccessfulFundsTransfer": "{username}, {amount} успішно переведено на рахунок {target}"
           }
         }
       }
@@ -370,10 +370,10 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите заблокировать",
-        "YouCannotBanYourself": "{username}, не думаю, что я могу позволить вам заблокировать самого себя",
-        "CannotBanThisUser": "{username}, невозможно заблокировать этого пользователя",
-        "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
+        "InvalidUser": "{username}, будь ласка, вкажіть користувача, якого ви хочете заблокувати",
+        "YouCannotBanYourself": "{username}, не думаю, що я можу дозволити вам заблокувати самого себе",
+        "CannotBanThisUser": "{username}, неможливо заблокувати цього користувача",
+        "UserRoleIsHigherThanYour": "{username}, користувач знаходиться вище вас в ієрархії ролей",
         "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
         "UserHasUnmoderatedRoles": "{username}, пользователь имеет одну или несколько ролей для которых запрещены действия модерирования",
         "UserHasBeenBanned": "{username}, пользователю {target} выдана блокировка на сервере"
