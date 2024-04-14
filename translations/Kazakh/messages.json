@@ -68,67 +68,67 @@
       "ManageThreads": "Бөлімдерді басқару",
       "CreatePublicThreads": "Жалпыға ашық бөлімдер жасау",
       "CreatePrivateThreads": "Жеке бөлімдер жасау",
-      "UseExternalStickers": "Использовать внешние стикеры",
-      "SendMessagesInThreads": "Отправлять сообщения в ветках",
+      "UseExternalStickers": "Сыртқы стикерлерді қолдану",
+      "SendMessagesInThreads": "Жіптерде хабарлама жіберу",
       "UseEmbeddedActivities": "Енгізілген белсенділікті бастау",
-      "ModerateMembers": "Модерировать участников",
-      "ViewCreatorMonetizationAnalytics": "Просмотр аналитики монетизации",
-      "UseSoundboard": "Использовать звуковую панель",
-      "CreateGuildExpressions": "Создавать эмодзи, стикеры и звуки звуковой панели",
-      "CreateEvents": "Создавать события",
-      "UseExternalSounds": "Использовать внешние звуки звуковой панели",
-      "SendVoiceMessages": "Отправлять голосовые сообщения"
+      "ModerateMembers": "Қатысушыларды модерациялау",
+      "ViewCreatorMonetizationAnalytics": "Монетизация аналитикасын қарау",
+      "UseSoundboard": "Дыбыстық панельді қолдану",
+      "CreateGuildExpressions": "Эмодзи, стикерлер және дыбыстық панельдің дыбыстарын жасау",
+      "CreateEvents": "Оқиғалар жасау",
+      "UseExternalSounds": "Дыбыстық панельдің сыртқы дыбыстарын пайдалану",
+      "SendVoiceMessages": "Дауыстық хабарламалар жіберу"
     },
-    "Pagination": "Страница {current} из {total}",
+    "Pagination": "{current} бет {total}-ден",
     "NextPage": "Келесі бет",
     "PreviousPage": "Алдыңғы бет",
     "Channels": "Арналар",
     "Roles": "Рөлдер",
     "Reactions": "Реакциялар",
-    "AddRoles": "Добавить роли",
-    "RemoveRoles": "Убрать роли",
-    "AllowedChannels": "Разрешенные каналы",
-    "AllowedRoles": "Разрешенные роли",
-    "BlockedChannels": "Запрещенные каналы",
-    "BlockedRoles": "Запрещенные роли",
-    "IgnoredChannels": "Игнорируемые каналы",
-    "IgnoredRoles": "Игнорируемые роли",
-    "IgnoredPermissions": "Игнорируемые разрешения",
-    "IgnoreBots": "Игнорировать ботов",
+    "AddRoles": "Рөлдер қосу",
+    "RemoveRoles": "Рөлдерді алып тастау",
+    "AllowedChannels": "Рұқсат етілген арналар",
+    "AllowedRoles": "Рұқсат етілген рөлдер",
+    "BlockedChannels": "Тыйым салынған арналар",
+    "BlockedRoles": "Рұқсат етілмеген рөлдер",
+    "IgnoredChannels": "Елемейтін арналар",
+    "IgnoredRoles": "Елемейтін рөлдер",
+    "IgnoredPermissions": "Елемейтін рұқсаттар",
+    "IgnoreBots": "Боттарды елемеу",
     "DateUnits": {
       "Minutes": "Минуттар",
       "Hours": "Сағат",
       "Days": "Күндер"
     },
     "Permissions": "Рұқсаттар",
-    "Components": "Компоненты",
+    "Components": "Компоненттер",
     "DiscordMessageTypes": {
       "Default": "Стандартты хабарлама",
       "ChannelPinnedMessage": "Хабарлама бекітілді",
       "GuildMemberJoin": "Қатысушы қосылды",
-      "UserPremiumGuildSubscription": "Буст сервера",
-      "UserPremiumGuildSubscriptionTier1": "Буст сервера: 1 уровень",
-      "UserPremiumGuildSubscriptionTier2": "Буст сервера: 2 уровень",
-      "UserPremiumGuildSubscriptionTier3": "Буст сервера: 3 уровень",
+      "UserPremiumGuildSubscription": "Серверді арттыру",
+      "UserPremiumGuildSubscriptionTier1": "Серверді арттыру: 1 деңгей",
+      "UserPremiumGuildSubscriptionTier2": "Серверді арттыру: 2 деңгей",
+      "UserPremiumGuildSubscriptionTier3": "Серверді арттыру: 3 деңгей",
       "ChannelFollowAdd": "Арнаға жазылу",
-      "ThreadCreated": "Ветка создана",
-      "Reply": "Ответ на сообщение"
+      "ThreadCreated": "Бұтақ жасалды",
+      "Reply": "Хабарға жауап"
     },
     "DiscordButtonStyles": {
       "Primary": "Алғашқы",
       "Secondary": "Екінші ретті",
-      "Success": "Успех",
-      "Danger": "Опасность",
+      "Success": "Жетістік",
+      "Danger": "Қаупінділік",
       "Link": "Сілтеме"
     }
   },
   "Commands": {
     "Categories": {
-      "General": "Общие команды",
-      "Moderation": "Команды модерации",
-      "Music": "Управление музыкой",
-      "Useful": "Полезные команды",
-      "Custom": "Пользовательские команды"
+      "General": "Жалпы командалар",
+      "Moderation": "Модерация командалары",
+      "Music": "Музыкалық басқару",
+      "Useful": "Пайдалы командалар",
+      "Custom": "Пайдаланушы командалары"
     },
     "Options": {
       "Command": "пәрмен",
@@ -140,9 +140,9 @@
       "Duration": "ұзақтық",
       "Reason": "себеп",
       "Amount": "сан",
-      "MessageId": "идентификатор-сообщения",
-      "UserId": "идентификатор-пользователя",
-      "CaseId": "номер-случая",
+      "MessageId": "хабарлама-идентификаторы",
+      "UserId": "пайдаланушы-идентификаторы",
+      "CaseId": "іс-шара нөмірі",
       "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
       "Source": "дереккөз",
@@ -151,32 +151,32 @@
       "WinnerCount": "жеңімпаздар саны",
       "Sponsor": "демеуші",
       "QuizMode": "викторина-ережесі",
-      "MultipleAnswers": "множественный-выбор",
+      "MultipleAnswers": "көптеген-таңдау",
       "Role": "рөл",
-      "Time": "время",
-      "Award": "награда",
+      "Time": "уақыт",
+      "Award": "сыйлық",
       "Operation": "операция",
-      "ResetAll": "сбросить-все"
+      "ResetAll": "барлығын-қайтару"
     },
     "OptionTypes": {
       "SubCommand": "Подкоманда",
-      "SubCommandGroup": "Группа подкоманд",
-      "String": "Строковый",
+      "SubCommandGroup": "Подкоманда тобы",
+      "String": "Жолдық",
       "Integer": "Бүтін сан",
       "Boolean": "Логикалық",
       "User": "Пайдаланушы",
       "Channel": "Арна",
       "Role": "Рөл",
-      "Mentionable": "Упоминание",
-      "Number": "Числовой",
+      "Mentionable": "Ескерту",
+      "Number": "Сандық",
       "Attachment": "Тіркеме файл"
     },
-    "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
-    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
-    "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
-    "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
+    "MissingRequiredPermissionsToExecuteCommand": "{username}, осы команданы орындау үшін келесі рұқсаттар қажет: {permissions}",
+    "CommandExecutionDenied": "{username}, сізде осы команданы орындау үшін жеткілікті құқықтар жоқ",
+    "CommandExecutionOnlyWithPremium": "{username}, осы команданы орындау тек Lacuna Diamond арқылы қол жетімді",
+    "CommandThrottling": "{username}, команданы орындау шектеуіне жеткен, {time} кездесе қайталап көріңіз",
     "AboutCommand": {
-      "Description": "Базовая информация о боте",
+      "Description": "Бот жайлы негізгі ақпарат",
       "Texts": {
         "Developer": "Әзірлеуші",
         "CurrentVersion": "Ағымдағы нұсқа",
@@ -186,62 +186,62 @@
         "Latency": "Кідіріс",
         "TotalGuilds": "Қауымдастық саны",
         "TotalUsers": "Пайдаланушылар саны",
-        "OSUptime": "Время работы системы"
+        "OSUptime": "Жүйенің жұмыс уақыты"
       }
     },
     "HelpCommand": {
-      "Description": "Список доступных команд и их описание",
+      "Description": "Қол жетімді командалар тізімі және олардың сипаттамасы",
       "Options": {
         "Command": {
-          "Description": "Дополнительная информация об указанной команде"
+          "Description": "Көрсетілген команда туралы қосымша ақпарат"
         }
       },
       "Texts": {
         "ListOfCommands": "Пәрмендер тізімі",
-        "HelpForCommand": "Справка по команде {command}",
+        "HelpForCommand": "{command} командасына көмек",
         "ControlPanel": "Басқару панелi",
-        "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Использование команды",
-        "CommandArguments": "Аргументы команды",
-        "CommandArgumentRequired": "Обязательный аргумент",
-        "CommandArgumentOptional": "Необязательный аргумент",
-        "CommandArgumentType": "Тип аргумента: {type}",
-        "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
-        "CommandPermissionsForBot": "Для бота",
+        "UnknownCommand": "{username}, команда табылмады",
+        "CommandUsage": "Команданы пайдалану",
+        "CommandArguments": "Команданың аргументтері",
+        "CommandArgumentRequired": "Міндетті түрде аргумент",
+        "CommandArgumentOptional": "Міндетті емес аргумент",
+        "CommandArgumentType": "Аргумент түрі: {type}",
+        "CommandRequiredPermissions": "Команданы орындау үшін қажетті рұқсаттар",
+        "CommandPermissionsForBot": "Бот үшін",
         "CommandPermissionsForAuthor": "Пәрменнің авторы үшін"
       }
     },
     "LeadersCommand": {
-      "Description": "Таблица лидеров сервера по активности",
+      "Description": "Сервердің белсенділік бойынша лидерлер кестесі",
       "Options": {
         "Sorting": {
-          "Description": "Сортировка таблицы лидеров по выбранному типу активности",
+          "Description": "Таңдалған белсенділік түрі бойынша лидерлер кестесін сұрыптау",
           "ChoiceLevel": "деңгейі бойынша",
-          "ChoiceBalance": "по балансу"
+          "ChoiceBalance": "баланс бойынша"
         },
         "Page": {
-          "Description": "Номер страницы таблицы лидеров"
+          "Description": "Лидерлер кестесінің бет нөмірі"
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
-        "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
-        "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
-        "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
-        "ServerLeadersBy": "Лидеры сервера {sortBy}",
-        "CurrentLevel": "Ур. {level}"
+        "LevelsIsDisabled": "{username}, деңгейлер осы серверде өшірілген",
+        "EconomyIsDisabled": "{username}, экономика осы серверде өшірілген",
+        "NoLevelsYet": "{username}, осы серверде әлі ешкім деңгей алмады",
+        "NoWalletsYet": "{username}, осы серверде әлі әмиян жоқ",
+        "ServerLeadersBy": "Сервердің лидерлері {sortBy}",
+        "CurrentLevel": "Дең. {level}"
       }
     },
     "RankCommand": {
-      "Name": "Показать уровень",
-      "Description": "Уровневая карточка",
+      "Name": "Деңгейді көрсету",
+      "Description": "Деңгейлік карта",
       "Options": {
         "User": {
-          "Description": "Чью уровневую карточку необходимо показать"
+          "Description": "Кімнің деңгейлік картасын көрсету қажет"
         }
       },
       "Texts": {
-        "ImageRenderError": "{username}, произошла ошибка при создании уровневой карточки",
+        "ImageRenderError": "{username}, деңгейлік карта жасау кезінде қате пайда болды",
         "LevelCardNotFound": "{username}, уровневая карточка не найдена"
       }
     },
