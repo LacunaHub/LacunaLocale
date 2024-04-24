@@ -172,8 +172,8 @@
       "Attachment": "Вложение"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выканання дадзенай каманды неабходны наступныя дазволы: {permissions}",
-    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
-    "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
+    "CommandExecutionDenied": "{username}, у вас недастаткова правоў для выканання гэтай каманды",
+    "CommandExecutionOnlyWithPremium": "{username}, выкананне гэтай каманды даступна толькі з Lacuna Diamond",
     "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
     "AboutCommand": {
       "Description": "Базовая информация о боте",
