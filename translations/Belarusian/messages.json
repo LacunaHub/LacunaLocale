@@ -204,11 +204,11 @@
         "CommandUsage": "Использование команды",
         "CommandArguments": "Аргументы команды",
         "CommandArgumentRequired": "Абавязковы аргумент",
-        "CommandArgumentOptional": "Необязательный аргумент",
+        "CommandArgumentOptional": "Неабавязковы аргумент",
         "CommandArgumentType": "Тип аргумента: {type}",
         "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
         "CommandPermissionsForBot": "Для бота",
-        "CommandPermissionsForAuthor": "Для автора команды"
+        "CommandPermissionsForAuthor": "Для аўтара каманды"
       }
     },
     "LeadersCommand": {
@@ -455,7 +455,7 @@
       }
     },
     "ReportCommand": {
-      "Name": "Пожаловаться",
+      "Name": "Паскардзіцца",
       "Description": "Отправить жалобу на пользователя",
       "Options": {
         "User": {
@@ -467,30 +467,30 @@
       },
       "Texts": {
         "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
-        "UnknownUser": "{username}, пользователь не найден",
+        "UnknownUser": "{username}, карыстальнік не знойдзены",
         "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
         "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
         "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
         "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
         "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
-        "RecentReports": "Последние жалобы",
-        "ReportCount": "Количество жалоб"
+        "RecentReports": "Апошнія скаргі",
+        "ReportCount": "Колькасць скаргаў"
       }
     },
     "UnbanCommand": {
-      "Description": "Разблокировать пользователя на сервере",
+      "Description": "Разблакіраваць карыстальніка на серверы",
       "Options": {
         "UserId": {
-          "Description": "Кого необходимо разблокировать"
+          "Description": "Каго неабходна разблакіраваць"
         },
         "Reason": {
-          "Description": "Причина снятия блокировки"
+          "Description": "Прычына зняцця блакіроўкі"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите идентификатор пользователя, которого необходимо разблокировать",
-        "BanNotFound": "{username}, не удалось найти заблокированного пользователя с указанным идентификатором",
-        "UserHasBeenUnbanned": "{username}, пользователь {target} был успешно разблокирован"
+        "InvalidUser": "{username}, калі ласка, пазначце ідэнтыфікатар карыстальніка, якога неабходна разблакіраваць",
+        "BanNotFound": "{username}, не ўдалося знайсці заблакіраванага карыстальніка з пазначаным ідэнтыфікатарам",
+        "UserHasBeenUnbanned": "{username}, карыстальнік {target} быў паспяхова разблакіраваны"
       }
     },
     "UnmuteCommand": {
@@ -518,7 +518,7 @@
       },
       "Texts": {
         "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
-        "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
+        "NoOneHasAnyViolations": "{username}, ні ў кога на серверы няма парушэнняў",
         "UserViolations": "Нарушения {target}",
         "ViolationsIn24Hours": "За сутки",
         "ViolationsIn7Days": "За 7 дней",
@@ -624,7 +624,7 @@
       "Description": "Перемотать воспроизведение текущего трека на указанную позицию",
       "Options": {
         "Time": {
-          "Description": "Время в формате чч:мм:сс"
+          "Description": "Час у фармаце гг:хх:сс"
         }
       },
       "Texts": {
@@ -850,14 +850,14 @@
   },
   "Pages": {
     "AuthorizationPage": {
-      "ShareEmailAddress": "Поделиться адресом эл. почты",
-      "JoinSupportServer": "Присоединиться к серверу поддержки"
+      "ShareEmailAddress": "Падзяліцца адрасам эл. пошты",
+      "JoinSupportServer": "Далучыцца да сервера падтрымкі"
     },
     "AuthorizationResultPage": {
-      "AuthorizationSuccessful": "Авторизация прошла успешно",
-      "AuthorizationFailed": "Авторизация не удалась",
+      "AuthorizationSuccessful": "Аўтарызацыя прайшла паспяхова",
+      "AuthorizationFailed": "Аўтарызацыя не ўдалася",
       "CloseWindowAndGoBack": "Вы можете закрыть это окно и вернуться в Discord.",
-      "SomethingWentWrong": "Что-то пошло не так. Попробуйте позже."
+      "SomethingWentWrong": "Нешта пайшло не так. Паспрабуйце пазней."
     },
     "DashboardPage": {
       "Profile": "Профиль",
@@ -870,7 +870,7 @@
       "BillStatus": "Статус платежа"
     },
     "ErrorPage": {
-      "ThereIsNothingHere": "Здесь ничего нет..."
+      "ThereIsNothingHere": "Тут нічога няма..."
     },
     "GuildPage": {
       "NavNames": {
@@ -922,9 +922,9 @@
         "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
         "Log": "Журнал",
         "LogDescription": "Отслеживание действий и событий",
-        "CaseLogChannel": "Канал для случаев",
-        "CaseLogChannelDescription": "В указанном канале будут логироваться действия модераторов",
-        "CaseLogTypes": "Типы случаев",
+        "CaseLogChannel": "Канал для выпадкаў",
+        "CaseLogChannelDescription": "У прызначаным канале будуць лагіравацца дзеянні мадэратараў",
+        "CaseLogTypes": "Тыпы выпадкаў",
         "CaseLogTypesDescription": "События журнала модерации",
         "ActionLog": "Журнал действия",
         "ActionLogDescription": "События сервера",
@@ -947,9 +947,9 @@
         "LevelsVoiceExp": "Опыт за голосовую активность",
         "LevelsResetOnLeave": "Сбрасывать уровень при выходе участника",
         "LevelsAlerts": "Оповещения о повышении уровня",
-        "LevelsAwards": "Награды",
+        "LevelsAwards": "Узнагароды",
         "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
-        "Economy": "Экономика",
+        "Economy": "Эканоміка",
         "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
         "EconomyCurrencies": "Валюты",
         "EconomyStoreItems": "Предметы магазина",
@@ -959,7 +959,7 @@
       "VoiceChannels": {
         "Music": "Музыка",
         "MusicAllowRadioPlayback": "Разрешить потоковое воспроизведение",
-        "MusicQueueMaxLength": "Максимальный размер очереди",
+        "MusicQueueMaxLength": "Максімальны памер чаргі",
         "MusicDefaultVolume": "Громкость по умолчанию",
         "MusicDefaultSource": "Источник по умолчанию",
         "VoiceRoles": "Голосовые роли",
@@ -972,12 +972,12 @@
         "ReportsNotifyAboutUnwantedUsers": "Уведомлять о присоединении потенциально нежелательных пользователей",
         "BannerRotation": "Ротация баннера",
         "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
-        "AutoReactions": "Автореакции",
+        "AutoReactions": "Аўтарэакцыі",
         "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
         "AutoThreads": "Автоветки",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
-        "InteractiveMessages": "Интерактивные сообщения",
-        "InteractiveReactions": "Интерактивные реакции",
+        "InteractiveMessages": "Інтэрактыўныя паведамленні",
+        "InteractiveReactions": "Інтэрактыўныя рэакцыі",
         "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции"
       }
     },
@@ -1131,7 +1131,7 @@
       "CompareValuesLeftPart": "Левая часть",
       "CompareValuesRightPart": "Правая часть",
       "CompareValuesFalseReply": "Ложный ответ",
-      "ModifyRolesUserId": "Идентификатор пользователя",
+      "ModifyRolesUserId": "Ідэнтыфікатар карыстальніка",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
       "ModifyWalletAmount": "Количество валюты",
       "ModifyWalletUserIdDescription": "Изменить кошелёк указанного пользователя (по умолчанию указан автор команды)",
@@ -1163,7 +1163,7 @@
       "DNBStep3": "Убедитесь, что выбрали наш {server}, затем забустите его",
       "DNBStep4": "После этого, нажмите на кнопку \"Проверить\" ниже и вам станут доступны бонусы",
       "DNBBonusesInfo": "Бонусы будут доступны до тех пор, пока вы являетесь бустером сервера поддержки. Вы можете активировать бонусы только для одного сервера.",
-      "Check": "Проверить",
+      "Check": "Праверыць",
       "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Сравнение планов",
       "PlanComparisonFeatures": {
@@ -1204,22 +1204,22 @@
       "WarningCount": "Количество предупреждений"
     },
     "Subscriptions": {
-      "ChannelName": "Название канала",
+      "ChannelName": "Назва канала",
       "TwitchDisplayStreamPreview": "Показывать предпросмотр стрима",
       "YoutubeChannelName": "Название или идентификатор канала",
       "NotificationsChannel": "Канал для оповещений",
       "NotificationsText": "Текст оповещений",
       "TelegramHelpNote": "Для того, чтобы связать Telegram и Discord, необходимо добавить бота {botLink} в нужный канал, затем ввести его название или идентификатор в поле ниже.",
       "TelegramChannelNameDescription": "Уникальный идентификатор или имя выбранного канала (в формате {'@'}channelusername)",
-      "MentionRoles": "Упомянуть роли",
-      "CrosspostMessage": "Опубликовать сообщение",
+      "MentionRoles": "Згадаць ролі",
+      "CrosspostMessage": "Апублікаваць паведамленне",
       "CreateThread": "Создать ветвь"
     },
     "SystemCommand": {
       "Throttling": "Ограничение использований",
       "ThrottlingScope": "Область действия",
       "ThrottlingScopes": {
-        "PerUser": "На пользователя",
+        "PerUser": "На карыстальніка",
         "PerChannel": "На канал",
         "PerGuild": "На сервер"
       },
@@ -1271,7 +1271,7 @@
       "DefaultName": "Стандартное название",
       "DefaultUserLimit": "Ограничение пользователей",
       "DefaultCategory": "Категория по умолчанию",
-      "DefaultPosition": "Позиция",
+      "DefaultPosition": "Пазіцыя",
       "DefaultPositionDescription": "Позиция временного голосового канала относительно других каналов в категории",
       "DefaultPositions": {
         "Top": "Сверху",
@@ -1286,13 +1286,13 @@
       "BoundChannelsDescription": "Оставьте поле пустым, если хотите, чтобы роль выдавалась при подключении к любому каналу"
     },
     "Header": {
-      "Guilds": "Сообщества",
-      "State": "Состояние",
-      "Docs": "Справочник",
+      "Guilds": "Суполкі",
+      "State": "Стан",
+      "Docs": "Даведнік",
       "Patrons": "Покровители",
-      "Community": "Сообщество",
-      "Login": "Войти",
-      "Logout": "Выйти",
+      "Community": "Суполка",
+      "Login": "Увайсці",
+      "Logout": "Выйсці",
       "ReleaseNotes": "Список изменений"
     },
     "ImageEditor": {
@@ -1369,10 +1369,10 @@
       "Functions": "Функции"
     },
     "EmojiPicker": {
-      "Search": "Поиск",
-      "NotFound": "Ничего не найдено",
+      "Search": "Пошук",
+      "NotFound": "Нічога не знойдзена",
       "Categories": {
-        "Search": "Результаты поиска",
+        "Search": "Вынікі пошуку",
         "Recent": "Часто используемые",
         "Smileys": "Смайлики",
         "People": "Люди",
@@ -1389,7 +1389,7 @@
   },
   "Logs": {
     "UserChangesSomething": "{username} изменяет {change}",
-    "UnknownUser": "Неизвестный пользователь",
+    "UnknownUser": "Невядомы карыстальнік",
     "BeforeChange": "До изменения",
     "AfterChange": "После изменения",
     "ChannelCreated": "Канал создан",
