@@ -203,7 +203,7 @@
         "UnknownCommand": "{username}, команда не найдена",
         "CommandUsage": "Использование команды",
         "CommandArguments": "Аргументы команды",
-        "CommandArgumentRequired": "Обязательный аргумент",
+        "CommandArgumentRequired": "Абавязковы аргумент",
         "CommandArgumentOptional": "Необязательный аргумент",
         "CommandArgumentType": "Тип аргумента: {type}",
         "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
@@ -216,7 +216,7 @@
       "Options": {
         "Sorting": {
           "Description": "Сортировка таблицы лидеров по выбранному типу активности",
-          "ChoiceLevel": "по уровню",
+          "ChoiceLevel": "па ўзроўню",
           "ChoiceBalance": "по балансу"
         },
         "Page": {
@@ -229,11 +229,11 @@
         "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
         "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
         "ServerLeadersBy": "Лидеры сервера {sortBy}",
-        "CurrentLevel": "Ур. {level}"
+        "CurrentLevel": "Узр. {level}"
       }
     },
     "RankCommand": {
-      "Name": "Показать уровень",
+      "Name": "Паказаць узровень",
       "Description": "Уровневая карточка",
       "Options": {
         "User": {
