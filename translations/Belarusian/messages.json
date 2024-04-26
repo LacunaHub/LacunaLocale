@@ -132,7 +132,7 @@
     },
     "Options": {
       "Command": "каманда",
-      "Sorting": "сортировка",
+      "Sorting": "сартаванне",
       "Page": "старонка",
       "User": "карыстальнік",
       "SKU": "артыкул",
@@ -176,10 +176,10 @@
     "CommandExecutionOnlyWithPremium": "{username}, выкананне гэтай каманды даступна толькі з Lacuna Diamond",
     "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
     "AboutCommand": {
-      "Description": "Базовая информация о боте",
+      "Description": "Базавая інфармацыя пра бота",
       "Texts": {
-        "Developer": "Разработчик",
-        "CurrentVersion": "Текущая версия",
+        "Developer": "Распрацоўшчык",
+        "CurrentVersion": "Бягучая версія",
         "Shard": "Фрагмент",
         "ShardCount": "Колькасць фрагментаў",
         "ShardUptime": "Час працы фрагмента",
@@ -225,9 +225,9 @@
       },
       "Texts": {
         "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
-        "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
-        "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
-        "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
+        "EconomyIsDisabled": "{username}, эканоміка адключана на гэтым серверы",
+        "NoLevelsYet": "{username}, на гэтым серверы яшчэ ніхто не атрымліваў узровень",
+        "NoWalletsYet": "{username}, на гэтым серверы яшчэ няма кашалькоў",
         "ServerLeadersBy": "Лідары сервера {sortBy}",
         "CurrentLevel": "Узр. {level}"
       }
@@ -252,7 +252,7 @@
         "GuildId": "Ідэнтыфікатар суполкі",
         "MemberCount": "Колькасць удзельнікаў",
         "ChannelCount": "Колькасьць каналаў",
-        "RoleCount": "Количество ролей",
+        "RoleCount": "Колькасць роляў",
         "EmojiCount": "Колькасць эмодзі",
         "GuildVerificationLevel": "Узровень праверкі",
         "GuildVerificationLevels": {
@@ -262,14 +262,14 @@
           "High": "Высокі",
           "VeryHigh": "Вельмі высокі"
         },
-        "GuildAFKChannel": "Канал простоя",
+        "GuildAFKChannel": "Канал прастою",
         "GuildDateOfCreation": "Сервер створаны {relativeTime}"
       }
     },
     "StoreCommand": {
-      "Description": "Магазин предметов сервера",
+      "Description": "Крама прадметаў сервера",
       "Texts": {
-        "NoItemsForPurchaseInStore": "{username}, в магазине нет предметов для приобретения",
+        "NoItemsForPurchaseInStore": "{username}, у краме няма прадметаў для набыцця",
         "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
         "ItemPreviouslyPurchased": "{username}, вы раней набывалі гэты прадмет",
         "UserHasPurchasedItem": "{username}, вы набылі прадмет {item}"
