@@ -860,10 +860,10 @@
       "SomethingWentWrong": "Нешта пайшло не так. Паспрабуйце пазней."
     },
     "DashboardPage": {
-      "Profile": "Профиль",
+      "Profile": "Профіль",
       "NoActivities": "Похоже, вы не проявляли активности",
-      "MyGuilds": "Мои сообщества",
-      "NoGuilds": "У вас нет доступных сообществ.",
+      "MyGuilds": "Мае суполкі",
+      "NoGuilds": "У вас няма даступных суполак.",
       "Bills": "Выставленные счета",
       "BillId": "Номер счёта",
       "BillAmount": "Сумма платежа",
@@ -874,45 +874,45 @@
     },
     "GuildPage": {
       "NavNames": {
-        "General": "Общее",
-        "Commands": "Команды",
+        "General": "Агульнае",
+        "Commands": "Каманды",
         "Moderation": "Модерирование",
         "CustomBehavior": "Пользовательское поведение",
-        "Activities": "Активности",
-        "Subscriptions": "Социальные оповещения",
-        "VoiceChannels": "Голосовые каналы",
-        "Utility": "Полезное",
-        "ChangeLog": "Журнал изменений",
-        "DownloadLogs": "Скачать логи"
+        "Activities": "Актыўнасці",
+        "Subscriptions": "Сацыяльная абвяшчэнні",
+        "VoiceChannels": "Галасавыя каналы",
+        "Utility": "Карыснае",
+        "ChangeLog": "Журнал змен",
+        "DownloadLogs": "Спампаваць логі"
       },
-      "SomethingWentWrongWhenTryingToSave": "Что-то пошло не так при попытке сохранения. Пожалуйста, попробуйте немного позже.",
-      "UnsavedChangesArePresent": "Имеются несохраненные изменения! Вы действительно хотите покинуть эту страницу?",
+      "SomethingWentWrongWhenTryingToSave": "Нешта пайшло не так пры спробе захавання. Калі ласка, паспрабуйце крыху пазней.",
+      "UnsavedChangesArePresent": "Ёсць незахаваныя змены! Вы ўпэўнены, што хочаце пакінуць гэтую старонку?",
       "GeneralSettings": {
-        "Title": "Общие настройки",
-        "Locale": "Локализация",
-        "Translate": "Перевести",
+        "Title": "Агульныя налады",
+        "Locale": "Лакалізацыя",
+        "Translate": "Перакласці",
         "ExpertRoles": "Роли экспертов",
         "ExpertRolesDescription": "Выбранные роли смогут просматривать и изменять настройки бота, будьте осторожны",
         "Greeting": "Приветствие",
-        "MessageFormat": "Формат сообщений",
+        "MessageFormat": "Фармат паведамленняў",
         "MessageFormats": {
-          "DM": "В личные сообщения",
-          "Channel": "В установленный канал",
-          "CurrentChannel": "В текущий канал"
+          "DM": "У асабістыя паведамленні",
+          "Channel": "У вызначаны канал",
+          "CurrentChannel": "У бягучы канал"
         },
-        "ChannelForMessages": "Канал для сообщений",
-        "MessageTemplate": "Шаблон сообщения",
-        "InitialRoles": "Начальные роли",
-        "Restoring": "Восстановление",
-        "RestoringDescription": "Восстанавливать роли и/или никнейм участнику, который повторно зашел на сервер",
-        "RestoreRoles": "Восстанавливать роли",
-        "RestoreNickname": "Восстанавливать никнейм",
-        "RestoreStrictRoles": "Строгие роли",
-        "RestoreStrictRolesDescription": "Эти роли не будут восстановлены при повторном присоединении на сервер",
-        "Farewell": "Прощание"
+        "ChannelForMessages": "Канал для паведамленняў",
+        "MessageTemplate": "Шаблон паведамлення",
+        "InitialRoles": "Пачатковыя ролі",
+        "Restoring": "Аднаўленне",
+        "RestoringDescription": "Аднаўляць ролі і/ці нікнэйм удзельніку, які зноў далучыўся да сервера",
+        "RestoreRoles": "Аднаўляць ролі",
+        "RestoreNickname": "Аднаўляць нікнэйм",
+        "RestoreStrictRoles": "Строгія ролі",
+        "RestoreStrictRolesDescription": "Гэтыя ролі не будуць адноўлены пры паўторным далучэнні да сервера",
+        "Farewell": "Развітанне"
       },
       "Commands": {
-        "SystemCommands": "Системные команды"
+        "SystemCommands": "Сістэмныя каманды"
       },
       "Moderation": {
         "Hierarchy": "Иерархия",
@@ -1024,11 +1024,11 @@
       "IncomePerMessageRl": "Временное ограничение",
       "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
       "IncomePerMinute": "Заработок за минуту в голосовом канале",
-      "From": "От",
-      "To": "До"
+      "From": "Ад",
+      "To": "Да"
     },
     "EconomyStoreItem": {
-      "ItemName": "Название предмета",
+      "ItemName": "Назва прадмета",
       "ItemType": "Тип предмета",
       "ItemDescription": "Описание предмета",
       "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
