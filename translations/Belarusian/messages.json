@@ -181,46 +181,46 @@
         "Developer": "Разработчик",
         "CurrentVersion": "Текущая версия",
         "Shard": "Фрагмент",
-        "ShardCount": "Количество фрагментов",
-        "ShardUptime": "Время работы фрагмента",
+        "ShardCount": "Колькасць фрагментаў",
+        "ShardUptime": "Час працы фрагмента",
         "Latency": "Задержка",
-        "TotalGuilds": "Всего сообществ",
-        "TotalUsers": "Всего пользователей",
-        "OSUptime": "Время работы системы"
+        "TotalGuilds": "Усяго суполак",
+        "TotalUsers": "Усяго карыстальнікаў",
+        "OSUptime": "Час працы сістэмы"
       }
     },
     "HelpCommand": {
-      "Description": "Список доступных команд и их описание",
+      "Description": "Спіс даступных каманд і іх апісанне",
       "Options": {
         "Command": {
-          "Description": "Дополнительная информация об указанной команде"
+          "Description": "Дадатковая інфармацыя аб указанай камандзе"
         }
       },
       "Texts": {
-        "ListOfCommands": "Список команд",
-        "HelpForCommand": "Справка по команде {command}",
-        "ControlPanel": "Панель управления",
-        "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Использование команды",
-        "CommandArguments": "Аргументы команды",
+        "ListOfCommands": "Спіс каманд",
+        "HelpForCommand": "Даведка па камандзе {command}",
+        "ControlPanel": "Панэль кіравання",
+        "UnknownCommand": "{username}, каманда не знойдзена",
+        "CommandUsage": "Выкарыстоўванне каманды",
+        "CommandArguments": "Аргументы каманды",
         "CommandArgumentRequired": "Абавязковы аргумент",
         "CommandArgumentOptional": "Неабавязковы аргумент",
-        "CommandArgumentType": "Тип аргумента: {type}",
-        "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
+        "CommandArgumentType": "Тып аргумента: {type}",
+        "CommandRequiredPermissions": "Неабходныя дазволы для выканання каманды",
         "CommandPermissionsForBot": "Для бота",
         "CommandPermissionsForAuthor": "Для аўтара каманды"
       }
     },
     "LeadersCommand": {
-      "Description": "Таблица лидеров сервера по активности",
+      "Description": "Табліца лідараў сервера па актыўнасці",
       "Options": {
         "Sorting": {
-          "Description": "Сортировка таблицы лидеров по выбранному типу активности",
+          "Description": "Сартаванне табліцы лідараў па выбранаму тыпу актыўнасці",
           "ChoiceLevel": "па ўзроўню",
           "ChoiceBalance": "по балансу"
         },
         "Page": {
-          "Description": "Номер страницы таблицы лидеров"
+          "Description": "Нумар старонкі табліцы лідараў"
         }
       },
       "Texts": {
@@ -228,21 +228,21 @@
         "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
         "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
         "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
-        "ServerLeadersBy": "Лидеры сервера {sortBy}",
+        "ServerLeadersBy": "Лідары сервера {sortBy}",
         "CurrentLevel": "Узр. {level}"
       }
     },
     "RankCommand": {
       "Name": "Паказаць узровень",
-      "Description": "Уровневая карточка",
+      "Description": "Узроўневая картка",
       "Options": {
         "User": {
-          "Description": "Чью уровневую карточку необходимо показать"
+          "Description": "Чыю ўзроўневую картку неабходна паказаць"
         }
       },
       "Texts": {
-        "ImageRenderError": "{username}, произошла ошибка при создании уровневой карточки",
-        "LevelCardNotFound": "{username}, уровневая карточка не найдена"
+        "ImageRenderError": "{username}, адбылася памылка пры стварэнні ўзроўневай карткі",
+        "LevelCardNotFound": "{username}, узроўневая картка не знойдзена"
       }
     },
     "ServerCommand": {
@@ -271,8 +271,8 @@
       "Texts": {
         "NoItemsForPurchaseInStore": "{username}, в магазине нет предметов для приобретения",
         "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
-        "ItemPreviouslyPurchased": "{username}, вы уже ранее приобрели этот предмет",
-        "UserHasPurchasedItem": "{username}, вы приобрели предмет {item}"
+        "ItemPreviouslyPurchased": "{username}, вы раней набывалі гэты прадмет",
+        "UserHasPurchasedItem": "{username}, вы набылі прадмет {item}"
       },
       "SubCommands": {
         "BuyCommand": {
@@ -357,43 +357,43 @@
       }
     },
     "BanCommand": {
-      "Description": "Заблокировать пользователя на сервере",
+      "Description": "Заблакіраваць карыстальніка на серверы",
       "Options": {
         "User": {
-          "Description": "Кого необходимо заблокировать"
+          "Description": "Каго неабходна заблакіраваць"
         },
         "Duration": {
           "Description": "Длительность блокировки"
         },
         "Reason": {
-          "Description": "Причина блокировки"
+          "Description": "Прычына блакіроўкі"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите заблокировать",
+        "InvalidUser": "{username}, калі ласка, пазначце карыстальніка, якога неабходна заблакіраваць",
         "YouCannotBanYourself": "{username}, не думаю, что я могу позволить вам заблокировать самого себя",
-        "CannotBanThisUser": "{username}, невозможно заблокировать этого пользователя",
+        "CannotBanThisUser": "{username}, немагчыма заблакіраваць гэтага карыстальніка",
         "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
         "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
         "UserHasUnmoderatedRoles": "{username}, пользователь имеет одну или несколько ролей для которых запрещены действия модерирования",
-        "UserHasBeenBanned": "{username}, пользователю {target} выдана блокировка на сервере"
+        "UserHasBeenBanned": "{username}, карыстальніку {target} выдана блакіроўка на серверы"
       }
     },
     "KickCommand": {
-      "Description": "Выгнать пользователя с сервера",
+      "Description": "Выгнаць карыстальніка з сервера",
       "Options": {
         "User": {
-          "Description": "Кого необходимо выгнать"
+          "Description": "Каго неабходна выгнаць"
         },
         "Reason": {
-          "Description": "Причина изгнания"
+          "Description": "Прычына выгнання"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите выгнать",
+        "InvalidUser": "{username}, калі ласка, пазначце карыстальніка, якога жадаеце выгнаць",
         "YouCannotKickYourself": "{username}, не думаю, что я могу позволить вам выгнать самого себя",
-        "CannotKickThisUser": "{username}, невозможно выгнать этого пользователя",
-        "UserHasBeenKicked": "{username}, пользователь {target} был выгнан с сервера"
+        "CannotKickThisUser": "{username}, немагчыма выгнаць гэтага карыстальніка",
+        "UserHasBeenKicked": "{username}, карыстальнік {target} быў выгнаны з сервера"
       }
     },
     "MuteCommand": {
@@ -418,32 +418,32 @@
       }
     },
     "PruneCommand": {
-      "Description": "Очистка последних сообщений в канале (сообщения старше 2 недель игнорируются)",
+      "Description": "Ачыстка апошніх паведамленняў у канале (паведамленні старэйшыя за 2 тыдні ігнаруюцца)",
       "Options": {
         "Amount": {
-          "Description": "Сколько сообщений необходимо удалить"
+          "Description": "Колькі паведамленняў неабходна выдаліць"
         },
         "User": {
-          "Description": "От кого удалить сообщения"
+          "Description": "Ад каго выдаліць паведамленні"
         },
         "Reason": {
-          "Description": "Причина очистки сообщений"
+          "Description": "Прычына ачысткі паведамленняў"
         }
       },
       "Texts": {
-        "InvalidAmount": "{username}, укажите количество сообщений, которое нужно очистить",
+        "InvalidAmount": "{username}, пазначце колькасць паведамленняў, якія неабходна ачысціць",
         "InvalidAmountDiapason": "{username}, количество должно быть целым числом в диапазоне от 2 до 100",
-        "MessagesHaveBeenPruned": "{username}, очищено сообщений: {amount}"
+        "MessagesHaveBeenPruned": "{username}, ачышчана паведамленняў: {amount}"
       }
     },
     "ReasonCommand": {
-      "Description": "Изменить причину случая в журнале модерации",
+      "Description": "Змяніць прычыну выпадку ў журнале мадэрацыі",
       "Options": {
         "CaseId": {
-          "Description": "Порядковый номер случая в журнале"
+          "Description": "Парадкавы нумар выпадку ў журнале"
         },
         "Reason": {
-          "Description": "Новая причина для случая"
+          "Description": "Новая прычына для выпадку"
         }
       },
       "Texts": {
