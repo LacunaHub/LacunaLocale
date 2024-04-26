@@ -879,7 +879,7 @@
         "Moderation": "Модерирование",
         "CustomBehavior": "Пользовательское поведение",
         "Activities": "Актыўнасці",
-        "Subscriptions": "Сацыяльная абвяшчэнні",
+        "Subscriptions": "Сацыяльныя абвяшчэнні",
         "VoiceChannels": "Галасавыя каналы",
         "Utility": "Карыснае",
         "ChangeLog": "Журнал змен",
@@ -1029,22 +1029,22 @@
     },
     "EconomyStoreItem": {
       "ItemName": "Назва прадмета",
-      "ItemType": "Тип предмета",
-      "ItemDescription": "Описание предмета",
+      "ItemType": "Тып прадмета",
+      "ItemDescription": "Апісанне прадмета",
       "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
-      "ItemProducts": "Товары",
+      "ItemProducts": "Тавары",
       "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
       "ItemOptions": {
         "LimitedQuantity": "Ограниченное количество",
         "TemporaryReferences": "Выдавать роли временно",
         "CustomPurchaseReply": "Индивидуальное сообщение покупки"
       },
-      "ItemQuantity": "Количество предметов",
+      "ItemQuantity": "Колькасць прадметаў",
       "ItemDuration": "Длительность предмета"
     },
     "LevelAward": {
-      "AwardConditions": "Условия для получения награды",
-      "RequiredLevel": "Необходимый уровень",
+      "AwardConditions": "Умовы для атрымання ўзнагароды",
+      "RequiredLevel": "Неабходны ўзровень",
       "RequiredVoiceTime": "Необходимое голосовое время",
       "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
       "AwardMessage": "Сообщение при получении награды"
@@ -1061,7 +1061,7 @@
         "InteractionButton": "Нажатие на кнопку",
         "InteractionSelectMenu": "Выбор опции в списке",
         "InteractionModalSubmit": "Отправка формы модального окна",
-        "MessageCreate": "Отправка сообщения",
+        "MessageCreate": "Адпраўка паведамлення",
         "MessageReactionAdd": "Добавление реакции на сообщение"
       }
     },
@@ -1070,11 +1070,11 @@
       "AntiCapsPercentage": "Процент содержания капса в сообщении",
       "AntiCapsMinimumSymbols": "Минимальное количество символов",
       "LinksFilter": "Фильтрация ссылок",
-      "LinksFilterAllowedRegistry": "Реестр разрешенных ссылок",
-      "LinksFilterBlockedRegistry": "Реестр запрещенных ссылок",
+      "LinksFilterAllowedRegistry": "Рэестр дазволеных спасылак",
+      "LinksFilterBlockedRegistry": "Рэестр забароненых спасылак",
       "LinksFilterOptions": {
-        "DeleteAllLinks": "Удалять все ссылки",
-        "DeleteReferralInvites": "Удалять все сторонние приглашения"
+        "DeleteAllLinks": "Выдаляць усе спасылкі",
+        "DeleteReferralInvites": "Выдаляць усе пабочныя запрашэнні"
       },
       "NewbiesModeration": "Модерирование новоприбывших",
       "NewbiesModerationMinimumAccountAge": "Минимальный возраст аккаунта",
@@ -1085,12 +1085,12 @@
         "SpecialCharacters": "Специальные символы",
         "Zalgo": "Залго",
         "Diacritics": "Диакритические знаки",
-        "Emojis": "Эмодзи"
+        "Emojis": "Эмодзі"
       },
-      "NicknamesModerationContains": "Другие значения",
+      "NicknamesModerationContains": "Іншыя значэнні",
       "NicknamesModerationContainsDescription": "Убирать значения из никнеймов, которые содержатся в этом списке",
       "SwearFilter": "Фильтрация слов",
-      "SwearFilterRegistryTitle": "Реестр запрещенных слов",
+      "SwearFilterRegistryTitle": "Рэестр забароненых слоў",
       "UsersSlowdown": "Замедление отправки сообщений",
       "UsersSlowdownMessagesLimitTitle": "Ограничение сообщений",
       "UsersSlowdownMessagesLimitDescription": "Сколько сообщений можно отправить в течении 5 секунд",
@@ -1098,26 +1098,26 @@
       "PenaltyTimeout": "Тайм-аут наказания"
     },
     "CustomCommand": {
-      "CommandName": "Название команды",
-      "CommandDescription": "Описание команды",
-      "CommandArgumentName": "Название аргумента",
-      "CommandArgumentType": "Тип аргумента",
-      "CommandArgumentDescription": "Описание аргумента",
+      "CommandName": "Назва каманды",
+      "CommandDescription": "Апісанне каманды",
+      "CommandArgumentName": "Назва аргумента",
+      "CommandArgumentType": "Тып аргумента",
+      "CommandArgumentDescription": "Апісанне аргумента",
       "CommandArgumentChoices": "Варианты выбора",
       "CommandArgumentChoiceName": "Название выбора",
       "CommandArgumentChoiceValue": "Значение выбора",
-      "AddCondition": "Добавить условие",
-      "AddAction": "Добавить действие",
+      "AddCondition": "Дадаць умову",
+      "AddAction": "Дадаць дзеянне",
       "ComponentNames": {
-        "CompareValues": "Сравнить значения",
-        "Reply": "Ответить",
-        "SendMessage": "Отправить сообщение",
-        "ForwardToCommand": "Перенаправить на команду",
+        "CompareValues": "Параўнаць значэнні",
+        "Reply": "Адказаць",
+        "SendMessage": "Адправіць паведамленне",
+        "ForwardToCommand": "Перанакіраваць на каманду",
         "ModifyWallet": "Изменить кошелёк",
         "ExecuteCode": "Выполнить код",
         "ShowModal": "Открыть модальное окно"
       },
-      "CompareValuesOperator": "Оператор",
+      "CompareValuesOperator": "Аператар",
       "CompareValuesOperators": {
         "Equal": "Равно",
         "NotEqual": "Не равно",
@@ -1496,7 +1496,7 @@
       "Kick": "Выгнать",
       "Warn": "Выдать предупреждение",
       "ModifyRoles": "Изменить роли",
-      "SendMessage": "Отправить сообщение",
+      "SendMessage": "Адправіць паведамленне",
       "DeleteMessage": "Удалить сообщение",
       "ResetViolations": "Обнулить предупреждения",
       "EphemeralReply": "Эфемерное сообщение",
