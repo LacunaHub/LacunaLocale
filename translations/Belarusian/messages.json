@@ -517,14 +517,14 @@
         }
       },
       "Texts": {
-        "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
+        "ThisUserHasNoViolations": "{username}, у гэтага карыстальніка няма парушэнняў",
         "NoOneHasAnyViolations": "{username}, ні ў кога на серверы няма парушэнняў",
-        "UserViolations": "Нарушения {target}",
-        "ViolationsIn24Hours": "За сутки",
-        "ViolationsIn7Days": "За 7 дней",
-        "Last10Violations": "Последние 10 нарушений",
-        "TotalViolations": "Всего нарушений",
-        "ListOfViolators": "Список нарушителей"
+        "UserViolations": "Парушэнні {target}",
+        "ViolationsIn24Hours": "За суткі",
+        "ViolationsIn7Days": "За 7 дзён",
+        "Last10Violations": "Апошнія 10 парушэнняў",
+        "TotalViolations": "Усяго парушэнняў",
+        "ListOfViolators": "Спіс парушальнікаў"
       }
     },
     "WarnCommand": {
@@ -932,7 +932,7 @@
         "MutesRAR": "Убирать все роли при заглушении",
         "MutesRARStrict": "Убирать все, кроме",
         "AutoMod": "Автомодерация",
-        "AutoModDescription": "Автоматическое применение мер против нарушителей",
+        "AutoModDescription": "Аўтаматычнае прымяненне мер супраць парушальнікаў",
         "Penalties": "Наказания за предупреждения",
         "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
       },
