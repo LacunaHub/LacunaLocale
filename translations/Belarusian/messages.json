@@ -91,10 +91,10 @@
     "AllowedRoles": "Дазволеныя ролі",
     "BlockedChannels": "Забароненыя каналы",
     "BlockedRoles": "Забароненыя ролі",
-    "IgnoredChannels": "Игнорируемые каналы",
-    "IgnoredRoles": "Игнорируемые роли",
-    "IgnoredPermissions": "Игнорируемые разрешения",
-    "IgnoreBots": "Игнорировать ботов",
+    "IgnoredChannels": "Ігнараваныя каналы",
+    "IgnoredRoles": "Ігнараваныя ролі",
+    "IgnoredPermissions": "Ігнараваныя дазволы",
+    "IgnoreBots": "Ігнараваць батоў",
     "DateUnits": {
       "Minutes": "Хвіліны",
       "Hours": "Гадзіны",
@@ -183,7 +183,7 @@
         "Shard": "Фрагмент",
         "ShardCount": "Колькасць фрагментаў",
         "ShardUptime": "Час працы фрагмента",
-        "Latency": "Задержка",
+        "Latency": "Затрымка",
         "TotalGuilds": "Усяго суполак",
         "TotalUsers": "Усяго карыстальнікаў",
         "OSUptime": "Час працы сістэмы"
@@ -295,9 +295,9 @@
             }
           },
           "Texts": {
-            "ServerStore": "Магазин сервера",
+            "ServerStore": "Крама сервера",
             "ServerStoreHowToBuyItem": "Выберите предмет в выпадающем списке ниже или введите команду {command}, чтобы приобрести его",
-            "PurchasePrice": "Цена покупки",
+            "PurchasePrice": "Кошт пакупкі",
             "ItemContains": "Содержит в себе",
             "ItemQuantity": "Оставшееся количество",
             "SelectItemToPurchase": "Выберите предмет для покупки"
@@ -313,32 +313,32 @@
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Дата регистрации аккаунта",
-        "DateOfJoiningServer": "Дата вступления на сервер",
-        "LinkToAvatar": "Ссылка на аватар",
-        "LinkToBanner": "Ссылка на баннер"
+        "AccountRegistrationDate": "Дата рэгістрацыі акаўнта",
+        "DateOfJoiningServer": "Дата далучэння да сервера",
+        "LinkToAvatar": "Спасылка на аватар",
+        "LinkToBanner": "Спасылка на банер"
       }
     },
     "WalletCommand": {
-      "Description": "Операции с кошельком",
+      "Description": "Аперацыі з кашальком",
       "SubCommands": {
         "BalanceCommand": {
-          "Description": "Показать баланс кошелька",
+          "Description": "Паказаць баланс кашалька",
           "Options": {
             "User": {
-              "Description": "Чей баланс кошелька необходимо показать"
+              "Description": "Чый баланс кашалька неабходна паказаць"
             }
           },
           "Texts": {
             "WalletIsEmpty": "Кошелёк пуст",
-            "WalletBalanceOfUser": "Баланс пользователя {username}"
+            "WalletBalanceOfUser": "Баланс карыстальніка {username}"
           }
         },
         "TransferCommand": {
-          "Description": "Перевод средств на другой кошелёк",
+          "Description": "Перавод грошай на іншы кашалёк",
           "Options": {
             "User": {
-              "Description": "Кому необходимо перевести средства"
+              "Description": "Каму неабходна перавесці грошы"
             },
             "Amount": {
               "Description": "Количество средств перевода"
