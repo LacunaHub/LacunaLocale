@@ -142,7 +142,6 @@
       "Amount": "amount",
       "MessageId": "message-id",
       "UserId": "user-id",
-      "CaseId": "case-number",
       "WarnId": "warning-number",
       "Query": "query",
       "Source": "source",
@@ -437,20 +436,8 @@
       }
     },
     "ReasonCommand": {
-      "Description": "Change the reason for the case in the moderation log",
-      "Options": {
-        "CaseId": {
-          "Description": "The serial number of the case in the mod log"
-        },
-        "Reason": {
-          "Description": "New reason for case"
-        }
-      },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, the server has not set a channel for the moderation log",
-        "InvalidCaseId": "{username}, please specify the case number of the moderation log",
         "InvalidReason": "{username}, please specify the reason for the moderation log case",
-        "CaseMessageNotFound": "{username}, a message with this case number was not found. Remember that you can only change the last 50 cases of moderation",
         "CaseReasonHasBeenChanged": "{username}, the reason for the case has been changed"
       }
     },
@@ -474,7 +461,9 @@
         "ReportSubmitted": "{username}, thank you for letting us know about this",
         "PotentiallyUnwantedUser": "Potentially unwanted user due to received reports",
         "RecentReports": "Recent reports",
-        "ReportCount": "Report count"
+        "ReportCount": "Report count",
+        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
+        "ReportClosedBy": "{username} закрыл(-а) жалобу"
       }
     },
     "UnbanCommand": {
