@@ -142,7 +142,6 @@
       "Amount": "Menge",
       "MessageId": "Nachrichten-ID",
       "UserId": "Benutzer-ID",
-      "CaseId": "Fallnummer",
       "WarnId": "Warnungsnummer",
       "Query": "Anfrage",
       "Source": "Quelle",
@@ -437,20 +436,8 @@
       }
     },
     "ReasonCommand": {
-      "Description": "Ändern des Grundes eines Falls im Moderationsprotokoll",
-      "Options": {
-        "CaseId": {
-          "Description": "Laufende Nummer des Falls im Protokoll"
-        },
-        "Reason": {
-          "Description": "Neuer Grund für den Fall"
-        }
-      },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, es ist kein Moderationsprotokoll-Kanal auf dem Server eingerichtet",
-        "InvalidCaseId": "{username}, bitte geben Sie die Fallnummer aus dem Moderationsprotokoll an",
         "InvalidReason": "{username}, bitte geben Sie einen Grund für den Fall im Moderationsprotokoll an",
-        "CaseMessageNotFound": "{username}, keine Nachricht mit dieser Fallnummer gefunden. Beachten Sie, dass Sie nur die letzten 50 Moderationsfälle ändern können",
         "CaseReasonHasBeenChanged": "{username}, der Grund für den Fall wurde geändert"
       }
     },
@@ -474,7 +461,9 @@
         "ReportSubmitted": "{username}, danke, dass Sie uns darauf aufmerksam gemacht haben",
         "PotentiallyUnwantedUser": "Potenziell unerwünschter Benutzer aufgrund von Beschwerden",
         "RecentReports": "Aktuelle Beschwerden",
-        "ReportCount": "Anzahl der Beschwerden"
+        "ReportCount": "Anzahl der Beschwerden",
+        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
+        "ReportClosedBy": "{username} закрыл(-а) жалобу"
       }
     },
     "UnbanCommand": {
