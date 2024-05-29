@@ -142,7 +142,6 @@
       "Amount": "сан",
       "MessageId": "хабарлама-идентификаторы",
       "UserId": "пайдаланушы-идентификаторы",
-      "CaseId": "іс-шара нөмірі",
       "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
       "Source": "дереккөз",
@@ -437,20 +436,8 @@
       }
     },
     "ReasonCommand": {
-      "Description": "Модерация журналындағы іс себебін өзгерту",
-      "Options": {
-        "CaseId": {
-          "Description": "Журналдағы іс нөмірі"
-        },
-        "Reason": {
-          "Description": "Іс үшін жаңа себеп"
-        }
-      },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, серверде модерация журналы үшін арна орнатылмаған",
-        "InvalidCaseId": "{username}, модерация журналындағы іс нөмірін көрсетіңіз",
         "InvalidReason": "{username}, модерация журналындағы іс үшін себебін көрсетіңіз",
-        "CaseMessageNotFound": "{username}, такой іс нөмірі бар хат табылмады. Есіңізде болсын, тек соңғы 50 модерация ісін өзгерте аласыз",
         "CaseReasonHasBeenChanged": "{username}, іс себебі өзгерді"
       }
     },
@@ -474,7 +461,9 @@
         "ReportSubmitted": "{username}, бұл туралы бізге хабардар еткеніңіз үшін рахмет",
         "PotentiallyUnwantedUser": "Алдындағы шағымдардан кейін келе жатқыз келмейтін пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
-        "ReportCount": "Шағымдар саны"
+        "ReportCount": "Шағымдар саны",
+        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
+        "ReportClosedBy": "{username} закрыл(-а) жалобу"
       }
     },
     "UnbanCommand": {
