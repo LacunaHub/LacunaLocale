@@ -462,8 +462,8 @@
         "PotentiallyUnwantedUser": "Потенційно небажаний користувач через отримані скарги",
         "RecentReports": "Останні скарги",
         "ReportCount": "Кількість скарг",
-        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
-        "ReportClosedBy": "{username} закрыл(-а) жалобу"
+        "ReceivedReportAboutUser": "Отримано скаргу на користувача {username}",
+        "ReportClosedBy": "{username} закрив(-ла) скаргу"
       }
     },
     "UnbanCommand": {
