@@ -142,7 +142,6 @@
       "Amount": "Montant",
       "MessageId": "Identifiant du message",
       "UserId": "Identifiant de l'utilisateur",
-      "CaseId": "Numéro de cas",
       "WarnId": "Numéro d'avertissement",
       "Query": "Requête",
       "Source": "Source",
@@ -437,20 +436,8 @@
       }
     },
     "ReasonCommand": {
-      "Description": "Modifier la raison d'un cas dans le journal de modération",
-      "Options": {
-        "CaseId": {
-          "Description": "Numéro de cas dans le journal"
-        },
-        "Reason": {
-          "Description": "Nouvelle raison pour le cas"
-        }
-      },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, aucun canal n'est défini pour le journal de modération sur le serveur",
-        "InvalidCaseId": "{username}, veuillez indiquer le numéro de cas du journal de modération",
         "InvalidReason": "{username}, veuillez indiquer une raison pour le cas du journal de modération",
-        "CaseMessageNotFound": "{username}, aucun message avec ce numéro de cas n'a été trouvé. Rappelez-vous que vous ne pouvez modifier que les 50 derniers cas de modération",
         "CaseReasonHasBeenChanged": "{username}, la raison du cas a été modifiée"
       }
     },
@@ -474,7 +461,9 @@
         "ReportSubmitted": "{username}, merci de nous avoir signalé cela",
         "PotentiallyUnwantedUser": "Utilisateur potentiellement indésirable en raison des plaintes reçues",
         "RecentReports": "Plaintes récentes",
-        "ReportCount": "Nombre de plaintes"
+        "ReportCount": "Nombre de plaintes",
+        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
+        "ReportClosedBy": "{username} закрыл(-а) жалобу"
       }
     },
     "UnbanCommand": {
