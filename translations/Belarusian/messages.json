@@ -142,7 +142,6 @@
       "Amount": "колькасць",
       "MessageId": "ідэнтыфікатар-паведамлення",
       "UserId": "ідэнтыфікатар-карыстальніка",
-      "CaseId": "нумар-выпадка",
       "WarnId": "нумар-папярэджання",
       "Query": "запыт",
       "Source": "крыніца",
@@ -437,20 +436,8 @@
       }
     },
     "ReasonCommand": {
-      "Description": "Змяніць прычыну выпадку ў журнале мадэрацыі",
-      "Options": {
-        "CaseId": {
-          "Description": "Парадкавы нумар выпадку ў журнале"
-        },
-        "Reason": {
-          "Description": "Новая прычына для выпадку"
-        }
-      },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, на сервере не установлен канал для журнала модерации",
-        "InvalidCaseId": "{username}, пожалуйста, укажите номер случая журнала модерации",
         "InvalidReason": "{username}, пожалуйста, укажите причину для случая журнала модерации",
-        "CaseMessageNotFound": "{username}, сообщение с таким номером случая не найдено. Помните, что вы можете изменить только последние 50 случаев модерации",
         "CaseReasonHasBeenChanged": "{username}, причина случая изменена"
       }
     },
@@ -474,7 +461,9 @@
         "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
         "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
         "RecentReports": "Апошнія скаргі",
-        "ReportCount": "Колькасць скаргаў"
+        "ReportCount": "Колькасць скаргаў",
+        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
+        "ReportClosedBy": "{username} закрыл(-а) жалобу"
       }
     },
     "UnbanCommand": {
