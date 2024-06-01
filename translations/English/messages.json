@@ -462,8 +462,8 @@
         "PotentiallyUnwantedUser": "Potentially unwanted user due to received reports",
         "RecentReports": "Recent reports",
         "ReportCount": "Report count",
-        "ReceivedReportAboutUser": "Received a complaint about user {username}",
-        "ReportClosedBy": "Report closed by {username}"
+        "ReceivedReportAboutUser": "A complaint has been received about the user {username}",
+        "ReportClosedBy": "{username} has closed the complaint"
       }
     },
     "UnbanCommand": {
