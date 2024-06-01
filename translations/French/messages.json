@@ -462,8 +462,8 @@
         "PotentiallyUnwantedUser": "Utilisateur potentiellement indésirable en raison des plaintes reçues",
         "RecentReports": "Plaintes récentes",
         "ReportCount": "Nombre de plaintes",
-        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
-        "ReportClosedBy": "{username} закрыл(-а) жалобу"
+        "ReceivedReportAboutUser": "Une plainte a été reçue contre l'utilisateur {username}",
+        "ReportClosedBy": "{username} a clôturé la plainte"
       }
     },
     "UnbanCommand": {
