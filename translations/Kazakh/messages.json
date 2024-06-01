@@ -462,8 +462,8 @@
         "PotentiallyUnwantedUser": "Алдындағы шағымдардан кейін келе жатқыз келмейтін пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
         "ReportCount": "Шағымдар саны",
-        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
-        "ReportClosedBy": "{username} закрыл(-а) жалобу"
+        "ReceivedReportAboutUser": "Пайдаланушыға {username} туралы шағым түсті",
+        "ReportClosedBy": "{username} шағымды жапты"
       }
     },
     "UnbanCommand": {
