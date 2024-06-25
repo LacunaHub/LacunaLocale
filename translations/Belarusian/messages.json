@@ -443,21 +443,21 @@
     },
     "ReportCommand": {
       "Name": "Паскардзіцца",
-      "Description": "Отправить жалобу на пользователя",
+      "Description": "Адправіць скаргу на карыстальніка",
       "Options": {
         "User": {
-          "Description": "На кого необходимо отправить жалобу"
+          "Description": "На каго неабходна даслаць скаргу"
         },
         "Reason": {
-          "Description": "О чем вы хотите сообщить"
+          "Description": "Пра што вы жадаеце паведаміць"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
+        "InvalidUser": "{username}, калі ласка, пазначце карыстальніка, на якога жадаеце паскардзіцца",
         "UnknownUser": "{username}, карыстальнік не знойдзены",
-        "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
-        "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
-        "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
+        "InvalidReason": "{username}, калі ласка, укажыце прычыну скаргі правільна",
+        "YouRecentlyReportedThisUser": "{username}, вы нядаўна ўжо адправілі скаргу на гэтага карыстальніка",
+        "YouHaveToManySubmittedReports": "{username}, вы дасягнулі дзённага абмежавання на колькасць скаргаў",
         "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
         "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
         "RecentReports": "Апошнія скаргі",
@@ -493,16 +493,16 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять заглушение",
-        "UserIsNotMuted": "{username}, пользователь не был заглушен",
-        "UserHasBeenUnmuted": "{username}, пользователю {target} успешно снято заглушение"
+        "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому трэба зняць заглушэнне",
+        "UserIsNotMuted": "{username}, карыстальнік не быў заглушаны",
+        "UserHasBeenUnmuted": "{username}, карыстальніку {target} паспяхова знята заглушэнне"
       }
     },
     "ViolationsCommand": {
-      "Description": "Список предупреждений пользователя",
+      "Description": "Спіс папярэджанняў карыстальніка",
       "Options": {
         "User": {
-          "Description": "Чей список предупреждений вывести"
+          "Description": "Чый спіс папярэджанняў вывесці"
         }
       },
       "Texts": {
@@ -517,82 +517,82 @@
       }
     },
     "WarnCommand": {
-      "Description": "Выдача и снятие предупреждений",
+      "Description": "Выдача і зняцце папярэджанняў",
       "SubCommands": {
         "AddCommand": {
-          "Description": "Выдать предупреждение пользователю",
+          "Description": "Выдаць папярэджанне карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо выдать предупреждение"
+              "Description": "Каму неабходна выдаць папярэджанне"
             },
             "Reason": {
-              "Description": "Причина предупреждения"
+              "Description": "Прычына папярэджання"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно выдать предупреждение",
-            "YouCannotWarnYourself": "{username}, не думаю, что я могу позволить вам предупредить самого себя",
-            "UserHasBeenWarned": "{username}, пользователю {target} было выдано предупреждение"
+            "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому трэба выдаць папярэджанне",
+            "YouCannotWarnYourself": "{username}, не думаю, што я магу дазволіць вам папярэдзіць самога сябе",
+            "UserHasBeenWarned": "{username}, карыстальніку {target} было выдадзена папярэджанне"
           }
         },
         "RemoveCommand": {
-          "Description": "Снять предупреждения с пользователя",
+          "Description": "Зняць папярэджанні з карыстальніка",
           "Options": {
             "User": {
-              "Description": "С кого необходимо снять предупреждение"
+              "Description": "З каго неабходна зняць папярэджанне"
             },
             "WarnId": {
-              "Description": "Идентификатор, порядковый номер предупреждения или \"all\" для снятие всех предупреждений"
+              "Description": "Ідэнтыфікатар, парадкавы нумар папярэджання ці \"all\" для зняцця ўсіх папярэджанняў"
             },
             "Reason": {
-              "Description": "Причина снятия предупреждения"
+              "Description": "Прычына зняцця папярэджання"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять предупреждение",
-            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
-            "ThisUserHasNoViolations": "{username}, похоже, что этот пользователь не получал ранее предупреждений",
-            "UserWarnHasBeenRemoved": "{username}, предупреждение успешно снято",
-            "AllUserWarnsHaveBeenRemoved": "{username}, все предупреждения успешно сняты"
+            "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому трэба зняць папярэджанне",
+            "NoWarnId": "{username}, калі ласка, укажыце ідэнтыфікатар папярэджання",
+            "InvalidWarnId": "{username}, вы пазначылі няправільны ідэнтыфікатар папярэджання",
+            "ThisUserHasNoViolations": "{username}, здаецца, гэты карыстальнік не атрымліваў раней папярэджанняў",
+            "UserWarnHasBeenRemoved": "{username}, папярэджанне паспяхова знята",
+            "AllUserWarnsHaveBeenRemoved": "{username}, усе папярэджанні паспяхова зняты"
           }
         }
       }
     },
     "FilterCommand": {
-      "Description": "Наложить фильтры на текущее воспроизведение",
+      "Description": "Накласці фільтры на бягучае прайграванне",
       "Texts": {
-        "FilterSlowed": "Снизить темп",
-        "FilterNightcore": "Увеличить шаг и скорость",
-        "FilterKaraoke": "Устранить вокал",
-        "FilterEightD": "Вращение звука по стерео каналам",
-        "SelectFilter": "Выберите фильтр",
-        "TurnOffAllFilters": "Отключить все фильтры"
+        "FilterSlowed": "Знізіць тэмп",
+        "FilterNightcore": "Павялічыць крок і хуткасць",
+        "FilterKaraoke": "Устараніць вакал",
+        "FilterEightD": "Кручэнне гуку па стэрэа каналах",
+        "SelectFilter": "Абярыце фільтр",
+        "TurnOffAllFilters": "Адключыць усе фільтры"
       }
     },
     "PlayCommand": {
-      "Description": "Поиск и воспроизведение музыки в голосовом канале",
+      "Description": "Пошук і прайграванне музыкі ў галасавым канале",
       "Options": {
         "Query": {
-          "Description": "Ссылка на трек, плейлист, альбом или название трека"
+          "Description": "Спасылка на трэк, плэйліст, альбом ці назву трэка"
         },
         "Source": {
-          "Description": "Поиск треков в конкретном источнике"
+          "Description": "Пошук трэкаў у канкрэтнай крыніцы"
         }
       },
       "Texts": {
-        "YouNeedToConnectToVoiceChannel": "{username}, сначала нужно подключиться к какому-нибудь голосовому каналу",
-        "YouAreNotConnectedToVoiceChannel": "{username}, вы не подключены к голосовому каналу или находитесь в другом",
-        "PlaybackIsDisallowedInVoiceChannel": "{username}, воспроизведение не разрешено в выбранном канале",
-        "MissingRequiredPermissionsInVoiceChannel": "{username}, у меня недостаточно прав в выбранном голосовом канале",
-        "VoiceChannelIsFull": "{username}, выбранный голосовой канал заполнен",
-        "PlaybackIsNotStarted": "{username}, воспроизведение треков не запущено на этом сервере",
-        "NoQuery": "{username}, нужно указать ссылку на плейлист, ссылку на трек или название",
-        "TrackLoadFailed": "{username}, произошла непредвиденная ошибка при загрузке трека",
-        "NoMatches": "{username}, по указанному запросу ничего не найдено",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
-        "PlaylistLoaded": "{username}, плейлист успешно загружен и добавлен в очередь воспроизведения",
-        "QueueLimitReached": "{username}, достигнуто максимальное количество треков в очереди",
+        "YouNeedToConnectToVoiceChannel": "{username}, спачатку трэба падключыцца да якога-небудзь галасавога канала",
+        "YouAreNotConnectedToVoiceChannel": "{username}, вы не падключаны да галасавога канала або знаходзіцеся ў іншым",
+        "PlaybackIsDisallowedInVoiceChannel": "{username}, прайграванне не дазволена ў абраным канале",
+        "MissingRequiredPermissionsInVoiceChannel": "{username}, у мяне недастаткова правоў у абраным галасавым канале",
+        "VoiceChannelIsFull": "{username}, выбраны галасавы канал запоўнены",
+        "PlaybackIsNotStarted": "{username}, прайграванне трэкаў не запушчана на гэтым серверы",
+        "NoQuery": "{username}, трэба пазначыць спасылку на плэйліст, спасылку на трэк ці назву",
+        "TrackLoadFailed": "{username}, адбылася неспадзяваная памылка пры загрузцы трэка",
+        "NoMatches": "{username}, па ўказаным запыце нічога не знойдзена",
+        "PlaylistsAvailableOnlyForPremium": "{username}, прайграванне плэйлістоў даступна толькі бонусным серверам",
+        "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
+        "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
         "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только бонусным серверам",
         "StreamPlaybackIsDisabled": "{username}, потоковые воспроизведения отключены",
         "TrackHasBeenAddedToQueue": "{username}, трек {track} добавлен в очередь воспроизведения",
