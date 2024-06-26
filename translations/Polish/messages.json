@@ -2,1515 +2,1498 @@
   "Common": {
     "Yes": "Tak",
     "No": "Nie",
-    "Done": "Готово",
-    "Close": "Закрыть",
-    "Confirm": "Подтвердить",
-    "Cancel": "Отмена",
-    "Add": "Добавить",
-    "Edit": "Изменить",
-    "Remove": "Убрать",
-    "Delete": "Удалить",
-    "Save": "Сохранить",
-    "Refresh": "Обновить",
-    "Disable": "Отключить",
-    "Import": "Импортировать",
-    "Export": "Экспортировать",
-    "Publish": "Опубликовать",
-    "Transfer": "Перенос",
-    "None": "Tak",
-    "Name": "Название",
-    "Description": "Описание",
-    "Identifier": "Идентификатор",
-    "Date": "Дата",
-    "Other": "Другое",
-    "Indefinitely": "Бессрочно",
-    "CopiedToClipboard": "Скопировано в буфер обмена",
-    "TryAgain": "Попробовать еще раз",
-    "SupportServer": "Сервер поддержки",
-    "RemindLater": "Напомнить позже",
-    "SelectFile": "Выберите файл",
+    "Done": "Gotowe",
+    "Close": "Zamknij",
+    "Confirm": "Potwierdź",
+    "Cancel": "Anuluj",
+    "Add": "Dodaj",
+    "Edit": "Edytuj",
+    "Remove": "Usuń",
+    "Delete": "Usuń",
+    "Save": "Zapisz",
+    "Refresh": "Odśwież",
+    "Disable": "Wyłącz",
+    "Import": "Importuj",
+    "Export": "Eksportuj",
+    "Publish": "Opublikuj",
+    "Transfer": "Przenieś",
+    "None": "Żaden",
+    "Name": "Nazwa",
+    "Description": "Opis",
+    "Identifier": "Identyfikator",
+    "Date": "Data",
+    "Other": "Inne",
+    "Indefinitely": "Na czas nieokreślony",
+    "CopiedToClipboard": "Skopiowano do schowka",
+    "TryAgain": "Spróbuj ponownie",
+    "SupportServer": "Serwer wsparcia",
+    "RemindLater": "Przypomnij później",
+    "SelectFile": "Wybierz plik",
     "DiscordPermissions": {
-      "CreateInstantInvite": "Создавать приглашения",
-      "KickMembers": "Выгнать участников",
-      "BanMembers": "Банить участников",
-      "Administrator": "Администратор",
-      "ManageChannels": "Управление каналами",
-      "ManageGuild": "Управление сервером",
-      "AddReactions": "Добавлять реакции",
-      "ViewAuditLog": "Просмотр журнала аудита",
-      "PrioritySpeaker": "Приоритет разговора",
-      "Stream": "Стримить",
-      "ViewChannel": "Просмотр канала",
-      "SendMessages": "Отправлять сообщения",
-      "SendTTSMessages": "Отправлять TTS-сообщения",
-      "ManageMessages": "Управление сообщениями",
-      "EmbedLinks": "Встраивать ссылки",
-      "AttachFiles": "Прикреплять файлы",
-      "ReadMessageHistory": "Читать историю сообщений",
-      "MentionEveryone": "Упомянуть всех",
-      "UseExternalEmojis": "Использовать внешние эмодзи",
-      "ViewGuildInsights": "Просмотр аналитики сервера",
-      "Connect": "Подключиться",
-      "Speak": "Говорить",
-      "MuteMembers": "Отключать голос участникам",
-      "DeafenMembers": "Отключать звук участникам",
-      "MoveMembers": "Переместить участников",
-      "UseVAD": "Использовать режим активации по голосу",
-      "ChangeNickname": "Изменить никнейм",
-      "ManageNicknames": "Управление никнеймами",
-      "ManageRoles": "Управление ролями",
-      "ManageWebhooks": "Управление веб-крючками",
-      "ManageEmojisAndStickers": "Управление эмодзи и стикерами",
-      "ManageGuildExpressions": "Управление эмодзи, стикерами и звуками звуковой панели",
-      "UseApplicationCommands": "Использовать команды приложений",
-      "RequestToSpeak": "Запрос на разговор",
-      "ManageEvents": "Управление событиями",
-      "ManageThreads": "Управление ветками",
-      "CreatePublicThreads": "Создавать публичные ветки",
-      "CreatePrivateThreads": "Создавать приватные ветки",
-      "UseExternalStickers": "Использовать внешние стикеры",
-      "SendMessagesInThreads": "Отправлять сообщения в ветках",
-      "UseEmbeddedActivities": "Начать встроенную активность",
-      "ModerateMembers": "Модерировать участников",
-      "ViewCreatorMonetizationAnalytics": "Просмотр аналитики монетизации",
-      "UseSoundboard": "Использовать звуковую панель",
-      "CreateGuildExpressions": "Создавать эмодзи, стикеры и звуки звуковой панели",
-      "CreateEvents": "Создавать события",
-      "UseExternalSounds": "Использовать внешние звуки звуковой панели",
-      "SendVoiceMessages": "Отправлять голосовые сообщения"
+      "CreateInstantInvite": "Tworzenie zaproszeń",
+      "KickMembers": "Wyrzucanie uczestników",
+      "BanMembers": "Banowanie uczestników",
+      "Administrator": "Administrator",
+      "ManageChannels": "Zarządzanie kanałami",
+      "ManageGuild": "Zarządzanie serwerem",
+      "AddReactions": "Dodawanie reakcji",
+      "ViewAuditLog": "Przeglądanie dziennika audytu",
+      "PrioritySpeaker": "Priorytet mówcy",
+      "Stream": "Streamowanie",
+      "ViewChannel": "Przeglądanie kanałów",
+      "SendMessages": "Wysyłanie wiadomości",
+      "SendTTSMessages": "Wysyłanie wiadomości TTS",
+      "ManageMessages": "Zarządzanie wiadomościami",
+      "EmbedLinks": "Osadzanie linków",
+      "AttachFiles": "Załączanie plików",
+      "ReadMessageHistory": "Czytanie historii wiadomości",
+      "MentionEveryone": "Wspominanie wszystkich",
+      "UseExternalEmojis": "Używanie zewnętrznych emoji",
+      "ViewGuildInsights": "Przeglądanie analiz serwera",
+      "Connect": "Połączenie",
+      "Speak": "Mówienie",
+      "MuteMembers": "Wyciszanie uczestników",
+      "DeafenMembers": "Wyłączanie dźwięku uczestnikom",
+      "MoveMembers": "Przenoszenie uczestników",
+      "UseVAD": "Używanie detekcji aktywności głosowej (VAD)",
+      "ChangeNickname": "Zmiana pseudonimu",
+      "ManageNicknames": "Zarządzanie pseudonimami",
+      "ManageRoles": "Zarządzanie rolami",
+      "ManageWebhooks": "Zarządzanie webhookami",
+      "ManageEmojisAndStickers": "Zarządzanie emoji i naklejkami",
+      "ManageGuildExpressions": "Zarządzanie emoji, naklejkami i dźwiękami panelu dźwiękowego",
+      "UseApplicationCommands": "Używanie poleceń aplikacji",
+      "RequestToSpeak": "Prośba o wypowiedź",
+      "ManageEvents": "Zarządzanie wydarzeniami",
+      "ManageThreads": "Zarządzanie wątkami",
+      "CreatePublicThreads": "Tworzenie publicznych wątków",
+      "CreatePrivateThreads": "Tworzenie prywatnych wątków",
+      "UseExternalStickers": "Używanie zewnętrznych naklejek",
+      "SendMessagesInThreads": "Wysyłanie wiadomości w wątkach",
+      "UseEmbeddedActivities": "Używanie osadzonych aktywności",
+      "ModerateMembers": "Moderowanie uczestników",
+      "ViewCreatorMonetizationAnalytics": "Przeglądanie analizy monetyzacji twórcy",
+      "UseSoundboard": "Używanie panelu dźwiękowego",
+      "CreateGuildExpressions": "Tworzenie emoji, naklejek i dźwięków panelu dźwiękowego",
+      "CreateEvents": "Tworzenie wydarzeń",
+      "UseExternalSounds": "Używanie zewnętrznych dźwięków panelu dźwiękowego",
+      "SendVoiceMessages": "Wysyłanie wiadomości głosowych"
     },
-    "Pagination": "Страница {current} из {total}",
-    "NextPage": "Следующая страница",
-    "PreviousPage": "Предыдущая страница",
-    "Channels": "Каналы",
-    "Roles": "Роли",
-    "Reactions": "Реакции",
-    "AddRoles": "Добавить роли",
-    "RemoveRoles": "Убрать роли",
-    "AllowedChannels": "Разрешенные каналы",
-    "AllowedRoles": "Разрешенные роли",
-    "BlockedChannels": "Запрещенные каналы",
-    "BlockedRoles": "Запрещенные роли",
-    "IgnoredChannels": "Игнорируемые каналы",
-    "IgnoredRoles": "Игнорируемые роли",
-    "IgnoredPermissions": "Игнорируемые разрешения",
-    "IgnoreBots": "Игнорировать ботов",
+    "Pagination": "Strona {current} z {total}",
+    "NextPage": "Następna strona",
+    "PreviousPage": "Poprzednia strona",
+    "Channels": "Kanały",
+    "Roles": "Role",
+    "Reactions": "Reakcje",
+    "AddRoles": "Dodaj role",
+    "RemoveRoles": "Usuń role",
+    "AllowedChannels": "Dozwolone kanały",
+    "AllowedRoles": "Dozwolone role",
+    "BlockedChannels": "Zablokowane kanały",
+    "BlockedRoles": "Zablokowane role",
+    "IgnoredChannels": "Ignorowane kanały",
+    "IgnoredRoles": "Ignorowane role",
+    "IgnoredPermissions": "Ignorowane uprawnienia",
+    "IgnoreBots": "Ignoruj boty",
     "DateUnits": {
-      "Minutes": "Минуты",
-      "Hours": "Часы",
-      "Days": "Дни"
+      "Minutes": "Minuty",
+      "Hours": "Godziny",
+      "Days": "Dni"
     },
-    "Permissions": "Разрешения",
-    "Components": "Компоненты",
+    "Permissions": "Uprawnienia",
+    "Components": "Komponenty",
     "DiscordMessageTypes": {
-      "Default": "Стандартное сообщение",
-      "ChannelPinnedMessage": "Сообщение закреплено",
-      "GuildMemberJoin": "Участник присоединился",
-      "UserPremiumGuildSubscription": "Буст сервера",
-      "UserPremiumGuildSubscriptionTier1": "Буст сервера: 1 уровень",
-      "UserPremiumGuildSubscriptionTier2": "Буст сервера: 2 уровень",
-      "UserPremiumGuildSubscriptionTier3": "Буст сервера: 3 уровень",
-      "ChannelFollowAdd": "Подписка на канал",
-      "ThreadCreated": "Ветка создана",
-      "Reply": "Ответ на сообщение"
+      "Default": "Standardowa wiadomość",
+      "ChannelPinnedMessage": "Wiadomość przypięta",
+      "GuildMemberJoin": "Dołączenie członka serwera",
+      "UserPremiumGuildSubscription": "Subskrypcja premium serwera",
+      "UserPremiumGuildSubscriptionTier1": "Subskrypcja premium serwera: poziom 1",
+      "UserPremiumGuildSubscriptionTier2": "Subskrypcja premium serwera: poziom 2",
+      "UserPremiumGuildSubscriptionTier3": "Subskrypcja premium serwera: poziom 3",
+      "ChannelFollowAdd": "Obserwowanie kanału",
+      "ThreadCreated": "Utworzono wątek",
+      "Reply": "Odpowiedź na wiadomość"
     },
     "DiscordButtonStyles": {
-      "Primary": "Основной",
-      "Secondary": "Вторичный",
-      "Success": "Успех",
-      "Danger": "Опасность",
-      "Link": "Ссылка"
+      "Primary": "Podstawowy",
+      "Secondary": "Dodatkowy",
+      "Success": "Sukces",
+      "Danger": "Zagrożenie",
+      "Link": "Link"
     }
   },
   "Commands": {
     "Categories": {
-      "General": "Общие команды",
-      "Moderation": "Команды модерации",
-      "Music": "Управление музыкой",
-      "Useful": "Полезные команды",
-      "Custom": "Пользовательские команды"
+      "General": "Ogólne komendy",
+      "Moderation": "Komendy moderacji",
+      "Music": "Zarządzanie muzyką",
+      "Useful": "Przydatne komendy",
+      "Custom": "Komendy użytkownika"
     },
     "Options": {
-      "Command": "команда",
-      "Sorting": "сортировка",
-      "Page": "страница",
-      "User": "пользователь",
-      "SKU": "артикул",
-      "Currency": "валюта",
-      "Duration": "длительность",
-      "Reason": "причина",
-      "Amount": "количество",
-      "MessageId": "идентификатор-сообщения",
-      "UserId": "идентификатор-пользователя",
-      "CaseId": "номер-случая",
-      "WarnId": "номер-предупреждения",
-      "Query": "запрос",
-      "Source": "источник",
-      "Volume": "громкость",
-      "Prize": "приз",
-      "WinnerCount": "кол-во-победителей",
-      "Sponsor": "спонсор",
-      "QuizMode": "режим-викторины",
-      "MultipleAnswers": "множественный-выбор",
-      "Role": "роль",
-      "Time": "время",
-      "Award": "награда",
-      "Operation": "операция",
-      "ResetAll": "сбросить-все"
+      "Command": "komenda",
+      "Sorting": "sortowanie",
+      "Page": "strona",
+      "User": "użytkownik",
+      "SKU": "SKU",
+      "Currency": "waluta",
+      "Duration": "czas trwania",
+      "Reason": "powód",
+      "Amount": "ilość",
+      "MessageId": "identyfikator-wiadomości",
+      "UserId": "identyfikator-użytkownika",
+      "WarnId": "numer-ostrzeżenia",
+      "Query": "zapytanie",
+      "Source": "źródło",
+      "Volume": "głośność",
+      "Prize": "nagroda",
+      "WinnerCount": "liczba-zwycięzców",
+      "Sponsor": "sponsor",
+      "QuizMode": "tryb-quizu",
+      "MultipleAnswers": "wielokrotny-wybór",
+      "Role": "rola",
+      "Time": "czas",
+      "Award": "nagroda",
+      "Operation": "operacja",
+      "ResetAll": "zresetuj-wszystko"
     },
     "OptionTypes": {
-      "SubCommand": "Подкоманда",
-      "SubCommandGroup": "Группа подкоманд",
-      "String": "Строковый",
-      "Integer": "Целое число",
-      "Boolean": "Логический",
-      "User": "Пользователь",
-      "Channel": "Канал",
-      "Role": "Роль",
-      "Mentionable": "Упоминание",
-      "Number": "Числовой",
-      "Attachment": "Вложение"
+      "SubCommand": "Podkomenda",
+      "SubCommandGroup": "Grupa podkomend",
+      "String": "Tekstowy",
+      "Integer": "Liczba całkowita",
+      "Boolean": "Logiczny",
+      "User": "Użytkownik",
+      "Channel": "Kanał",
+      "Role": "Rola",
+      "Mentionable": "Wspomniany",
+      "Number": "Numeryczny",
+      "Attachment": "Załącznik"
     },
-    "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
-    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
-    "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
-    "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
+    "MissingRequiredPermissionsToExecuteCommand": "{username}, do wykonania tej komendy wymagane są następujące uprawnienia: {permissions}",
+    "CommandExecutionDenied": "{username}, nie masz wystarczających uprawnień do wykonania tej komendy",
+    "CommandExecutionOnlyWithPremium": "{username}, wykonanie tej komendy jest dostępne tylko dla Lacuna Diamond",
+    "CommandThrottling": "{username}, osiągnięto limit wykonania komendy, spróbuj ponownie za {time}",
     "AboutCommand": {
-      "Description": "Базовая информация о боте",
+      "Description": "Podstawowe informacje o bocie",
       "Texts": {
-        "Developer": "Разработчик",
-        "CurrentVersion": "Текущая версия",
-        "Shard": "Фрагмент",
-        "ShardCount": "Количество фрагментов",
-        "ShardUptime": "Время работы фрагмента",
-        "Latency": "Задержка",
-        "TotalGuilds": "Всего сообществ",
-        "TotalUsers": "Всего пользователей",
-        "OSUptime": "Время работы системы"
+        "Developer": "Twórca",
+        "CurrentVersion": "Aktualna wersja",
+        "Shard": "Fragment",
+        "ShardCount": "Liczba fragmentów",
+        "ShardUptime": "Czas działania fragmentu",
+        "Latency": "Opóźnienie",
+        "TotalGuilds": "Łączna liczba serwerów",
+        "TotalUsers": "Łączna liczba użytkowników",
+        "OSUptime": "Czas działania systemu"
       }
     },
     "HelpCommand": {
-      "Description": "Список доступных команд и их описание",
+      "Description": "Lista dostępnych komend i ich opis",
       "Options": {
         "Command": {
-          "Description": "Дополнительная информация об указанной команде"
+          "Description": "Dodatkowe informacje o danej komendzie"
         }
       },
       "Texts": {
-        "ListOfCommands": "Список команд",
-        "HelpForCommand": "Справка по команде {command}",
-        "ControlPanel": "Панель управления",
-        "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Использование команды",
-        "CommandArguments": "Аргументы команды",
-        "CommandArgumentRequired": "Обязательный аргумент",
-        "CommandArgumentOptional": "Необязательный аргумент",
-        "CommandArgumentType": "Тип аргумента: {type}",
-        "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
-        "CommandPermissionsForBot": "Для бота",
-        "CommandPermissionsForAuthor": "Для автора команды"
+        "ListOfCommands": "Lista komend",
+        "HelpForCommand": "Pomoc dla komendy {command}",
+        "ControlPanel": "Panel sterowania",
+        "UnknownCommand": "{username}, nie znaleziono komendy",
+        "CommandUsage": "Użycie komendy",
+        "CommandArguments": "Argumenty komendy",
+        "CommandArgumentRequired": "Wymagany argument",
+        "CommandArgumentOptional": "Opcjonalny argument",
+        "CommandArgumentType": "Typ argumentu: {type}",
+        "CommandRequiredPermissions": "Wymagane uprawnienia do wykonania komendy",
+        "CommandPermissionsForBot": "Dla bota",
+        "CommandPermissionsForAuthor": "Dla autora komendy"
       }
     },
     "LeadersCommand": {
-      "Description": "Таблица лидеров сервера по активности",
+      "Description": "Tabela liderów serwera według aktywności",
       "Options": {
         "Sorting": {
-          "Description": "Сортировка таблицы лидеров по выбранному типу активности",
-          "ChoiceLevel": "по уровню",
-          "ChoiceBalance": "по балансу"
+          "Description": "Sortowanie tabeli liderów według wybranego typu aktywności",
+          "ChoiceLevel": "według poziomu",
+          "ChoiceBalance": "według salda"
         },
         "Page": {
-          "Description": "Номер страницы таблицы лидеров"
+          "Description": "Numer strony tabeli liderów"
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
-        "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
-        "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
-        "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
-        "ServerLeadersBy": "Лидеры сервера {sortBy}",
-        "CurrentLevel": "Ур. {level}"
+        "LevelsIsDisabled": "{username}, poziomy są wyłączone na tym serwerze",
+        "EconomyIsDisabled": "{username}, ekonomia jest wyłączona na tym serwerze",
+        "NoLevelsYet": "{username}, na tym serwerze nikt jeszcze nie osiągnął poziomu",
+        "NoWalletsYet": "{username}, na tym serwerze nie ma jeszcze portfeli",
+        "ServerLeadersBy": "Liderzy serwera {sortBy}",
+        "CurrentLevel": "Poziom {level}"
       }
     },
     "RankCommand": {
-      "Name": "Показать уровень",
-      "Description": "Уровневая карточка",
+      "Name": "Pokaż poziom",
+      "Description": "Karta poziomu",
       "Options": {
         "User": {
-          "Description": "Чью уровневую карточку необходимо показать"
+          "Description": "Czyją kartę poziomu należy pokazać"
         }
       },
       "Texts": {
-        "ImageRenderError": "{username}, произошла ошибка при создании уровневой карточки",
-        "LevelCardNotFound": "{username}, уровневая карточка не найдена"
+        "ImageRenderError": "{username}, wystąpił błąd podczas tworzenia karty poziomu",
+        "LevelCardNotFound": "{username}, karta poziomu nie została znaleziona"
       }
     },
     "ServerCommand": {
-      "Description": "Информация о текущем сервере",
+      "Description": "Informacje o aktualnym serwerze",
       "Texts": {
-        "GuildOwner": "Владелец сервера",
-        "GuildId": "Идентификатор сообщества",
-        "MemberCount": "Количество участников",
-        "ChannelCount": "Количество каналов",
-        "RoleCount": "Количество ролей",
-        "EmojiCount": "Количество эмодзи",
-        "GuildVerificationLevel": "Уровень проверки",
+        "GuildOwner": "Właściciel serwera",
+        "GuildId": "Identyfikator serwera",
+        "MemberCount": "Liczba członków",
+        "ChannelCount": "Liczba kanałów",
+        "RoleCount": "Liczba ról",
+        "EmojiCount": "Liczba emoji",
+        "GuildVerificationLevel": "Poziom weryfikacji",
         "GuildVerificationLevels": {
-          "None": "Без проверки",
-          "Low": "Низкий",
-          "Medium": "Средний",
-          "High": "Высокий",
-          "VeryHigh": "Очень высокий"
+          "None": "Brak weryfikacji",
+          "Low": "Niski",
+          "Medium": "Średni",
+          "High": "Wysoki",
+          "VeryHigh": "Bardzo wysoki"
         },
-        "GuildAFKChannel": "Канал простоя",
-        "GuildDateOfCreation": "Сервер создан {relativeTime}"
+        "GuildAFKChannel": "Kanał AFK",
+        "GuildDateOfCreation": "Data utworzenia serwera {relativeTime}"
       }
     },
     "StoreCommand": {
-      "Description": "Магазин предметов сервера",
+      "Description": "Sklep z przedmiotami serwera",
       "Texts": {
-        "NoItemsForPurchaseInStore": "{username}, в магазине нет предметов для приобретения",
-        "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
-        "ItemPreviouslyPurchased": "{username}, вы уже ранее приобрели этот предмет",
-        "UserHasPurchasedItem": "{username}, вы приобрели предмет {item}"
+        "NoItemsForPurchaseInStore": "{username}, w sklepie nie ma przedmiotów do nabycia",
+        "InsufficientFundsToPurchaseItem": "{username}, masz niewystarczające środki, aby nabyć przedmiot",
+        "ItemPreviouslyPurchased": "{username}, ten przedmiot został już wcześniej nabyty",
+        "UserHasPurchasedItem": "{username}, nabyłeś przedmiot {item}"
       },
       "SubCommands": {
         "BuyCommand": {
-          "Description": "Покупка предметов в магазине сервера",
+          "Description": "Zakup przedmiotów w sklepie serwera",
           "Options": {
             "SKU": {
-              "Description": "Артикул (SKU) предмета в магазине"
+              "Description": "Numer katalogowy (SKU) przedmiotu w sklepie"
             }
           },
           "Texts": {
-            "InvalidSKU": "{username}, пожалуйста, укажите артикул предмета",
-            "ItemNotFound": "{username}, предмет с таким артикулом не найден"
+            "InvalidSKU": "{username}, proszę podać numer katalogowy przedmiotu",
+            "ItemNotFound": "{username}, przedmiot o tym numerze katalogowym nie został znaleziony"
           }
         },
         "ItemsCommand": {
-          "Description": "Список доступных для покупки предметов в магазине сервера",
+          "Description": "Lista przedmiotów dostępnych do zakupu w sklepie serwera",
           "Options": {
             "Page": {
-              "Description": "Номер страницы магазина предметов"
+              "Description": "Numer strony sklepu z przedmiotami"
             }
           },
           "Texts": {
-            "ServerStore": "Магазин сервера",
-            "ServerStoreHowToBuyItem": "Выберите предмет в выпадающем списке ниже или введите команду {command}, чтобы приобрести его",
-            "PurchasePrice": "Цена покупки",
-            "ItemContains": "Содержит в себе",
-            "ItemQuantity": "Оставшееся количество",
-            "SelectItemToPurchase": "Выберите предмет для покупки"
+            "ServerStore": "Sklep serwera",
+            "ServerStoreHowToBuyItem": "Wybierz przedmiot z poniższej listy rozwijanej lub wpisz komendę {command}, aby go zakupić",
+            "PurchasePrice": "Cena zakupu",
+            "ItemContains": "Zawiera",
+            "ItemQuantity": "Dostępna ilość",
+            "SelectItemToPurchase": "Wybierz przedmiot do zakupu"
           }
         }
       }
     },
     "UserCommand": {
-      "Description": "Информация об аккаунте пользователя",
+      "Description": "Informacje o koncie użytkownika",
       "Options": {
         "User": {
-          "Description": "Информация об аккаунте указанного пользователя"
+          "Description": "Informacje o koncie wybranego użytkownika"
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Дата регистрации аккаунта",
-        "DateOfJoiningServer": "Дата вступления на сервер",
-        "LinkToAvatar": "Ссылка на аватар",
-        "LinkToBanner": "Ссылка на баннер"
+        "AccountRegistrationDate": "Data rejestracji konta",
+        "DateOfJoiningServer": "Data dołączenia do serwera",
+        "LinkToAvatar": "Link do awatara",
+        "LinkToBanner": "Link do banera"
       }
     },
     "WalletCommand": {
-      "Description": "Операции с кошельком",
+      "Description": "Operacje związane z portfelem",
       "SubCommands": {
         "BalanceCommand": {
-          "Description": "Показать баланс кошелька",
+          "Description": "Pokazuje saldo portfela",
           "Options": {
             "User": {
-              "Description": "Чей баланс кошелька необходимо показать"
+              "Description": "Czyje saldo portfela pokazać"
             }
           },
           "Texts": {
-            "WalletIsEmpty": "Кошелёк пуст",
-            "WalletBalanceOfUser": "Баланс пользователя {username}"
+            "WalletIsEmpty": "Portfel jest pusty",
+            "WalletBalanceOfUser": "Saldo użytkownika {username}"
           }
         },
         "TransferCommand": {
-          "Description": "Перевод средств на другой кошелёк",
+          "Description": "Przelew środków na inny portfel",
           "Options": {
             "User": {
-              "Description": "Кому необходимо перевести средства"
+              "Description": "Komu przelać środki"
             },
             "Amount": {
-              "Description": "Количество средств перевода"
+              "Description": "Kwota do przelania"
             },
             "Currency": {
-              "Description": "В какой валюте будет перевод"
+              "Description": "Waluta przelewu"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите сделать перевод",
-            "InvalidAmount": "{username}, пожалуйста, укажите сумму перевода",
-            "NoSuchAmountOfFunds": "{username}, у вас нет такой суммы перевода",
-            "SuccessfulFundsTransfer": "{username}, {amount} успешно переведено на счет {target}"
+            "InvalidUser": "{username}, proszę wskazać użytkownika, któremu chcesz przelać środki",
+            "InvalidAmount": "{username}, proszę wskazać kwotę do przelania",
+            "NoSuchAmountOfFunds": "{username}, nie posiadasz takiej kwoty do przelania",
+            "SuccessfulFundsTransfer": "{username}, {amount} zostało pomyślnie przelane na konto {target}"
           }
         }
       }
     },
     "BanCommand": {
-      "Description": "Заблокировать пользователя на сервере",
+      "Description": "Zablokowanie użytkownika na serwerze",
       "Options": {
         "User": {
-          "Description": "Кого необходимо заблокировать"
+          "Description": "Kogo należy zablokować"
         },
         "Duration": {
-          "Description": "Длительность блокировки"
+          "Description": "Czas trwania blokady"
         },
         "Reason": {
-          "Description": "Причина блокировки"
+          "Description": "Powód blokady"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите заблокировать",
-        "YouCannotBanYourself": "{username}, не думаю, что я могу позволить вам заблокировать самого себя",
-        "CannotBanThisUser": "{username}, невозможно заблокировать этого пользователя",
-        "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
-        "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
-        "UserHasUnmoderatedRoles": "{username}, пользователь имеет одну или несколько ролей для которых запрещены действия модерирования",
-        "UserHasBeenBanned": "{username}, пользователю {target} выдана блокировка на сервере"
+        "InvalidUser": "{username}, proszę wskazać użytkownika, którego chcesz zablokować",
+        "YouCannotBanYourself": "{username}, nie sądzę, abym mógł pozwolić Ci zablokować samego siebie",
+        "CannotBanThisUser": "{username}, nie można zablokować tego użytkownika",
+        "UserRoleIsHigherThanYour": "{username}, użytkownik ma wyższą pozycję w hierarchii ról niż Ty",
+        "UserIsModerator": "{username}, użytkownik ma prawa moderatora, nie mogę tego zezwolić",
+        "UserHasUnmoderatedRoles": "{username}, użytkownik posiada jedną lub więcej ról, dla których zabronione są działania moderacyjne",
+        "UserHasBeenBanned": "{username}, użytkownik {target} został zablokowany na serwerze"
       }
     },
     "KickCommand": {
-      "Description": "Выгнать пользователя с сервера",
+      "Description": "Wyrzucenie użytkownika z serwera",
       "Options": {
         "User": {
-          "Description": "Кого необходимо выгнать"
+          "Description": "Kogo należy wyrzucić"
         },
         "Reason": {
-          "Description": "Причина изгнания"
+          "Description": "Powód wyrzucenia"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите выгнать",
-        "YouCannotKickYourself": "{username}, не думаю, что я могу позволить вам выгнать самого себя",
-        "CannotKickThisUser": "{username}, невозможно выгнать этого пользователя",
-        "UserHasBeenKicked": "{username}, пользователь {target} был выгнан с сервера"
+        "InvalidUser": "{username}, proszę wskazać użytkownika, którego chcesz wyrzucić",
+        "YouCannotKickYourself": "{username}, nie sądzę, abym mógł pozwolić Ci wyrzucić samego siebie",
+        "CannotKickThisUser": "{username}, nie można wyrzucić tego użytkownika",
+        "UserHasBeenKicked": "{username}, użytkownik {target} został wyrzucony z serwera"
       }
     },
     "MuteCommand": {
-      "Description": "Выдать временное заглушение пользователю",
+      "Description": "Nałożenie tymczasowego wyciszenia na użytkownika",
       "Options": {
         "User": {
-          "Description": "Кого необходимо заглушить"
+          "Description": "Kogo należy wyciszyć"
         },
         "Duration": {
-          "Description": "Длительность заглушения"
+          "Description": "Czas trwania wyciszenia"
         },
         "Reason": {
-          "Description": "Причина заглушения"
+          "Description": "Powód wyciszenia"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите выдать заглушение",
-        "YouCannotMuteYourself": "{username}, не думаю, что я могу позволить вам заглушить самого себя",
-        "CannotMuteThisUser": "{username}, невозможно заглушить этого пользователя",
-        "ThisUserIsAlreadyMuted": "{username}, пользователь уже заглушён",
-        "UserHasBeenMuted": "{username}, пользователю {target} было выдано заглушение"
+        "InvalidUser": "{username}, proszę wskazać użytkownika, któremu chcesz nałożyć wyciszenie",
+        "YouCannotMuteYourself": "{username}, nie sądzę, abym mógł pozwolić Ci wyciszyć samego siebie",
+        "CannotMuteThisUser": "{username}, nie można wyciszyć tego użytkownika",
+        "ThisUserIsAlreadyMuted": "{username}, użytkownik jest już wyciszony",
+        "UserHasBeenMuted": "{username}, użytkownik {target} został wyciszony"
       }
     },
     "PruneCommand": {
-      "Description": "Очистка последних сообщений в канале (сообщения старше 2 недель игнорируются)",
+      "Description": "Czyszczenie ostatnich wiadomości na kanale (wiadomości starsze niż 2 tygodnie są ignorowane)",
       "Options": {
         "Amount": {
-          "Description": "Сколько сообщений необходимо удалить"
+          "Description": "Ile wiadomości należy usunąć"
         },
         "User": {
-          "Description": "От кого удалить сообщения"
+          "Description": "Wiadomości którego użytkownika usunąć"
         },
         "Reason": {
-          "Description": "Причина очистки сообщений"
+          "Description": "Powód czyszczenia wiadomości"
         }
       },
       "Texts": {
-        "InvalidAmount": "{username}, укажите количество сообщений, которое нужно очистить",
-        "InvalidAmountDiapason": "{username}, количество должно быть целым числом в диапазоне от 2 до 100",
-        "MessagesHaveBeenPruned": "{username}, очищено сообщений: {amount}"
+        "InvalidAmount": "{username}, proszę podać liczbę wiadomości do wyczyszczenia",
+        "InvalidAmountDiapason": "{username}, liczba musi być całkowita i mieścić się w zakresie od 2 do 100",
+        "MessagesHaveBeenPruned": "{username}, wyczyszczono wiadomości: {amount}"
       }
     },
     "ReasonCommand": {
-      "Description": "Изменить причину случая в журнале модерации",
-      "Options": {
-        "CaseId": {
-          "Description": "Порядковый номер случая в журнале"
-        },
-        "Reason": {
-          "Description": "Новая причина для случая"
-        }
-      },
       "Texts": {
-        "CaseLogIsNotSet": "{username}, на сервере не установлен канал для журнала модерации",
-        "InvalidCaseId": "{username}, пожалуйста, укажите номер случая журнала модерации",
-        "InvalidReason": "{username}, пожалуйста, укажите причину для случая журнала модерации",
-        "CaseMessageNotFound": "{username}, сообщение с таким номером случая не найдено. Помните, что вы можете изменить только последние 50 случаев модерации",
-        "CaseReasonHasBeenChanged": "{username}, причина случая изменена"
+        "InvalidReason": "{username}, proszę podać powód dla przypadku z dziennika moderacji",
+        "CaseReasonHasBeenChanged": "{username}, powód przypadku został zmieniony"
       }
     },
     "ReportCommand": {
-      "Name": "Пожаловаться",
-      "Description": "Отправить жалобу на пользователя",
+      "Name": "Zgłoś",
+      "Description": "Wyślij skargę na użytkownika",
       "Options": {
         "User": {
-          "Description": "На кого необходимо отправить жалобу"
+          "Description": "Na kogo chcesz złożyć skargę"
         },
         "Reason": {
-          "Description": "О чем вы хотите сообщить"
+          "Description": "Jaki jest powód zgłoszenia"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
-        "UnknownUser": "{username}, пользователь не найден",
-        "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
-        "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
-        "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
-        "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
-        "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
-        "RecentReports": "Последние жалобы",
-        "ReportCount": "Количество жалоб"
+        "InvalidUser": "{username}, proszę wskazać użytkownika, na którego chcesz złożyć skargę",
+        "UnknownUser": "{username}, użytkownik nie został znaleziony",
+        "InvalidReason": "{username}, proszę prawidłowo wskazać powód skargi",
+        "YouRecentlyReportedThisUser": "{username}, niedawno zgłosiłeś już tego użytkownika",
+        "YouHaveToManySubmittedReports": "{username}, osiągnąłeś dzienny limit zgłoszeń",
+        "ReportSubmitted": "{username}, dziękujemy za zgłoszenie",
+        "PotentiallyUnwantedUser": "Potencjalnie niepożądany użytkownik z powodu otrzymanych skarg",
+        "RecentReports": "Ostatnie zgłoszenia",
+        "ReportCount": "Liczba zgłoszeń",
+        "ReceivedReportAboutUser": "Otrzymano skargę na użytkownika {username}",
+        "ReportClosedBy": "{username} zamknął(-ęła) skargę"
       }
     },
     "UnbanCommand": {
-      "Description": "Разблокировать пользователя на сервере",
+      "Description": "Odblokowanie użytkownika na serwerze",
       "Options": {
         "UserId": {
-          "Description": "Кого необходимо разблокировать"
+          "Description": "Kogo należy odblokować"
         },
         "Reason": {
-          "Description": "Причина снятия блокировки"
+          "Description": "Powód zdjęcia blokady"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите идентификатор пользователя, которого необходимо разблокировать",
-        "BanNotFound": "{username}, не удалось найти заблокированного пользователя с указанным идентификатором",
-        "UserHasBeenUnbanned": "{username}, пользователь {target} был успешно разблокирован"
+        "InvalidUser": "{username}, proszę podać identyfikator użytkownika, którego należy odblokować",
+        "BanNotFound": "{username}, nie znaleziono zablokowanego użytkownika o podanym identyfikatorze",
+        "UserHasBeenUnbanned": "{username}, użytkownik {target} został pomyślnie odblokowany"
       }
     },
     "UnmuteCommand": {
-      "Description": "Снять заглушение с пользователя",
+      "Description": "Zdjęcie wyciszenia z użytkownika",
       "Options": {
         "User": {
-          "Description": "С кого необходимо снять заглушение"
+          "Description": "Z którego użytkownika zdjąć wyciszenie"
         },
         "Reason": {
-          "Description": "Причина снятия заглушения"
+          "Description": "Powód zdjęcia wyciszenia"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять заглушение",
-        "UserIsNotMuted": "{username}, пользователь не был заглушен",
-        "UserHasBeenUnmuted": "{username}, пользователю {target} успешно снято заглушение"
+        "InvalidUser": "{username}, proszę wskazać użytkownika, któremu należy zdjąć wyciszenie",
+        "UserIsNotMuted": "{username}, użytkownik nie jest wyciszony",
+        "UserHasBeenUnmuted": "{username}, wyciszenie zostało zdjęte z użytkownika {target}"
       }
     },
     "ViolationsCommand": {
-      "Description": "Список предупреждений пользователя",
+      "Description": "Lista ostrzeżeń użytkownika",
       "Options": {
         "User": {
-          "Description": "Чей список предупреждений вывести"
+          "Description": "Lista ostrzeżeń którego użytkownika wyświetlić"
         }
       },
       "Texts": {
-        "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
-        "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
-        "UserViolations": "Нарушения {target}",
-        "ViolationsIn24Hours": "За сутки",
-        "ViolationsIn7Days": "За 7 дней",
-        "Last10Violations": "Последние 10 нарушений",
-        "TotalViolations": "Всего нарушений",
-        "ListOfViolators": "Список нарушителей"
+        "ThisUserHasNoViolations": "{username}, ten użytkownik nie ma żadnych naruszeń",
+        "NoOneHasAnyViolations": "{username}, nikt na serwerze nie ma naruszeń",
+        "UserViolations": "Naruszenia użytkownika {target}",
+        "ViolationsIn24Hours": "W ciągu doby",
+        "ViolationsIn7Days": "W ciągu 7 dni",
+        "Last10Violations": "Ostatnie 10 naruszeń",
+        "TotalViolations": "Łączna liczba naruszeń",
+        "ListOfViolators": "Lista naruszających"
       }
     },
     "WarnCommand": {
-      "Description": "Выдача и снятие предупреждений",
+      "Description": "Wydawanie i usuwanie ostrzeżeń",
       "SubCommands": {
         "AddCommand": {
-          "Description": "Выдать предупреждение пользователю",
+          "Description": "Wydaj ostrzeżenie użytkownikowi",
           "Options": {
             "User": {
-              "Description": "Кому необходимо выдать предупреждение"
+              "Description": "Komu wydać ostrzeżenie"
             },
             "Reason": {
-              "Description": "Причина предупреждения"
+              "Description": "Powód ostrzeżenia"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно выдать предупреждение",
-            "YouCannotWarnYourself": "{username}, не думаю, что я могу позволить вам предупредить самого себя",
-            "UserHasBeenWarned": "{username}, пользователю {target} было выдано предупреждение"
+            "InvalidUser": "{username}, proszę wskazać użytkownika, któremu chcesz wydać ostrzeżenie",
+            "YouCannotWarnYourself": "{username}, nie sądzę, abym mógł pozwolić Ci ostrzec samego siebie",
+            "UserHasBeenWarned": "{username}, użytkownik {target} został ostrzeżony"
           }
         },
         "RemoveCommand": {
-          "Description": "Снять предупреждения с пользователя",
+          "Description": "Usuń ostrzeżenia z użytkownika",
           "Options": {
             "User": {
-              "Description": "С кого необходимо снять предупреждение"
+              "Description": "Z którego użytkownika usunąć ostrzeżenie"
             },
             "WarnId": {
-              "Description": "Идентификатор, порядковый номер предупреждения или \"all\" для снятие всех предупреждений"
+              "Description": "Identyfikator, numer porządkowy ostrzeżenia lub \"all\" aby usunąć wszystkie ostrzeżenia"
             },
             "Reason": {
-              "Description": "Причина снятия предупреждения"
+              "Description": "Powód usunięcia ostrzeżenia"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять предупреждение",
-            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
-            "ThisUserHasNoViolations": "{username}, похоже, что этот пользователь не получал ранее предупреждений",
-            "UserWarnHasBeenRemoved": "{username}, предупреждение успешно снято",
-            "AllUserWarnsHaveBeenRemoved": "{username}, все предупреждения успешно сняты"
+            "InvalidUser": "{username}, proszę wskazać użytkownika, z którego należy zdjąć ostrzeżenie",
+            "NoWarnId": "{username}, proszę podać identyfikator ostrzeżenia",
+            "InvalidWarnId": "{username}, podano nieprawidłowy identyfikator ostrzeżenia",
+            "ThisUserHasNoViolations": "{username}, wygląda na to, że ten użytkownik nie otrzymał wcześniej ostrzeżeń",
+            "UserWarnHasBeenRemoved": "{username}, ostrzeżenie zostało pomyślnie usunięte",
+            "AllUserWarnsHaveBeenRemoved": "{username}, wszystkie ostrzeżenia zostały pomyślnie usunięte"
           }
         }
       }
     },
     "FilterCommand": {
-      "Description": "Наложить фильтры на текущее воспроизведение",
+      "Description": "Zastosowanie filtrów do aktualnie odtwarzanej muzyki",
       "Texts": {
-        "FilterSlowed": "Снизить темп",
-        "FilterNightcore": "Увеличить шаг и скорость",
-        "FilterKaraoke": "Устранить вокал",
-        "FilterEightD": "Вращение звука по стерео каналам",
-        "SelectFilter": "Выберите фильтр",
-        "TurnOffAllFilters": "Отключить все фильтры"
+        "FilterSlowed": "Zwolnienie tempa",
+        "FilterNightcore": "Zwiększenie tonu i tempa",
+        "FilterKaraoke": "Usunięcie wokalu",
+        "FilterEightD": "Rotacja dźwięku po kanałach stereo",
+        "SelectFilter": "Wybierz filtr",
+        "TurnOffAllFilters": "Wyłącz wszystkie filtry"
       }
     },
     "PlayCommand": {
-      "Description": "Поиск и воспроизведение музыки в голосовом канале",
+      "Description": "Wyszukiwanie i odtwarzanie muzyki w kanale głosowym",
       "Options": {
         "Query": {
-          "Description": "Ссылка на трек, плейлист, альбом или название трека"
+          "Description": "Link do utworu, playlisty, albumu lub nazwa utworu"
         },
         "Source": {
-          "Description": "Поиск треков в конкретном источнике"
+          "Description": "Wyszukiwanie utworów w konkretnym źródle"
         }
       },
       "Texts": {
-        "YouNeedToConnectToVoiceChannel": "{username}, сначала нужно подключиться к какому-нибудь голосовому каналу",
-        "YouAreNotConnectedToVoiceChannel": "{username}, вы не подключены к голосовому каналу или находитесь в другом",
-        "PlaybackIsDisallowedInVoiceChannel": "{username}, воспроизведение не разрешено в выбранном канале",
-        "MissingRequiredPermissionsInVoiceChannel": "{username}, у меня недостаточно прав в выбранном голосовом канале",
-        "VoiceChannelIsFull": "{username}, выбранный голосовой канал заполнен",
-        "PlaybackIsNotStarted": "{username}, воспроизведение треков не запущено на этом сервере",
-        "NoQuery": "{username}, нужно указать ссылку на плейлист, ссылку на трек или название",
-        "TrackLoadFailed": "{username}, произошла непредвиденная ошибка при загрузке трека",
-        "NoMatches": "{username}, по указанному запросу ничего не найдено",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
-        "PlaylistLoaded": "{username}, плейлист успешно загружен и добавлен в очередь воспроизведения",
-        "QueueLimitReached": "{username}, достигнуто максимальное количество треков в очереди",
-        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только бонусным серверам",
-        "StreamPlaybackIsDisabled": "{username}, потоковые воспроизведения отключены",
-        "TrackHasBeenAddedToQueue": "{username}, трек {track} добавлен в очередь воспроизведения",
-        "PlaylistHasBeenAddedToQueue": "{username}, плейлист {playlist} добавлен в очередь воспроизведения",
-        "HostIsNotAllowedToBePlayed": "{username}, указанная ссылка не находится в списке разрешенных. Пожалуйста, обратитесь на сервер поддержки",
-        "Player": "Плеер",
-        "AddedBy": "Добавил(-а) {requester}"
+        "YouNeedToConnectToVoiceChannel": "{username}, musisz najpierw połączyć się z kanałem głosowym",
+        "YouAreNotConnectedToVoiceChannel": "{username}, nie jesteś połączony z kanałem głosowym lub znajdujesz się na innym",
+        "PlaybackIsDisallowedInVoiceChannel": "{username}, odtwarzanie muzyki nie jest dozwolone na wybranym kanale głosowym",
+        "MissingRequiredPermissionsInVoiceChannel": "{username}, nie mam wystarczających uprawnień na wybranym kanale głosowym",
+        "VoiceChannelIsFull": "{username}, wybrany kanał głosowy jest pełny",
+        "PlaybackIsNotStarted": "{username}, odtwarzanie muzyki nie zostało rozpoczęte na tym serwerze",
+        "NoQuery": "{username}, należy podać link do playlisty, link do utworu lub nazwę utworu",
+        "TrackLoadFailed": "{username}, wystąpił nieoczekiwany błąd podczas ładowania utworu",
+        "NoMatches": "{username}, nie znaleziono niczego według podanego zapytania",
+        "PlaylistsAvailableOnlyForPremium": "{username}, odtwarzanie playlist jest dostępne tylko dla serwerów premium",
+        "PlaylistLoaded": "{username}, playlista została pomyślnie załadowana i dodana do kolejki",
+        "QueueLimitReached": "{username}, osiągnięto maksymalną liczbę utworów w kolejce",
+        "StreamPlaybackAvailableOnlyForPremium": "{username}, odtwarzanie strumieniowe jest dostępne tylko dla serwerów premium",
+        "StreamPlaybackIsDisabled": "{username}, odtwarzanie strumieniowe jest wyłączone",
+        "TrackHasBeenAddedToQueue": "{username}, utwór {track} został dodany do kolejki",
+        "PlaylistHasBeenAddedToQueue": "{username}, playlista {playlist} została dodana do kolejki",
+        "HostIsNotAllowedToBePlayed": "{username}, podany link nie znajduje się na liście dozwolonych. Proszę skontaktować się z serwerem wsparcia",
+        "Player": "Odtwarzacz",
+        "AddedBy": "Dodane przez {requester}"
       }
     },
     "QueueCommand": {
-      "Description": "Текущая очередь воспроизведения музыки",
+      "Description": "Aktualna kolejka odtwarzania muzyki",
       "Texts": {
-        "PlaybackQueueIsEmpty": "{username}, очередь воспроизведения пуста",
-        "SelectTrackToPlay": "Выберите трек для воспроизведения"
+        "PlaybackQueueIsEmpty": "{username}, kolejka odtwarzania jest pusta",
+        "SelectTrackToPlay": "Wybierz utwór do odtworzenia"
       }
     },
     "SeekCommand": {
-      "Description": "Перемотать воспроизведение текущего трека на указанную позицию",
+      "Description": "Przewiń odtwarzanie aktualnego utworu do określonego miejsca",
       "Options": {
         "Time": {
-          "Description": "Время в формате чч:мм:сс"
+          "Description": "Czas w formacie hh:mm:ss"
         }
       },
       "Texts": {
-        "TrackIsNotSeekable": "{username}, невозможно перемотать текущий трек",
-        "TrackRewoundToPosition": "{username}, трек перемотан на {time}"
+        "TrackIsNotSeekable": "{username}, nie można przewinąć aktualnego utworu",
+        "TrackRewoundToPosition": "{username}, utwór przewinięty do {time}"
       }
     },
     "StopCommand": {
-      "Description": "Остановить воспроизведение музыки и очистить очередь",
+      "Description": "Zatrzymaj odtwarzanie muzyki i wyczyść kolejkę",
       "Texts": {
-        "PlaybackHasBeenStopped": "{username}, воспроизведение остановлено"
+        "PlaybackHasBeenStopped": "{username}, odtwarzanie zostało zatrzymane"
       }
     },
     "VolumeCommand": {
-      "Description": "Изменить громкость воспроизведения музыки",
+      "Description": "Zmień głośność odtwarzanej muzyki",
       "Options": {
         "Volume": {
-          "Description": "Громкость воспроизведения"
+          "Description": "Głośność odtwarzania"
         }
       },
       "Texts": {
-        "InvalidVolume": "{username}, неверно указано значение громкости",
-        "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
-        "VolumeHasBeenChanged": "{username}, громкость изменена с {from} на {to}"
+        "InvalidVolume": "{username}, podano nieprawidłową wartość głośności",
+        "InvalidVolumeDiapason": "{username}, głośność powinna być w zakresie od 1 do 100",
+        "VolumeHasBeenChanged": "{username}, głośność zmieniona z {from} na {to}"
       }
     },
     "ActivitiesCommand": {
-      "Description": "Управление активностями",
+      "Description": "Zarządzanie aktywnościami",
       "SubCommands": {
         "AssignLevelAwardCommand": {
-          "Description": "Назначить награду пользователю",
+          "Description": "Przyznanie nagrody użytkownikowi",
           "Options": {
             "User": {
-              "Description": "Кому необходимо назначить награду"
+              "Description": "Komu przyznać nagrodę"
             },
             "Award": {
-              "Description": "Выберите из списка или введите идентификатор награды"
+              "Description": "Wybierz z listy lub wprowadź identyfikator nagrody"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите назначить награду",
-            "UnknownAward": "{username}, не удалось найти награду",
-            "AwardHasBeenAssigned": "{username}, награда успешно назначена"
+            "InvalidUser": "{username}, proszę wskazać użytkownika, któremu chcesz przyznać nagrodę",
+            "UnknownAward": "{username}, nie udało się znaleźć nagrody",
+            "AwardHasBeenAssigned": "{username}, nagroda została pomyślnie przyznana"
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Ustawienie salda portfela dla użytkownika",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Któremu użytkownikowi zostanie ustawione saldo portfela"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "Ile waluty zostanie ustawione/dodane/odjęte"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Jaka waluta zostanie ustawiona/dodana/odjęta"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
-              "ChoiceSet": "Установить",
-              "ChoiceInc": "Прибавить",
-              "ChoiceSub": "Вычесть"
+              "Description": "Wybierz operację dla salda portfela",
+              "ChoiceSet": "Ustaw",
+              "ChoiceInc": "Dodaj",
+              "ChoiceSub": "Odejmij"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
-            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
+            "InvalidUser": "{username}, proszę wskazać użytkownika, któremu chcesz ustawić saldo portfela",
+            "InvalidAmount": "{username}, proszę wskazać kwotę do ustawienia na saldzie portfela",
+            "WalletBalanceHasBeenSet": "{username}, saldo portfela użytkownika {target} zostało ustawione"
           }
         },
         "ResetWalletCommand": {
-          "Description": "Сбросить кошелёк пользователю",
+          "Description": "Zresetuj portfel użytkownika",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить кошелёк"
+              "Description": "Komu zresetować portfel"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Zresetuj portfele wszystkim uczestnikom na serwerze"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
-            "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
+            "NoRequiredArgs": "{username}, wskaż uczestnika, jego identyfikator lub zresetuj portfele wszystkim",
+            "NoExistingWallets": "{username}, nie ma istniejących portfeli",
+            "AllWalletsHaveBeenReset": "{username}, wszystkie portfele zostały zresetowane",
+            "UserWalletHasBeenReset": "{username}, portfel został zresetowany"
           }
         },
         "ResetLevelCommand": {
-          "Description": "Сбросить уровень пользователю",
+          "Description": "Zresetuj poziom użytkownika",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить уровень"
+              "Description": "Komu zresetować poziom"
             },
             "ResetAll": {
-              "Description": "Сбросить уровни всем участникам на сервере"
+              "Description": "Zresetuj poziomy wszystkim uczestnikom na serwerze"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
-            "NoExistingLevels": "{username}, нет существующих уровней",
-            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
-            "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
+            "NoRequiredArgs": "{username}, wskaż uczestnika, jego identyfikator lub zresetuj poziomy wszystkim",
+            "NoExistingLevels": "{username}, nie ma istniejących poziomów",
+            "AllLevelsHaveBeenReset": "{username}, wszystkie poziomy zostały zresetowane",
+            "UserLevelHasBeenReset": "{username}, poziom został zresetowany"
           }
         }
       }
     },
     "GiveawayCommand": {
-      "Description": "Управление розыгрышами",
+      "Description": "Zarządzanie konkursami",
       "SubCommands": {
         "CreateCommand": {
-          "Description": "Создать новый розыгрыш",
+          "Description": "Utwórz nowy konkurs",
           "Options": {
             "Prize": {
-              "Description": "Приз за победу в розыгрыше"
+              "Description": "Nagroda za wygraną w konkursie"
             },
             "Duration": {
-              "Description": "Длительность розыгрыша"
+              "Description": "Czas trwania konkursu"
             },
             "WinnerCount": {
-              "Description": "Сколько будет победителей розыгрыша"
+              "Description": "Ilość zwycięzców konkursu"
             },
             "Sponsor": {
-              "Description": "Кто проспонсировал этот розыгрыш"
+              "Description": "Kto sponsoruje ten konkurs"
             }
           },
           "Texts": {
-            "InvalidPrize": "{username}, вы не указали приз за победу в розыгрыше",
-            "InvalidDuration": "{username}, аргумент длительности указан неверно",
-            "InvalidWinnerCount": "{username}, количество победителей должно быть диапазоне от 1 до 50",
-            "MaxActiveGiveawaysReached": "{username}, достигнуто максимальное количество активных розыгрышей",
-            "GiveawaySponsoredBy": "Розыгрыш от {sponsor}",
-            "GiveawayWillBeOverIn": "Завершится {relativeTime}",
-            "WinningPrize": "Приз за победу",
-            "WinnerCount": "Кол-во победителей",
-            "GiveawayHasBeenCreated": "{username}, розыгрыш успешно создан",
-            "YouHaveParticipatedInGiveaway": "{username}, вы приняли участие в розыгрыше {giveaway}",
-            "YouAreAlreadyInGiveaway": "{username}, вы уже участвуете в розыгрыше {giveaway}"
+            "InvalidPrize": "{username}, nie określono nagrody za wygraną w konkursie",
+            "InvalidDuration": "{username}, nieprawidłowo określono czas trwania",
+            "InvalidWinnerCount": "{username}, liczba zwycięzców powinna być w zakresie od 1 do 50",
+            "MaxActiveGiveawaysReached": "{username}, osiągnięto maksymalną liczbę aktywnych konkursów",
+            "GiveawaySponsoredBy": "Konkurs sponsorowany przez {sponsor}",
+            "GiveawayWillBeOverIn": "Zakończy się {relativeTime}",
+            "WinningPrize": "Nagroda za wygraną",
+            "WinnerCount": "Liczba zwycięzców",
+            "GiveawayHasBeenCreated": "{username}, konkurs został pomyślnie utworzony",
+            "YouHaveParticipatedInGiveaway": "{username}, wziąłeś udział w konkursie {giveaway}",
+            "YouAreAlreadyInGiveaway": "{username}, już uczestniczysz w konkursie {giveaway}"
           }
         },
         "EndCommand": {
-          "Description": "Принудительно завершить розыгрыш",
+          "Description": "Zakończ losowanie nagród przed czasem",
           "Options": {
             "MessageId": {
-              "Description": "Идентификатор сообщения с розыгрышем"
+              "Description": "Identyfikator wiadomości z losowaniem"
             }
           },
           "Texts": {
-            "NoGiveawayParticipants": "Участники розыгрыша не найдены",
-            "GiveawayWinners": "Победители: {winners}",
-            "CongratulationsYouHaveWon": "Мои поздравления {winner}! Вы выиграли {prize}!"
+            "NoGiveawayParticipants": "Nie znaleziono uczestników losowania",
+            "GiveawayWinners": "Zwycięzcy: {winners}",
+            "CongratulationsYouHaveWon": "Gratulacje {winner}! Wygrałeś {prize}!"
           }
         },
         "RerollCommand": {
-          "Description": "Выбрать победителей розыгрыша заново",
+          "Description": "Ponowne wybranie zwycięzców losowania",
           "Texts": {
-            "InvalidMessageId": "{username}, пожалуйста, укажите идентификатор сообщения с розыгрышем",
-            "GiveawayNotFound": "{username}, розыгрыш не найден"
+            "InvalidMessageId": "{username}, proszę podać identyfikator wiadomości z losowaniem",
+            "GiveawayNotFound": "{username}, losowanie nie zostało znalezione"
           }
         }
       }
     },
     "PollCommand": {
-      "Description": "Управление опросами",
+      "Description": "Zarządzanie ankietami",
       "Texts": {
-        "VotesPlural": "{n} голос | {n} голоса | {n} голосов",
-        "YouHaveAlreadyChosenThisOption": "{username}, вы уже выбрали этот вариант ответа",
-        "YouHaveAlreadyChosenQuizOption": "{username}, вы уже выбрали ответ {answer}",
-        "YouHaveChosenCorrectOption": "{username}, вы выбрали правильный ответ ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, к сожалению, ответ неверный",
-        "YouHaveChosenOption": "{username}, вы выбрали вариант {answer}",
-        "YouHaveRemovedYourVote": "{username}, вы убрали свой голос с варианта {answer}"
+        "VotesPlural": "{n} głos | {n} głosy | {n} głosów",
+        "YouHaveAlreadyChosenThisOption": "{username}, już wybrałeś tę opcję",
+        "YouHaveAlreadyChosenQuizOption": "{username}, już wybrałeś odpowiedź {answer}",
+        "YouHaveChosenCorrectOption": "{username}, wybrałeś poprawną odpowiedź ({answer})",
+        "YouHaveChosenIncorrectOption": "{username}, niestety, odpowiedź jest nieprawidłowa",
+        "YouHaveChosenOption": "{username}, wybrałeś opcję {answer}",
+        "YouHaveRemovedYourVote": "{username}, usunąłeś swój głos z opcji {answer}"
       },
       "SubCommands": {
         "CreateCommand": {
-          "Description": "Создать новый опрос",
+          "Description": "Utwórz nową ankietę",
           "Options": {
             "QuizMode": {
-              "Description": "Опрос с правильными и неправильными ответами"
+              "Description": "Ankieta z poprawnymi i niepoprawnymi odpowiedziami"
             },
             "MultipleAnswers": {
-              "Description": "Позволяет выбрать несколько вариантов ответа"
+              "Description": "Pozwala wybrać wiele odpowiedzi"
             }
           },
           "Texts": {
-            "NewPoll": "Новый опрос",
-            "PollQuestion": "Вопрос",
-            "CorrectAnswer": "Правильный ответ",
-            "AnswerOptions": "Варианты ответа",
-            "AnswerOptionsPlaceholder": "Варианты ответов указываются с новой строки",
-            "NoQuestion": "{username}, пожалуйста, укажите вопрос",
-            "InvalidAnswerOptions": "{username}, пожалуйста, укажите от 2 до 10 вариантов ответа",
-            "NoCorrectAnswer": "{username}, пожалуйста, укажите правильный ответ",
-            "QuizMode": "Викторина",
-            "MultipleAnswers": "Выбор нескольких вариантов",
-            "PollHasBeenCreated": "{username}, опрос успешно создан",
-            "FailedToCreatePoll": "{username}, произошла ошибка при создании опроса"
+            "NewPoll": "Nowa ankieta",
+            "PollQuestion": "Pytanie",
+            "CorrectAnswer": "Poprawna odpowiedź",
+            "AnswerOptions": "Opcje odpowiedzi",
+            "AnswerOptionsPlaceholder": "Opcje odpowiedzi wpisuje się w nowych liniach",
+            "NoQuestion": "{username}, proszę podać pytanie",
+            "InvalidAnswerOptions": "{username}, proszę podać od 2 do 10 opcji odpowiedzi",
+            "NoCorrectAnswer": "{username}, proszę wskazać poprawną odpowiedź",
+            "QuizMode": "Tryb quizu",
+            "MultipleAnswers": "Możliwość wielokrotnego wyboru",
+            "PollHasBeenCreated": "{username}, ankieta została pomyślnie utworzona",
+            "FailedToCreatePoll": "{username}, wystąpił błąd podczas tworzenia ankiety"
           }
         }
       }
     },
     "TemproleCommand": {
-      "Description": "Временно выдать роль пользователю",
+      "Description": "Tymczasowe przyznanie roli użytkownikowi",
       "Options": {
         "User": {
-          "Description": "Кому необходимо выдать роль"
+          "Description": "Komu przyznać rolę"
         },
         "Role": {
-          "Description": "Какую роль необходимо выдать"
+          "Description": "Jaką rolę przyznać"
         },
         "Duration": {
-          "Description": "На какое время будет выдана роль"
+          "Description": "Na jak długo przyznać rolę"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому будет выдана временная роль",
-        "NoRole": "{username}, вы не указали роль",
-        "InvalidDuration": "{username}, длительность временной роли указано неверно",
-        "RoleIsNotEditable": "{username}, у меня нет разрешений на выдачу этой роли кому-либо",
-        "UserAlreadyHasThisRole": "{username}, пользователь уже имеет эту роль",
-        "RoleAssignedToUser": "{username}, роль {role} выдана пользователю {target} до {date}"
+        "InvalidUser": "{username}, proszę wskazać użytkownika, któremu zostanie przyznana tymczasowa rola",
+        "NoRole": "{username}, nie określono roli",
+        "InvalidDuration": "{username}, nieprawidłowo określono czas trwania roli",
+        "RoleIsNotEditable": "{username}, nie mam uprawnień do przyznawania tej roli",
+        "UserAlreadyHasThisRole": "{username}, użytkownik już posiada tę rolę",
+        "RoleAssignedToUser": "{username}, rola {role} przyznana użytkownikowi {target} do {date}"
       }
     }
   },
   "Pages": {
     "AuthorizationPage": {
-      "ShareEmailAddress": "Поделиться адресом эл. почты",
-      "JoinSupportServer": "Присоединиться к серверу поддержки"
+      "ShareEmailAddress": "Udostępnij adres e-mail",
+      "JoinSupportServer": "Dołącz do serwera wsparcia"
     },
     "AuthorizationResultPage": {
-      "AuthorizationSuccessful": "Авторизация прошла успешно",
-      "AuthorizationFailed": "Авторизация не удалась",
-      "CloseWindowAndGoBack": "Вы можете закрыть это окно и вернуться в Discord.",
-      "SomethingWentWrong": "Что-то пошло не так. Попробуйте позже."
+      "AuthorizationSuccessful": "Autoryzacja zakończona sukcesem",
+      "AuthorizationFailed": "Autoryzacja nie powiodła się",
+      "CloseWindowAndGoBack": "Możesz zamknąć to okno i wrócić do Discorda.",
+      "SomethingWentWrong": "Coś poszło nie tak. Spróbuj ponownie później."
     },
     "DashboardPage": {
-      "Profile": "Профиль",
-      "NoActivities": "Похоже, вы не проявляли активности",
-      "MyGuilds": "Мои сообщества",
-      "NoGuilds": "У вас нет доступных сообществ.",
-      "Bills": "Выставленные счета",
-      "BillId": "Номер счёта",
-      "BillAmount": "Сумма платежа",
-      "BillStatus": "Статус платежа"
+      "Profile": "Profil",
+      "NoActivities": "Wygląda na to, że nie byłeś aktywny",
+      "MyGuilds": "Moje serwery",
+      "NoGuilds": "Nie masz dostępnych serwerów.",
+      "Bills": "Wystawione rachunki",
+      "BillId": "Numer rachunku",
+      "BillAmount": "Kwota płatności",
+      "BillStatus": "Status płatności"
     },
     "ErrorPage": {
-      "ThereIsNothingHere": "Здесь ничего нет..."
+      "ThereIsNothingHere": "Tu nic nie ma..."
     },
     "GuildPage": {
       "NavNames": {
-        "General": "Общее",
-        "Commands": "Команды",
-        "Moderation": "Модерирование",
-        "CustomBehavior": "Пользовательское поведение",
-        "Activities": "Активности",
-        "Subscriptions": "Социальные оповещения",
-        "VoiceChannels": "Голосовые каналы",
-        "Utility": "Полезное",
-        "ChangeLog": "Журнал изменений",
-        "DownloadLogs": "Скачать логи"
+        "General": "Ogólne",
+        "Commands": "Komendy",
+        "Moderation": "Moderacja",
+        "CustomBehavior": "Zachowania użytkownika",
+        "Activities": "Aktywności",
+        "Subscriptions": "Powiadomienia społecznościowe",
+        "VoiceChannels": "Kanały głosowe",
+        "Utility": "Narzędzia",
+        "ChangeLog": "Dziennik zmian",
+        "DownloadLogs": "Pobierz logi"
       },
-      "SomethingWentWrongWhenTryingToSave": "Что-то пошло не так при попытке сохранения. Пожалуйста, попробуйте немного позже.",
-      "UnsavedChangesArePresent": "Имеются несохраненные изменения! Вы действительно хотите покинуть эту страницу?",
+      "SomethingWentWrongWhenTryingToSave": "Coś poszło nie tak podczas próby zapisu. Proszę spróbować ponownie później.",
+      "UnsavedChangesArePresent": "Istnieją niezapisane zmiany! Czy na pewno chcesz opuścić tę stronę?",
       "GeneralSettings": {
-        "Title": "Общие настройки",
-        "Locale": "Локализация",
-        "Translate": "Перевести",
-        "ExpertRoles": "Роли экспертов",
-        "ExpertRolesDescription": "Выбранные роли смогут просматривать и изменять настройки бота, будьте осторожны",
-        "Greeting": "Приветствие",
-        "MessageFormat": "Формат сообщений",
+        "Title": "Ustawienia ogólne",
+        "Locale": "Lokalizacja",
+        "Translate": "Tłumacz",
+        "ExpertRoles": "Role ekspertów",
+        "ExpertRolesDescription": "Wybrane role będą mogły przeglądać i zmieniać ustawienia bota, zachowaj ostrożność",
+        "Greeting": "Powitanie",
+        "MessageFormat": "Format wiadomości",
         "MessageFormats": {
-          "DM": "В личные сообщения",
-          "Channel": "В установленный канал",
-          "CurrentChannel": "В текущий канал"
+          "DM": "Prywatne wiadomości",
+          "Channel": "Do ustawionego kanału",
+          "CurrentChannel": "Do bieżącego kanału"
         },
-        "ChannelForMessages": "Канал для сообщений",
-        "MessageTemplate": "Шаблон сообщения",
-        "InitialRoles": "Начальные роли",
-        "Restoring": "Восстановление",
-        "RestoringDescription": "Восстанавливать роли и/или никнейм участнику, который повторно зашел на сервер",
-        "RestoreRoles": "Восстанавливать роли",
-        "RestoreNickname": "Восстанавливать никнейм",
-        "RestoreStrictRoles": "Строгие роли",
-        "RestoreStrictRolesDescription": "Эти роли не будут восстановлены при повторном присоединении на сервер",
-        "Farewell": "Прощание"
+        "ChannelForMessages": "Kanał dla wiadomości",
+        "MessageTemplate": "Szablon wiadomości",
+        "InitialRoles": "Role początkowe",
+        "Restoring": "Przywracanie",
+        "RestoringDescription": "Przywracanie ról i/lub pseudonimu użytkownika, który ponownie dołączył na serwer",
+        "RestoreRoles": "Przywracanie ról",
+        "RestoreNickname": "Przywracanie pseudonimu",
+        "RestoreStrictRoles": "Ścisłe role",
+        "RestoreStrictRolesDescription": "Te role nie będą przywrócone, gdy użytkownik ponownie dołączy na serwer",
+        "Farewell": "Pożegnanie"
       },
       "Commands": {
-        "SystemCommands": "Системные команды"
+        "SystemCommands": "Komendy systemowe"
       },
       "Moderation": {
-        "Hierarchy": "Иерархия",
-        "RespectHierarchy": "Учитывать иерархию ролей в командах модерирования",
-        "DenyModerateUsersWithModeratorPermissions": "Запретить модерировать пользователей с правами модератора",
-        "UnmoderatedRoles": "Немодерируемые роли",
-        "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
-        "Log": "Журнал",
-        "LogDescription": "Отслеживание действий и событий",
-        "CaseLogChannel": "Канал для случаев",
-        "CaseLogChannelDescription": "В указанном канале будут логироваться действия модераторов",
-        "CaseLogTypes": "Типы случаев",
-        "CaseLogTypesDescription": "События журнала модерации",
-        "ActionLog": "Журнал действия",
-        "ActionLogDescription": "События сервера",
-        "Mutes": "Заглушения",
-        "MutesRAR": "Убирать все роли при заглушении",
-        "MutesRARStrict": "Убирать все, кроме",
-        "AutoMod": "Автомодерация",
-        "AutoModDescription": "Автоматическое применение мер против нарушителей",
-        "Penalties": "Наказания за предупреждения",
-        "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
+        "Hierarchy": "Hierarchia",
+        "RespectHierarchy": "Uwzględniaj hierarchię ról w komendach moderacyjnych",
+        "DenyModerateUsersWithModeratorPermissions": "Zabroń moderowania użytkowników z uprawnieniami moderatora",
+        "UnmoderatedRoles": "Role niemoderowane",
+        "UnmoderatedRolesDescription": "Role, do których nie będą mogły być stosowane komendy moderacyjne",
+        "Log": "Dziennik",
+        "LogDescription": "Śledzenie działań i zdarzeń",
+        "CaseLogChannel": "Kanał dla przypadków",
+        "CaseLogChannelDescription": "Działania moderatorów będą logowane na wybranym kanale",
+        "CaseLogTypes": "Typy przypadków",
+        "CaseLogTypesDescription": "Zdarzenia z dziennika moderacji",
+        "ActionLog": "Dziennik akcji",
+        "ActionLogDescription": "Zdarzenia serwera",
+        "Mutes": "Wyciszenia",
+        "MutesRAR": "Usuwanie wszystkich ról podczas wyciszania",
+        "MutesRARStrict": "Usuwanie wszystkich oprócz",
+        "AutoMod": "Automoderacja",
+        "AutoModDescription": "Automatyczne stosowanie środków przeciwko naruszającym zasady",
+        "Penalties": "Kary za ostrzeżenia",
+        "PenaltiesDescription": "Nakładanie kar po osiągnięciu określonej liczby ostrzeżeń"
       },
       "CustomBehavior": {
-        "Automation": "Автоматизация",
-        "Plugins": "Плагины",
-        "AboutCustomPlugins": "Создавайте свои собственные плагины и делитесь ими с сообществом. Эта возможность открывает перед пользователями уникальные перспективы в настройке и оптимизации бота под свои индивидуальные потребности."
+        "Automation": "Automatyzacja",
+        "Plugins": "Pluginy",
+        "AboutCustomPlugins": "Twórz własne pluginy i dziel się nimi ze społecznością. Ta funkcja otwiera przed użytkownikami unikalne możliwości dostosowania i optymalizacji bota do indywidualnych potrzeb."
       },
       "Activities": {
-        "Levels": "Уровни",
-        "LevelsTextExp": "Опыт за текстовую активность",
-        "LevelsVoiceExp": "Опыт за голосовую активность",
-        "LevelsResetOnLeave": "Сбрасывать уровень при выходе участника",
-        "LevelsAlerts": "Оповещения о повышении уровня",
-        "LevelsAwards": "Награды",
-        "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
-        "Economy": "Экономика",
-        "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
-        "EconomyCurrencies": "Валюты",
-        "EconomyStoreItems": "Предметы магазина",
-        "EconomyTransferPermissions": "Разрешения команды перевода",
-        "Multipliers": "Множители опыта и заработка"
+        "Levels": "Poziomy",
+        "LevelsTextExp": "Doświadczenie za aktywność tekstową",
+        "LevelsVoiceExp": "Doświadczenie za aktywność głosową",
+        "LevelsResetOnLeave": "Resetowanie poziomu po opuszczeniu serwera przez uczestnika",
+        "LevelsAlerts": "Powiadomienia o awansie poziomu",
+        "LevelsAwards": "Nagrody",
+        "LevelsAwardsDescription": "Przyznawanie nagród za osiągnięcie określonych poziomów",
+        "Economy": "Ekonomia",
+        "EconomyResetOnLeave": "Resetowanie portfela po opuszczeniu serwera przez uczestnika",
+        "EconomyCurrencies": "Waluty",
+        "EconomyStoreItems": "Przedmioty w sklepie",
+        "EconomyTransferPermissions": "Uprawnienia do komendy transferu",
+        "Multipliers": "Mnożniki doświadczenia i zarobków"
       },
       "VoiceChannels": {
-        "Music": "Музыка",
-        "MusicAllowRadioPlayback": "Разрешить потоковое воспроизведение",
-        "MusicQueueMaxLength": "Максимальный размер очереди",
-        "MusicDefaultVolume": "Громкость по умолчанию",
-        "MusicDefaultSource": "Источник по умолчанию",
-        "VoiceRoles": "Голосовые роли",
-        "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
-        "AutoVoices": "Временные голосовые каналы",
-        "AutoVoicesDescription": "Автоматическое создание и удаление голосовых каналов"
+        "Music": "Muzyka",
+        "MusicAllowRadioPlayback": "Zezwól na odtwarzanie radia",
+        "MusicQueueMaxLength": "Maksymalna długość kolejki",
+        "MusicDefaultVolume": "Domyślna głośność",
+        "MusicDefaultSource": "Domyślne źródło",
+        "VoiceRoles": "Role głosowe",
+        "VoiceRolesDescription": "Automatyczne przyznawanie ról przy połączeniu z kanałami głosowymi",
+        "AutoVoices": "Tymczasowe kanały głosowe",
+        "AutoVoicesDescription": "Automatyczne tworzenie i usuwanie kanałów głosowych"
       },
       "Useful": {
-        "Reports": "Репорты",
-        "ReportsNotifyAboutUnwantedUsers": "Уведомлять о присоединении потенциально нежелательных пользователей",
-        "BannerRotation": "Ротация баннера",
-        "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
-        "AutoReactions": "Автореакции",
-        "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
-        "AutoThreads": "Автоветки",
-        "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
-        "InteractiveMessages": "Интерактивные сообщения",
-        "InteractiveReactions": "Интерактивные реакции",
-        "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции"
+        "Reports": "Raporty",
+        "ReportsNotifyAboutUnwantedUsers": "Powiadamiaj o dołączeniu potencjalnie niechcianych użytkowników",
+        "BannerRotation": "Rotacja banera",
+        "ImageRotationNote": "Obraz zostanie zaktualizowany {relativeTime} po wystąpieniu następujących zdarzeń:",
+        "AutoReactions": "Autoreakcje",
+        "AutoReactionsDescription": "Automatyczne dodawanie reakcji do wiadomości",
+        "AutoThreads": "Automatyczne wątki",
+        "AutoThreadsDescription": "Automatyczne tworzenie wątków dla wiadomości",
+        "InteractiveMessages": "Interaktywne wiadomości",
+        "InteractiveReactions": "Interaktywne reakcje",
+        "InteractiveReactionsDescription": "Przyznawanie ról i dostępu do kanałów po kliknięciu reakcji"
       }
     },
     "LandingPage": {
-      "Title": "Создавайте (всё), что пожелаете",
-      "Description": "Многофункциональный бот для Discord, предназначенный расширить возможности управления и модерирования сообществ.",
-      "AddToMe": "Добавить себе",
-      "LearnMore": "Узнать больше",
-      "FeatureCustomBehaviorDescription": "Настройте поведение бота с помощью JavaScript. Создавайте пользовательские команды и задачи автоматизации, чтобы придать волшебство своему сообществу.",
-      "FeatureActivitiesDescription": "Уровни и экономика. Соревнуйтесь с другими пользователями в борьбе за почетное место в таблице лидеров и получайте за это награды!",
-      "FeatureModerationDescription": "Простые и удобные команды, журнал действий, автомодерирование, уведомления о потенциальных нарушителях, жалобы на пользователей и многое другое. Не оставляйте своё сообщество без защиты.",
-      "FeatureSubscriptionsDescription": "Привяжите свой Telegram, Twitch и YouTube канал, чтобы подписчики узнавали о выходе нового контента.",
-      "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Spotify, Yandex.Music, SoundCloud, прямые ссылки на аудио и радиостанции.",
-      "FeatureUtility": "Полезные функции",
-      "FeatureUtilityDescription": "Интерактивные сообщения и реакции, временные голосовые каналы, приветственные сообщения и многое другое!",
-      "ReadyToGetStarted": "Готовы начать?",
-      "ReadyToGetStartedDescription": "Стабильность. Легкость. Функциональность. Lacuna – это мощный инструмент для улучшения сообщества с интуитивно понятным интерфейсом."
+      "Title": "Twórz (wszystko), co zechcesz",
+      "Description": "Wszechstronny bot dla Discorda, zaprojektowany, aby rozszerzyć możliwości zarządzania i moderowania społeczności.",
+      "AddToMe": "Dodaj mnie",
+      "LearnMore": "Dowiedz się więcej",
+      "FeatureCustomBehaviorDescription": "Dostosuj zachowanie bota za pomocą JavaScript. Twórz własne komendy i zadania automatyzacji, aby nadać swojej społeczności wyjątkowy charakter.",
+      "FeatureActivitiesDescription": "Poziomy i ekonomia. Rywalizuj z innymi użytkownikami o prestiżowe miejsce w rankingu i zdobywaj nagrody!",
+      "FeatureModerationDescription": "Proste i intuicyjne komendy, dziennik działań, automoderacja, powiadomienia o potencjalnych naruszycielach, skargi na użytkowników i wiele więcej. Nie pozostawiaj swojej społeczności bez ochrony.",
+      "FeatureSubscriptionsDescription": "Połącz swój kanał Telegram, Twitch i YouTube, aby subskrybenci byli informowani o nowych treściach.",
+      "FeatureMusicDescription": "Słuchaj swojej ulubionej muzyki na kanałach głosowych. Obsługujemy Spotify, Yandex.Music, SoundCloud, bezpośrednie linki do audio i stacje radiowe.",
+      "FeatureUtility": "Funkcje użytkowe",
+      "FeatureUtilityDescription": "Interaktywne wiadomości i reakcje, tymczasowe kanały głosowe, powitania i wiele więcej!",
+      "ReadyToGetStarted": "Gotowy, aby zacząć?",
+      "ReadyToGetStartedDescription": "Stabilność. Łatwość. Funkcjonalność. Lacuna to potężne narzędzie do ulepszania społeczności z intuicyjnym interfejsem."
     },
     "PatronsPage": {
-      "GratitudeMessageP1": "Мы хотим выразить вам нашу искреннюю благодарность за вашу финансовую поддержку нашего бота! Ваше щедрое пожертвование помогает нам дальше развивать и улучшать нашего бота, чтобы он мог продолжать предоставлять полезные услуги и быть полезным инструментом для пользователей.",
-      "GratitudeMessageP2": "Ваше доброе пожертвование вносит реальную разницу в нашу работу, и мы ценим ваше доверие и поддержку. Вместе мы можем сделать Lacuna еще лучше, предлагая новые функции, улучшая интерфейс и повышая её эффективность.",
-      "GratitudeMessageP3": "Мы глубоко признательны за ваше лояльное сотрудничество и доверие, которое вы проявляете к нашему проекту. Ваша поддержка вдохновляет нас и дает нам энергию для дальнейшей работы. Мы обязуемся продолжать развивать и улучшать Lacuna, чтобы она продолжала быть ценным инструментом для вас и других пользователей.",
-      "ActivePatrons": "Активные покровители",
-      "FormerPatrons": "Ранее поддерживали"
+      "GratitudeMessageP1": "Chcielibyśmy wyrazić naszą szczere podziękowania za finansowe wsparcie naszego bota! Twoje hojne wsparcie pomaga nam rozwijać i ulepszać naszego bota, aby mógł on nadal dostarczać przydatne usługi i być użytecznym narzędziem dla użytkowników.",
+      "GratitudeMessageP2": "Twoje dobre wsparcie robi prawdziwą różnicę w naszej pracy, a my cenimy sobie Twoje zaufanie i wsparcie. Razem możemy uczynić Lacunę jeszcze lepszą, oferując nowe funkcje, ulepszając interfejs i zwiększając jej skuteczność.",
+      "GratitudeMessageP3": "Jesteśmy głęboko wdzięczni za Twoje lojalne partnerstwo i zaufanie, które okazujesz naszemu projektowi. Twoje wsparcie inspiruje nas i daje energię do dalszej pracy. Zobowiązujemy się do kontynuowania rozwoju i ulepszania Lacuny, aby nadal była cennym narzędziem dla Ciebie i innych użytkowników.",
+      "ActivePatrons": "Aktywni patroni",
+      "FormerPatrons": "Byli patroni"
     },
     "StatePage": {
-      "TotalChannels": "Всего каналов",
-      "AvgLatency": "Средняя латентность",
-      "Clusters": "Кластеры",
-      "ClusterCPUUsage": "Загрузка ЦП",
-      "ClusterMemoryUsage": "Использование ОЗУ",
-      "Shards": "Фрагменты",
-      "ShardLatencies": "Латентность фрагментов",
-      "MusicPlayers": "Музыкальные плееры",
-      "PlayerCPULoad": "Нагрузка плеера",
-      "CommandUses": "Количество использований команд"
+      "TotalChannels": "Łączna liczba kanałów",
+      "AvgLatency": "Średnie opóźnienie",
+      "Clusters": "Klastry",
+      "ClusterCPUUsage": "Zużycie CPU",
+      "ClusterMemoryUsage": "Zużycie pamięci RAM",
+      "Shards": "Shardy",
+      "ShardLatencies": "Opóźnienia shardów",
+      "MusicPlayers": "Odtwarzacze muzyczne",
+      "PlayerCPULoad": "Obciążenie procesora przez odtwarzacz",
+      "CommandUses": "Liczba użycia komend"
     }
   },
   "Components": {
     "EconomyCurrency": {
-      "CurrencyName": "Название валюты",
-      "CurrencySymbol": "Символ валюты",
-      "IncomePerMessage": "Заработок за сообщение",
-      "IncomePerMessageRl": "Временное ограничение",
-      "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
-      "IncomePerMinute": "Заработок за минуту в голосовом канале",
-      "From": "От",
-      "To": "До"
+      "CurrencyName": "Nazwa waluty",
+      "CurrencySymbol": "Symbol waluty",
+      "IncomePerMessage": "Zarobek za wiadomość",
+      "IncomePerMessageRl": "Ograniczenie czasowe",
+      "IncomePerMessageRlDescription": "Użytkownik będzie mógł ponownie otrzymać monety po upływie tego czasu",
+      "IncomePerMinute": "Zarobek za minutę na kanale głosowym",
+      "From": "Od",
+      "To": "Do"
     },
     "EconomyStoreItem": {
-      "ItemName": "Название предмета",
-      "ItemType": "Тип предмета",
-      "ItemDescription": "Описание предмета",
-      "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
-      "ItemProducts": "Товары",
-      "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
+      "ItemName": "Nazwa przedmiotu",
+      "ItemType": "Typ przedmiotu",
+      "ItemDescription": "Opis przedmiotu",
+      "ItemPurchasePriceDescription": "Ustaw wartość na 0, aby przedmiot był darmowy",
+      "ItemProducts": "Produkty",
+      "ItemProductsDescription": "Role lub kanały, które zostaną przyznane po zakupie",
       "ItemOptions": {
-        "LimitedQuantity": "Ограниченное количество",
-        "TemporaryReferences": "Выдавать роли временно",
-        "CustomPurchaseReply": "Индивидуальное сообщение покупки"
+        "LimitedQuantity": "Ograniczona ilość",
+        "TemporaryReferences": "Przyznawanie ról tymczasowo",
+        "CustomPurchaseReply": "Niestandardowa odpowiedź po zakupie"
       },
-      "ItemQuantity": "Количество предметов",
-      "ItemDuration": "Длительность предмета"
+      "ItemQuantity": "Ilość przedmiotów",
+      "ItemDuration": "Czas trwania przedmiotu"
     },
     "LevelAward": {
-      "AwardConditions": "Условия для получения награды",
-      "RequiredLevel": "Необходимый уровень",
-      "RequiredVoiceTime": "Необходимое голосовое время",
-      "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
-      "AwardMessage": "Сообщение при получении награды"
+      "AwardConditions": "Warunki otrzymania nagrody",
+      "RequiredLevel": "Wymagany poziom",
+      "RequiredVoiceTime": "Wymagany czas głosowy",
+      "RequiredNumberOfSentMessages": "Wymagana liczba wysłanych wiadomości",
+      "AwardMessage": "Wiadomość przyznania nagrody"
     },
     "ActivityMultipliers": {
-      "LevelMultipliers": "Множители опыта",
-      "EconomyMultipliers": "Множители заработка",
-      "ForTextActivity": "За текстовую активность",
-      "ForVoiceActivity": "За голосовую активность"
+      "LevelMultipliers": "Mnożniki doświadczenia",
+      "EconomyMultipliers": "Mnożniki zarobków",
+      "ForTextActivity": "Za aktywność tekstową",
+      "ForVoiceActivity": "Za aktywność głosową"
     },
     "Automation": {
-      "Trigger": "Триггер",
+      "Trigger": "Wyzwalacz",
       "TriggerNames": {
-        "InteractionButton": "Нажатие на кнопку",
-        "InteractionSelectMenu": "Выбор опции в списке",
-        "InteractionModalSubmit": "Отправка формы модального окна",
-        "MessageCreate": "Отправка сообщения",
-        "MessageReactionAdd": "Добавление реакции на сообщение"
+        "InteractionButton": "Naciśnięcie przycisku",
+        "InteractionSelectMenu": "Wybór opcji z menu",
+        "InteractionModalSubmit": "Wysłanie formularza modalnego",
+        "MessageCreate": "Wysłanie wiadomości",
+        "MessageReactionAdd": "Dodanie reakcji do wiadomości"
       }
     },
     "AutoMod": {
-      "AntiCaps": "Анти-КАПС",
-      "AntiCapsPercentage": "Процент содержания капса в сообщении",
-      "AntiCapsMinimumSymbols": "Минимальное количество символов",
-      "LinksFilter": "Фильтрация ссылок",
-      "LinksFilterAllowedRegistry": "Реестр разрешенных ссылок",
-      "LinksFilterBlockedRegistry": "Реестр запрещенных ссылок",
+      "AntiCaps": "Anti-CAPS",
+      "AntiCapsPercentage": "Procentowa zawartość CAPS w wiadomości",
+      "AntiCapsMinimumSymbols": "Minimalna liczba symboli",
+      "LinksFilter": "Filtr linków",
+      "LinksFilterAllowedRegistry": "Rejestr dozwolonych linków",
+      "LinksFilterBlockedRegistry": "Rejestr zablokowanych linków",
       "LinksFilterOptions": {
-        "DeleteAllLinks": "Удалять все ссылки",
-        "DeleteReferralInvites": "Удалять все сторонние приглашения"
+        "DeleteAllLinks": "Usuwanie wszystkich linków",
+        "DeleteReferralInvites": "Usuwanie zaproszeń referencyjnych"
       },
-      "NewbiesModeration": "Модерирование новоприбывших",
-      "NewbiesModerationMinimumAccountAge": "Минимальный возраст аккаунта",
-      "NewbiesModerationMinimumAccountAgeDescription": "Аккаунт должен быть зарегистрирован указанное количество времени",
-      "NicknamesModeration": "Модерирование никнеймов",
-      "NicknamesModerationSelectWhatRemove": "Выберите что убирать из никнеймов",
+      "NewbiesModeration": "Moderacja nowicjuszy",
+      "NewbiesModerationMinimumAccountAge": "Minimalny wiek konta",
+      "NewbiesModerationMinimumAccountAgeDescription": "Konto musi być zarejestrowane przez określony czas",
+      "NicknamesModeration": "Moderacja pseudonimów",
+      "NicknamesModerationSelectWhatRemove": "Wybierz, co usunąć z pseudonimów",
       "NicknamesModerationRemovableSymbols": {
-        "SpecialCharacters": "Специальные символы",
-        "Zalgo": "Залго",
-        "Diacritics": "Диакритические знаки",
-        "Emojis": "Эмодзи"
+        "SpecialCharacters": "Specjalne znaki",
+        "Zalgo": "Zalgo",
+        "Diacritics": "Znaki diakrytyczne",
+        "Emojis": "Emoji"
       },
-      "NicknamesModerationContains": "Другие значения",
-      "NicknamesModerationContainsDescription": "Убирать значения из никнеймов, которые содержатся в этом списке",
-      "SwearFilter": "Фильтрация слов",
-      "SwearFilterRegistryTitle": "Реестр запрещенных слов",
-      "UsersSlowdown": "Замедление отправки сообщений",
-      "UsersSlowdownMessagesLimitTitle": "Ограничение сообщений",
-      "UsersSlowdownMessagesLimitDescription": "Сколько сообщений можно отправить в течении 5 секунд",
-      "IgnoredPermissionsDescription": "Участники имеющие выбранные права будут игнорироваться",
-      "PenaltyTimeout": "Тайм-аут наказания"
+      "NicknamesModerationContains": "Inne wartości",
+      "NicknamesModerationContainsDescription": "Usuwanie wartości z pseudonimów, które znajdują się na tej liście",
+      "SwearFilter": "Filtr przekleństw",
+      "SwearFilterRegistryTitle": "Rejestr zakazanych słów",
+      "UsersSlowdown": "Ograniczenie szybkości wysyłania wiadomości",
+      "UsersSlowdownMessagesLimitTitle": "Limit wiadomości",
+      "UsersSlowdownMessagesLimitDescription": "Ile wiadomości można wysłać w ciągu 5 sekund",
+      "IgnoredPermissionsDescription": "Uczestnicy posiadający wybrane uprawnienia będą ignorowani",
+      "PenaltyTimeout": "Czas trwania kary (timeout)"
     },
     "CustomCommand": {
-      "CommandName": "Название команды",
-      "CommandDescription": "Описание команды",
-      "CommandArgumentName": "Название аргумента",
-      "CommandArgumentType": "Тип аргумента",
-      "CommandArgumentDescription": "Описание аргумента",
-      "CommandArgumentChoices": "Варианты выбора",
-      "CommandArgumentChoiceName": "Название выбора",
-      "CommandArgumentChoiceValue": "Значение выбора",
-      "AddCondition": "Добавить условие",
-      "AddAction": "Добавить действие",
+      "CommandName": "Nazwa komendy",
+      "CommandDescription": "Opis komendy",
+      "CommandArgumentName": "Nazwa argumentu",
+      "CommandArgumentType": "Typ argumentu",
+      "CommandArgumentDescription": "Opis argumentu",
+      "CommandArgumentChoices": "Opcje wyboru",
+      "CommandArgumentChoiceName": "Nazwa opcji",
+      "CommandArgumentChoiceValue": "Wartość opcji",
+      "AddCondition": "Dodaj warunek",
+      "AddAction": "Dodaj akcję",
       "ComponentNames": {
-        "CompareValues": "Сравнить значения",
-        "Reply": "Ответить",
-        "SendMessage": "Отправить сообщение",
-        "ForwardToCommand": "Перенаправить на команду",
-        "ModifyWallet": "Изменить кошелёк",
-        "ExecuteCode": "Выполнить код",
-        "ShowModal": "Открыть модальное окно"
+        "CompareValues": "Porównaj wartości",
+        "Reply": "Odpowiedz",
+        "SendMessage": "Wyślij wiadomość",
+        "ForwardToCommand": "Przekieruj do komendy",
+        "ModifyWallet": "Zmień portfel",
+        "ExecuteCode": "Wykonaj kod",
+        "ShowModal": "Pokaż okno modalne"
       },
-      "CompareValuesOperator": "Оператор",
+      "CompareValuesOperator": "Operator",
       "CompareValuesOperators": {
-        "Equal": "Равно",
-        "NotEqual": "Не равно",
-        "GreaterThan": "Больше чем",
-        "LessThan": "Меньше чем",
-        "StartsWith": "Начинается с",
-        "EndsWith": "Заканчивается на",
-        "Contains": "Содержит",
-        "NotContains": "Не содержит"
+        "Equal": "Równe",
+        "NotEqual": "Nierówne",
+        "GreaterThan": "Większe niż",
+        "LessThan": "Mniejsze niż",
+        "StartsWith": "Zaczyna się od",
+        "EndsWith": "Kończy się na",
+        "Contains": "Zawiera",
+        "NotContains": "Nie zawiera"
       },
-      "CompareValuesLeftPart": "Левая часть",
-      "CompareValuesRightPart": "Правая часть",
-      "CompareValuesFalseReply": "Ложный ответ",
-      "ModifyRolesUserId": "Идентификатор пользователя",
-      "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
-      "ModifyWalletAmount": "Количество валюты",
-      "ModifyWalletUserIdDescription": "Изменить кошелёк указанного пользователя (по умолчанию указан автор команды)",
-      "ModifyWalletCurrencyId": "Идентификатор валюты",
-      "ModifyWalletCurrencyIdDescription": "Укажите, если хотите выдать другую валюту, а не стандартную",
-      "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
-      "ShowModalFieldPlaceholder": "Заполнитель",
-      "ShowModalFieldMinLength": "Минимум символов",
-      "ShowModalFieldMaxLength": "Максимум символов",
-      "ShowModalFieldDefaultValue": "Значение по умолчанию"
+      "CompareValuesLeftPart": "Lewa strona",
+      "CompareValuesRightPart": "Prawa strona",
+      "CompareValuesFalseReply": "Odpowiedź przy fałszu",
+      "ModifyRolesUserId": "Identyfikator użytkownika",
+      "ModifyRolesUserIdDescription": "Dodaj/usuń role wskazanemu użytkownikowi (domyślnie autor komendy)",
+      "ModifyWalletAmount": "Ilość waluty",
+      "ModifyWalletUserIdDescription": "Zmień portfel wskazanego użytkownika (domyślnie autor komendy)",
+      "ModifyWalletCurrencyId": "Identyfikator waluty",
+      "ModifyWalletCurrencyIdDescription": "Określ, jeśli chcesz przyznać inną walutę niż standardową",
+      "OverwriteChannelPermissionsUserOrRoleId": "Identyfikator użytkownika lub roli",
+      "ShowModalFieldPlaceholder": "Placeholder",
+      "ShowModalFieldMinLength": "Minimalna liczba znaków",
+      "ShowModalFieldMaxLength": "Maksymalna liczba znaków",
+      "ShowModalFieldDefaultValue": "Domyślna wartość"
     },
     "LacunaDiamond": {
-      "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
-      "UnlimitedSubscription": "Сервер имеет неограниченные по времени бонусы",
-      "BonusMusicDescription": "Неограниченное количество треков в очереди, прослушивание плейлистов, потоковое воспроизведение аудио и изменение громкости.",
-      "BonusIncreasedLimitsDescription": "Больше наград за уровни, предметов в магазине, подписок, автоматизаций, интерактивных сообщений, голосовых ролей, временных голосовых каналов и другое.",
-      "BonusPersonalizationDescription": "Возможность изменения аватара и названия веб-хука в журнале действий.",
-      "BonusCustomBehaviorWithCodeDescription": "Возможность выполнения JavaScript-кода в пользовательских командах и задачах автоматизации.",
-      "BonusActivitiesDescription": "Возможность зарабатывать валюты в голосовых каналах.",
-      "BonusRespectDescription": "Материальная помощь команде проекта и особая роль на официальном сервере поддержки.",
-      "SelectPlan": "Выберите план",
-      "SelectPaymentMethod": "Способ оплаты",
-      "Pay": "Оплатить",
-      "PatreonAfterCheckout": "После того, как вы стали покровителем, нажмите на кнопку проверки ниже, чтобы активировать свои бонусы.",
-      "PatreonAfterCheckoutImportantInfo": "Для получения доступа к бонусам необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
-      "DNBStep1": "Войдите на наш {server}",
-      "DNBStep2": "Ознакомьтесь с {article}. В ней есть пошаговая инструкция о том, как забустить сервер",
-      "DNBStep2Article": "данной статьёй",
-      "DNBStep3": "Убедитесь, что выбрали наш {server}, затем забустите его",
-      "DNBStep4": "После этого, нажмите на кнопку \"Проверить\" ниже и вам станут доступны бонусы",
-      "DNBBonusesInfo": "Бонусы будут доступны до тех пор, пока вы являетесь бустером сервера поддержки. Вы можете активировать бонусы только для одного сервера.",
-      "Check": "Проверить",
-      "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
-      "PlanComparison": "Сравнение планов",
+      "HasSubscription": "Ten serwer posiada już bonusy, które wygasają {date}, ale możesz je przedłużyć",
+      "UnlimitedSubscription": "Serwer posiada bonusy bez ograniczeń czasowych",
+      "BonusMusicDescription": "Nieograniczona liczba utworów w kolejce, odtwarzanie playlist, strumieniowanie audio i zmiana głośności.",
+      "BonusIncreasedLimitsDescription": "Więcej nagród za poziomy, przedmiotów w sklepie, subskrypcji, automatyzacji, interaktywnych wiadomości, ról głosowych, tymczasowych kanałów głosowych i więcej.",
+      "BonusCustomBehaviorWithCodeDescription": "Możliwość wykonania kodu JavaScript w niestandardowych komendach i zadaniach automatyzacji.",
+      "BonusActivitiesDescription": "Możliwość zarabiania walut na kanałach głosowych.",
+      "BonusRespectDescription": "Wsparcie materialne dla zespołu projektowego i specjalna rola na oficjalnym serwerze wsparcia.",
+      "SelectPlan": "Wybierz plan",
+      "SelectPaymentMethod": "Metoda płatności",
+      "Pay": "Zapłać",
+      "PatreonAfterCheckout": "Po zostaniu patronem naciśnij przycisk poniżej, aby aktywować swoje bonusy.",
+      "PatreonAfterCheckoutImportantInfo": "Aby uzyskać dostęp do bonusów, musisz połączyć swojego Discorda z {platform} i pozostać na naszym serwerze wsparcia.",
+      "DNBBonusesInfo": "Bonusy będą dostępne tak długo, jak długo jesteś boosterem serwera wsparcia. Możesz aktywować bonusy tylko dla jednego serwera.",
+      "TokensInfo": "Вы можете голосовать за нашего бота и получать жетоны, которые можно конвертировать в время действия Diamond подписки (1 жетон = {bonusesDurationInHours}).",
+      "Check": "Sprawdź",
+      "TransferringDescription": "Funkcje premium zostaną przeniesione zwybranego społeczności do obecnego.",
+      "PlanComparison": "Porównanie planów",
       "PlanComparisonFeatures": {
-        "ExecuteCode": "Действие \"Выполнить код\"",
-        "CustomCommandsNumber": "Количество пользовательских команд",
-        "AutomationNumber": "Количество автоматизаций",
-        "AutomationSequentialExecutionsWithOneTrigger": "Количество последовательных выполнений автоматизаций с одним типом триггера",
-        "InteractiveMessagesNumber": "Количество интерактивных сообщений",
-        "InteractiveReactionsNumber": "Количество интерактивных реакций",
-        "TempVoiceChannelsNumber": "Количество временных голосовых каналов",
-        "VoiceRolesNumber": "Количество голосовых ролей",
-        "AutoThreadsNumber": "Количество автоветок",
-        "AutoReactionsNumber": "Количество автореакций",
-        "ImageRotationInterval": "Интервал ротации изображений",
-        "ActionLogWebhookModifying": "Изменение веб-хука журнала действий",
-        "ActionLogEventsProcessedPerMinuteNumber": "Количество обрабатываемых событий журнала действий в минуту",
-        "PlaylistsPlayback": "Воспроизведение плейлистов",
-        "AudioStreamingPlayback": "Воспроизведение потокового аудио",
-        "PlaybackVolumeChanging": "Изменение громкости воспроизведения",
-        "PlaybackQueueTrackNumber": "Количество треков в очереди",
-        "PlaybackFilters": "Фильтры для воспроизведения",
-        "PlaybackSeek": "Перемотка воспроизведения трека",
-        "EarnCurrenciesInVoiceChannels": "Заработок валюты в голосовых каналах",
-        "VoiceExpMembersNumber": "Количество одновременно находящихся участников в голосовых каналах, которым будет начисляться опыт за голосовую активность",
-        "LevelAwardsNumber": "Количество наград за уровни",
-        "StoreItemsNumber": "Количество предметов в магазине",
-        "ActivityMultipliersNumber": "Количество множителей опыта и заработка",
-        "SocialPlatformNumber": "Количество {socialPlatform} подписок",
-        "PrioritySupport": "Приоритетная поддержка",
-        "ImageEditorElementsNumber": "Количество элементов в редакторе изображения"
+        "ExecuteCode": "Wykonanie kodu",
+        "CustomCommandsNumber": "Liczba komend użytkownika",
+        "AutomationNumber": "Liczba automatyzacji",
+        "AutomationSequentialExecutionsWithOneTrigger": "Liczba sekwencyjnych wykonania automatyzacji z jednym wyzwalaczem",
+        "InteractiveMessagesNumber": "Liczba interaktywnych wiadomości",
+        "InteractiveReactionsNumber": "Liczba interaktywnych reakcji",
+        "TempVoiceChannelsNumber": "Liczba tymczasowych kanałów głosowych",
+        "VoiceRolesNumber": "Liczba ról głosowych",
+        "AutoThreadsNumber": "Liczba automatycznych wątków",
+        "AutoReactionsNumber": "Liczba autoreakcji",
+        "ImageRotationInterval": "Interwał rotacji obrazów",
+        "ActionLogEventsProcessedPerMinuteNumber": "Liczba przetwarzanych zdarzeń dziennika akcji na minutę",
+        "PlaylistsPlayback": "Odtwarzanie playlist",
+        "AudioStreamingPlayback": "Odtwarzanie strumieniowego audio",
+        "PlaybackVolumeChanging": "Zmiana głośności odtwarzania",
+        "PlaybackQueueTrackNumber": "Liczba utworów w kolejce odtwarzania",
+        "PlaybackFilters": "Filtry odtwarzania",
+        "PlaybackSeek": "Przewijanie odtwarzanego utworu",
+        "EarnCurrenciesInVoiceChannels": "Zarabianie waluty na kanałach głosowych",
+        "VoiceExpMembersNumber": "Liczba uczestników jednocześnie przebywających na kanałach głosowych, którym będzie naliczane doświadczenie za aktywność głosową",
+        "LevelAwardsNumber": "Liczba nagród za poziomy",
+        "StoreItemsNumber": "Liczba przedmiotów w sklepie",
+        "ActivityMultipliersNumber": "Liczba mnożników doświadczenia i zarobków",
+        "SocialPlatformNumber": "Liczba subskrypcji {socialPlatform}",
+        "PrioritySupport": "Priorytetowe wsparcie",
+        "ImageEditorElementsNumber": "Liczba elementów w edytorze obrazów"
       }
     },
     "CaseType": {
-      "CustomDMMessage": "Пользовательское личное сообщение"
+      "CustomDMMessage": "Niestandardowa wiadomość prywatna"
     },
     "WarningPenalty": {
-      "WarningsPlural": "0 предупреждений | {n} предупреждение | {n} предупреждения | {n} предупреждений",
-      "WarningCount": "Количество предупреждений"
+      "WarningsPlural": "0 ostrzeżeń | {n} ostrzeżenie | {n} ostrzeżenia | {n} ostrzeżeń",
+      "WarningCount": "Liczba ostrzeżeń"
     },
     "Subscriptions": {
-      "ChannelName": "Название канала",
-      "TwitchDisplayStreamPreview": "Показывать предпросмотр стрима",
-      "YoutubeChannelName": "Название или идентификатор канала",
-      "NotificationsChannel": "Канал для оповещений",
-      "NotificationsText": "Текст оповещений",
-      "TelegramHelpNote": "Для того, чтобы связать Telegram и Discord, необходимо добавить бота {botLink} в нужный канал, затем ввести его название или идентификатор в поле ниже.",
-      "TelegramChannelNameDescription": "Уникальный идентификатор или имя выбранного канала (в формате {'@'}channelusername)",
-      "MentionRoles": "Упомянуть роли",
-      "CrosspostMessage": "Опубликовать сообщение",
-      "CreateThread": "Создать ветвь"
+      "ChannelName": "Nazwa kanału",
+      "TwitchDisplayStreamPreview": "Wyświetlaj podgląd streamu",
+      "YoutubeChannelName": "Nazwa lub identyfikator kanału",
+      "NotificationsChannel": "Kanał powiadomień",
+      "NotificationsText": "Tekst powiadomień",
+      "TelegramHelpNote": "Aby połączyć Telegram i Discord, musisz dodać bota {botLink} do odpowiedniego kanału, a następnie wprowadzić jego nazwę lub identyfikator w poniższym polu.",
+      "TelegramChannelNameDescription": "Unikalny identyfikator lub nazwa wybranego kanału (w formacie {'@'}channelusername)",
+      "MentionRoles": "Wzmianka ról",
+      "CrosspostMessage": "Opublikuj wiadomość",
+      "CreateThread": "Utwórz wątek"
     },
     "SystemCommand": {
-      "Throttling": "Ограничение использований",
-      "ThrottlingScope": "Область действия",
+      "Throttling": "Ograniczenie częstotliwości użycia",
+      "ThrottlingScope": "Zakres ograniczenia",
       "ThrottlingScopes": {
-        "PerUser": "На пользователя",
-        "PerChannel": "На канал",
-        "PerGuild": "На сервер"
+        "PerUser": "Na użytkownika",
+        "PerChannel": "Na kanał",
+        "PerGuild": "Na serwer"
       },
-      "ThrottlingMaxUses": "Максимум использований",
-      "ThrottlingTimeout": "Повторное использование"
+      "ThrottlingMaxUses": "Maksymalna liczba użycia",
+      "ThrottlingTimeout": "Czas oczekiwania na ponowne użycie"
     },
     "UserSurvey": {
-      "ItWouldHelpUs": "Мы будем рады, если вы потратите 10 секунд своего времени, чтобы оценить ваш опыт работы с нами.",
-      "HowSatisfied": "Насколько вы удовлетворены ботом?",
-      "HowManyMembers": "Сколько пользователей на вашем сервере?",
-      "TellUsMore": "Расскажите нам больше о своем опыте использования",
-      "SurveySubmitted": "Спасибо! Вы помогаете нам стать лучше."
+      "ItWouldHelpUs": "Będziemy wdzięczni, jeśli poświęcisz 10 sekund, aby ocenić swoje doświadczenia z nami.",
+      "HowSatisfied": "Jak zadowolony jesteś z bota?",
+      "HowManyMembers": "Ilu użytkowników jest na twoim serwerze?",
+      "TellUsMore": "Opowiedz nam więcej o swoich doświadczeniach",
+      "SurveySubmitted": "Dziękujemy! Pomagasz nam się poprawiać."
     },
     "AutoReaction": {
-      "ReactionsDescription": "Можно выбрать 10 реакций",
-      "MessageTypes": "Типы сообщения",
-      "MessageTypesDescription": "Оставьте поле пустым, если хотите добавлять реакции на все типы сообщений",
-      "TextMatches": "Совпадения в тексте",
-      "TextMatchesDescription": "Будет реагировать только, если в сообщении содержится указанные параметры",
-      "ExcludedTextMatches": "Исключенные совпадения",
-      "ExcludedTextMatchesDescription": "Не будет реагировать, если в сообщении содержится указанные параметры"
+      "ReactionsDescription": "Możesz wybrać 10 reakcji",
+      "MessageTypes": "Typy wiadomości",
+      "MessageTypesDescription": "Pozostaw puste, jeśli chcesz dodawać reakcje do wszystkich typów wiadomości",
+      "TextMatches": "Dopasowania tekstu",
+      "TextMatchesDescription": "Będzie reagować tylko jeśli wiadomość zawiera określone parametry",
+      "ExcludedTextMatches": "Wykluczone dopasowania",
+      "ExcludedTextMatchesDescription": "Nie będzie reagować, jeśli wiadomość zawiera określone parametry"
     },
     "AutoThread": {
-      "ThreadName": "Название ветки"
+      "ThreadName": "Nazwa wątku"
     },
     "InteractiveMessage": {
-      "ActionRows": "Операционные ряды",
-      "ActionRowButtons": "Кнопки",
-      "ActionRowSelectMenu": "Выпадающий список",
-      "ButtonName": "Название кнопки",
-      "ButtonStyle": "Стиль кнопки",
-      "ButtonURL": "Ссылка кнопки",
-      "SelectMenuPlaceholder": "Заполнитель",
-      "OptionName": "Название опции",
-      "OptionDescription": "Описание опции",
-      "ModifyRolesReversibleMode": "Реверсивный режим"
+      "ActionRows": "Rzędy akcji",
+      "ActionRowButtons": "Przyciski",
+      "ActionRowSelectMenu": "Menu rozwijane",
+      "ButtonName": "Nazwa przycisku",
+      "ButtonStyle": "Styl przycisku",
+      "ButtonURL": "URL przycisku",
+      "SelectMenuPlaceholder": "Placeholder",
+      "OptionName": "Nazwa opcji",
+      "OptionDescription": "Opis opcji",
+      "ModifyRolesReversibleMode": "Tryb odwracalny"
     },
     "InteractiveReaction": {
-      "SingleElement": "Одиночный элемент",
-      "SingleElementDescription": "Позволяет сделать элемент реакции уникальным",
-      "ReverseElement": "Реверсивный элемент",
-      "MessageId": "Идентификатор сообщения",
-      "MessageIdDescription": "Можно получить, если при включенном режиме разработчика нажать ПКМ на сообщение и выбрать «Копировать ID». Сообщение должно находится в выбранном канале выше",
-      "References": "Направления",
-      "ReferencesDescription": "Роли или каналы, которые будут привязаны к выбранной реакции"
+      "SingleElement": "Pojedynczy element",
+      "SingleElementDescription": "Pozwala uczynić element reakcji unikalnym",
+      "ReverseElement": "Element odwracalny",
+      "MessageId": "Identyfikator wiadomości",
+      "MessageIdDescription": "Można uzyskać, klikając prawym przyciskiem myszy na wiadomość i wybierając „Kopiuj ID” w trybie deweloperskim. Wiadomość musi znajdować się w wybranym kanale powyżej",
+      "References": "Referencje",
+      "ReferencesDescription": "Role lub kanały, które będą przypisane do wybranej reakcji"
     },
     "AutoVoice": {
-      "VoiceChannelDescription": "Выбранный голосовой канал будет использован в качестве триггера",
-      "DefaultName": "Стандартное название",
-      "DefaultUserLimit": "Ограничение пользователей",
-      "DefaultCategory": "Категория по умолчанию",
-      "DefaultPosition": "Позиция",
-      "DefaultPositionDescription": "Позиция временного голосового канала относительно других каналов в категории",
+      "VoiceChannelDescription": "Wybrany kanał głosowy będzie używany jako wyzwalacz",
+      "DefaultName": "Domyślna nazwa",
+      "DefaultUserLimit": "Limit użytkowników",
+      "DefaultCategory": "Domyślna kategoria",
+      "DefaultPosition": "Pozycja",
+      "DefaultPositionDescription": "Pozycja tymczasowego kanału głosowego względem innych kanałów w kategorii",
       "DefaultPositions": {
-        "Top": "Сверху",
-        "Bottom": "Снизу"
+        "Top": "Na górze",
+        "Bottom": "Na dole"
       },
-      "OwnerPermissions": "Разрешения владельца канала",
-      "OwnerPermissionsDescription": "Владельцу временного голосового канала будут выданы выбранные права",
-      "ModeratorRoles": "Роли модераторов",
-      "ModeratorRolesDescription": "Выбранные роли получат те же права, что и владелец временного канала, но их разрешения в этом канале нельзя будет изменить. Для корректной работы, боту необходимо право администратора"
+      "OwnerPermissions": "Uprawnienia właściciela kanału",
+      "OwnerPermissionsDescription": "Właściciel tymczasowego kanału głosowego otrzyma wybrane uprawnienia",
+      "ModeratorRoles": "Role moderatorów",
+      "ModeratorRolesDescription": "Wybrane role otrzymają te same uprawnienia co właściciel tymczasowego kanału, ale ich uprawnienia w tym kanale nie będą mogły być zmieniane. Dla prawidłowego działania, bot musi mieć uprawnienia administratora"
     },
     "VoiceRole": {
-      "BoundChannelsDescription": "Оставьте поле пустым, если хотите, чтобы роль выдавалась при подключении к любому каналу"
+      "BoundChannelsDescription": "Pozostaw puste, jeśli rola ma być przyznawana przy połączeniu z dowolnym kanałem"
     },
     "Header": {
-      "Guilds": "Сообщества",
-      "State": "Состояние",
-      "Docs": "Справочник",
-      "Patrons": "Покровители",
-      "Community": "Сообщество",
-      "Login": "Войти",
-      "Logout": "Выйти",
-      "ReleaseNotes": "Список изменений"
+      "Guilds": "Społeczności",
+      "State": "Stan",
+      "Docs": "Dokumentacja",
+      "Patrons": "Patroni",
+      "Community": "Społeczność",
+      "Login": "Zaloguj",
+      "Logout": "Wyloguj",
+      "ReleaseNotes": "Notatki do wydania"
     },
     "ImageEditor": {
-      "SendImage": "Отправлять изображение",
-      "ImageHeight": "Высота изображения",
-      "ImageWidth": "Ширина изображения",
-      "ImageBackgroundColor": "Цвет фона изображения",
-      "ImageBackgroundURL": "Ссылка на фоновое изображение",
-      "ImageElements": "Элементы изображения",
-      "AddSampleImageElements": "Добавить пример элементов изображения",
-      "PositionCoordinate": "Позиция {XY}",
-      "Height": "Высота",
-      "Width": "Ширина",
-      "Text": "Текст",
-      "TextColor": "Цвет текста",
-      "TextSize": "Размер текста",
+      "SendImage": "Wysyłanie obrazu",
+      "ImageHeight": "Wysokość obrazu",
+      "ImageWidth": "Szerokość obrazu",
+      "ImageBackgroundColor": "Kolor tła obrazu",
+      "ImageBackgroundURL": "Link do tła obrazu",
+      "ImageElements": "Elementy obrazu",
+      "AddSampleImageElements": "Dodaj przykładowe elementy obrazu",
+      "PositionCoordinate": "Pozycja {XY}",
+      "Height": "Wysokość",
+      "Width": "Szerokość",
+      "Text": "Tekst",
+      "TextColor": "Kolor tekstu",
+      "TextSize": "Rozmiar tekstu",
       "TextSizes": {
-        "Header": "Заголовок",
-        "Subtitle": "Подзаголовок",
-        "Body": "Стандартный",
-        "Caption": "Нижний колонтитул"
+        "Header": "Nagłówek",
+        "Subtitle": "Podtytuł",
+        "Body": "Standardowy",
+        "Caption": "Podpis"
       },
-      "TextStyle": "Стиль теста",
+      "TextStyle": "Styl tekstu",
       "TextStyles": {
-        "Italic": "Курсив"
+        "Italic": "Kursywa"
       },
-      "TextTransform": "Преобразование текста",
+      "TextTransform": "Transformacja tekstu",
       "TextTransforms": {
-        "Capitalize": "С заглавной буквы",
-        "Uppercase": "Верхний регистр",
-        "Lowercase": "Нижний регистр"
+        "Capitalize": "Z wielkiej litery",
+        "Uppercase": "Wszystkie wielkie litery",
+        "Lowercase": "Wszystkie małe litery"
       },
-      "TextDecoration": "Оформление текста",
+      "TextDecoration": "Dekoracja tekstu",
       "TextDecorations": {
-        "Underline": "Подчеркнутый",
-        "LineThrough": "Зачеркнутый"
+        "Underline": "Podkreślenie",
+        "LineThrough": "Przekreślenie"
       },
-      "TextAlign": "Выравнивание текста",
+      "TextAlign": "Wyrównanie tekstu",
       "TextAligns": {
-        "Center": "По центру",
-        "End": "По правому краю",
-        "Start": "По левому краю"
+        "Center": "Do środka",
+        "End": "Do prawej",
+        "Start": "Do lewej"
       },
-      "Image": "Изображение",
-      "ImageURL": "Ссылка на изображение",
-      "BorderRadius": "Радиус краёв",
+      "Image": "Obraz",
+      "ImageURL": "Link do obrazu",
+      "BorderRadius": "Zaokrąglenie rogów",
       "BorderRadiuses": {
-        "XS": "Очень маленький",
-        "SM": "Маленький",
-        "MD": "Средний",
-        "LG": "Большой",
-        "XL": "Очень большой",
-        "Circle": "Окружность"
+        "XS": "Bardzo małe",
+        "SM": "Małe",
+        "MD": "Średnie",
+        "LG": "Duże",
+        "XL": "Bardzo duże",
+        "Circle": "Koło"
       }
     },
     "MessageEditor": {
-      "SendEmbedMessage": "Отправлять встроенное сообщение",
-      "EmbedMessage": "Встроенное сообщение",
-      "AuthorName": "Имя автора",
-      "AuthorIconURL": "Аватар автора",
-      "AuthorURL": "Ссылка автора",
-      "Title": "Заголовок",
-      "TitleURL": "Ссылка заголовка",
-      "AddEmbedField": "Добавить поле",
-      "FieldName": "Заголовок поля",
-      "FieldValue": "Значение поля",
-      "FieldInline": "В линию",
-      "ImageURL": "Ссылка на полноразмерную картинку",
-      "ThumbnailURL": "Ссылка на картинку-миниатюру",
-      "FooterText": "Текст футера",
-      "FooterIconURL": "Иконка футера",
-      "FooterTimestamp": "Временная метка футера",
-      "Replacers": "Заменители",
-      "Functions": "Функции"
+      "SendEmbedMessage": "Wysyłanie osadzonej wiadomości",
+      "EmbedMessage": "Osadzona wiadomość",
+      "AuthorName": "Nazwa autora",
+      "AuthorIconURL": "Avatar autora",
+      "AuthorURL": "Link autora",
+      "Title": "Tytuł",
+      "TitleURL": "Link tytułu",
+      "AddEmbedField": "Dodaj pole",
+      "FieldName": "Nazwa pola",
+      "FieldValue": "Wartość pola",
+      "FieldInline": "W linii",
+      "ImageURL": "Link do pełnowymiarowego obrazu",
+      "ThumbnailURL": "Link do miniatury",
+      "FooterText": "Tekst stopki",
+      "FooterIconURL": "Ikona stopki",
+      "FooterTimestamp": "Znacznik czasu stopki",
+      "Replacers": "Zastępniki",
+      "Functions": "Funkcje"
     },
     "EmojiPicker": {
-      "Search": "Поиск",
-      "NotFound": "Ничего не найдено",
+      "Search": "Szukaj",
+      "NotFound": "Nie znaleziono",
       "Categories": {
-        "Search": "Результаты поиска",
-        "Recent": "Часто используемые",
-        "Smileys": "Смайлики",
-        "People": "Люди",
-        "Nature": "Природа",
-        "Foods": "Еда и напитки",
-        "Activity": "Деятельность",
-        "Places": "Путешествия и места",
-        "Objects": "Объекты",
-        "Symbols": "Символы",
-        "Flags": "Флаги",
-        "Custom": "Пользовательские"
+        "Search": "Wyniki wyszukiwania",
+        "Recent": "Często używane",
+        "Smileys": "Buźki",
+        "People": "Ludzie",
+        "Nature": "Natura",
+        "Foods": "Jedzenie i napoje",
+        "Activity": "Aktywności",
+        "Places": "Podróże i miejsca",
+        "Objects": "Przedmioty",
+        "Symbols": "Symbole",
+        "Flags": "Flagi",
+        "Custom": "Niestandardowe"
       }
     }
   },
   "Logs": {
-    "UserChangesSomething": "{username} изменяет {change}",
-    "UnknownUser": "Неизвестный пользователь",
-    "BeforeChange": "До изменения",
-    "AfterChange": "После изменения",
-    "ChannelCreated": "Канал создан",
-    "ChannelCreatedTemplate": "{username} создаёт канал {channel}",
-    "ChannelDeleted": "Канал удалён",
-    "ChannelDeletedTemplate": "{username} удаляет канал {channel}",
-    "ChannelUpdated": "Канал изменён",
-    "ChannelUpdatedName": "название канала {channel}",
-    "ChannelUpdatedTopic": "описание канала {channel}",
-    "ChannelUpdatedRateLimit": "медленный режим канала {channel}",
-    "ChannelUpdatedParent": "категорию канала {channel}",
-    "ChannelUpdatedBitrate": "битрейт канала {channel}",
-    "ChannelUpdatedUserLimit": "ограничение пользователей канала {channel}",
-    "ChannelCategory": "Категория канала",
-    "ChannelPosition": "Позиция канала",
-    "EmojiCreated": "Эмодзи добавлен",
-    "EmojiCreatedTemplate": "{username} добавляет эмодзи {emoji}",
-    "EmojiDeleted": "Эмодзи удалён",
-    "EmojiDeletedTemplate": "{username} удаляет эмодзи {emoji}",
-    "EmojiUpdated": "Эмодзи изменён",
-    "EmojiUpdatedName": "название эмодзи {emoji}",
-    "GuildBanAdded": "Блокировка выдана",
-    "GuildBanAddedTemplate": "{username} выдаёт блокировку пользователю {target}",
-    "GuildBanRemoved": "Блокировка убрана",
-    "GuildBanRemovedTemplate": "{username} снимает блокировку пользователю {target}",
-    "GuildMemberAdded": "Пользователь присоединился к серверу",
-    "GuildMemberRemoved": "Пользователь покинул сервер",
-    "GuildMemberUpdated": "Участник изменён",
-    "GuildMemberUpdatedNickname": "отображаемое имя участника {username}",
-    "GuildUpdated": "Сервер изменён",
-    "GuildUpdatedName": "название сервера",
-    "GuildUpdatedAFKChannel": "канал простоя",
-    "GuildUpdatedAFKTimeout": "тайм-аут бездействия в голосовых каналах",
-    "GuildUpdatedDescription": "описание сервера",
-    "InviteCreated": "Приглашение создано",
-    "InvitedDeleted": "Приглашение удалено",
-    "InviteCode": "Код приглашения",
-    "InviteInviter": "Приглашающий",
-    "MessageCreated": "Сообщение отправлено",
-    "MessageDeleted": "Сообщение удалено",
-    "MessageDeletedBulk": "Массовое удаление сообщений",
-    "MessageUpdated": "Сообщение изменено",
-    "MessageAuthor": "Автор сообщения",
-    "MessageContent": "Содержимое сообщения",
-    "MessageCount": "Количество сообщений",
-    "RoleCreated": "Роль создана",
-    "RoleCreatedTemplate": "{username} создаёт роль {role}",
-    "RoleDeleted": "Роль удалена",
-    "RoleDeletedTemplate": "{username} удаляет роль {role}",
-    "RoleMemberAdded": "Роль добавлена",
-    "RoleMemberAddedTemplate": "{username} добавляет роли пользователю {target}",
-    "RoleMemberRemoved": "Роль убрана",
-    "RoleMemberRemovedTemplate": "{username} убирает роли пользователя {target}",
-    "RoleUpdated": "Роль изменена",
-    "RoleUpdatedName": "название роли {role}",
-    "RoleUpdatedColor": "цвет роли {role}",
-    "RoleUpdatedPermissions": "разрешения роли {role}",
-    "RoleName": "Название роли",
-    "RoleColor": "Цвет роли",
-    "RolePosition": "Позиция роли",
-    "StickerCreated": "Стикер добавлен",
-    "StickerCreatedTemplate": "{username} добавляет стикер {sticker}",
-    "StickerDeleted": "Стикер удалён",
-    "StickerDeletedTemplate": "{username} удаляет стрикер {sticker}",
-    "StickerUpdated": "Стикер изменён",
-    "StickerUpdatedName": "название стикера {sticker}",
-    "ThreadCreated": "Ветка создана",
-    "ThreadCreatedTemplate": "{username} создаёт ветку {thread}",
-    "ThreadDeleted": "Ветка удалена",
-    "ThreadDeletedTemplate": "{username} удаляет ветку {thread}",
-    "ThreadUpdated": "Ветка изменена",
-    "ThreadUpdatedName": "название ветки {thread}",
-    "ThreadUpdatedAutoArchive": "время автоархивации ветки {thread}",
-    "ThreadAutoArchiveTime": "Время автоархивации",
-    "UserUpdated": "Пользователь изменён",
-    "UserUpdatedName": "{username} изменяет своё имя пользователя",
-    "UserUpdatedDiscriminator": "{username} изменяет свой дискриминатор",
-    "VoiceConnection": "Голосовое подключение",
-    "VoiceConnectionTemplate": "{username} подключается к голосовому каналу {channel}",
-    "VoiceDisconnection": "Голосовое отключение",
-    "VoiceDisconnectionTemplate": "{username} отключается от голосового канала {channel}",
-    "VoiceMove": "Голосовое перемещение",
-    "VoiceMoveTemplate": "{username} перемещается из голосового канала {from} в {to}",
-    "VoiceServerDeaf": "Отключение звука",
-    "VoiceServerMute": "Отключение микрофона",
-    "VoiceServerUndeaf": "Включение звука",
-    "VoiceServerUnmute": "Включение микрофона"
+    "UserChangesSomething": "{username} zmienia {change}",
+    "UnknownUser": "Nieznany użytkownik",
+    "BeforeChange": "Przed zmianą",
+    "AfterChange": "Po zmianie",
+    "ChannelCreated": "Kanał utworzony",
+    "ChannelCreatedTemplate": "{username} tworzy kanał {channel}",
+    "ChannelDeleted": "Kanał usunięty",
+    "ChannelDeletedTemplate": "{username} usuwa kanał {channel}",
+    "ChannelUpdated": "Kanał zmieniony",
+    "ChannelUpdatedName": "nazwę kanału {channel}",
+    "ChannelUpdatedTopic": "opis kanału {channel}",
+    "ChannelUpdatedRateLimit": "tryb powolny kanału {channel}",
+    "ChannelUpdatedParent": "kategorię kanału {channel}",
+    "ChannelUpdatedBitrate": "bitrate kanału {channel}",
+    "ChannelUpdatedUserLimit": "limit użytkowników kanału {channel}",
+    "ChannelCategory": "Kategoria kanału",
+    "ChannelPosition": "Pozycja kanału",
+    "EmojiCreated": "Emoji dodane",
+    "EmojiCreatedTemplate": "{username} dodaje emoji {emoji}",
+    "EmojiDeleted": "Emoji usunięte",
+    "EmojiDeletedTemplate": "{username} usuwa emoji {emoji}",
+    "EmojiUpdated": "Emoji zmienione",
+    "EmojiUpdatedName": "nazwę emoji {emoji}",
+    "GuildBanAdded": "Ban nadany",
+    "GuildBanAddedTemplate": "{username} nadaje bana użytkownikowi {target}",
+    "GuildBanRemoved": "Ban usunięty",
+    "GuildBanRemovedTemplate": "{username} usuwa bana użytkownikowi {target}",
+    "GuildMemberAdded": "Użytkownik dołączył do serwera",
+    "GuildMemberRemoved": "Użytkownik opuścił serwer",
+    "GuildMemberUpdated": "Użytkownik zmieniony",
+    "GuildMemberUpdatedNickname": "wyświetlana nazwa użytkownika {username}",
+    "GuildUpdated": "Serwer zmieniony",
+    "GuildUpdatedName": "nazwa serwera",
+    "GuildUpdatedAFKChannel": "kanał AFK",
+    "GuildUpdatedAFKTimeout": "czas bezczynności na kanałach głosowych",
+    "GuildUpdatedDescription": "opis serwera",
+    "InviteCreated": "Zaproszenie utworzone",
+    "InvitedDeleted": "Zaproszenie usunięte",
+    "InviteCode": "Kod zaproszenia",
+    "InviteInviter": "Zapraszający",
+    "MessageCreated": "Wiadomość wysłana",
+    "MessageDeleted": "Wiadomość usunięta",
+    "MessageDeletedBulk": "Masowe usuwanie wiadomości",
+    "MessageUpdated": "Wiadomość zmieniona",
+    "MessageAuthor": "Autor wiadomości",
+    "MessageContent": "Treść wiadomości",
+    "MessageCount": "Liczba wiadomości",
+    "RoleCreated": "Rola utworzona",
+    "RoleCreatedTemplate": "{username} tworzy rolę {role}",
+    "RoleDeleted": "Rola usunięta",
+    "RoleDeletedTemplate": "{username} usuwa rolę {role}",
+    "RoleMemberAdded": "Rola przyznana",
+    "RoleMemberAddedTemplate": "{username} przyznaje role użytkownikowi {target}",
+    "RoleMemberRemoved": "Rola usunięta",
+    "RoleMemberRemovedTemplate": "{username} usuwa role użytkownika {target}",
+    "RoleUpdated": "Rola zmieniona",
+    "RoleUpdatedName": "nazwa roli {role}",
+    "RoleUpdatedColor": "kolor roli {role}",
+    "RoleUpdatedPermissions": "uprawnienia roli {role}",
+    "RoleName": "Nazwa roli",
+    "RoleColor": "Kolor roli",
+    "RolePosition": "Pozycja roli",
+    "StickerCreated": "Naklejka dodana",
+    "StickerCreatedTemplate": "{username} dodaje naklejkę {sticker}",
+    "StickerDeleted": "Naklejka usunięta",
+    "StickerDeletedTemplate": "{username} usuwa naklejkę {sticker}",
+    "StickerUpdated": "Naklejka zmieniona",
+    "StickerUpdatedName": "nazwa naklejki {sticker}",
+    "ThreadCreated": "Wątek utworzony",
+    "ThreadCreatedTemplate": "{username} tworzy wątek {thread}",
+    "ThreadDeleted": "Wątek usunięty",
+    "ThreadDeletedTemplate": "{username} usuwa wątek {thread}",
+    "ThreadUpdated": "Wątek zmieniony",
+    "ThreadUpdatedName": "nazwa wątku {thread}",
+    "ThreadUpdatedAutoArchive": "czas autoarchiwizacji wątku {thread}",
+    "ThreadAutoArchiveTime": "Czas autoarchiwizacji",
+    "UserUpdated": "Użytkownik zmieniony",
+    "UserUpdatedName": "{username} zmienia swoją nazwę użytkownika",
+    "UserUpdatedDiscriminator": "{username} zmienia swój dyskryminator",
+    "VoiceConnection": "Połączenie głosowe",
+    "VoiceConnectionTemplate": "{username} łączy się z kanałem głosowym {channel}",
+    "VoiceDisconnection": "Rozłączenie głosowe",
+    "VoiceDisconnectionTemplate": "{username} rozłącza się z kanałem głosowym {channel}",
+    "VoiceMove": "Przeniesienie głosowe",
+    "VoiceMoveTemplate": "{username} przenosi się z kanału głosowego {from} do {to}",
+    "VoiceServerDeaf": "Wyciszenie serwerowe",
+    "VoiceServerMute": "Wyciszenie mikrofonu",
+    "VoiceServerUndeaf": "Odwyciszenie serwerowe",
+    "VoiceServerUnmute": "Odwyciszenie mikrofonu"
   },
   "CaseLog": {
     "CaseTypes": {
-      "BanAdd": "Блокировка выдана",
-      "BanRemove": "Блокировка убрана",
-      "Kick": "Участник выгнан",
-      "MuteAdd": "Заглушение выдано",
-      "MuteRemove": "Заглушение убрано",
-      "PruneMessages": "Очистка сообщений",
-      "WarnAdd": "Предупреждение выдано",
-      "WarnRemove": "Предупреждение убрано"
+      "BanAdd": "Ban nadany",
+      "BanRemove": "Ban zdjęty",
+      "Kick": "Użytkownik wyrzucony",
+      "MuteAdd": "Wyciszenie nadane",
+      "MuteRemove": "Wyciszenie zdjęte",
+      "PruneMessages": "Czyszczenie wiadomości",
+      "WarnAdd": "Ostrzeżenie nadane",
+      "WarnRemove": "Ostrzeżenie zdjęte"
     },
     "Actions": {
-      "Title": "Действия",
-      "Ban": "Выдать блокировку",
-      "Mute": "Выдать заглушение",
-      "Kick": "Выгнать",
-      "Warn": "Выдать предупреждение",
-      "ModifyRoles": "Изменить роли",
-      "SendMessage": "Отправить сообщение",
-      "DeleteMessage": "Удалить сообщение",
-      "ResetViolations": "Обнулить предупреждения",
-      "EphemeralReply": "Эфемерное сообщение",
-      "OverwriteChannelPermissions": "Переопределить права канала",
-      "RestrictRoles": "Запретить выполнение ролям"
+      "Title": "Akcje",
+      "Ban": "Nadaj bana",
+      "Mute": "Nadaj wyciszenie",
+      "Kick": "Wyrzuć",
+      "Warn": "Nadaj ostrzeżenie",
+      "ModifyRoles": "Zmień role",
+      "SendMessage": "Wyślij wiadomość",
+      "DeleteMessage": "Usuń wiadomość",
+      "ResetViolations": "Zresetuj naruszenia",
+      "EphemeralReply": "Efemeryczna odpowiedź",
+      "OverwriteChannelPermissions": "Nadpisz uprawnienia kanału",
+      "RestrictRoles": "Ogranicz role"
     },
-    "CaseNumber": "Случай #{caseNumber}",
-    "Moderator": "Модератор",
-    "ChangeReason": "Изменить причину"
+    "CaseNumber": "Przypadek #{caseNumber}",
+    "Moderator": "Moderator",
+    "ChangeReason": "Zmień powód"
   },
   "RoleConnections": {
     "RegistrationDate": {
-      "Name": "Дата регистрации",
-      "Description": "Сколько дней назад пользователь был зарегистрирован"
+      "Name": "Data rejestracji",
+      "Description": "Ile dni temu użytkownik został zarejestrowany"
     }
   }
 }
