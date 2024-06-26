@@ -4,4 +4,3 @@ append_commit_message: false
 files:
   - source: /translations/Russian/*
     translation: /translations/%language%/%original_file_name%
-    update_option: update_as_unapproved
