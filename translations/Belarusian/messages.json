@@ -590,7 +590,7 @@
         "NoQuery": "{username}, трэба пазначыць спасылку на плэйліст, спасылку на трэк ці назву",
         "TrackLoadFailed": "{username}, адбылася неспадзяваная памылка пры загрузцы трэка",
         "NoMatches": "{username}, па ўказаным запыце нічога не знойдзена",
-        "PlaylistsAvailableOnlyForPremium": "{username}, прайграванне плэйлістоў даступна толькі бонусным серверам",
+        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только серверам с Lacuna Diamond",
         "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
         "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
         "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только серверам с Lacuna Diamond",
