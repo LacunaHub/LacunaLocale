@@ -590,10 +590,10 @@
         "NoQuery": "{username}, плейлисттің сілтемесін, трек сілтемесін же атауын көрсету қажет",
         "TrackLoadFailed": "{username}, тректі жүктеу кезінде болжамсыз қате болды",
         "NoMatches": "{username}, көрсетілген сұрауда еш нәрсе табылмады",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только серверам с Lacuna Diamond",
+        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
         "PlaylistLoaded": "{username}, плейлист сәтті жүктелді және ойнату кезегіне қосылды",
         "QueueLimitReached": "{username}, ойнату кезегіндегі максималды трек санына жетілді",
-        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только серверам с Lacuna Diamond",
+        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только бонусным серверам",
         "StreamPlaybackIsDisabled": "{username}, ағымдағы ойнату өшірілген",
         "TrackHasBeenAddedToQueue": "{username}, трек {track} ойнату кезегіне қосылды",
         "PlaylistHasBeenAddedToQueue": "{username}, плейлист {playlist} ойнату тізіміне қосылды",
@@ -733,7 +733,7 @@
               "Description": "Ұтыс ойынының ұзақтығы"
             },
             "WinnerCount": {
-              "Description": "Ұтыс ойынында қанша жеңімпаз болады"
+              "Description": "Ұтыс ойынында қ��нша жеңімпаз болады"
             },
             "Sponsor": {
               "Description": "Кім бұл ұтыс ойыныны қолдаушы"
@@ -1133,8 +1133,8 @@
       "ShowModalFieldDefaultValue": "Әдепкі бойынша мән"
     },
     "LacunaDiamond": {
-      "HasSubscription": "Это сообщество уже имеет Lacuna Diamond до {date}",
-      "UnlimitedSubscription": "Сервер имеет неограниченный по времени Lacuna Diamond",
+      "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
+      "UnlimitedSubscription": "Серверде уақытпен шектелмеген бонустар бар",
       "BonusMusicDescription": "Шектеусіз трек саны, плейлисттерді тыңдау, аудионы ағымдағы ойнату және дыбыс деңгейін өзгерту.",
       "BonusIncreasedLimitsDescription": "Деңгейлер үшін көпірек сыйлықтар, дүкендегі заттар, жазылымдар, автоматизация, интерактивті хабарламалар, дыбыс рөлдері, уақытша дыбыс каналдары және т.б.",
       "BonusCustomBehaviorWithCodeDescription": "Пайдаланушы командаларында және автоматизациядағы JavaScript кодын орындау мүмкіндігі.",
@@ -1143,12 +1143,12 @@
       "SelectPlan": "Жоспарды таңдаңыз",
       "SelectPaymentMethod": "Төлем тәсілі",
       "Pay": "Төлеу",
-      "PatreonAfterCheckout": "После оплаты подписки, вам необходимо проверить её наличие, чтобы активировать Lacuna Diamond.",
-      "PatreonAfterCheckoutImportantInfo": "Для получения доступа к Lacuna Diamond необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
-      "DNBBonusesInfo": "После того, как вы забустили наш сервер поддержки, нажмите на кнопку проверки ниже, чтобы активировать Lacuna Diamond. (будет доступен до тех пор, пока вы являетесь бустером сервера поддержки). Вы можете активировать Lacuna Diamond только для одного сервера.",
+      "PatreonAfterCheckout": "После того, как вы стали покровителем, нажмите на кнопку проверки ниже, чтобы активировать свои бонусы.",
+      "PatreonAfterCheckoutImportantInfo": "Для получения доступа к бонусам необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
+      "DNBBonusesInfo": "Бонусы будут доступны до тех пор, пока вы являетесь бустером сервера поддержки. Вы можете активировать бонусы только для одного сервера.",
       "TokensInfo": "Вы можете голосовать за нашего бота и получать жетоны, которые можно конвертировать в время действия Diamond подписки (1 жетон = {bonusesDurationInHours}).",
       "Check": "Тексеру",
-      "TransferringDescription": "Для переноса Lacuna Diamond необходимо быть владельцем обоих сообществ. Текущее сообщество не должно иметь Lacuna Diamond.",
+      "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Ұсыныстарды салыстыру",
       "PlanComparisonFeatures": {
         "ExecuteCode": "Код орындау әрекеті",
