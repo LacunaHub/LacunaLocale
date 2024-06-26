@@ -1146,7 +1146,7 @@
       "PatreonAfterCheckout": "Once you've become a patron, click the verification button below to activate your bonuses.",
       "PatreonAfterCheckoutImportantInfo": "To access the bonuses, you are required to connect your Discord to {platform} and stay on our support server.",
       "DNBBonusesInfo": "Bonuses will be available as long as you are a support server booster. You can only activate bonuses for one server.",
-      "TokensInfo": "Вы можете голосовать за нашего бота и получать жетоны, которые можно конвертировать в время действия Diamond подписки (1 жетон = {bonusesDurationInHours}).",
+      "TokensInfo": "You can vote for our bot and receive tokens that can be converted into Diamond subscription time (1 token = {bonusesDurationInHours}).",
       "Check": "Check",
       "TransferringDescription": "Premium features will be transferred from the chosen community to the current one.",
       "PlanComparison": "Plan comparison",
