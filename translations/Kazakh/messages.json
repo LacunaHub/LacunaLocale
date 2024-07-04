@@ -840,12 +840,12 @@
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "Электрондык пошта мекенжайын бөлісу",
-      "JoinSupportServer": "Қолдау серверіне қосылу"
+      "JoinSupportServer": "Қолдау серверіне қосылу",
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Авторизация сәтті өтті",
       "AuthorizationFailed": "Авторизация сәтсіз аяқталды",
-      "CloseWindowAndGoBack": "Бұл терезені жабып, Discord-ға оралуға болады.",
       "SomethingWentWrong": "Бірде бір нәрсе жарамсыз болды. Кейінірек көріңіз."
     },
     "DashboardPage": {
