@@ -840,12 +840,12 @@
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "Udostępnij adres e-mail",
-      "JoinSupportServer": "Dołącz do serwera wsparcia"
+      "JoinSupportServer": "Dołącz do serwera wsparcia",
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Autoryzacja zakończona sukcesem",
       "AuthorizationFailed": "Autoryzacja nie powiodła się",
-      "CloseWindowAndGoBack": "Możesz zamknąć to okno i wrócić do Discorda.",
       "SomethingWentWrong": "Coś poszło nie tak. Spróbuj ponownie później."
     },
     "DashboardPage": {
