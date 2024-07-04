@@ -840,12 +840,12 @@
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "Поділитися адресою ел. пошти",
-      "JoinSupportServer": "Приєднатися до сервера підтримки"
+      "JoinSupportServer": "Приєднатися до сервера підтримки",
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Успішна авторизація",
       "AuthorizationFailed": "Авторизація не вдалася",
-      "CloseWindowAndGoBack": "Ви можете закрити це вікно та повернутися у Discord.",
       "SomethingWentWrong": "Щось пішло не так. Спробуйте пізніше."
     },
     "DashboardPage": {
