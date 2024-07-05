@@ -995,9 +995,6 @@
     "StatePage": {
       "TotalChannels": "Всего каналов",
       "AvgLatency": "Средняя латентность",
-      "Clusters": "Кластеры",
-      "ClusterCPUUsage": "Загрузка ЦП",
-      "ClusterMemoryUsage": "Использование ОЗУ",
       "Shards": "Фрагменты",
       "ShardLatencies": "Латентность фрагментов",
       "MusicPlayers": "Музыкальные плееры",
