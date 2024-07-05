@@ -995,9 +995,6 @@
     "StatePage": {
       "TotalChannels": "Gesamtzahl der Kanäle",
       "AvgLatency": "Durchschnittliche Latenz",
-      "Clusters": "Cluster",
-      "ClusterCPUUsage": "CPU-Auslastung des Clusters",
-      "ClusterMemoryUsage": "Speicherverbrauch des Clusters",
       "Shards": "Shards",
       "ShardLatencies": "Latenz der Shards",
       "MusicPlayers": "Musikplayer",
