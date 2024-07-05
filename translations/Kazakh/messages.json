@@ -995,9 +995,6 @@
     "StatePage": {
       "TotalChannels": "Арналар саны",
       "AvgLatency": "Орташа кешіктілік",
-      "Clusters": "Кластерлер",
-      "ClusterCPUUsage": "CPU загрузкасы",
-      "ClusterMemoryUsage": "ОЗУ пайдалануы",
       "Shards": "Шардтар",
       "ShardLatencies": "Шард кешіктіліктері",
       "MusicPlayers": "Музыка ойнатқыштары",
