@@ -841,7 +841,7 @@
     "AuthorizationPage": {
       "ShareEmailAddress": "Share email address",
       "JoinSupportServer": "Join support server",
-      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
+      "UpdateYourRoleConnections": "Update your role connections"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Authorization successful",
