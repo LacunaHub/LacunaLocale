@@ -880,8 +880,8 @@
         "Title": "Ustawienia ogólne",
         "Locale": "Lokalizacja",
         "Translate": "Tłumacz",
-        "ExpertRoles": "Role ekspertów",
-        "ExpertRolesDescription": "Wybrane role będą mogły przeglądać i zmieniać ustawienia bota, zachowaj ostrożność",
+        "BotExperts": "Эксперты по боту",
+        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
         "Greeting": "Powitanie",
         "MessageFormat": "Format wiadomości",
         "MessageFormats": {
@@ -922,6 +922,7 @@
         "MutesRARStrict": "Usuwanie wszystkich oprócz",
         "AutoMod": "Automoderacja",
         "AutoModDescription": "Automatyczne stosowanie środków przeciwko naruszającym zasady",
+        "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
         "Penalties": "Kary za ostrzeżenia",
         "PenaltiesDescription": "Nakładanie kar po osiągnięciu określonej liczby ostrzeżeń"
       },
