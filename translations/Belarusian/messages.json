@@ -673,47 +673,47 @@
             },
             "Operation": {
               "Description": "Выберите операцию для баланса кошелька",
-              "ChoiceSet": "Установить",
-              "ChoiceInc": "Прибавить",
-              "ChoiceSub": "Вычесть"
+              "ChoiceSet": "Усталяваць",
+              "ChoiceInc": "Дадаць",
+              "ChoiceSub": "Адняць"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
+            "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому хочаце ўсталяваць баланс кашалька",
             "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
+            "WalletBalanceHasBeenSet": "{username}, баланс кашалька {target} усталяваны"
           }
         },
         "ResetWalletCommand": {
-          "Description": "Сбросить кошелёк пользователю",
+          "Description": "Скінуць кашалёк карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить кошелёк"
+              "Description": "Каму неабходна скінуць кашалёк"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Скінуць кашалькі ўсім удзельнікам на серверы"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
-            "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
+            "NoRequiredArgs": "{username}, укажыце ўдзельніка, яго ідэнтыфікатар або зрабіце скід кашалькоў усім",
+            "NoExistingWallets": "{username}, няма існуючых кашалькоў",
+            "AllWalletsHaveBeenReset": "{username}, усе кашалькі паспяхова скінуты",
+            "UserWalletHasBeenReset": "{username}, кашалёк паспяхова скінуты"
           }
         },
         "ResetLevelCommand": {
-          "Description": "Сбросить уровень пользователю",
+          "Description": "Скінуць узровень карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить уровень"
+              "Description": "Каму неабходна скінуць узровень"
             },
             "ResetAll": {
-              "Description": "Сбросить уровни всем участникам на сервере"
+              "Description": "Скінуць узроўні ўсім удзельнікам на серверы"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
-            "NoExistingLevels": "{username}, нет существующих уровней",
+            "NoRequiredArgs": "{username}, укажыце ўдзельніка, яго ідэнтыфікатар або зрабіце скід узроўню ўсім",
+            "NoExistingLevels": "{username}, няма існуючых узроўняў",
             "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
             "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
           }
@@ -749,67 +749,67 @@
             "WinningPrize": "Приз за победу",
             "WinnerCount": "Кол-во победителей",
             "GiveawayHasBeenCreated": "{username}, розыгрыш успешно создан",
-            "YouHaveParticipatedInGiveaway": "{username}, вы приняли участие в розыгрыше {giveaway}",
-            "YouAreAlreadyInGiveaway": "{username}, вы уже участвуете в розыгрыше {giveaway}"
+            "YouHaveParticipatedInGiveaway": "{username}, вы прынялі ўдзел у розыгрышы {giveaway}",
+            "YouAreAlreadyInGiveaway": "{username}, вы ўжо ўдзельнічаеце ў розыгрышы {giveaway}"
           }
         },
         "EndCommand": {
-          "Description": "Принудительно завершить розыгрыш",
+          "Description": "Прымусова завяршыць розыгрыш",
           "Options": {
             "MessageId": {
-              "Description": "Идентификатор сообщения с розыгрышем"
+              "Description": "Ідэнтыфікатар паведамлення з розыгрышам"
             }
           },
           "Texts": {
-            "NoGiveawayParticipants": "Участники розыгрыша не найдены",
+            "NoGiveawayParticipants": "Удзельнікі розыгрышу не знойдзены",
             "GiveawayWinners": "Победители: {winners}",
             "CongratulationsYouHaveWon": "Мои поздравления {winner}! Вы выиграли {prize}!"
           }
         },
         "RerollCommand": {
-          "Description": "Выбрать победителей розыгрыша заново",
+          "Description": "Выбраць пераможцаў розыгрышу нанова",
           "Texts": {
-            "InvalidMessageId": "{username}, пожалуйста, укажите идентификатор сообщения с розыгрышем",
-            "GiveawayNotFound": "{username}, розыгрыш не найден"
+            "InvalidMessageId": "{username}, калі ласка, укажыце ідэнтыфікатар паведамлення з розыгрышам",
+            "GiveawayNotFound": "{username}, розыгрыш не знойдзены"
           }
         }
       }
     },
     "PollCommand": {
-      "Description": "Управление опросами",
+      "Description": "Упраўленне апытаннямі",
       "Texts": {
-        "VotesPlural": "{n} голос | {n} голоса | {n} голосов",
-        "YouHaveAlreadyChosenThisOption": "{username}, вы уже выбрали этот вариант ответа",
-        "YouHaveAlreadyChosenQuizOption": "{username}, вы уже выбрали ответ {answer}",
-        "YouHaveChosenCorrectOption": "{username}, вы выбрали правильный ответ ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, к сожалению, ответ неверный",
-        "YouHaveChosenOption": "{username}, вы выбрали вариант {answer}",
-        "YouHaveRemovedYourVote": "{username}, вы убрали свой голос с варианта {answer}"
+        "VotesPlural": "{n} голас | {n} галасы | {n} галасоў",
+        "YouHaveAlreadyChosenThisOption": "{username}, вы ўжо выбралі гэты варыянт адказу",
+        "YouHaveAlreadyChosenQuizOption": "{username}, вы ўжо выбралі адказ {answer}",
+        "YouHaveChosenCorrectOption": "{username}, вы выбралі правільны адказ ({answer})",
+        "YouHaveChosenIncorrectOption": "{username}, на жаль, адказ няправільны",
+        "YouHaveChosenOption": "{username}, вы выбралі варыянт {answer}",
+        "YouHaveRemovedYourVote": "{username}, вы прыбралі свой голас з варыянта {answer}"
       },
       "SubCommands": {
         "CreateCommand": {
-          "Description": "Создать новый опрос",
+          "Description": "Стварыць новае апытанне",
           "Options": {
             "QuizMode": {
-              "Description": "Опрос с правильными и неправильными ответами"
+              "Description": "Апытанне з правільнымі і няправільнымі адказамі"
             },
             "MultipleAnswers": {
-              "Description": "Позволяет выбрать несколько вариантов ответа"
+              "Description": "Дазваляе выбраць некалькі варыянтаў адказу"
             }
           },
           "Texts": {
-            "NewPoll": "Новый опрос",
-            "PollQuestion": "Вопрос",
-            "CorrectAnswer": "Правильный ответ",
-            "AnswerOptions": "Варианты ответа",
-            "AnswerOptionsPlaceholder": "Варианты ответов указываются с новой строки",
-            "NoQuestion": "{username}, пожалуйста, укажите вопрос",
-            "InvalidAnswerOptions": "{username}, пожалуйста, укажите от 2 до 10 вариантов ответа",
-            "NoCorrectAnswer": "{username}, пожалуйста, укажите правильный ответ",
-            "QuizMode": "Викторина",
-            "MultipleAnswers": "Выбор нескольких вариантов",
-            "PollHasBeenCreated": "{username}, опрос успешно создан",
-            "FailedToCreatePoll": "{username}, произошла ошибка при создании опроса"
+            "NewPoll": "Новае апытанне",
+            "PollQuestion": "Пытанне",
+            "CorrectAnswer": "Правільны адказ",
+            "AnswerOptions": "Варыянты адказу",
+            "AnswerOptionsPlaceholder": "Варыянты адказаў указваюцца з новага радка",
+            "NoQuestion": "{username}, калі ласка, укажыце пытанне",
+            "InvalidAnswerOptions": "{username}, калі ласка, укажыце ад 2 да 10 варыянтаў адказу",
+            "NoCorrectAnswer": "{username}, калі ласка, укажыце правільны адказ",
+            "QuizMode": "Віктарына",
+            "MultipleAnswers": "Выбар некалькіх варыянтаў",
+            "PollHasBeenCreated": "{username}, апытанне паспяхова створана",
+            "FailedToCreatePoll": "{username}, адбылася памылка пры стварэнні апытання"
           }
         }
       }
