@@ -815,25 +815,25 @@
       }
     },
     "TemproleCommand": {
-      "Description": "Временно выдать роль пользователю",
+      "Description": "Часова выдаць ролю карыстальніку",
       "Options": {
         "User": {
-          "Description": "Кому необходимо выдать роль"
+          "Description": "Каму неабходна выдаць ролю"
         },
         "Role": {
-          "Description": "Какую роль необходимо выдать"
+          "Description": "Якую ролю неабходна выдаць"
         },
         "Duration": {
-          "Description": "На какое время будет выдана роль"
+          "Description": "На які час будзе выдадзена роля"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому будет выдана временная роль",
-        "NoRole": "{username}, вы не указали роль",
-        "InvalidDuration": "{username}, длительность временной роли указано неверно",
-        "RoleIsNotEditable": "{username}, у меня нет разрешений на выдачу этой роли кому-либо",
-        "UserAlreadyHasThisRole": "{username}, пользователь уже имеет эту роль",
-        "RoleAssignedToUser": "{username}, роль {role} выдана пользователю {target} до {date}"
+        "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому будзе выдадзена часовая роля",
+        "NoRole": "{username}, вы не ўказалі ролю",
+        "InvalidDuration": "{username}, працягласць часовай ролі пазначана няправільна",
+        "RoleIsNotEditable": "{username}, у мяне няма дазволаў на выдачу гэтай ролі каму-небудзь",
+        "UserAlreadyHasThisRole": "{username}, карыстальнік ужо мае гэтую ролю",
+        "RoleAssignedToUser": "{username}, роля {role} выдадзена карыстальніку {target} да {date}"
       }
     }
   },
@@ -841,7 +841,7 @@
     "AuthorizationPage": {
       "ShareEmailAddress": "Падзяліцца адрасам эл. пошты",
       "JoinSupportServer": "Далучыцца да сервера падтрымкі",
-      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
+      "UpdateYourRoleConnections": "Абнавіць вашыя злучаныя ролі"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Аўтарызацыя прайшла паспяхова",
@@ -854,9 +854,9 @@
       "MyGuilds": "Мае суполкі",
       "NoGuilds": "У вас няма даступных суполак.",
       "Bills": "Выставленные счета",
-      "BillId": "Номер счёта",
-      "BillAmount": "Сумма платежа",
-      "BillStatus": "Статус платежа"
+      "BillId": "Нумар рахунку",
+      "BillAmount": "Сума плацяжу",
+      "BillStatus": "Статус плацяжу"
     },
     "ErrorPage": {
       "ThereIsNothingHere": "Тут нічога няма..."
@@ -865,7 +865,7 @@
       "NavNames": {
         "General": "Агульнае",
         "Commands": "Каманды",
-        "Moderation": "Модерирование",
+        "Moderation": "Мадэрацыя",
         "CustomBehavior": "Пользовательское поведение",
         "Activities": "Актыўнасці",
         "Subscriptions": "Сацыяльная абвяшчэнні",
@@ -880,8 +880,8 @@
         "Title": "Агульныя налады",
         "Locale": "Лакалізацыя",
         "Translate": "Перакласці",
-        "ExpertRoles": "Роли экспертов",
-        "ExpertRolesDescription": "Выбранные роли смогут просматривать и изменять настройки бота, будьте осторожны",
+        "BotExperts": "Эксперты по боту",
+        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
         "Greeting": "Приветствие",
         "MessageFormat": "Фармат паведамленняў",
         "MessageFormats": {
@@ -922,6 +922,7 @@
         "MutesRARStrict": "Убирать все, кроме",
         "AutoMod": "Автомодерация",
         "AutoModDescription": "Аўтаматычнае прымяненне мер супраць парушальнікаў",
+        "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
         "Penalties": "Наказания за предупреждения",
         "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
       },
@@ -974,15 +975,15 @@
       "Title": "Создавайте (всё), что пожелаете",
       "Description": "Многофункциональный бот для Discord, предназначенный расширить возможности управления и модерирования сообществ.",
       "AddToMe": "Добавить себе",
-      "LearnMore": "Узнать больше",
+      "LearnMore": "Даведацца больш",
       "FeatureCustomBehaviorDescription": "Настройте поведение бота с помощью JavaScript. Создавайте пользовательские команды и задачи автоматизации, чтобы придать волшебство своему сообществу.",
       "FeatureActivitiesDescription": "Уровни и экономика. Соревнуйтесь с другими пользователями в борьбе за почетное место в таблице лидеров и получайте за это награды!",
       "FeatureModerationDescription": "Простые и удобные команды, журнал действий, автомодерирование, уведомления о потенциальных нарушителях, жалобы на пользователей и многое другое. Не оставляйте своё сообщество без защиты.",
       "FeatureSubscriptionsDescription": "Привяжите свой Telegram, Twitch и YouTube канал, чтобы подписчики узнавали о выходе нового контента.",
       "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Spotify, Yandex.Music, SoundCloud, прямые ссылки на аудио и радиостанции.",
-      "FeatureUtility": "Полезные функции",
+      "FeatureUtility": "Карысныя функцыі",
       "FeatureUtilityDescription": "Интерактивные сообщения и реакции, временные голосовые каналы, приветственные сообщения и многое другое!",
-      "ReadyToGetStarted": "Готовы начать?",
+      "ReadyToGetStarted": "Гатовы пачаць?",
       "ReadyToGetStartedDescription": "Стабильность. Легкость. Функциональность. Lacuna – это мощный инструмент для улучшения сообщества с интуитивно понятным интерфейсом."
     },
     "PatronsPage": {
@@ -1105,17 +1106,17 @@
       },
       "CompareValuesOperator": "Аператар",
       "CompareValuesOperators": {
-        "Equal": "Равно",
-        "NotEqual": "Не равно",
-        "GreaterThan": "Больше чем",
-        "LessThan": "Меньше чем",
-        "StartsWith": "Начинается с",
+        "Equal": "Роўна",
+        "NotEqual": "Не роўна",
+        "GreaterThan": "Больш за",
+        "LessThan": "Менш за",
+        "StartsWith": "Пачынаецца з",
         "EndsWith": "Заканчивается на",
         "Contains": "Содержит",
         "NotContains": "Не содержит"
       },
-      "CompareValuesLeftPart": "Левая часть",
-      "CompareValuesRightPart": "Правая часть",
+      "CompareValuesLeftPart": "Левая частка",
+      "CompareValuesRightPart": "Правая частка",
       "CompareValuesFalseReply": "Ложный ответ",
       "ModifyRolesUserId": "Ідэнтыфікатар карыстальніка",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
@@ -1286,12 +1287,12 @@
       "PositionCoordinate": "Позиция {XY}",
       "Height": "Высота",
       "Width": "Ширина",
-      "Text": "Текст",
-      "TextColor": "Цвет текста",
-      "TextSize": "Размер текста",
+      "Text": "Тэкст",
+      "TextColor": "Колер тэксту",
+      "TextSize": "Памер тэксту",
       "TextSizes": {
-        "Header": "Заголовок",
-        "Subtitle": "Подзаголовок",
+        "Header": "Загаловак",
+        "Subtitle": "Падзагаловак",
         "Body": "Стандартный",
         "Caption": "Нижний колонтитул"
       },
@@ -1301,20 +1302,20 @@
       },
       "TextTransform": "Преобразование текста",
       "TextTransforms": {
-        "Capitalize": "С заглавной буквы",
-        "Uppercase": "Верхний регистр",
-        "Lowercase": "Нижний регистр"
+        "Capitalize": "З вялікай літары",
+        "Uppercase": "Верхні рэгістр",
+        "Lowercase": "Ніжні рэгістр"
       },
-      "TextDecoration": "Оформление текста",
+      "TextDecoration": "Афармленне тэксту",
       "TextDecorations": {
-        "Underline": "Подчеркнутый",
-        "LineThrough": "Зачеркнутый"
+        "Underline": "Падкрэслены",
+        "LineThrough": "Закрэслены"
       },
-      "TextAlign": "Выравнивание текста",
+      "TextAlign": "Выраўноўванне тэксту",
       "TextAligns": {
-        "Center": "По центру",
-        "End": "По правому краю",
-        "Start": "По левому краю"
+        "Center": "Па цэнтры",
+        "End": "Па правым краі",
+        "Start": "Па левым краі"
       },
       "Image": "Изображение",
       "ImageURL": "Ссылка на изображение",
@@ -1368,10 +1369,10 @@
     }
   },
   "Logs": {
-    "UserChangesSomething": "{username} изменяет {change}",
+    "UserChangesSomething": "{username} змяняе {change}",
     "UnknownUser": "Невядомы карыстальнік",
-    "BeforeChange": "До изменения",
-    "AfterChange": "После изменения",
+    "BeforeChange": "Да змены",
+    "AfterChange": "Пасля змены",
     "ChannelCreated": "Канал создан",
     "ChannelCreatedTemplate": "{username} создаёт канал {channel}",
     "ChannelDeleted": "Канал удалён",
@@ -1408,17 +1409,17 @@
     "InvitedDeleted": "Приглашение удалено",
     "InviteCode": "Код приглашения",
     "InviteInviter": "Приглашающий",
-    "MessageCreated": "Сообщение отправлено",
-    "MessageDeleted": "Сообщение удалено",
-    "MessageDeletedBulk": "Массовое удаление сообщений",
-    "MessageUpdated": "Сообщение изменено",
-    "MessageAuthor": "Автор сообщения",
-    "MessageContent": "Содержимое сообщения",
-    "MessageCount": "Количество сообщений",
-    "RoleCreated": "Роль создана",
-    "RoleCreatedTemplate": "{username} создаёт роль {role}",
-    "RoleDeleted": "Роль удалена",
-    "RoleDeletedTemplate": "{username} удаляет роль {role}",
+    "MessageCreated": "Паведамленне адпраўлена",
+    "MessageDeleted": "Паведамленне выдалена",
+    "MessageDeletedBulk": "Масавае выдаленне паведамленняў",
+    "MessageUpdated": "Паведамленне зменена",
+    "MessageAuthor": "Аўтар паведамлення",
+    "MessageContent": "Змесціва паведамлення",
+    "MessageCount": "Колькасць паведамленняў",
+    "RoleCreated": "Роля створана",
+    "RoleCreatedTemplate": "{username} стварае ролю {role}",
+    "RoleDeleted": "Роля выдалена",
+    "RoleDeletedTemplate": "{username} выдаляе ролю {role}",
     "RoleMemberAdded": "Роль добавлена",
     "RoleMemberAddedTemplate": "{username} добавляет роли пользователю {target}",
     "RoleMemberRemoved": "Роль убрана",
