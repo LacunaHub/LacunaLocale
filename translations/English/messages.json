@@ -880,8 +880,8 @@
         "Title": "General settings",
         "Locale": "Localization",
         "Translate": "Translate",
-        "ExpertRoles": "Roles of experts",
-        "ExpertRolesDescription": "Selected roles will be able to view and change bot settings, be careful",
+        "BotExperts": "Bot experts",
+        "BotExpertsDescription": "Specified roles and users will be able to view and modify bot settings, beware. Roles with administrator permissions have access to the dashboard by default.",
         "Greeting": "Greeting",
         "MessageFormat": "Messages format",
         "MessageFormats": {
@@ -922,6 +922,7 @@
         "MutesRARStrict": "Remove everything except",
         "AutoMod": "AutoMod",
         "AutoModDescription": "Automatic take actions against violators",
+        "AutoModDeprecated": "The auto-moderation feature is deprecated and we recommend using Discord AutoMod.",
         "Penalties": "Penalties for warnings",
         "PenaltiesDescription": "Penalties for reaching a certain number of warnings"
       },
