@@ -71,7 +71,7 @@
       "UseExternalStickers": "Выкарыстоўваць знешнія стыкеры",
       "SendMessagesInThreads": "Адпраўляць паведамленні ў галінах",
       "UseEmbeddedActivities": "Пачаць убудаваную актыўнасць",
-      "ModerateMembers": "Модерировать участников",
+      "ModerateMembers": "Мадэраваць удзельнікаў",
       "ViewCreatorMonetizationAnalytics": "Прагляд аналітыкі манетызацыі",
       "UseSoundboard": "Выкарыстоўваць гукавую панэль",
       "CreateGuildExpressions": "Ствараць эмодзі, стыкеры і гукі гукавой панэлі",
@@ -168,12 +168,12 @@
       "Role": "Роля",
       "Mentionable": "Згадка",
       "Number": "Лікавы",
-      "Attachment": "Вложение"
+      "Attachment": "Прымацаванне"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выканання дадзенай каманды неабходны наступныя дазволы: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недастаткова правоў для выканання гэтай каманды",
     "CommandExecutionOnlyWithPremium": "{username}, выкананне гэтай каманды даступна толькі з Lacuna Diamond",
-    "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
+    "CommandThrottling": "{username}, дасягнута абмежаванне на выкананне каманды, паспрабуйце яшчэ раз у {time}",
     "AboutCommand": {
       "Description": "Базавая інфармацыя пра бота",
       "Texts": {
@@ -216,7 +216,7 @@
         "Sorting": {
           "Description": "Сартаванне табліцы лідараў па выбранаму тыпу актыўнасці",
           "ChoiceLevel": "па ўзроўню",
-          "ChoiceBalance": "по балансу"
+          "ChoiceBalance": "па балансе"
         },
         "Page": {
           "Description": "Нумар старонкі табліцы лідараў"
