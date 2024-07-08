@@ -149,8 +149,6 @@
       "Prize": "прыз",
       "WinnerCount": "колькасць-пераможцаў",
       "Sponsor": "спонсар",
-      "QuizMode": "рэжым-віктарыны",
-      "MultipleAnswers": "множны-выбар",
       "Role": "роля",
       "Time": "час",
       "Award": "узнагарода",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выканання дадзенай каманды неабходны наступныя дазволы: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недастаткова правоў для выканання гэтай каманды",
     "CommandExecutionOnlyWithPremium": "{username}, выкананне гэтай каманды даступна толькі з Lacuna Diamond",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, дасягнута абмежаванне на выкананне каманды, паспрабуйце яшчэ раз у {time}",
     "AboutCommand": {
       "Description": "Базавая інфармацыя пра бота",
@@ -290,7 +289,7 @@
           "Description": "Спіс даступных для набыцця прадметаў у краме сервера",
           "Options": {
             "Page": {
-              "Description": "Номер страницы магазина предметов"
+              "Description": "Нумар старонкі крамы прадметаў"
             }
           },
           "Texts": {
@@ -775,45 +774,6 @@
         }
       }
     },
-    "PollCommand": {
-      "Description": "Упраўленне апытаннямі",
-      "Texts": {
-        "VotesPlural": "{n} голас | {n} галасы | {n} галасоў",
-        "YouHaveAlreadyChosenThisOption": "{username}, вы ўжо выбралі гэты варыянт адказу",
-        "YouHaveAlreadyChosenQuizOption": "{username}, вы ўжо выбралі адказ {answer}",
-        "YouHaveChosenCorrectOption": "{username}, вы выбралі правільны адказ ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, на жаль, адказ няправільны",
-        "YouHaveChosenOption": "{username}, вы выбралі варыянт {answer}",
-        "YouHaveRemovedYourVote": "{username}, вы прыбралі свой голас з варыянта {answer}"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Стварыць новае апытанне",
-          "Options": {
-            "QuizMode": {
-              "Description": "Апытанне з правільнымі і няправільнымі адказамі"
-            },
-            "MultipleAnswers": {
-              "Description": "Дазваляе выбраць некалькі варыянтаў адказу"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Новае апытанне",
-            "PollQuestion": "Пытанне",
-            "CorrectAnswer": "Правільны адказ",
-            "AnswerOptions": "Варыянты адказу",
-            "AnswerOptionsPlaceholder": "Варыянты адказаў указваюцца з новага радка",
-            "NoQuestion": "{username}, калі ласка, укажыце пытанне",
-            "InvalidAnswerOptions": "{username}, калі ласка, укажыце ад 2 да 10 варыянтаў адказу",
-            "NoCorrectAnswer": "{username}, калі ласка, укажыце правільны адказ",
-            "QuizMode": "Віктарына",
-            "MultipleAnswers": "Выбар некалькіх варыянтаў",
-            "PollHasBeenCreated": "{username}, апытанне паспяхова створана",
-            "FailedToCreatePoll": "{username}, адбылася памылка пры стварэнні апытання"
-          }
-        }
-      }
-    },
     "TemproleCommand": {
       "Description": "Часова выдаць ролю карыстальніку",
       "Options": {
@@ -908,22 +868,22 @@
         "RespectHierarchy": "Учитывать иерархию ролей в командах модерирования",
         "DenyModerateUsersWithModeratorPermissions": "Запретить модерировать пользователей с правами модератора",
         "UnmoderatedRoles": "Немодерируемые роли",
-        "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
+        "UnmoderatedRolesDescription": "Да гэтых роляў немагчыма будзе прымяніць каманды мадэравання",
         "Log": "Журнал",
-        "LogDescription": "Отслеживание действий и событий",
+        "LogDescription": "Адсочванне дзеянняў і падзей",
         "CaseLogChannel": "Канал для выпадкаў",
         "CaseLogChannelDescription": "У прызначаным канале будуць лагіравацца дзеянні мадэратараў",
         "CaseLogTypes": "Тыпы выпадкаў",
-        "CaseLogTypesDescription": "События журнала модерации",
-        "ActionLog": "Журнал действия",
-        "ActionLogDescription": "События сервера",
-        "Mutes": "Заглушения",
-        "MutesRAR": "Убирать все роли при заглушении",
-        "MutesRARStrict": "Убирать все, кроме",
-        "AutoMod": "Автомодерация",
+        "CaseLogTypesDescription": "Падзеі журнала мадэрацыі",
+        "ActionLog": "Журнал дзеянняў",
+        "ActionLogDescription": "Падзеі сервера",
+        "Mutes": "Заглушэнні",
+        "MutesRAR": "Прыбіраць усе ролі пры заглушэнні",
+        "MutesRARStrict": "Прыбіраць усе, акрамя",
+        "AutoMod": "Аўтамадэрацыя",
         "AutoModDescription": "Аўтаматычнае прымяненне мер супраць парушальнікаў",
-        "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
-        "Penalties": "Наказания за предупреждения",
+        "AutoModDeprecated": "Функцыя аўтамадэрацыі ўстарэла і мы рэкамендуем выкарыстоўваць Discord AutoMod.",
+        "Penalties": "Пакарання за папярэджанні",
         "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
       },
       "CustomBehavior": {
