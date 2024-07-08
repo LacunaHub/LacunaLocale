@@ -149,8 +149,6 @@
       "Prize": "нагорода",
       "WinnerCount": "кількість-переможців",
       "Sponsor": "спонсор",
-      "QuizMode": "режим-вікторини",
-      "MultipleAnswers": "множинний-вибір",
       "Role": "роль",
       "Time": "час",
       "Award": "нагорода",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для виконання даної команди необхідні наступні дозволи: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недостатньо прав для виконання цієї команди",
     "CommandExecutionOnlyWithPremium": "{username}, виконання даної команди доступне тільки з Lacuna Diamond",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, досягнуто обмеження у використанні команди, спробуйте ще раз о {time}",
     "AboutCommand": {
       "Description": "Базова інформація про бота",
@@ -771,45 +770,6 @@
           "Texts": {
             "InvalidMessageId": "{username}, будь ласка, вкажіть ідентифікатор повідомлення з розіграшем",
             "GiveawayNotFound": "{username}, розіграш не знайдено"
-          }
-        }
-      }
-    },
-    "PollCommand": {
-      "Description": "Керування опитуваннями",
-      "Texts": {
-        "VotesPlural": "{n} голос | {n} голоси | {n} голосів",
-        "YouHaveAlreadyChosenThisOption": "{username}, ви вже вибрали цей варіант відповіді",
-        "YouHaveAlreadyChosenQuizOption": "{username}, ви вже вибрали відповідь {answer}",
-        "YouHaveChosenCorrectOption": "{username}, ви вибрали правильну відповідь ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, на жаль, відповідь невірна",
-        "YouHaveChosenOption": "{username}, ви вибрали варіант {answer}",
-        "YouHaveRemovedYourVote": "{username}, ви зняли свій голос з варіанта {answer}"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Створити нове опитування",
-          "Options": {
-            "QuizMode": {
-              "Description": "Опитування з правильними та неправильними відповідями"
-            },
-            "MultipleAnswers": {
-              "Description": "Дозволяє вибрати декілька варіантів відповіді"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Нове опитування",
-            "PollQuestion": "Питання",
-            "CorrectAnswer": "Правильна відповідь",
-            "AnswerOptions": "Варіанти відповіді",
-            "AnswerOptionsPlaceholder": "Варіанти відповідей вказуються з нового рядка",
-            "NoQuestion": "{username}, будь ласка, вкажіть питання",
-            "InvalidAnswerOptions": "{username}, будь ласка, вкажіть від 2 до 10 варіантів відповіді",
-            "NoCorrectAnswer": "{username}, будь ласка, вкажіть правильну відповідь",
-            "QuizMode": "Вікторина",
-            "MultipleAnswers": "Вибір декількох варіантів",
-            "PollHasBeenCreated": "{username}, опитування успішно створено",
-            "FailedToCreatePoll": "{username}, сталася помилка при створенні опитування"
           }
         }
       }
