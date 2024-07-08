@@ -171,7 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, this command requires following permissions for execution: {permissions}",
     "CommandExecutionDenied": "{username}, you don't have permission to use this command",
     "CommandExecutionOnlyWithPremium": "{username}, command is available only with Lacuna Diamond",
-    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
+    "CommandExecutionDisabled": "{username}, this command is disabled in the server settings",
     "CommandThrottling": "{username}, the command restriction has been reached, try again at {time}",
     "AboutCommand": {
       "Description": "Basic information about the bot",
