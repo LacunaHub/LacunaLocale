@@ -149,8 +149,6 @@
       "Prize": "prize",
       "WinnerCount": "number-of-winners",
       "Sponsor": "sponsor",
-      "QuizMode": "quiz-mode",
-      "MultipleAnswers": "multiple-answers",
       "Role": "role",
       "Time": "time",
       "Award": "award",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, this command requires following permissions for execution: {permissions}",
     "CommandExecutionDenied": "{username}, you don't have permission to use this command",
     "CommandExecutionOnlyWithPremium": "{username}, command is available only with Lacuna Diamond",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, the command restriction has been reached, try again at {time}",
     "AboutCommand": {
       "Description": "Basic information about the bot",
@@ -771,45 +770,6 @@
           "Texts": {
             "InvalidMessageId": "{username}, please specify the message identifier of the giveaway",
             "GiveawayNotFound": "{username}, giveaway not found"
-          }
-        }
-      }
-    },
-    "PollCommand": {
-      "Description": "Polls management",
-      "Texts": {
-        "VotesPlural": "{n} vote | {n} votes",
-        "YouHaveAlreadyChosenThisOption": "{username}, you have already chosen this answer option",
-        "YouHaveAlreadyChosenQuizOption": "{username}, you have already chosen {answer}",
-        "YouHaveChosenCorrectOption": "{username}, you have selected the correct answer ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, oops, the answer is wrong",
-        "YouHaveChosenOption": "{username}, you have chosen {answer}",
-        "YouHaveRemovedYourVote": "{username}, you removed your vote from option {answer}"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Create a new poll",
-          "Options": {
-            "QuizMode": {
-              "Description": "A poll with correct and wrong answers"
-            },
-            "MultipleAnswers": {
-              "Description": "Allows you to choose several answer options"
-            }
-          },
-          "Texts": {
-            "NewPoll": "New poll",
-            "PollQuestion": "Question",
-            "CorrectAnswer": "Correct answer",
-            "AnswerOptions": "Answer options",
-            "AnswerOptionsPlaceholder": "Answer options are listed on a new line",
-            "NoQuestion": "{username}, please specify the question",
-            "InvalidAnswerOptions": "{username}, please specify 2 to 10 answer options",
-            "NoCorrectAnswer": "{username}, please specify the correct answer",
-            "QuizMode": "Quiz",
-            "MultipleAnswers": "Multiple choice",
-            "PollHasBeenCreated": "{username}, the poll was successfully created",
-            "FailedToCreatePoll": "{username}, an error occurred while creating the poll"
           }
         }
       }
