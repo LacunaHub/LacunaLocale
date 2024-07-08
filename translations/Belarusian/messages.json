@@ -223,7 +223,7 @@
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
+        "LevelsIsDisabled": "{username}, узроўні адключаны на гэтым серверы",
         "EconomyIsDisabled": "{username}, эканоміка адключана на гэтым серверы",
         "NoLevelsYet": "{username}, на гэтым серверы яшчэ ніхто не атрымліваў узровень",
         "NoWalletsYet": "{username}, на гэтым серверы яшчэ няма кашалькоў",
@@ -269,25 +269,25 @@
       "Description": "Крама прадметаў сервера",
       "Texts": {
         "NoItemsForPurchaseInStore": "{username}, у краме няма прадметаў для набыцця",
-        "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
+        "InsufficientFundsToPurchaseItem": "{username}, недастаткова сродкаў для набыцця прадмета",
         "ItemPreviouslyPurchased": "{username}, вы раней набывалі гэты прадмет",
         "UserHasPurchasedItem": "{username}, вы набылі прадмет {item}"
       },
       "SubCommands": {
         "BuyCommand": {
-          "Description": "Покупка предметов в магазине сервера",
+          "Description": "Купля прадметаў у краме сервера",
           "Options": {
             "SKU": {
-              "Description": "Артикул (SKU) предмета в магазине"
+              "Description": "Артыкул (SKU) прадмета ў краме"
             }
           },
           "Texts": {
-            "InvalidSKU": "{username}, пожалуйста, укажите артикул предмета",
-            "ItemNotFound": "{username}, предмет с таким артикулом не найден"
+            "InvalidSKU": "{username}, калі ласка, укажыце артыкул прадмета",
+            "ItemNotFound": "{username}, прадмет з такім артыкулам не знойдзены"
           }
         },
         "ItemsCommand": {
-          "Description": "Список доступных для покупки предметов в магазине сервера",
+          "Description": "Спіс даступных для набыцця прадметаў у краме сервера",
           "Options": {
             "Page": {
               "Description": "Номер страницы магазина предметов"
