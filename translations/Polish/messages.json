@@ -149,8 +149,6 @@
       "Prize": "nagroda",
       "WinnerCount": "liczba-zwycięzców",
       "Sponsor": "sponsor",
-      "QuizMode": "tryb-quizu",
-      "MultipleAnswers": "wielokrotny-wybór",
       "Role": "rola",
       "Time": "czas",
       "Award": "nagroda",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, do wykonania tej komendy wymagane są następujące uprawnienia: {permissions}",
     "CommandExecutionDenied": "{username}, nie masz wystarczających uprawnień do wykonania tej komendy",
     "CommandExecutionOnlyWithPremium": "{username}, wykonanie tej komendy jest dostępne tylko dla Lacuna Diamond",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, osiągnięto limit wykonania komendy, spróbuj ponownie za {time}",
     "AboutCommand": {
       "Description": "Podstawowe informacje o bocie",
@@ -771,45 +770,6 @@
           "Texts": {
             "InvalidMessageId": "{username}, proszę podać identyfikator wiadomości z losowaniem",
             "GiveawayNotFound": "{username}, losowanie nie zostało znalezione"
-          }
-        }
-      }
-    },
-    "PollCommand": {
-      "Description": "Zarządzanie ankietami",
-      "Texts": {
-        "VotesPlural": "{n} głos | {n} głosy | {n} głosów",
-        "YouHaveAlreadyChosenThisOption": "{username}, już wybrałeś tę opcję",
-        "YouHaveAlreadyChosenQuizOption": "{username}, już wybrałeś odpowiedź {answer}",
-        "YouHaveChosenCorrectOption": "{username}, wybrałeś poprawną odpowiedź ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, niestety, odpowiedź jest nieprawidłowa",
-        "YouHaveChosenOption": "{username}, wybrałeś opcję {answer}",
-        "YouHaveRemovedYourVote": "{username}, usunąłeś swój głos z opcji {answer}"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Utwórz nową ankietę",
-          "Options": {
-            "QuizMode": {
-              "Description": "Ankieta z poprawnymi i niepoprawnymi odpowiedziami"
-            },
-            "MultipleAnswers": {
-              "Description": "Pozwala wybrać wiele odpowiedzi"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Nowa ankieta",
-            "PollQuestion": "Pytanie",
-            "CorrectAnswer": "Poprawna odpowiedź",
-            "AnswerOptions": "Opcje odpowiedzi",
-            "AnswerOptionsPlaceholder": "Opcje odpowiedzi wpisuje się w nowych liniach",
-            "NoQuestion": "{username}, proszę podać pytanie",
-            "InvalidAnswerOptions": "{username}, proszę podać od 2 do 10 opcji odpowiedzi",
-            "NoCorrectAnswer": "{username}, proszę wskazać poprawną odpowiedź",
-            "QuizMode": "Tryb quizu",
-            "MultipleAnswers": "Możliwość wielokrotnego wyboru",
-            "PollHasBeenCreated": "{username}, ankieta została pomyślnie utworzona",
-            "FailedToCreatePoll": "{username}, wystąpił błąd podczas tworzenia ankiety"
           }
         }
       }
