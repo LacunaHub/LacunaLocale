@@ -149,8 +149,6 @@
       "Prize": "жүлде",
       "WinnerCount": "жеңімпаздар саны",
       "Sponsor": "демеуші",
-      "QuizMode": "викторина-ережесі",
-      "MultipleAnswers": "көптеген-таңдау",
       "Role": "рөл",
       "Time": "уақыт",
       "Award": "сыйлық",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, осы команданы орындау үшін келесі рұқсаттар қажет: {permissions}",
     "CommandExecutionDenied": "{username}, сізде осы команданы орындау үшін жеткілікті құқықтар жоқ",
     "CommandExecutionOnlyWithPremium": "{username}, осы команданы орындау тек Lacuna Diamond арқылы қол жетімді",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, команданы орындау шектеуіне жеткен, {time} кездесе қайталап көріңіз",
     "AboutCommand": {
       "Description": "Бот жайлы негізгі ақпарат",
@@ -771,45 +770,6 @@
           "Texts": {
             "InvalidMessageId": "{username}, ұтыс ойыны бар туралы хабар идентификаторын көрсетіңіз",
             "GiveawayNotFound": "{username}, ұтыс ойыны табылмады"
-          }
-        }
-      }
-    },
-    "PollCommand": {
-      "Description": "Сауалнаманы басқару",
-      "Texts": {
-        "VotesPlural": "{n} дауыс | {n} дауыс | {n} дауыс",
-        "YouHaveAlreadyChosenThisOption": "{username}, сіз бұл жауап вариантын таңдадыңыз",
-        "YouHaveAlreadyChosenQuizOption": "{username}, сіз жауапты {answer} таңдадыңыз",
-        "YouHaveChosenCorrectOption": "{username}, сіз дұрыс жауапты ({answer}) таңдадыңыз",
-        "YouHaveChosenIncorrectOption": "{username}, кешіріңіз, жауап дұрыс емес",
-        "YouHaveChosenOption": "{username}, сіз жауап вариантын {answer} таңдадыңыз",
-        "YouHaveRemovedYourVote": "{username}, сіз дауысыңызды {answer} жауап вариантынан алып тастадыңыз"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Жаңа сауалнаманы жасау",
-          "Options": {
-            "QuizMode": {
-              "Description": "Дұрыс және дұрыс емес жауаптары бар сауалнама"
-            },
-            "MultipleAnswers": {
-              "Description": "Бірнеше жауап вариантын таңдауға мүмкіндік береді"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Жаңа сауалнама",
-            "PollQuestion": "Сұрақ",
-            "CorrectAnswer": "Дұрыс жауап",
-            "AnswerOptions": "Жауап варианттары",
-            "AnswerOptionsPlaceholder": "Жауап варианттары жаңа жолмен көрсетіледі",
-            "NoQuestion": "{username}, сұрақты көрсетіңіз",
-            "InvalidAnswerOptions": "{username}, 2-ден 10-ге дейінгі жауап варианттарын көрсетіңіз",
-            "NoCorrectAnswer": "{username}, дұрыс жауапты көрсетіңіз",
-            "QuizMode": "Білім сыну",
-            "MultipleAnswers": "Бірнеше жауаптар",
-            "PollHasBeenCreated": "{username}, сауалнама сәтті құрылды",
-            "FailedToCreatePoll": "{username}, сауалнаманы құруда қате пайда болды"
           }
         }
       }
