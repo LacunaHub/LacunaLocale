@@ -215,10 +215,16 @@
         "Sorting": {
           "Description": "Сортування таблиці лідерів по обраному типу активності",
           "ChoiceLevel": "по рівню",
-          "ChoiceBalance": "по балансу"
+          "ChoiceBalance": "по балансу",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Номер сторінки таблиці лідерів"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
@@ -822,6 +828,11 @@
       "ThereIsNothingHere": "Тут поки що нічого немає..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Загальні",
         "Commands": "Команди",
@@ -904,7 +915,8 @@
         "EconomyCurrencies": "Валюти",
         "EconomyStoreItems": "Предмети магазину",
         "EconomyTransferPermissions": "Дозволи команди перекладу",
-        "Multipliers": "Множник досвіду та заробітку"
+        "Multipliers": "Множник досвіду та заробітку",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Музика",
