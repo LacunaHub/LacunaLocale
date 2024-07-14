@@ -216,15 +216,15 @@
           "Description": "Sorting the leaderboard by selected activity type",
           "ChoiceLevel": "by level",
           "ChoiceBalance": "by balance",
-          "ChoiceMessageCount": "по количеству сообщений",
-          "ChoiceVoiceTime": "по голосовому времени"
+          "ChoiceMessageCount": "by message count",
+          "ChoiceVoiceTime": "by voice time"
         },
         "Page": {
           "Description": "Leaderboard page number"
         },
         "Order": {
-          "ChoiceAsc": "по возрастанию",
-          "ChoiceDesc": "по убыванию"
+          "ChoiceAsc": "ascending",
+          "ChoiceDesc": "descending"
         }
       },
       "Texts": {
@@ -828,10 +828,10 @@
       "ThereIsNothingHere": "Nothing to see here..."
     },
     "GuildPage": {
-      "MembersOnline": "{n} в сети",
-      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "MembersOnline": "{n} online",
+      "MembersPlural": "0 members | {n} member | {n} members",
       "Leaders": {
-        "Leaderboard": "Таблица лидеров"
+        "Leaderboard": "Leaderboard"
       },
       "NavNames": {
         "General": "General",
@@ -916,7 +916,7 @@
         "EconomyStoreItems": "Store items",
         "EconomyTransferPermissions": "Permissions of the transfer command",
         "Multipliers": "Experience and earning multipliers",
-        "PublicLeaderboard": "Публичная таблица лидеров"
+        "PublicLeaderboard": "Public leaderboard"
       },
       "VoiceChannels": {
         "Music": "Music",
