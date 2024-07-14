@@ -215,10 +215,16 @@
         "Sorting": {
           "Description": "Sortowanie tabeli liderów według wybranego typu aktywności",
           "ChoiceLevel": "według poziomu",
-          "ChoiceBalance": "według salda"
+          "ChoiceBalance": "według salda",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Numer strony tabeli liderów"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
@@ -822,6 +828,11 @@
       "ThereIsNothingHere": "Tu nic nie ma..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Ogólne",
         "Commands": "Komendy",
@@ -904,7 +915,8 @@
         "EconomyCurrencies": "Waluty",
         "EconomyStoreItems": "Przedmioty w sklepie",
         "EconomyTransferPermissions": "Uprawnienia do komendy transferu",
-        "Multipliers": "Mnożniki doświadczenia i zarobków"
+        "Multipliers": "Mnożniki doświadczenia i zarobków",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Muzyka",
