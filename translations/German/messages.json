@@ -149,8 +149,6 @@
       "Prize": "Preis",
       "WinnerCount": "Anzahl der Gewinner",
       "Sponsor": "Sponsor",
-      "QuizMode": "Quizmodus",
-      "MultipleAnswers": "Mehrfachauswahl",
       "Role": "Rolle",
       "Time": "Zeit",
       "Award": "Auszeichnung",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, für die Ausführung dieses Befehls sind folgende Berechtigungen erforderlich: {permissions}",
     "CommandExecutionDenied": "{username}, Sie haben nicht genügend Rechte, um diesen Befehl auszuführen",
     "CommandExecutionOnlyWithPremium": "{username}, die Ausführung dieses Befehls ist nur mit Lacuna Diamond verfügbar",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, das Ausführungslimit für den Befehl wurde erreicht, bitte versuchen Sie es in {time} erneut",
     "AboutCommand": {
       "Description": "Grundlegende Informationen über den Bot",
@@ -216,10 +215,16 @@
         "Sorting": {
           "Description": "Sortierung der Rangliste nach gewähltem Aktivitätstyp",
           "ChoiceLevel": "nach Level",
-          "ChoiceBalance": "nach Guthaben"
+          "ChoiceBalance": "nach Guthaben",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Seitennummer der Rangliste"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
@@ -775,45 +780,6 @@
         }
       }
     },
-    "PollCommand": {
-      "Description": "Verwaltung von Umfragen",
-      "Texts": {
-        "VotesPlural": "{n} Stimme | {n} Stimmen | {n} Stimmen",
-        "YouHaveAlreadyChosenThisOption": "{username}, Sie haben diese Antwortmöglichkeit bereits gewählt",
-        "YouHaveAlreadyChosenQuizOption": "{username}, Sie haben bereits die Antwort {answer} gewählt",
-        "YouHaveChosenCorrectOption": "{username}, Sie haben die richtige Antwort gewählt ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, leider ist die Antwort falsch",
-        "YouHaveChosenOption": "{username}, Sie haben die Option {answer} gewählt",
-        "YouHaveRemovedYourVote": "{username}, Sie haben Ihre Stimme von der Option {answer} entfernt"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Einen neuen Poll erstellen",
-          "Options": {
-            "QuizMode": {
-              "Description": "Poll mit richtigen und falschen Antworten"
-            },
-            "MultipleAnswers": {
-              "Description": "Ermöglicht die Auswahl mehrerer Antwortoptionen"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Neuer Poll",
-            "PollQuestion": "Frage",
-            "CorrectAnswer": "Richtige Antwort",
-            "AnswerOptions": "Antwortoptionen",
-            "AnswerOptionsPlaceholder": "Antwortoptionen werden zeilenweise angegeben",
-            "NoQuestion": "{username}, bitte geben Sie eine Frage an",
-            "InvalidAnswerOptions": "{username}, bitte geben Sie zwischen 2 und 10 Antwortoptionen an",
-            "NoCorrectAnswer": "{username}, bitte geben Sie die richtige Antwort an",
-            "QuizMode": "Quizmodus",
-            "MultipleAnswers": "Mehrfachauswahl",
-            "PollHasBeenCreated": "{username}, der Poll wurde erfolgreich erstellt",
-            "FailedToCreatePoll": "{username}, beim Erstellen des Polls ist ein Fehler aufgetreten"
-          }
-        }
-      }
-    },
     "TemproleCommand": {
       "Description": "Eine Rolle zeitweise einem Benutzer zuweisen",
       "Options": {
@@ -840,12 +806,12 @@
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "E-Mail-Adresse teilen",
-      "JoinSupportServer": "Dem Support-Server beitreten"
+      "JoinSupportServer": "Dem Support-Server beitreten",
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Die Autorisierung war erfolgreich",
       "AuthorizationFailed": "Die Autorisierung ist fehlgeschlagen",
-      "CloseWindowAndGoBack": "Sie können dieses Fenster schließen und zu Discord zurückkehren.",
       "SomethingWentWrong": "Etwas ist schief gelaufen. Versuchen Sie es später erneut."
     },
     "DashboardPage": {
@@ -862,6 +828,11 @@
       "ThereIsNothingHere": "Hier gibt es nichts..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Allgemein",
         "Commands": "Befehle",
@@ -880,8 +851,8 @@
         "Title": "Allgemeine Einstellungen",
         "Locale": "Lokalisierung",
         "Translate": "Übersetzen",
-        "ExpertRoles": "Expertenrollen",
-        "ExpertRolesDescription": "Ausgewählte Rollen können die Bot-Einstellungen einsehen und ändern, seien Sie vorsichtig",
+        "BotExperts": "Эксперты по боту",
+        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
         "Greeting": "Begrüßung",
         "MessageFormat": "Nachrichtenformat",
         "MessageFormats": {
@@ -922,6 +893,7 @@
         "MutesRARStrict": "Entfernen Sie alle außer",
         "AutoMod": "Automoderation",
         "AutoModDescription": "Automatische Maßnahmen gegen Regelverstöße",
+        "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
         "Penalties": "Strafen für Verwarnungen",
         "PenaltiesDescription": "Verhängung von Strafen bei Erreichen einer bestimmten Anzahl von Verwarnungen"
       },
@@ -943,7 +915,8 @@
         "EconomyCurrencies": "Währungen",
         "EconomyStoreItems": "Shop-Artikel",
         "EconomyTransferPermissions": "Berechtigungen für Transferbefehle",
-        "Multipliers": "Multiplikatoren für Erfahrung und Verdienst"
+        "Multipliers": "Multiplikatoren für Erfahrung und Verdienst",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Musik",
@@ -995,9 +968,6 @@
     "StatePage": {
       "TotalChannels": "Gesamtzahl der Kanäle",
       "AvgLatency": "Durchschnittliche Latenz",
-      "Clusters": "Cluster",
-      "ClusterCPUUsage": "CPU-Auslastung des Clusters",
-      "ClusterMemoryUsage": "Speicherverbrauch des Clusters",
       "Shards": "Shards",
       "ShardLatencies": "Latenz der Shards",
       "MusicPlayers": "Musikplayer",

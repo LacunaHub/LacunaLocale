@@ -71,7 +71,7 @@
       "UseExternalStickers": "Выкарыстоўваць знешнія стыкеры",
       "SendMessagesInThreads": "Адпраўляць паведамленні ў галінах",
       "UseEmbeddedActivities": "Пачаць убудаваную актыўнасць",
-      "ModerateMembers": "Модерировать участников",
+      "ModerateMembers": "Мадэраваць удзельнікаў",
       "ViewCreatorMonetizationAnalytics": "Прагляд аналітыкі манетызацыі",
       "UseSoundboard": "Выкарыстоўваць гукавую панэль",
       "CreateGuildExpressions": "Ствараць эмодзі, стыкеры і гукі гукавой панэлі",
@@ -149,8 +149,6 @@
       "Prize": "прыз",
       "WinnerCount": "колькасць-пераможцаў",
       "Sponsor": "спонсар",
-      "QuizMode": "рэжым-віктарыны",
-      "MultipleAnswers": "множны-выбар",
       "Role": "роля",
       "Time": "час",
       "Award": "узнагарода",
@@ -168,12 +166,13 @@
       "Role": "Роля",
       "Mentionable": "Згадка",
       "Number": "Лікавы",
-      "Attachment": "Вложение"
+      "Attachment": "Прымацаванне"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выканання дадзенай каманды неабходны наступныя дазволы: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недастаткова правоў для выканання гэтай каманды",
     "CommandExecutionOnlyWithPremium": "{username}, выкананне гэтай каманды даступна толькі з Lacuna Diamond",
-    "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
+    "CommandExecutionDisabled": "{username}, гэтая каманда адключана ў наладах сервера",
+    "CommandThrottling": "{username}, дасягнута абмежаванне на выкананне каманды, паспрабуйце яшчэ раз у {time}",
     "AboutCommand": {
       "Description": "Базавая інфармацыя пра бота",
       "Texts": {
@@ -216,14 +215,20 @@
         "Sorting": {
           "Description": "Сартаванне табліцы лідараў па выбранаму тыпу актыўнасці",
           "ChoiceLevel": "па ўзроўню",
-          "ChoiceBalance": "по балансу"
+          "ChoiceBalance": "па балансе",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Нумар старонкі табліцы лідараў"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
+        "LevelsIsDisabled": "{username}, узроўні адключаны на гэтым серверы",
         "EconomyIsDisabled": "{username}, эканоміка адключана на гэтым серверы",
         "NoLevelsYet": "{username}, на гэтым серверы яшчэ ніхто не атрымліваў узровень",
         "NoWalletsYet": "{username}, на гэтым серверы яшчэ няма кашалькоў",
@@ -269,46 +274,46 @@
       "Description": "Крама прадметаў сервера",
       "Texts": {
         "NoItemsForPurchaseInStore": "{username}, у краме няма прадметаў для набыцця",
-        "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
+        "InsufficientFundsToPurchaseItem": "{username}, недастаткова сродкаў для набыцця прадмета",
         "ItemPreviouslyPurchased": "{username}, вы раней набывалі гэты прадмет",
         "UserHasPurchasedItem": "{username}, вы набылі прадмет {item}"
       },
       "SubCommands": {
         "BuyCommand": {
-          "Description": "Покупка предметов в магазине сервера",
+          "Description": "Купля прадметаў у краме сервера",
           "Options": {
             "SKU": {
-              "Description": "Артикул (SKU) предмета в магазине"
+              "Description": "Артыкул (SKU) прадмета ў краме"
             }
           },
           "Texts": {
-            "InvalidSKU": "{username}, пожалуйста, укажите артикул предмета",
-            "ItemNotFound": "{username}, предмет с таким артикулом не найден"
+            "InvalidSKU": "{username}, калі ласка, укажыце артыкул прадмета",
+            "ItemNotFound": "{username}, прадмет з такім артыкулам не знойдзены"
           }
         },
         "ItemsCommand": {
-          "Description": "Список доступных для покупки предметов в магазине сервера",
+          "Description": "Спіс даступных для набыцця прадметаў у краме сервера",
           "Options": {
             "Page": {
-              "Description": "Номер страницы магазина предметов"
+              "Description": "Нумар старонкі крамы прадметаў"
             }
           },
           "Texts": {
             "ServerStore": "Крама сервера",
-            "ServerStoreHowToBuyItem": "Выберите предмет в выпадающем списке ниже или введите команду {command}, чтобы приобрести его",
+            "ServerStoreHowToBuyItem": "Выберыце прадмет з выпадальнага спісу ніжэй або ўвядзіце {command}, каб набыць яго",
             "PurchasePrice": "Кошт пакупкі",
-            "ItemContains": "Содержит в себе",
+            "ItemContains": "Змяшчае ў сабе",
             "ItemQuantity": "Оставшееся количество",
-            "SelectItemToPurchase": "Выберите предмет для покупки"
+            "SelectItemToPurchase": "Выберыце прадмет для пакупкі"
           }
         }
       }
     },
     "UserCommand": {
-      "Description": "Информация об аккаунте пользователя",
+      "Description": "Інфармацыя аб уліковым запісе карыстальніка",
       "Options": {
         "User": {
-          "Description": "Информация об аккаунте указанного пользователя"
+          "Description": "Інфармацыя аб уліковым запісе абранага карыстальніка"
         }
       },
       "Texts": {
@@ -329,7 +334,7 @@
             }
           },
           "Texts": {
-            "WalletIsEmpty": "Кошелёк пуст",
+            "WalletIsEmpty": "Кашалёк пусты",
             "WalletBalanceOfUser": "Баланс карыстальніка {username}"
           }
         },
@@ -340,17 +345,17 @@
               "Description": "Каму неабходна перавесці грошы"
             },
             "Amount": {
-              "Description": "Количество средств перевода"
+              "Description": "Колькасць сродкаў пераводу"
             },
             "Currency": {
-              "Description": "В какой валюте будет перевод"
+              "Description": "У якой валюце будзе зроблены перавод"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите сделать перевод",
-            "InvalidAmount": "{username}, пожалуйста, укажите сумму перевода",
-            "NoSuchAmountOfFunds": "{username}, у вас нет такой суммы перевода",
-            "SuccessfulFundsTransfer": "{username}, {amount} успешно переведено на счет {target}"
+            "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому вы жадаеце зрабіць перавод",
+            "InvalidAmount": "{username}, калі ласка, укажыце суму пераводу",
+            "NoSuchAmountOfFunds": "{username}, у вас няма такой сумы пераводу",
+            "SuccessfulFundsTransfer": "{username}, {amount} было паспяхова пераведзена {target}"
           }
         }
       }
@@ -362,7 +367,7 @@
           "Description": "Каго неабходна заблакіраваць"
         },
         "Duration": {
-          "Description": "Длительность блокировки"
+          "Description": "Працягласць блакавання"
         },
         "Reason": {
           "Description": "Прычына блакіроўкі"
@@ -370,11 +375,11 @@
       },
       "Texts": {
         "InvalidUser": "{username}, калі ласка, пазначце карыстальніка, якога неабходна заблакіраваць",
-        "YouCannotBanYourself": "{username}, не думаю, что я могу позволить вам заблокировать самого себя",
+        "YouCannotBanYourself": "{username}, не думаю, што я магу дазволіць вам забаніць сябе",
         "CannotBanThisUser": "{username}, немагчыма заблакіраваць гэтага карыстальніка",
-        "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
-        "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
-        "UserHasUnmoderatedRoles": "{username}, пользователь имеет одну или несколько ролей для которых запрещены действия модерирования",
+        "UserRoleIsHigherThanYour": "{username}, карыстальнік знаходзіцца вышэй за вас у іерархіі роляў",
+        "UserIsModerator": "{username}, карыстальнік мае правы мадэратара, я не магу дазволіць гэта зрабіць",
+        "UserHasUnmoderatedRoles": "{username}, карыстальнік мае адну або некалькі роляў, для якіх дзеянні мадэрацыі забаронены",
         "UserHasBeenBanned": "{username}, карыстальніку {target} выдана блакіроўка на серверы"
       }
     },
@@ -390,13 +395,13 @@
       },
       "Texts": {
         "InvalidUser": "{username}, калі ласка, пазначце карыстальніка, якога жадаеце выгнаць",
-        "YouCannotKickYourself": "{username}, не думаю, что я могу позволить вам выгнать самого себя",
+        "YouCannotKickYourself": "{username}, не думаю, што магу дазволіць вам выгнаць сябе",
         "CannotKickThisUser": "{username}, немагчыма выгнаць гэтага карыстальніка",
         "UserHasBeenKicked": "{username}, карыстальнік {target} быў выгнаны з сервера"
       }
     },
     "MuteCommand": {
-      "Description": "Выдать временное заглушение пользователю",
+      "Description": "Часова заглушыць карыстальніка",
       "Options": {
         "User": {
           "Description": "Кого необходимо заглушить"
@@ -458,12 +463,12 @@
         "InvalidReason": "{username}, калі ласка, укажыце прычыну скаргі правільна",
         "YouRecentlyReportedThisUser": "{username}, вы нядаўна ўжо адправілі скаргу на гэтага карыстальніка",
         "YouHaveToManySubmittedReports": "{username}, вы дасягнулі дзённага абмежавання на колькасць скаргаў",
-        "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
-        "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
+        "ReportSubmitted": "{username}, дзякуй, што паведамілі нам аб гэтым",
+        "PotentiallyUnwantedUser": "Патэнцыйна непажаданы карыстальнік з-за атрыманых скаргаў",
         "RecentReports": "Апошнія скаргі",
         "ReportCount": "Колькасць скаргаў",
-        "ReceivedReportAboutUser": "Получена жалоба на пользователя {username}",
-        "ReportClosedBy": "{username} закрыл(-а) жалобу"
+        "ReceivedReportAboutUser": "Атрымана скарга на карыстальніка {username}",
+        "ReportClosedBy": "{username} закрыў(-ла) скаргу"
       }
     },
     "UnbanCommand": {
@@ -590,7 +595,7 @@
         "NoQuery": "{username}, трэба пазначыць спасылку на плэйліст, спасылку на трэк ці назву",
         "TrackLoadFailed": "{username}, адбылася неспадзяваная памылка пры загрузцы трэка",
         "NoMatches": "{username}, па ўказаным запыце нічога не знойдзена",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только серверам с Lacuna Diamond",
+        "PlaylistsAvailableOnlyForPremium": "{username}, прайграванне плэйлістоў даступна толькі серверам з Lacuna Diamond",
         "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
         "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
         "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только серверам с Lacuna Diamond",
@@ -673,47 +678,47 @@
             },
             "Operation": {
               "Description": "Выберите операцию для баланса кошелька",
-              "ChoiceSet": "Установить",
-              "ChoiceInc": "Прибавить",
-              "ChoiceSub": "Вычесть"
+              "ChoiceSet": "Усталяваць",
+              "ChoiceInc": "Дадаць",
+              "ChoiceSub": "Адняць"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
+            "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому хочаце ўсталяваць баланс кашалька",
             "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, баланс кошелька {target} установлен"
+            "WalletBalanceHasBeenSet": "{username}, баланс кашалька {target} усталяваны"
           }
         },
         "ResetWalletCommand": {
-          "Description": "Сбросить кошелёк пользователю",
+          "Description": "Скінуць кашалёк карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить кошелёк"
+              "Description": "Каму неабходна скінуць кашалёк"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Скінуць кашалькі ўсім удзельнікам на серверы"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
-            "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
+            "NoRequiredArgs": "{username}, укажыце ўдзельніка, яго ідэнтыфікатар або зрабіце скід кашалькоў усім",
+            "NoExistingWallets": "{username}, няма існуючых кашалькоў",
+            "AllWalletsHaveBeenReset": "{username}, усе кашалькі паспяхова скінуты",
+            "UserWalletHasBeenReset": "{username}, кашалёк паспяхова скінуты"
           }
         },
         "ResetLevelCommand": {
-          "Description": "Сбросить уровень пользователю",
+          "Description": "Скінуць узровень карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить уровень"
+              "Description": "Каму неабходна скінуць узровень"
             },
             "ResetAll": {
-              "Description": "Сбросить уровни всем участникам на сервере"
+              "Description": "Скінуць узроўні ўсім удзельнікам на серверы"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
-            "NoExistingLevels": "{username}, нет существующих уровней",
+            "NoRequiredArgs": "{username}, укажыце ўдзельніка, яго ідэнтыфікатар або зрабіце скід узроўню ўсім",
+            "NoExistingLevels": "{username}, няма існуючых узроўняў",
             "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
             "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
           }
@@ -749,103 +754,64 @@
             "WinningPrize": "Приз за победу",
             "WinnerCount": "Кол-во победителей",
             "GiveawayHasBeenCreated": "{username}, розыгрыш успешно создан",
-            "YouHaveParticipatedInGiveaway": "{username}, вы приняли участие в розыгрыше {giveaway}",
-            "YouAreAlreadyInGiveaway": "{username}, вы уже участвуете в розыгрыше {giveaway}"
+            "YouHaveParticipatedInGiveaway": "{username}, вы прынялі ўдзел у розыгрышы {giveaway}",
+            "YouAreAlreadyInGiveaway": "{username}, вы ўжо ўдзельнічаеце ў розыгрышы {giveaway}"
           }
         },
         "EndCommand": {
-          "Description": "Принудительно завершить розыгрыш",
+          "Description": "Прымусова завяршыць розыгрыш",
           "Options": {
             "MessageId": {
-              "Description": "Идентификатор сообщения с розыгрышем"
+              "Description": "Ідэнтыфікатар паведамлення з розыгрышам"
             }
           },
           "Texts": {
-            "NoGiveawayParticipants": "Участники розыгрыша не найдены",
+            "NoGiveawayParticipants": "Удзельнікі розыгрышу не знойдзены",
             "GiveawayWinners": "Победители: {winners}",
             "CongratulationsYouHaveWon": "Мои поздравления {winner}! Вы выиграли {prize}!"
           }
         },
         "RerollCommand": {
-          "Description": "Выбрать победителей розыгрыша заново",
+          "Description": "Выбраць пераможцаў розыгрышу нанова",
           "Texts": {
-            "InvalidMessageId": "{username}, пожалуйста, укажите идентификатор сообщения с розыгрышем",
-            "GiveawayNotFound": "{username}, розыгрыш не найден"
-          }
-        }
-      }
-    },
-    "PollCommand": {
-      "Description": "Управление опросами",
-      "Texts": {
-        "VotesPlural": "{n} голос | {n} голоса | {n} голосов",
-        "YouHaveAlreadyChosenThisOption": "{username}, вы уже выбрали этот вариант ответа",
-        "YouHaveAlreadyChosenQuizOption": "{username}, вы уже выбрали ответ {answer}",
-        "YouHaveChosenCorrectOption": "{username}, вы выбрали правильный ответ ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, к сожалению, ответ неверный",
-        "YouHaveChosenOption": "{username}, вы выбрали вариант {answer}",
-        "YouHaveRemovedYourVote": "{username}, вы убрали свой голос с варианта {answer}"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Создать новый опрос",
-          "Options": {
-            "QuizMode": {
-              "Description": "Опрос с правильными и неправильными ответами"
-            },
-            "MultipleAnswers": {
-              "Description": "Позволяет выбрать несколько вариантов ответа"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Новый опрос",
-            "PollQuestion": "Вопрос",
-            "CorrectAnswer": "Правильный ответ",
-            "AnswerOptions": "Варианты ответа",
-            "AnswerOptionsPlaceholder": "Варианты ответов указываются с новой строки",
-            "NoQuestion": "{username}, пожалуйста, укажите вопрос",
-            "InvalidAnswerOptions": "{username}, пожалуйста, укажите от 2 до 10 вариантов ответа",
-            "NoCorrectAnswer": "{username}, пожалуйста, укажите правильный ответ",
-            "QuizMode": "Викторина",
-            "MultipleAnswers": "Выбор нескольких вариантов",
-            "PollHasBeenCreated": "{username}, опрос успешно создан",
-            "FailedToCreatePoll": "{username}, произошла ошибка при создании опроса"
+            "InvalidMessageId": "{username}, калі ласка, укажыце ідэнтыфікатар паведамлення з розыгрышам",
+            "GiveawayNotFound": "{username}, розыгрыш не знойдзены"
           }
         }
       }
     },
     "TemproleCommand": {
-      "Description": "Временно выдать роль пользователю",
+      "Description": "Часова выдаць ролю карыстальніку",
       "Options": {
         "User": {
-          "Description": "Кому необходимо выдать роль"
+          "Description": "Каму неабходна выдаць ролю"
         },
         "Role": {
-          "Description": "Какую роль необходимо выдать"
+          "Description": "Якую ролю неабходна выдаць"
         },
         "Duration": {
-          "Description": "На какое время будет выдана роль"
+          "Description": "На які час будзе выдадзена роля"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому будет выдана временная роль",
-        "NoRole": "{username}, вы не указали роль",
-        "InvalidDuration": "{username}, длительность временной роли указано неверно",
-        "RoleIsNotEditable": "{username}, у меня нет разрешений на выдачу этой роли кому-либо",
-        "UserAlreadyHasThisRole": "{username}, пользователь уже имеет эту роль",
-        "RoleAssignedToUser": "{username}, роль {role} выдана пользователю {target} до {date}"
+        "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому будзе выдадзена часовая роля",
+        "NoRole": "{username}, вы не ўказалі ролю",
+        "InvalidDuration": "{username}, працягласць часовай ролі пазначана няправільна",
+        "RoleIsNotEditable": "{username}, у мяне няма дазволаў на выдачу гэтай ролі каму-небудзь",
+        "UserAlreadyHasThisRole": "{username}, карыстальнік ужо мае гэтую ролю",
+        "RoleAssignedToUser": "{username}, роля {role} выдадзена карыстальніку {target} да {date}"
       }
     }
   },
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "Падзяліцца адрасам эл. пошты",
-      "JoinSupportServer": "Далучыцца да сервера падтрымкі"
+      "JoinSupportServer": "Далучыцца да сервера падтрымкі",
+      "UpdateYourRoleConnections": "Абнавіць вашыя злучаныя ролі"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Аўтарызацыя прайшла паспяхова",
       "AuthorizationFailed": "Аўтарызацыя не ўдалася",
-      "CloseWindowAndGoBack": "Вы можете закрыть это окно и вернуться в Discord.",
       "SomethingWentWrong": "Нешта пайшло не так. Паспрабуйце пазней."
     },
     "DashboardPage": {
@@ -854,21 +820,26 @@
       "MyGuilds": "Мае суполкі",
       "NoGuilds": "У вас няма даступных суполак.",
       "Bills": "Выставленные счета",
-      "BillId": "Номер счёта",
-      "BillAmount": "Сумма платежа",
-      "BillStatus": "Статус платежа"
+      "BillId": "Нумар рахунку",
+      "BillAmount": "Сума плацяжу",
+      "BillStatus": "Статус плацяжу"
     },
     "ErrorPage": {
       "ThereIsNothingHere": "Тут нічога няма..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Агульнае",
         "Commands": "Каманды",
-        "Moderation": "Модерирование",
+        "Moderation": "Мадэрацыя",
         "CustomBehavior": "Пользовательское поведение",
         "Activities": "Актыўнасці",
-        "Subscriptions": "Сацыяльныя абвяшчэнні",
+        "Subscriptions": "Сацыяльная абвяшчэнні",
         "VoiceChannels": "Галасавыя каналы",
         "Utility": "Карыснае",
         "ChangeLog": "Журнал змен",
@@ -880,8 +851,8 @@
         "Title": "Агульныя налады",
         "Locale": "Лакалізацыя",
         "Translate": "Перакласці",
-        "ExpertRoles": "Роли экспертов",
-        "ExpertRolesDescription": "Выбранные роли смогут просматривать и изменять настройки бота, будьте осторожны",
+        "BotExperts": "Эксперты по боту",
+        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
         "Greeting": "Приветствие",
         "MessageFormat": "Фармат паведамленняў",
         "MessageFormats": {
@@ -908,61 +879,63 @@
         "RespectHierarchy": "Учитывать иерархию ролей в командах модерирования",
         "DenyModerateUsersWithModeratorPermissions": "Запретить модерировать пользователей с правами модератора",
         "UnmoderatedRoles": "Немодерируемые роли",
-        "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
+        "UnmoderatedRolesDescription": "Да гэтых роляў немагчыма будзе прымяніць каманды мадэравання",
         "Log": "Журнал",
-        "LogDescription": "Отслеживание действий и событий",
+        "LogDescription": "Адсочванне дзеянняў і падзей",
         "CaseLogChannel": "Канал для выпадкаў",
         "CaseLogChannelDescription": "У прызначаным канале будуць лагіравацца дзеянні мадэратараў",
         "CaseLogTypes": "Тыпы выпадкаў",
-        "CaseLogTypesDescription": "События журнала модерации",
-        "ActionLog": "Журнал действия",
-        "ActionLogDescription": "События сервера",
-        "Mutes": "Заглушения",
-        "MutesRAR": "Убирать все роли при заглушении",
-        "MutesRARStrict": "Убирать все, кроме",
-        "AutoMod": "Автомодерация",
+        "CaseLogTypesDescription": "Падзеі журнала мадэрацыі",
+        "ActionLog": "Журнал дзеянняў",
+        "ActionLogDescription": "Падзеі сервера",
+        "Mutes": "Заглушэнні",
+        "MutesRAR": "Прыбіраць усе ролі пры заглушэнні",
+        "MutesRARStrict": "Прыбіраць усе, акрамя",
+        "AutoMod": "Аўтамадэрацыя",
         "AutoModDescription": "Аўтаматычнае прымяненне мер супраць парушальнікаў",
-        "Penalties": "Наказания за предупреждения",
-        "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
+        "AutoModDeprecated": "Функцыя аўтамадэрацыі ўстарэла і мы рэкамендуем выкарыстоўваць Discord AutoMod.",
+        "Penalties": "Пакарання за папярэджанні",
+        "PenaltiesDescription": "Выдача пакаранняў пры дасягненні пэўнай колькасці папярэджанняў"
       },
       "CustomBehavior": {
-        "Automation": "Автоматизация",
+        "Automation": "Аўтаматызацыя",
         "Plugins": "Плагины",
         "AboutCustomPlugins": "Создавайте свои собственные плагины и делитесь ими с сообществом. Эта возможность открывает перед пользователями уникальные перспективы в настройке и оптимизации бота под свои индивидуальные потребности."
       },
       "Activities": {
-        "Levels": "Уровни",
-        "LevelsTextExp": "Опыт за текстовую активность",
-        "LevelsVoiceExp": "Опыт за голосовую активность",
-        "LevelsResetOnLeave": "Сбрасывать уровень при выходе участника",
-        "LevelsAlerts": "Оповещения о повышении уровня",
+        "Levels": "Узроўні",
+        "LevelsTextExp": "Вопыт за тэкставую актыўнасць",
+        "LevelsVoiceExp": "Вопыт за галасавую актыўнасць",
+        "LevelsResetOnLeave": "Скідаць узровень пры выхадзе ўдзельніка",
+        "LevelsAlerts": "Абвяшчэнні аб павышэнні ўзроўню",
         "LevelsAwards": "Узнагароды",
-        "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
+        "LevelsAwardsDescription": "Выдача ўзнагарод за дасягненні пэўных узроўняў",
         "Economy": "Эканоміка",
-        "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
+        "EconomyResetOnLeave": "Скідаць кашалёк пры выхадзе ўдзельніка",
         "EconomyCurrencies": "Валюты",
-        "EconomyStoreItems": "Предметы магазина",
-        "EconomyTransferPermissions": "Разрешения команды перевода",
-        "Multipliers": "Множители опыта и заработка"
+        "EconomyStoreItems": "Прадметы крамы",
+        "EconomyTransferPermissions": "Дазволы каманды пераводу",
+        "Multipliers": "Множнікі вопыту і заробку",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Музыка",
-        "MusicAllowRadioPlayback": "Разрешить потоковое воспроизведение",
+        "MusicAllowRadioPlayback": "Дазволіць патокавае прайграванне",
         "MusicQueueMaxLength": "Максімальны памер чаргі",
-        "MusicDefaultVolume": "Громкость по умолчанию",
-        "MusicDefaultSource": "Источник по умолчанию",
-        "VoiceRoles": "Голосовые роли",
-        "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
-        "AutoVoices": "Временные голосовые каналы",
-        "AutoVoicesDescription": "Автоматическое создание и удаление голосовых каналов"
+        "MusicDefaultVolume": "Гучнасць па змаўчанні",
+        "MusicDefaultSource": "Крыніца па змаўчанні",
+        "VoiceRoles": "Галасавыя ролі",
+        "VoiceRolesDescription": "Аўтаматычная выдача роляў пры далучэнні да галасавых каналаў",
+        "AutoVoices": "Часовыя галасавыя каналы",
+        "AutoVoicesDescription": "Аўтаматычнае стварэнне і выдаленне галасавых каналаў"
       },
       "Useful": {
-        "Reports": "Репорты",
-        "ReportsNotifyAboutUnwantedUsers": "Уведомлять о присоединении потенциально нежелательных пользователей",
-        "BannerRotation": "Ротация баннера",
-        "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
+        "Reports": "Скаргі",
+        "ReportsNotifyAboutUnwantedUsers": "Паведамляць пра далучэнне патэнцыйна непажаданых карыстальнікаў",
+        "BannerRotation": "Ратацыя банера",
+        "ImageRotationNote": "Выява абновіцца {relativeTime} пры спрацоўванні наступных падзей:",
         "AutoReactions": "Аўтарэакцыі",
-        "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
+        "AutoReactionsDescription": "Аўтаматычнае дадаванне рэакцый на паведамленне",
         "AutoThreads": "Автоветки",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
         "InteractiveMessages": "Інтэрактыўныя паведамленні",
@@ -974,15 +947,15 @@
       "Title": "Создавайте (всё), что пожелаете",
       "Description": "Многофункциональный бот для Discord, предназначенный расширить возможности управления и модерирования сообществ.",
       "AddToMe": "Добавить себе",
-      "LearnMore": "Узнать больше",
+      "LearnMore": "Даведацца больш",
       "FeatureCustomBehaviorDescription": "Настройте поведение бота с помощью JavaScript. Создавайте пользовательские команды и задачи автоматизации, чтобы придать волшебство своему сообществу.",
       "FeatureActivitiesDescription": "Уровни и экономика. Соревнуйтесь с другими пользователями в борьбе за почетное место в таблице лидеров и получайте за это награды!",
       "FeatureModerationDescription": "Простые и удобные команды, журнал действий, автомодерирование, уведомления о потенциальных нарушителях, жалобы на пользователей и многое другое. Не оставляйте своё сообщество без защиты.",
       "FeatureSubscriptionsDescription": "Привяжите свой Telegram, Twitch и YouTube канал, чтобы подписчики узнавали о выходе нового контента.",
       "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Spotify, Yandex.Music, SoundCloud, прямые ссылки на аудио и радиостанции.",
-      "FeatureUtility": "Полезные функции",
+      "FeatureUtility": "Карысныя функцыі",
       "FeatureUtilityDescription": "Интерактивные сообщения и реакции, временные голосовые каналы, приветственные сообщения и многое другое!",
-      "ReadyToGetStarted": "Готовы начать?",
+      "ReadyToGetStarted": "Гатовы пачаць?",
       "ReadyToGetStartedDescription": "Стабильность. Легкость. Функциональность. Lacuna – это мощный инструмент для улучшения сообщества с интуитивно понятным интерфейсом."
     },
     "PatronsPage": {
@@ -995,9 +968,6 @@
     "StatePage": {
       "TotalChannels": "Всего каналов",
       "AvgLatency": "Средняя латентность",
-      "Clusters": "Кластеры",
-      "ClusterCPUUsage": "Загрузка ЦП",
-      "ClusterMemoryUsage": "Использование ОЗУ",
       "Shards": "Фрагменты",
       "ShardLatencies": "Латентность фрагментов",
       "MusicPlayers": "Музыкальные плееры",
@@ -1108,17 +1078,17 @@
       },
       "CompareValuesOperator": "Аператар",
       "CompareValuesOperators": {
-        "Equal": "Равно",
-        "NotEqual": "Не равно",
-        "GreaterThan": "Больше чем",
-        "LessThan": "Меньше чем",
-        "StartsWith": "Начинается с",
+        "Equal": "Роўна",
+        "NotEqual": "Не роўна",
+        "GreaterThan": "Больш за",
+        "LessThan": "Менш за",
+        "StartsWith": "Пачынаецца з",
         "EndsWith": "Заканчивается на",
         "Contains": "Содержит",
         "NotContains": "Не содержит"
       },
-      "CompareValuesLeftPart": "Левая часть",
-      "CompareValuesRightPart": "Правая часть",
+      "CompareValuesLeftPart": "Левая частка",
+      "CompareValuesRightPart": "Правая частка",
       "CompareValuesFalseReply": "Ложный ответ",
       "ModifyRolesUserId": "Ідэнтыфікатар карыстальніка",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
@@ -1289,12 +1259,12 @@
       "PositionCoordinate": "Позиция {XY}",
       "Height": "Высота",
       "Width": "Ширина",
-      "Text": "Текст",
-      "TextColor": "Цвет текста",
-      "TextSize": "Размер текста",
+      "Text": "Тэкст",
+      "TextColor": "Колер тэксту",
+      "TextSize": "Памер тэксту",
       "TextSizes": {
-        "Header": "Заголовок",
-        "Subtitle": "Подзаголовок",
+        "Header": "Загаловак",
+        "Subtitle": "Падзагаловак",
         "Body": "Стандартный",
         "Caption": "Нижний колонтитул"
       },
@@ -1304,20 +1274,20 @@
       },
       "TextTransform": "Преобразование текста",
       "TextTransforms": {
-        "Capitalize": "С заглавной буквы",
-        "Uppercase": "Верхний регистр",
-        "Lowercase": "Нижний регистр"
+        "Capitalize": "З вялікай літары",
+        "Uppercase": "Верхні рэгістр",
+        "Lowercase": "Ніжні рэгістр"
       },
-      "TextDecoration": "Оформление текста",
+      "TextDecoration": "Афармленне тэксту",
       "TextDecorations": {
-        "Underline": "Подчеркнутый",
-        "LineThrough": "Зачеркнутый"
+        "Underline": "Падкрэслены",
+        "LineThrough": "Закрэслены"
       },
-      "TextAlign": "Выравнивание текста",
+      "TextAlign": "Выраўноўванне тэксту",
       "TextAligns": {
-        "Center": "По центру",
-        "End": "По правому краю",
-        "Start": "По левому краю"
+        "Center": "Па цэнтры",
+        "End": "Па правым краі",
+        "Start": "Па левым краі"
       },
       "Image": "Изображение",
       "ImageURL": "Ссылка на изображение",
@@ -1371,10 +1341,10 @@
     }
   },
   "Logs": {
-    "UserChangesSomething": "{username} изменяет {change}",
+    "UserChangesSomething": "{username} змяняе {change}",
     "UnknownUser": "Невядомы карыстальнік",
-    "BeforeChange": "До изменения",
-    "AfterChange": "После изменения",
+    "BeforeChange": "Да змены",
+    "AfterChange": "Пасля змены",
     "ChannelCreated": "Канал создан",
     "ChannelCreatedTemplate": "{username} создаёт канал {channel}",
     "ChannelDeleted": "Канал удалён",
@@ -1411,17 +1381,17 @@
     "InvitedDeleted": "Приглашение удалено",
     "InviteCode": "Код приглашения",
     "InviteInviter": "Приглашающий",
-    "MessageCreated": "Сообщение отправлено",
-    "MessageDeleted": "Сообщение удалено",
-    "MessageDeletedBulk": "Массовое удаление сообщений",
-    "MessageUpdated": "Сообщение изменено",
-    "MessageAuthor": "Автор сообщения",
-    "MessageContent": "Содержимое сообщения",
-    "MessageCount": "Количество сообщений",
-    "RoleCreated": "Роль создана",
-    "RoleCreatedTemplate": "{username} создаёт роль {role}",
-    "RoleDeleted": "Роль удалена",
-    "RoleDeletedTemplate": "{username} удаляет роль {role}",
+    "MessageCreated": "Паведамленне адпраўлена",
+    "MessageDeleted": "Паведамленне выдалена",
+    "MessageDeletedBulk": "Масавае выдаленне паведамленняў",
+    "MessageUpdated": "Паведамленне зменена",
+    "MessageAuthor": "Аўтар паведамлення",
+    "MessageContent": "Змесціва паведамлення",
+    "MessageCount": "Колькасць паведамленняў",
+    "RoleCreated": "Роля створана",
+    "RoleCreatedTemplate": "{username} стварае ролю {role}",
+    "RoleDeleted": "Роля выдалена",
+    "RoleDeletedTemplate": "{username} выдаляе ролю {role}",
     "RoleMemberAdded": "Роль добавлена",
     "RoleMemberAddedTemplate": "{username} добавляет роли пользователю {target}",
     "RoleMemberRemoved": "Роль убрана",

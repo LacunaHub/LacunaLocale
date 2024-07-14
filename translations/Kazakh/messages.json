@@ -149,8 +149,6 @@
       "Prize": "жүлде",
       "WinnerCount": "жеңімпаздар саны",
       "Sponsor": "демеуші",
-      "QuizMode": "викторина-ережесі",
-      "MultipleAnswers": "көптеген-таңдау",
       "Role": "рөл",
       "Time": "уақыт",
       "Award": "сыйлық",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, осы команданы орындау үшін келесі рұқсаттар қажет: {permissions}",
     "CommandExecutionDenied": "{username}, сізде осы команданы орындау үшін жеткілікті құқықтар жоқ",
     "CommandExecutionOnlyWithPremium": "{username}, осы команданы орындау тек Lacuna Diamond арқылы қол жетімді",
+    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, команданы орындау шектеуіне жеткен, {time} кездесе қайталап көріңіз",
     "AboutCommand": {
       "Description": "Бот жайлы негізгі ақпарат",
@@ -216,10 +215,16 @@
         "Sorting": {
           "Description": "Таңдалған белсенділік түрі бойынша лидерлер кестесін сұрыптау",
           "ChoiceLevel": "деңгейі бойынша",
-          "ChoiceBalance": "баланс бойынша"
+          "ChoiceBalance": "баланс бойынша",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Лидерлер кестесінің бет нөмірі"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
@@ -775,45 +780,6 @@
         }
       }
     },
-    "PollCommand": {
-      "Description": "Сауалнаманы басқару",
-      "Texts": {
-        "VotesPlural": "{n} дауыс | {n} дауыс | {n} дауыс",
-        "YouHaveAlreadyChosenThisOption": "{username}, сіз бұл жауап вариантын таңдадыңыз",
-        "YouHaveAlreadyChosenQuizOption": "{username}, сіз жауапты {answer} таңдадыңыз",
-        "YouHaveChosenCorrectOption": "{username}, сіз дұрыс жауапты ({answer}) таңдадыңыз",
-        "YouHaveChosenIncorrectOption": "{username}, кешіріңіз, жауап дұрыс емес",
-        "YouHaveChosenOption": "{username}, сіз жауап вариантын {answer} таңдадыңыз",
-        "YouHaveRemovedYourVote": "{username}, сіз дауысыңызды {answer} жауап вариантынан алып тастадыңыз"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Жаңа сауалнаманы жасау",
-          "Options": {
-            "QuizMode": {
-              "Description": "Дұрыс және дұрыс емес жауаптары бар сауалнама"
-            },
-            "MultipleAnswers": {
-              "Description": "Бірнеше жауап вариантын таңдауға мүмкіндік береді"
-            }
-          },
-          "Texts": {
-            "NewPoll": "Жаңа сауалнама",
-            "PollQuestion": "Сұрақ",
-            "CorrectAnswer": "Дұрыс жауап",
-            "AnswerOptions": "Жауап варианттары",
-            "AnswerOptionsPlaceholder": "Жауап варианттары жаңа жолмен көрсетіледі",
-            "NoQuestion": "{username}, сұрақты көрсетіңіз",
-            "InvalidAnswerOptions": "{username}, 2-ден 10-ге дейінгі жауап варианттарын көрсетіңіз",
-            "NoCorrectAnswer": "{username}, дұрыс жауапты көрсетіңіз",
-            "QuizMode": "Білім сыну",
-            "MultipleAnswers": "Бірнеше жауаптар",
-            "PollHasBeenCreated": "{username}, сауалнама сәтті құрылды",
-            "FailedToCreatePoll": "{username}, сауалнаманы құруда қате пайда болды"
-          }
-        }
-      }
-    },
     "TemproleCommand": {
       "Description": "Қызметкерге уақытша рөл беру",
       "Options": {
@@ -840,12 +806,12 @@
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "Электрондык пошта мекенжайын бөлісу",
-      "JoinSupportServer": "Қолдау серверіне қосылу"
+      "JoinSupportServer": "Қолдау серверіне қосылу",
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Авторизация сәтті өтті",
       "AuthorizationFailed": "Авторизация сәтсіз аяқталды",
-      "CloseWindowAndGoBack": "Бұл терезені жабып, Discord-ға оралуға болады.",
       "SomethingWentWrong": "Бірде бір нәрсе жарамсыз болды. Кейінірек көріңіз."
     },
     "DashboardPage": {
@@ -862,6 +828,11 @@
       "ThereIsNothingHere": "Мында еш нәрсе жоқ..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Жалпы",
         "Commands": "Командалар",
@@ -880,8 +851,8 @@
         "Title": "Жалпы параметрлер",
         "Locale": "Локализация",
         "Translate": "Аудару",
-        "ExpertRoles": "Сарапшылардың рөлі",
-        "ExpertRolesDescription": "Таңдалған рөлдер бот парақшасының баптауларын қарау және өзгертуге қадір болады, есептілік болыңыз",
+        "BotExperts": "Эксперты по боту",
+        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
         "Greeting": "Сәлемдесу",
         "MessageFormat": "Хабарлама форматы",
         "MessageFormats": {
@@ -922,6 +893,7 @@
         "MutesRARStrict": "Барлығын алу, басқа жерден",
         "AutoMod": "Автомодерация",
         "AutoModDescription": "Бузақыларға қарсы автоматты туралы шара жасау",
+        "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
         "Penalties": "Ескертулер үшін айыппұлдықтар",
         "PenaltiesDescription": "Алғашқы ескертулер санына жеткен кезде айыппұлдықтарды беру"
       },
@@ -943,7 +915,8 @@
         "EconomyCurrencies": "Валюталар",
         "EconomyStoreItems": "Дүкен заттары",
         "EconomyTransferPermissions": "Тасымалдау командасының құқықтары",
-        "Multipliers": "Тәжірибе және зарабытқыштар"
+        "Multipliers": "Тәжірибе және зарабытқыштар",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Музыка",
@@ -995,9 +968,6 @@
     "StatePage": {
       "TotalChannels": "Арналар саны",
       "AvgLatency": "Орташа кешіктілік",
-      "Clusters": "Кластерлер",
-      "ClusterCPUUsage": "CPU загрузкасы",
-      "ClusterMemoryUsage": "ОЗУ пайдалануы",
       "Shards": "Шардтар",
       "ShardLatencies": "Шард кешіктіліктері",
       "MusicPlayers": "Музыка ойнатқыштары",

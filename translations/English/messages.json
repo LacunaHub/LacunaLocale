@@ -149,8 +149,6 @@
       "Prize": "prize",
       "WinnerCount": "number-of-winners",
       "Sponsor": "sponsor",
-      "QuizMode": "quiz-mode",
-      "MultipleAnswers": "multiple-answers",
       "Role": "role",
       "Time": "time",
       "Award": "award",
@@ -173,6 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, this command requires following permissions for execution: {permissions}",
     "CommandExecutionDenied": "{username}, you don't have permission to use this command",
     "CommandExecutionOnlyWithPremium": "{username}, command is available only with Lacuna Diamond",
+    "CommandExecutionDisabled": "{username}, this command is disabled in the server settings",
     "CommandThrottling": "{username}, the command restriction has been reached, try again at {time}",
     "AboutCommand": {
       "Description": "Basic information about the bot",
@@ -216,10 +215,16 @@
         "Sorting": {
           "Description": "Sorting the leaderboard by selected activity type",
           "ChoiceLevel": "by level",
-          "ChoiceBalance": "by balance"
+          "ChoiceBalance": "by balance",
+          "ChoiceMessageCount": "by message count",
+          "ChoiceVoiceTime": "by voice time"
         },
         "Page": {
           "Description": "Leaderboard page number"
+        },
+        "Order": {
+          "ChoiceAsc": "ascending",
+          "ChoiceDesc": "descending"
         }
       },
       "Texts": {
@@ -775,45 +780,6 @@
         }
       }
     },
-    "PollCommand": {
-      "Description": "Polls management",
-      "Texts": {
-        "VotesPlural": "{n} vote | {n} votes",
-        "YouHaveAlreadyChosenThisOption": "{username}, you have already chosen this answer option",
-        "YouHaveAlreadyChosenQuizOption": "{username}, you have already chosen {answer}",
-        "YouHaveChosenCorrectOption": "{username}, you have selected the correct answer ({answer})",
-        "YouHaveChosenIncorrectOption": "{username}, oops, the answer is wrong",
-        "YouHaveChosenOption": "{username}, you have chosen {answer}",
-        "YouHaveRemovedYourVote": "{username}, you removed your vote from option {answer}"
-      },
-      "SubCommands": {
-        "CreateCommand": {
-          "Description": "Create a new poll",
-          "Options": {
-            "QuizMode": {
-              "Description": "A poll with correct and wrong answers"
-            },
-            "MultipleAnswers": {
-              "Description": "Allows you to choose several answer options"
-            }
-          },
-          "Texts": {
-            "NewPoll": "New poll",
-            "PollQuestion": "Question",
-            "CorrectAnswer": "Correct answer",
-            "AnswerOptions": "Answer options",
-            "AnswerOptionsPlaceholder": "Answer options are listed on a new line",
-            "NoQuestion": "{username}, please specify the question",
-            "InvalidAnswerOptions": "{username}, please specify 2 to 10 answer options",
-            "NoCorrectAnswer": "{username}, please specify the correct answer",
-            "QuizMode": "Quiz",
-            "MultipleAnswers": "Multiple choice",
-            "PollHasBeenCreated": "{username}, the poll was successfully created",
-            "FailedToCreatePoll": "{username}, an error occurred while creating the poll"
-          }
-        }
-      }
-    },
     "TemproleCommand": {
       "Description": "Temporarily add a role to a user",
       "Options": {
@@ -840,12 +806,12 @@
   "Pages": {
     "AuthorizationPage": {
       "ShareEmailAddress": "Share email address",
-      "JoinSupportServer": "Join support server"
+      "JoinSupportServer": "Join support server",
+      "UpdateYourRoleConnections": "Update your role connections"
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Authorization successful",
       "AuthorizationFailed": "Authorization failed",
-      "CloseWindowAndGoBack": "You can close this window and go back to Discord.",
       "SomethingWentWrong": "Something went wrong. Try it later."
     },
     "DashboardPage": {
@@ -862,6 +828,11 @@
       "ThereIsNothingHere": "Nothing to see here..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} online",
+      "MembersPlural": "0 members | {n} member | {n} members",
+      "Leaders": {
+        "Leaderboard": "Leaderboard"
+      },
       "NavNames": {
         "General": "General",
         "Commands": "Commands",
@@ -880,8 +851,8 @@
         "Title": "General settings",
         "Locale": "Localization",
         "Translate": "Translate",
-        "ExpertRoles": "Roles of experts",
-        "ExpertRolesDescription": "Selected roles will be able to view and change bot settings, be careful",
+        "BotExperts": "Bot experts",
+        "BotExpertsDescription": "Specified roles and users will be able to view and modify bot settings, beware. Roles with administrator permissions have access to the dashboard by default.",
         "Greeting": "Greeting",
         "MessageFormat": "Messages format",
         "MessageFormats": {
@@ -922,6 +893,7 @@
         "MutesRARStrict": "Remove everything except",
         "AutoMod": "AutoMod",
         "AutoModDescription": "Automatic take actions against violators",
+        "AutoModDeprecated": "The auto-moderation feature is deprecated and we recommend using Discord AutoMod.",
         "Penalties": "Penalties for warnings",
         "PenaltiesDescription": "Penalties for reaching a certain number of warnings"
       },
@@ -943,7 +915,8 @@
         "EconomyCurrencies": "Currencies",
         "EconomyStoreItems": "Store items",
         "EconomyTransferPermissions": "Permissions of the transfer command",
-        "Multipliers": "Experience and earning multipliers"
+        "Multipliers": "Experience and earning multipliers",
+        "PublicLeaderboard": "Public leaderboard"
       },
       "VoiceChannels": {
         "Music": "Music",
@@ -995,9 +968,6 @@
     "StatePage": {
       "TotalChannels": "Total channels",
       "AvgLatency": "Average latency",
-      "Clusters": "Clusters",
-      "ClusterCPUUsage": "CPU usage",
-      "ClusterMemoryUsage": "RAM usage",
       "Shards": "Shards",
       "ShardLatencies": "Latency of shards",
       "MusicPlayers": "Music players",
