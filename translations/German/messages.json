@@ -215,10 +215,16 @@
         "Sorting": {
           "Description": "Sortierung der Rangliste nach gewähltem Aktivitätstyp",
           "ChoiceLevel": "nach Level",
-          "ChoiceBalance": "nach Guthaben"
+          "ChoiceBalance": "nach Guthaben",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Seitennummer der Rangliste"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
@@ -822,6 +828,11 @@
       "ThereIsNothingHere": "Hier gibt es nichts..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Allgemein",
         "Commands": "Befehle",
@@ -904,7 +915,8 @@
         "EconomyCurrencies": "Währungen",
         "EconomyStoreItems": "Shop-Artikel",
         "EconomyTransferPermissions": "Berechtigungen für Transferbefehle",
-        "Multipliers": "Multiplikatoren für Erfahrung und Verdienst"
+        "Multipliers": "Multiplikatoren für Erfahrung und Verdienst",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Musik",
