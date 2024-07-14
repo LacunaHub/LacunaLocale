@@ -215,10 +215,16 @@
         "Sorting": {
           "Description": "Таңдалған белсенділік түрі бойынша лидерлер кестесін сұрыптау",
           "ChoiceLevel": "деңгейі бойынша",
-          "ChoiceBalance": "баланс бойынша"
+          "ChoiceBalance": "баланс бойынша",
+          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
           "Description": "Лидерлер кестесінің бет нөмірі"
+        },
+        "Order": {
+          "ChoiceAsc": "по возрастанию",
+          "ChoiceDesc": "по убыванию"
         }
       },
       "Texts": {
@@ -822,6 +828,11 @@
       "ThereIsNothingHere": "Мында еш нәрсе жоқ..."
     },
     "GuildPage": {
+      "MembersOnline": "{n} в сети",
+      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "Leaders": {
+        "Leaderboard": "Таблица лидеров"
+      },
       "NavNames": {
         "General": "Жалпы",
         "Commands": "Командалар",
@@ -904,7 +915,8 @@
         "EconomyCurrencies": "Валюталар",
         "EconomyStoreItems": "Дүкен заттары",
         "EconomyTransferPermissions": "Тасымалдау командасының құқықтары",
-        "Multipliers": "Тәжірибе және зарабытқыштар"
+        "Multipliers": "Тәжірибе және зарабытқыштар",
+        "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Музыка",
