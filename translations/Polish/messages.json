@@ -807,7 +807,8 @@
     "AuthorizationPage": {
       "ShareEmailAddress": "Udostępnij adres e-mail",
       "JoinSupportServer": "Dołącz do serwera wsparcia",
-      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли",
+      "CannotCreatePopupWindow": "Не удалось создать окно авторизации. Пожалуйста, разрешите всплывающие окна для домена {domain} в настройках браузера."
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Autoryzacja zakończona sukcesem",

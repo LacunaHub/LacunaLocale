@@ -171,7 +171,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для виконання даної команди необхідні наступні дозволи: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недостатньо прав для виконання цієї команди",
     "CommandExecutionOnlyWithPremium": "{username}, виконання даної команди доступне тільки з Lacuna Diamond",
-    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
+    "CommandExecutionDisabled": "{username}, цю команду вимкнено в налаштуваннях сервера",
     "CommandThrottling": "{username}, досягнуто обмеження у використанні команди, спробуйте ще раз о {time}",
     "AboutCommand": {
       "Description": "Базова інформація про бота",
@@ -216,15 +216,15 @@
           "Description": "Сортування таблиці лідерів по обраному типу активності",
           "ChoiceLevel": "по рівню",
           "ChoiceBalance": "по балансу",
-          "ChoiceMessageCount": "по количеству сообщений",
-          "ChoiceVoiceTime": "по голосовому времени"
+          "ChoiceMessageCount": "за кількістю повідомлень",
+          "ChoiceVoiceTime": "за голосовим часом"
         },
         "Page": {
           "Description": "Номер сторінки таблиці лідерів"
         },
         "Order": {
-          "ChoiceAsc": "по возрастанию",
-          "ChoiceDesc": "по убыванию"
+          "ChoiceAsc": "за зростанням",
+          "ChoiceDesc": "за спаданням"
         }
       },
       "Texts": {
@@ -807,7 +807,8 @@
     "AuthorizationPage": {
       "ShareEmailAddress": "Поділитися адресою ел. пошти",
       "JoinSupportServer": "Приєднатися до сервера підтримки",
-      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
+      "UpdateYourRoleConnections": "Оновити ваші підключені ролі",
+      "CannotCreatePopupWindow": "Не удалось создать окно авторизации. Пожалуйста, разрешите всплывающие окна для домена {domain} в настройках браузера."
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Успішна авторизація",
@@ -828,10 +829,10 @@
       "ThereIsNothingHere": "Тут поки що нічого немає..."
     },
     "GuildPage": {
-      "MembersOnline": "{n} в сети",
-      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "MembersOnline": "{n} у мережі",
+      "MembersPlural": "0 учасників | {n} учасник | {n} учасника | {n} учасників",
       "Leaders": {
-        "Leaderboard": "Таблица лидеров"
+        "Leaderboard": "Таблиця лідерів"
       },
       "NavNames": {
         "General": "Загальні",
@@ -851,8 +852,8 @@
         "Title": "Загальні налаштування",
         "Locale": "Локалізація",
         "Translate": "Перекласти",
-        "BotExperts": "Эксперты по боту",
-        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
+        "BotExperts": "Експерти з бота",
+        "BotExpertsDescription": "Зазначені ролі та користувачі зможуть переглядати та змінювати налаштування бота, будьте обережні. Ролі з правами адміністратора мають доступ до панелі за замовчуванням.",
         "Greeting": "Привітання",
         "MessageFormat": "Формат повідомлень",
         "MessageFormats": {
@@ -893,7 +894,7 @@
         "MutesRARStrict": "Прибирати все, крім",
         "AutoMod": "Автомодерація",
         "AutoModDescription": "Автоматичне застосування заходів проти порушників",
-        "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
+        "AutoModDeprecated": "Функція автомодерації застаріла і ми рекомендуємо використовувати Discord AutoMod.",
         "Penalties": "Покарання за попередження",
         "PenaltiesDescription": "Видача покарань при досягненні певної кількості попереджень"
       },
@@ -916,7 +917,7 @@
         "EconomyStoreItems": "Предмети магазину",
         "EconomyTransferPermissions": "Дозволи команди перекладу",
         "Multipliers": "Множник досвіду та заробітку",
-        "PublicLeaderboard": "Публичная таблица лидеров"
+        "PublicLeaderboard": "Публічна таблиця лідерів"
       },
       "VoiceChannels": {
         "Music": "Музика",
@@ -1116,7 +1117,7 @@
       "PatreonAfterCheckout": "После оплаты подписки, вам необходимо проверить её наличие, чтобы активировать Lacuna Diamond.",
       "PatreonAfterCheckoutImportantInfo": "Для получения доступа к Lacuna Diamond необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
       "DNBBonusesInfo": "После того, как вы забустили наш сервер поддержки, нажмите на кнопку проверки ниже, чтобы активировать Lacuna Diamond. (будет доступен до тех пор, пока вы являетесь бустером сервера поддержки). Вы можете активировать Lacuna Diamond только для одного сервера.",
-      "TokensInfo": "Вы можете голосовать за нашего бота и получать жетоны, которые можно конвертировать в время действия Diamond подписки (1 жетон = {bonusesDurationInHours}).",
+      "TokensInfo": "Ви можете голосувати за нашого бота та отримувати жетони, які можна конвертувати в час дії Diamond підписки (1 жетон = {bonusesDurationInHours}).",
       "Check": "Перевірити",
       "TransferringDescription": "Для переноса Lacuna Diamond необходимо быть владельцем обоих сообществ. Текущее сообщество не должно иметь Lacuna Diamond.",
       "PlanComparison": "Порівняння планів",

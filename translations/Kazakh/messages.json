@@ -807,7 +807,8 @@
     "AuthorizationPage": {
       "ShareEmailAddress": "Электрондык пошта мекенжайын бөлісу",
       "JoinSupportServer": "Қолдау серверіне қосылу",
-      "UpdateYourRoleConnections": "Обновить ваши подключенные роли"
+      "UpdateYourRoleConnections": "Обновить ваши подключенные роли",
+      "CannotCreatePopupWindow": "Не удалось создать окно авторизации. Пожалуйста, разрешите всплывающие окна для домена {domain} в настройках браузера."
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Авторизация сәтті өтті",
