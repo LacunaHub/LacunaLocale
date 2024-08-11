@@ -640,44 +640,44 @@
         }
       },
       "Texts": {
-        "InvalidVolume": "{username}, неверно указано значение громкости",
-        "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
-        "VolumeHasBeenChanged": "{username}, громкость изменена с {from} на {to}"
+        "InvalidVolume": "{username}, значэнне гучнасці няправільнае",
+        "InvalidVolumeDiapason": "{username}, гучнасць павінна быць у дыяпазоне ад 1 да 100",
+        "VolumeHasBeenChanged": "{username}, гучнасць зменена з {from} на {to}"
       }
     },
     "ActivitiesCommand": {
-      "Description": "Управление активностями",
+      "Description": "Кіраванне актыўнасцямі",
       "SubCommands": {
         "AssignLevelAwardCommand": {
-          "Description": "Назначить награду пользователю",
+          "Description": "Прызначыць узнагароду карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо назначить награду"
+              "Description": "Каму трэба прызначыць узнагароду"
             },
             "Award": {
-              "Description": "Выберите из списка или введите идентификатор награды"
+              "Description": "Выберыце са спісу або ўвядзіце ідэнтыфікатар узнагароды"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите назначить награду",
-            "UnknownAward": "{username}, не удалось найти награду",
-            "AwardHasBeenAssigned": "{username}, награда успешно назначена"
+            "InvalidUser": "{username}, укажыце карыстальніка, якому вы хочаце прызначыць узнагароду",
+            "UnknownAward": "{username}, не ўдалося знайсці ўзнагароду",
+            "AwardHasBeenAssigned": "{username}, узнагарода паспяхова прызначана"
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Устанавіць баланс кашалька для карыстальніка",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Для якога карыстальніка будзе ўсталяваны баланс кашалька"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "Колькі валюты будзе ўстаноўлена/дададзена/аднята"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Якая валюта будзе ўстаноўлена/дададзена/аднята"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
+              "Description": "Абярыце аперацыю для балансу кашалька",
               "ChoiceSet": "Усталяваць",
               "ChoiceInc": "Дадаць",
               "ChoiceSub": "Адняць"
