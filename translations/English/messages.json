@@ -1269,7 +1269,7 @@
         "Body": "Regular",
         "Caption": "Caption"
       },
-      "TextStyle": "Стиль текста",
+      "TextStyle": "Text style",
       "TextStyles": {
         "Italic": "Italic"
       },
