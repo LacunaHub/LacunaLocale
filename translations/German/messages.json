@@ -1269,7 +1269,7 @@
         "Body": "Standard",
         "Caption": "Bildunterschrift"
       },
-      "TextStyle": "Textstil",
+      "TextStyle": "Стиль текста",
       "TextStyles": {
         "Italic": "Kursiv"
       },
