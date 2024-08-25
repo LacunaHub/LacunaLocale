@@ -659,10 +659,10 @@
         "NoQuery": "{username}, трэба пазначыць спасылку на плэйліст, спасылку на трэк ці назву",
         "TrackLoadFailed": "{username}, адбылася неспадзяваная памылка пры загрузцы трэка",
         "NoMatches": "{username}, па ўказаным запыце нічога не знойдзена",
-        "PlaylistsAvailableOnlyForPremium": "{username}, прайграванне плэйлістоў даступна толькі серверам з Lacuna Diamond",
+        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
         "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
         "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
-        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только серверам с Lacuna Diamond",
+        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только бонусным серверам",
         "StreamPlaybackIsDisabled": "{username}, патокавыя прайграванні адключаны",
         "TrackHasBeenAddedToQueue": "{username}, трэк {track} дададзены ў чаргу прайгравання",
         "PlaylistHasBeenAddedToQueue": "{username}, плэйліст {playlist} дададзены ў чаргу прайгравання",
@@ -1168,8 +1168,8 @@
       "ShowModalFieldDefaultValue": "Значение по умолчанию"
     },
     "LacunaDiamond": {
-      "HasSubscription": "Это сообщество уже имеет Lacuna Diamond до {date}",
-      "UnlimitedSubscription": "Сервер имеет неограниченный по времени Lacuna Diamond",
+      "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
+      "UnlimitedSubscription": "Сервер имеет неограниченные по времени бонусы",
       "BonusMusicDescription": "Неограниченное количество треков в очереди, прослушивание плейлистов, потоковое воспроизведение аудио и изменение громкости.",
       "BonusIncreasedLimitsDescription": "Больше наград за уровни, предметов в магазине, подписок, автоматизаций, интерактивных сообщений, голосовых ролей, временных голосовых каналов и другое.",
       "BonusCustomBehaviorWithCodeDescription": "Возможность выполнения JavaScript-кода в пользовательских командах и задачах автоматизации.",
@@ -1178,12 +1178,12 @@
       "SelectPlan": "Выберите план",
       "SelectPaymentMethod": "Способ оплаты",
       "Pay": "Оплатить",
-      "PatreonAfterCheckout": "После оплаты подписки, вам необходимо проверить её наличие, чтобы активировать Lacuna Diamond.",
-      "PatreonAfterCheckoutImportantInfo": "Для получения доступа к Lacuna Diamond необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
-      "DNBBonusesInfo": "После того, как вы забустили наш сервер поддержки, нажмите на кнопку проверки ниже, чтобы активировать Lacuna Diamond. (будет доступен до тех пор, пока вы являетесь бустером сервера поддержки). Вы можете активировать Lacuna Diamond только для одного сервера.",
+      "PatreonAfterCheckout": "После того, как вы стали покровителем, нажмите на кнопку проверки ниже, чтобы активировать свои бонусы.",
+      "PatreonAfterCheckoutImportantInfo": "Для получения доступа к бонусам необходимо подключить свой Discord к {platform} и оставаться на нашем сервере поддержки.",
+      "DNBBonusesInfo": "Бонусы будут доступны до тех пор, пока вы являетесь бустером сервера поддержки. Вы можете активировать бонусы только для одного сервера.",
       "TokensInfo": "Вы можете голосовать за нашего бота и получать жетоны, которые можно конвертировать в время действия Diamond подписки (1 жетон = {bonusesDurationInHours}).",
       "Check": "Праверыць",
-      "TransferringDescription": "Для переноса Lacuna Diamond необходимо быть владельцем обоих сообществ. Текущее сообщество не должно иметь Lacuna Diamond.",
+      "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Параўнанне планаў",
       "PlanComparisonFeatures": {
         "ExecuteCode": "Дзеянне \"Выканаць код\"",
@@ -1333,7 +1333,7 @@
         "Body": "Стандартный",
         "Caption": "Нижний колонтитул"
       },
-      "TextStyle": "Стиль текста",
+      "TextStyle": "Стиль теста",
       "TextStyles": {
         "Italic": "Курсив"
       },
