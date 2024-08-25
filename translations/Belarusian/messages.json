@@ -216,15 +216,15 @@
           "Description": "Сартаванне табліцы лідараў па выбранаму тыпу актыўнасці",
           "ChoiceLevel": "па ўзроўню",
           "ChoiceBalance": "па балансе",
-          "ChoiceMessageCount": "по количеству сообщений",
-          "ChoiceVoiceTime": "по голосовому времени"
+          "ChoiceMessageCount": "па колькасці паведамленняў",
+          "ChoiceVoiceTime": "па галасавым часе"
         },
         "Page": {
           "Description": "Нумар старонкі табліцы лідараў"
         },
         "Order": {
-          "ChoiceAsc": "по возрастанию",
-          "ChoiceDesc": "по убыванию"
+          "ChoiceAsc": "па ўзрастанні",
+          "ChoiceDesc": "па змяншэнні"
         }
       },
       "Texts": {
@@ -303,7 +303,7 @@
             "ServerStoreHowToBuyItem": "Выберыце прадмет з выпадальнага спісу ніжэй або ўвядзіце {command}, каб набыць яго",
             "PurchasePrice": "Кошт пакупкі",
             "ItemContains": "Змяшчае ў сабе",
-            "ItemQuantity": "Оставшееся количество",
+            "ItemQuantity": "Пакінутая колькасць",
             "SelectItemToPurchase": "Выберыце прадмет для пакупкі"
           }
         }
@@ -404,21 +404,21 @@
       "Description": "Часова заглушыць карыстальніка",
       "Options": {
         "User": {
-          "Description": "Кого необходимо заглушить"
+          "Description": "Каго неабходна заглушыць"
         },
         "Duration": {
-          "Description": "Длительность заглушения"
+          "Description": "Працягласць заглушэння"
         },
         "Reason": {
-          "Description": "Причина заглушения"
+          "Description": "Прычына заглушэння"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите выдать заглушение",
-        "YouCannotMuteYourself": "{username}, не думаю, что я могу позволить вам заглушить самого себя",
-        "CannotMuteThisUser": "{username}, невозможно заглушить этого пользователя",
-        "ThisUserIsAlreadyMuted": "{username}, пользователь уже заглушён",
-        "UserHasBeenMuted": "{username}, пользователю {target} было выдано заглушение"
+        "InvalidUser": "{username}, калі ласка, укажыце карыстальніка, якому хочаце выдаць заглушэнне",
+        "YouCannotMuteYourself": "{username}, не думаю, што я магу дазволіць вам заглушыць самога сябе",
+        "CannotMuteThisUser": "{username}, немагчыма заглушыць гэтага карыстальніка",
+        "ThisUserIsAlreadyMuted": "{username}, карыстальнік ужо заглушаны",
+        "UserHasBeenMuted": "{username}, карыстальніку {target} было выдадзена заглушэнне"
       }
     },
     "PruneCommand": {
@@ -436,14 +436,14 @@
       },
       "Texts": {
         "InvalidAmount": "{username}, пазначце колькасць паведамленняў, якія неабходна ачысціць",
-        "InvalidAmountDiapason": "{username}, количество должно быть целым числом в диапазоне от 2 до 100",
+        "InvalidAmountDiapason": "{username}, колькасць павінна быць цэлым лікам у дыяпазоне ад 2 да 100",
         "MessagesHaveBeenPruned": "{username}, ачышчана паведамленняў: {amount}"
       }
     },
     "ReasonCommand": {
       "Texts": {
-        "InvalidReason": "{username}, пожалуйста, укажите причину для случая журнала модерации",
-        "CaseReasonHasBeenChanged": "{username}, причина случая изменена"
+        "InvalidReason": "{username}, калі ласка, укажыце прычыну для выпадку журнала мадэрацыі",
+        "CaseReasonHasBeenChanged": "{username}, прычына выпадку зменена"
       }
     },
     "ReportCommand": {
@@ -461,14 +461,78 @@
         "InvalidUser": "{username}, калі ласка, пазначце карыстальніка, на якога жадаеце паскардзіцца",
         "UnknownUser": "{username}, карыстальнік не знойдзены",
         "InvalidReason": "{username}, калі ласка, укажыце прычыну скаргі правільна",
+        "ReasonPlaceholder": "Опишите суть вашей жалобы, укажите детали и дополнительную информацию",
         "YouRecentlyReportedThisUser": "{username}, вы нядаўна ўжо адправілі скаргу на гэтага карыстальніка",
         "YouHaveToManySubmittedReports": "{username}, вы дасягнулі дзённага абмежавання на колькасць скаргаў",
         "ReportSubmitted": "{username}, дзякуй, што паведамілі нам аб гэтым",
         "PotentiallyUnwantedUser": "Патэнцыйна непажаданы карыстальнік з-за атрыманых скаргаў",
         "RecentReports": "Апошнія скаргі",
         "ReportCount": "Колькасць скаргаў",
+        "RecommendedActions": "Рекомендованные действия",
         "ReceivedReportAboutUser": "Атрымана скарга на карыстальніка {username}",
-        "ReportClosedBy": "{username} закрыў(-ла) скаргу"
+        "ReportClosedBy": "{username} закрыў(-ла) скаргу",
+        "ReportTypes": {
+          "AggressionAndInsult": {
+            "Title": "Агрессия и оскорбления",
+            "Description": "Угрозы, оскорбительные высказывания, травля"
+          },
+          "Spam": {
+            "Title": "Спам и нежелательная реклама",
+            "Description": "Рассылка спама, нежелательные сообщения"
+          },
+          "Fraud": {
+            "Title": "Мошенничество",
+            "Description": "Попытки обмана, вымогательство"
+          },
+          "IncitementToDiscord": {
+            "Title": "Разжигание розни",
+            "Description": "Пропаганда ненависти, дискриминация"
+          },
+          "CopyrightInfringement": {
+            "Title": "Нарушение авторских прав",
+            "Description": "Копирование контента без разрешения"
+          },
+          "UnauthorizedAccess": {
+            "Title": "Несанкционированный доступ",
+            "Description": "Взлом аккаунтов, несанкционированное использование информации"
+          },
+          "PornographyAndObscenity": {
+            "Title": "Порнография и непристойности",
+            "Description": "Распространение порнографических материалов"
+          },
+          "ViolenceAndAbuse": {
+            "Title": "Насилие и жестокость",
+            "Description": "Описание или демонстрация насилия"
+          },
+          "Disinformation": {
+            "Title": "Фейковые новости и дезинформация",
+            "Description": "Распространение ложной информации"
+          },
+          "IllegalActivity": {
+            "Title": "Незаконная деятельность",
+            "Description": "Описание или поощрение незаконных действий"
+          },
+          "MultiAccounting": {
+            "Title": "Множественные аккаунты",
+            "Description": "Создание множественных аккаунтов для обхода ограничений"
+          },
+          "ViolationOfCommunityRules": {
+            "Title": "Нарушение правил сообщества",
+            "Description": "Несоблюдение установленных правил"
+          },
+          "DisclosureOfPersonalInformation": {
+            "Title": "Распространение личной информации",
+            "Description": "Передача или обнародование персональных данных без согласия человека, которому они принадлежат"
+          },
+          "Meaningless": {
+            "Title": "Бессмыслица",
+            "Description": "Не имеет смысловой нагрузки"
+          },
+          "Toxicity": {
+            "Title": "Токсичность",
+            "Description": "Проявление негативного и агрессивного поведения"
+          }
+        }
       }
     },
     "UnbanCommand": {
@@ -488,13 +552,13 @@
       }
     },
     "UnmuteCommand": {
-      "Description": "Снять заглушение с пользователя",
+      "Description": "Зняць заглушэнне з карыстальніка",
       "Options": {
         "User": {
-          "Description": "С кого необходимо снять заглушение"
+          "Description": "З каго неабходна зняць заглушэнне"
         },
         "Reason": {
-          "Description": "Причина снятия заглушения"
+          "Description": "Прычына зняцця заглушэння"
         }
       },
       "Texts": {
@@ -599,85 +663,85 @@
         "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
         "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
         "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только серверам с Lacuna Diamond",
-        "StreamPlaybackIsDisabled": "{username}, потоковые воспроизведения отключены",
-        "TrackHasBeenAddedToQueue": "{username}, трек {track} добавлен в очередь воспроизведения",
-        "PlaylistHasBeenAddedToQueue": "{username}, плейлист {playlist} добавлен в очередь воспроизведения",
-        "HostIsNotAllowedToBePlayed": "{username}, указанная ссылка не находится в списке разрешенных. Пожалуйста, обратитесь на сервер поддержки",
-        "Player": "Плеер",
-        "AddedBy": "Добавил(-а) {requester}"
+        "StreamPlaybackIsDisabled": "{username}, патокавыя прайграванні адключаны",
+        "TrackHasBeenAddedToQueue": "{username}, трэк {track} дададзены ў чаргу прайгравання",
+        "PlaylistHasBeenAddedToQueue": "{username}, плэйліст {playlist} дададзены ў чаргу прайгравання",
+        "HostIsNotAllowedToBePlayed": "{username}, указанай спасылкі няма ў спісе дазволеных. Калі ласка, звярніцеся да сервера падтрымкі",
+        "Player": "Плэер",
+        "AddedBy": "Дадаў(-ла) {requester}"
       }
     },
     "QueueCommand": {
-      "Description": "Текущая очередь воспроизведения музыки",
+      "Description": "Бягучая чарга прайгравання музыкі",
       "Texts": {
-        "PlaybackQueueIsEmpty": "{username}, очередь воспроизведения пуста",
-        "SelectTrackToPlay": "Выберите трек для воспроизведения"
+        "PlaybackQueueIsEmpty": "{username}, чарга прайгравання пустая",
+        "SelectTrackToPlay": "Выберыце трэк, які хочаце прайграць"
       }
     },
     "SeekCommand": {
-      "Description": "Перемотать воспроизведение текущего трека на указанную позицию",
+      "Description": "Пераматаць прайграванне бягучага трэка ў зададзенае месца",
       "Options": {
         "Time": {
           "Description": "Час у фармаце гг:хх:сс"
         }
       },
       "Texts": {
-        "TrackIsNotSeekable": "{username}, невозможно перемотать текущий трек",
-        "TrackRewoundToPosition": "{username}, трек перемотан на {time}"
+        "TrackIsNotSeekable": "{username}, немагчыма пераматаць бягучы трэк",
+        "TrackRewoundToPosition": "{username}, трэк перамотаны на {time}"
       }
     },
     "StopCommand": {
-      "Description": "Остановить воспроизведение музыки и очистить очередь",
+      "Description": "Спыніць прайграванне музыкі і ачысціць чаргу",
       "Texts": {
-        "PlaybackHasBeenStopped": "{username}, воспроизведение остановлено"
+        "PlaybackHasBeenStopped": "{username}, прайграванне спынена"
       }
     },
     "VolumeCommand": {
-      "Description": "Изменить громкость воспроизведения музыки",
+      "Description": "Змяніць гучнасць прайгравання музыкі",
       "Options": {
         "Volume": {
-          "Description": "Громкость воспроизведения"
+          "Description": "Гучнасць прайгравання"
         }
       },
       "Texts": {
-        "InvalidVolume": "{username}, неверно указано значение громкости",
-        "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
-        "VolumeHasBeenChanged": "{username}, громкость изменена с {from} на {to}"
+        "InvalidVolume": "{username}, значэнне гучнасці няправільнае",
+        "InvalidVolumeDiapason": "{username}, гучнасць павінна быць у дыяпазоне ад 1 да 100",
+        "VolumeHasBeenChanged": "{username}, гучнасць зменена з {from} на {to}"
       }
     },
     "ActivitiesCommand": {
-      "Description": "Управление активностями",
+      "Description": "Кіраванне актыўнасцямі",
       "SubCommands": {
         "AssignLevelAwardCommand": {
-          "Description": "Назначить награду пользователю",
+          "Description": "Прызначыць узнагароду карыстальніку",
           "Options": {
             "User": {
-              "Description": "Кому необходимо назначить награду"
+              "Description": "Каму трэба прызначыць узнагароду"
             },
             "Award": {
-              "Description": "Выберите из списка или введите идентификатор награды"
+              "Description": "Выберыце са спісу або ўвядзіце ідэнтыфікатар узнагароды"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите назначить награду",
-            "UnknownAward": "{username}, не удалось найти награду",
-            "AwardHasBeenAssigned": "{username}, награда успешно назначена"
+            "InvalidUser": "{username}, укажыце карыстальніка, якому вы хочаце прызначыць узнагароду",
+            "UnknownAward": "{username}, не ўдалося знайсці ўзнагароду",
+            "AwardHasBeenAssigned": "{username}, узнагарода паспяхова прызначана"
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Устанавіць баланс кашалька для карыстальніка",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Для якога карыстальніка будзе ўсталяваны баланс кашалька"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "Колькі валюты будзе ўстаноўлена/дададзена/аднята"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Якая валюта будзе ўстаноўлена/дададзена/аднята"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
+              "Description": "Абярыце аперацыю для балансу кашалька",
               "ChoiceSet": "Усталяваць",
               "ChoiceInc": "Дадаць",
               "ChoiceSub": "Адняць"
@@ -1269,7 +1333,7 @@
         "Body": "Стандартный",
         "Caption": "Нижний колонтитул"
       },
-      "TextStyle": "Стиль теста",
+      "TextStyle": "Стиль текста",
       "TextStyles": {
         "Italic": "Курсив"
       },

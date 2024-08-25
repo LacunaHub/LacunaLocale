@@ -461,14 +461,78 @@
         "InvalidUser": "{username}, please specify the user you wish to report",
         "UnknownUser": "{username}, user not found",
         "InvalidReason": "{username}, please correctly specify report reason",
+        "ReasonPlaceholder": "Describe the subject of your report, give details and additional information",
         "YouRecentlyReportedThisUser": "{username}, you have recently sent a report about this user",
         "YouHaveToManySubmittedReports": "{username}, you have reached the daily report limit",
         "ReportSubmitted": "{username}, thank you for letting us know about this",
         "PotentiallyUnwantedUser": "Potentially unwanted user due to received reports",
         "RecentReports": "Recent reports",
         "ReportCount": "Report count",
+        "RecommendedActions": "Recommended actions",
         "ReceivedReportAboutUser": "A complaint has been received about the user {username}",
-        "ReportClosedBy": "{username} has closed the complaint"
+        "ReportClosedBy": "{username} has closed the complaint",
+        "ReportTypes": {
+          "AggressionAndInsult": {
+            "Title": "Aggression and insult",
+            "Description": "Threats, abusive language, bullying"
+          },
+          "Spam": {
+            "Title": "Spam and unwanted ad",
+            "Description": "Spamming, unwanted messages"
+          },
+          "Fraud": {
+            "Title": "Fraud",
+            "Description": "Attempted fraud, extortion"
+          },
+          "IncitementToDiscord": {
+            "Title": "Incitement to discord",
+            "Description": "Hate propaganda, discrimination"
+          },
+          "CopyrightInfringement": {
+            "Title": "Copyright infringement",
+            "Description": "Copying content without permission"
+          },
+          "UnauthorizedAccess": {
+            "Title": "Unauthorized access",
+            "Description": "Account hacking, unauthorized use of information"
+          },
+          "PornographyAndObscenity": {
+            "Title": "Pornography and obscenity",
+            "Description": "Distribution of pornographic material"
+          },
+          "ViolenceAndAbuse": {
+            "Title": "Violence and abuse",
+            "Description": "Description or demonstration of violence"
+          },
+          "Disinformation": {
+            "Title": "Disinformation",
+            "Description": "Dissemination of false information"
+          },
+          "IllegalActivity": {
+            "Title": "Illegal activity",
+            "Description": "Describing or encouraging illegal acts"
+          },
+          "MultiAccounting": {
+            "Title": "Multi-accounting",
+            "Description": "Creating multiple accounts to bypass restrictions"
+          },
+          "ViolationOfCommunityRules": {
+            "Title": "Violation of community rules",
+            "Description": "Non-compliance with the established rules"
+          },
+          "DisclosureOfPersonalInformation": {
+            "Title": "Disclosure of personal information",
+            "Description": "Transmission or disclosure of personal data without the consent of the person to whom it belongs"
+          },
+          "Meaningless": {
+            "Title": "Meaningless",
+            "Description": "It doesn't make sense"
+          },
+          "Toxicity": {
+            "Title": "Toxicity",
+            "Description": "Manifestation of negative and aggressive behavior"
+          }
+        }
       }
     },
     "UnbanCommand": {
