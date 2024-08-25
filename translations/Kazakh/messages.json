@@ -461,14 +461,78 @@
         "InvalidUser": "{username}, кімге шағым жасау қажет екенін көрсетіңіз",
         "UnknownUser": "{username}, пайдаланушы табылмады",
         "InvalidReason": "{username}, дұрыс шағым себебін көрсетіңіз",
+        "ReasonPlaceholder": "Опишите суть вашей жалобы, укажите детали и дополнительную информацию",
         "YouRecentlyReportedThisUser": "{username}, сіз бұл пайдаланушыға жуықтағыда шағым жасадыңыз",
         "YouHaveToManySubmittedReports": "{username}, сіз күндік жасалатын шағымдар санына жеттіңіз",
         "ReportSubmitted": "{username}, бұл туралы бізге хабардар еткеніңіз үшін рахмет",
         "PotentiallyUnwantedUser": "Алдындағы шағымдардан кейін келе жатқыз келмейтін пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
         "ReportCount": "Шағымдар саны",
+        "RecommendedActions": "Рекомендованные действия",
         "ReceivedReportAboutUser": "Пайдаланушыға {username} туралы шағым түсті",
-        "ReportClosedBy": "{username} шағымды жапты"
+        "ReportClosedBy": "{username} шағымды жапты",
+        "ReportTypes": {
+          "AggressionAndInsult": {
+            "Title": "Агрессия и оскорбления",
+            "Description": "Угрозы, оскорбительные высказывания, травля"
+          },
+          "Spam": {
+            "Title": "Спам и нежелательная реклама",
+            "Description": "Рассылка спама, нежелательные сообщения"
+          },
+          "Fraud": {
+            "Title": "Мошенничество",
+            "Description": "Попытки обмана, вымогательство"
+          },
+          "IncitementToDiscord": {
+            "Title": "Разжигание розни",
+            "Description": "Пропаганда ненависти, дискриминация"
+          },
+          "CopyrightInfringement": {
+            "Title": "Нарушение авторских прав",
+            "Description": "Копирование контента без разрешения"
+          },
+          "UnauthorizedAccess": {
+            "Title": "Несанкционированный доступ",
+            "Description": "Взлом аккаунтов, несанкционированное использование информации"
+          },
+          "PornographyAndObscenity": {
+            "Title": "Порнография и непристойности",
+            "Description": "Распространение порнографических материалов"
+          },
+          "ViolenceAndAbuse": {
+            "Title": "Насилие и жестокость",
+            "Description": "Описание или демонстрация насилия"
+          },
+          "Disinformation": {
+            "Title": "Фейковые новости и дезинформация",
+            "Description": "Распространение ложной информации"
+          },
+          "IllegalActivity": {
+            "Title": "Незаконная деятельность",
+            "Description": "Описание или поощрение незаконных действий"
+          },
+          "MultiAccounting": {
+            "Title": "Множественные аккаунты",
+            "Description": "Создание множественных аккаунтов для обхода ограничений"
+          },
+          "ViolationOfCommunityRules": {
+            "Title": "Нарушение правил сообщества",
+            "Description": "Несоблюдение установленных правил"
+          },
+          "DisclosureOfPersonalInformation": {
+            "Title": "Распространение личной информации",
+            "Description": "Передача или обнародование персональных данных без согласия человека, которому они принадлежат"
+          },
+          "Meaningless": {
+            "Title": "Бессмыслица",
+            "Description": "Не имеет смысловой нагрузки"
+          },
+          "Toxicity": {
+            "Title": "Токсичность",
+            "Description": "Проявление негативного и агрессивного поведения"
+          }
+        }
       }
     },
     "UnbanCommand": {
