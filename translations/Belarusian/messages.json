@@ -805,19 +805,19 @@
               "Description": "Колькі будзе пераможцаў розыгрышу"
             },
             "Sponsor": {
-              "Description": "Кто проспонсировал этот розыгрыш"
+              "Description": "Хто спансіраваў гэты розыгрыш"
             }
           },
           "Texts": {
-            "InvalidPrize": "{username}, вы не указали приз за победу в розыгрыше",
-            "InvalidDuration": "{username}, аргумент длительности указан неверно",
-            "InvalidWinnerCount": "{username}, количество победителей должно быть диапазоне от 1 до 50",
-            "MaxActiveGiveawaysReached": "{username}, достигнуто максимальное количество активных розыгрышей",
-            "GiveawaySponsoredBy": "Розыгрыш от {sponsor}",
-            "GiveawayWillBeOverIn": "Завершится {relativeTime}",
-            "WinningPrize": "Приз за победу",
-            "WinnerCount": "Кол-во победителей",
-            "GiveawayHasBeenCreated": "{username}, розыгрыш успешно создан",
+            "InvalidPrize": "{username}, вы не ўказалі прыз за перамогу ў розыгрышы",
+            "InvalidDuration": "{username}, аргумент працягласці няправільны",
+            "InvalidWinnerCount": "{username}, колькасць пераможцаў павінна быць ад 1 да 50",
+            "MaxActiveGiveawaysReached": "{username}, дасягнута максімальная колькасць актыўных розыгрышаў",
+            "GiveawaySponsoredBy": "Розыгрыш ад {sponsor}",
+            "GiveawayWillBeOverIn": "Скончыцца {relativeTime}",
+            "WinningPrize": "Прыз за перамогу",
+            "WinnerCount": "Колькасць пераможцаў",
+            "GiveawayHasBeenCreated": "{username}, розыгрыш быў паспяхова створаны",
             "YouHaveParticipatedInGiveaway": "{username}, вы прынялі ўдзел у розыгрышы {giveaway}",
             "YouAreAlreadyInGiveaway": "{username}, вы ўжо ўдзельнічаеце ў розыгрышы {giveaway}"
           }
