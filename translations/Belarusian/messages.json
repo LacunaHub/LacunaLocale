@@ -831,8 +831,8 @@
           },
           "Texts": {
             "NoGiveawayParticipants": "Удзельнікі розыгрышу не знойдзены",
-            "GiveawayWinners": "Победители: {winners}",
-            "CongratulationsYouHaveWon": "Мои поздравления {winner}! Вы выиграли {prize}!"
+            "GiveawayWinners": "Пераможцы: {winners}",
+            "CongratulationsYouHaveWon": "Віншую, {winner}! Вы выйгралі {prize}!"
           }
         },
         "RerollCommand": {
@@ -872,7 +872,7 @@
       "ShareEmailAddress": "Падзяліцца адрасам эл. пошты",
       "JoinSupportServer": "Далучыцца да сервера падтрымкі",
       "UpdateYourRoleConnections": "Абнавіць вашыя злучаныя ролі",
-      "CannotCreatePopupWindow": "Не удалось создать окно авторизации. Пожалуйста, разрешите всплывающие окна для домена {domain} в настройках браузера."
+      "CannotCreatePopupWindow": "Не ўдалося стварыць акно аўтарызацыі. Калі ласка, дазвольце выплыўныя вокны для дамена {domain} у наладах браўзера."
     },
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Аўтарызацыя прайшла паспяхова",
@@ -881,10 +881,10 @@
     },
     "DashboardPage": {
       "Profile": "Профіль",
-      "NoActivities": "Похоже, вы не проявляли активности",
+      "NoActivities": "Здаецца, вы не праяўлялі актыўнасці",
       "MyGuilds": "Мае суполкі",
       "NoGuilds": "У вас няма даступных суполак.",
-      "Bills": "Выставленные счета",
+      "Bills": "Выстаўленыя рахункі",
       "BillId": "Нумар рахунку",
       "BillAmount": "Сума плацяжу",
       "BillStatus": "Статус плацяжу"
@@ -893,16 +893,16 @@
       "ThereIsNothingHere": "Тут нічога няма..."
     },
     "GuildPage": {
-      "MembersOnline": "{n} в сети",
-      "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
+      "MembersOnline": "{n} у сетцы",
+      "MembersPlural": "0 удзельнікаў | {n} удзельнік | {n} удзельніка | {n} удзельнікаў",
       "Leaders": {
-        "Leaderboard": "Таблица лидеров"
+        "Leaderboard": "Табліца лідараў"
       },
       "NavNames": {
         "General": "Агульнае",
         "Commands": "Каманды",
         "Moderation": "Мадэрацыя",
-        "CustomBehavior": "Пользовательское поведение",
+        "CustomBehavior": "Карыстальніцкія паводзіны",
         "Activities": "Актыўнасці",
         "Subscriptions": "Сацыяльная абвяшчэнні",
         "VoiceChannels": "Галасавыя каналы",
@@ -916,9 +916,9 @@
         "Title": "Агульныя налады",
         "Locale": "Лакалізацыя",
         "Translate": "Перакласці",
-        "BotExperts": "Эксперты по боту",
-        "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
-        "Greeting": "Приветствие",
+        "BotExperts": "Эксперты па боце",
+        "BotExpertsDescription": "Вызначаныя ролі і карыстальнікі змогуць праглядаць і змяняць налады бота, будзьце асцярожныя. Ролі з правамі адміністратара маюць доступ да прыборнай панэлі па змаўчанні.",
+        "Greeting": "Прывітанне",
         "MessageFormat": "Фармат паведамленняў",
         "MessageFormats": {
           "DM": "У асабістыя паведамленні",
@@ -940,10 +940,10 @@
         "SystemCommands": "Сістэмныя каманды"
       },
       "Moderation": {
-        "Hierarchy": "Иерархия",
-        "RespectHierarchy": "Учитывать иерархию ролей в командах модерирования",
-        "DenyModerateUsersWithModeratorPermissions": "Запретить модерировать пользователей с правами модератора",
-        "UnmoderatedRoles": "Немодерируемые роли",
+        "Hierarchy": "Іерархія",
+        "RespectHierarchy": "Улічваць іерархію роляў у камандах мадэравання",
+        "DenyModerateUsersWithModeratorPermissions": "Забараніць мадэраваць карыстальнікаў з правамі мадэратара",
+        "UnmoderatedRoles": "Немадэраваныя ролі",
         "UnmoderatedRolesDescription": "Да гэтых роляў немагчыма будзе прымяніць каманды мадэравання",
         "Log": "Журнал",
         "LogDescription": "Адсочванне дзеянняў і падзей",
@@ -964,8 +964,8 @@
       },
       "CustomBehavior": {
         "Automation": "Аўтаматызацыя",
-        "Plugins": "Плагины",
-        "AboutCustomPlugins": "Создавайте свои собственные плагины и делитесь ими с сообществом. Эта возможность открывает перед пользователями уникальные перспективы в настройке и оптимизации бота под свои индивидуальные потребности."
+        "Plugins": "Плагiны",
+        "AboutCustomPlugins": "Стварайце свае ўласныя плагіны і дзяліцеся імі з суполкай. Гэтая магчымасць адчыняе перад карыстальнікамі ўнікальныя перспектывы ў наладзе і аптымізацыі бота пад свае індывідуальныя патрэбнасці."
       },
       "Activities": {
         "Levels": "Узроўні",
@@ -981,7 +981,7 @@
         "EconomyStoreItems": "Прадметы крамы",
         "EconomyTransferPermissions": "Дазволы каманды пераводу",
         "Multipliers": "Множнікі вопыту і заробку",
-        "PublicLeaderboard": "Публичная таблица лидеров"
+        "PublicLeaderboard": "Публічная табліца лідараў"
       },
       "VoiceChannels": {
         "Music": "Музыка",
