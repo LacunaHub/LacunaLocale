@@ -1530,5 +1530,36 @@
       "Name": "Registration date",
       "Description": "How many days ago the user was registered"
     }
+  },
+  "AIMod": {
+    "ViolationSeverityLevel": "Violation severity level",
+    "ViolationSeverityLevels": {
+      "None": "None",
+      "Low": "Low",
+      "Moderate": "Moderate",
+      "High": "High",
+      "Severe": "Severe"
+    },
+    "ViolationCategories": {
+      "0": "Spam",
+      "1": "Verbally harassing me or someone else",
+      "2": "Using rude, vulgar, or offensive language",
+      "3": "Promoting hate based on identity or vulnerability",
+      "4": "Explicit, graphic, or unwanted sexual content",
+      "5": "Evading a ban or block with an alternate account",
+      "6": "Threatening violence or real world harm",
+      "7": "Content targeting or involving a minor",
+      "8": "Spreading misinformation or conspiracy theories",
+      "9": "Celebrating or glorifying acts of violence",
+      "10": "Harmful misinformation or glorifying violence",
+      "11": "This person is too young to use Discord",
+      "12": "It mentions self-harm or suicide",
+      "13": "Raiding or using multiple accounts",
+      "14": "Exposing private identifying information",
+      "15": "Impersonation, scam, or fraud",
+      "16": "Distributing stolen accounts or credit cards",
+      "17": "Selling drugs or other illegal goods",
+      "18": "Hacks, cheats, phishing or malicious links"
+    }
   }
 }
