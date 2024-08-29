@@ -1055,65 +1055,65 @@
       "ItemName": "Назва прадмета",
       "ItemType": "Тып прадмета",
       "ItemDescription": "Апісанне прадмета",
-      "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
+      "ItemPurchasePriceDescription": "Устанавіце значэнне на 0, каб зрабіць прадмет бясплатным",
       "ItemProducts": "Тавары",
-      "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
+      "ItemProductsDescription": "Ролі або каналы, якія будуць выдавацца пры куплі",
       "ItemOptions": {
-        "LimitedQuantity": "Ограниченное количество",
-        "TemporaryReferences": "Выдавать роли временно",
-        "CustomPurchaseReply": "Индивидуальное сообщение покупки"
+        "LimitedQuantity": "Абмежаваная колькасць",
+        "TemporaryReferences": "Выдаць ролі часова",
+        "CustomPurchaseReply": "Карыстальніцкае паведамленне аб куплі"
       },
       "ItemQuantity": "Колькасць прадметаў",
-      "ItemDuration": "Длительность предмета"
+      "ItemDuration": "Працягласць прадмета"
     },
     "LevelAward": {
       "AwardConditions": "Умовы для атрымання ўзнагароды",
       "RequiredLevel": "Неабходны ўзровень",
-      "RequiredVoiceTime": "Необходимое голосовое время",
-      "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
-      "AwardMessage": "Сообщение при получении награды"
+      "RequiredVoiceTime": "Неабходны час голасу",
+      "RequiredNumberOfSentMessages": "Неабходная колькасць адпраўленых паведамленняў",
+      "AwardMessage": "Паведамленне пры атрыманні ўзнагароды"
     },
     "ActivityMultipliers": {
-      "LevelMultipliers": "Множители опыта",
-      "EconomyMultipliers": "Множители заработка",
-      "ForTextActivity": "За текстовую активность",
-      "ForVoiceActivity": "За голосовую активность"
+      "LevelMultipliers": "Множнікі вопыту",
+      "EconomyMultipliers": "Множнікі заробку",
+      "ForTextActivity": "За тэкставую актыўнасць",
+      "ForVoiceActivity": "За галасавую актыўнасць"
     },
     "Automation": {
-      "Trigger": "Триггер",
+      "Trigger": "Трыгер",
       "TriggerNames": {
-        "InteractionButton": "Нажатие на кнопку",
-        "InteractionSelectMenu": "Выбор опции в списке",
-        "InteractionModalSubmit": "Отправка формы модального окна",
+        "InteractionButton": "Націсканне кнопкі",
+        "InteractionSelectMenu": "Выбар опцыі ў спісе",
+        "InteractionModalSubmit": "Адпраўка формы мадальнага акна",
         "MessageCreate": "Адпраўка паведамлення",
-        "MessageReactionAdd": "Добавление реакции на сообщение"
+        "MessageReactionAdd": "Дадаванне рэакцыі на паведамленне"
       }
     },
     "AutoMod": {
-      "AntiCaps": "Анти-КАПС",
-      "AntiCapsPercentage": "Процент содержания капса в сообщении",
-      "AntiCapsMinimumSymbols": "Минимальное количество символов",
-      "LinksFilter": "Фильтрация ссылок",
+      "AntiCaps": "Анты-КАПС",
+      "AntiCapsPercentage": "Працэнт змесціва CAPS у паведамленні",
+      "AntiCapsMinimumSymbols": "Мінімальная колькасць сімвалаў",
+      "LinksFilter": "Фільтрацыя спасылак",
       "LinksFilterAllowedRegistry": "Рэестр дазволеных спасылак",
       "LinksFilterBlockedRegistry": "Рэестр забароненых спасылак",
       "LinksFilterOptions": {
         "DeleteAllLinks": "Выдаляць усе спасылкі",
         "DeleteReferralInvites": "Выдаляць усе пабочныя запрашэнні"
       },
-      "NewbiesModeration": "Модерирование новоприбывших",
-      "NewbiesModerationMinimumAccountAge": "Минимальный возраст аккаунта",
-      "NewbiesModerationMinimumAccountAgeDescription": "Аккаунт должен быть зарегистрирован указанное количество времени",
-      "NicknamesModeration": "Модерирование никнеймов",
-      "NicknamesModerationSelectWhatRemove": "Выберите что убирать из никнеймов",
+      "NewbiesModeration": "Мадэраванне новапрыбыўшых",
+      "NewbiesModerationMinimumAccountAge": "Мінімальны век акаўнта",
+      "NewbiesModerationMinimumAccountAgeDescription": "Акаўнт павінен быць зарэгістраваны ўказаную колькасць часу",
+      "NicknamesModeration": "Мадэрацыя нікнэймаў",
+      "NicknamesModerationSelectWhatRemove": "Выберыце, што выдаліць з нікнэймаў",
       "NicknamesModerationRemovableSymbols": {
-        "SpecialCharacters": "Специальные символы",
+        "SpecialCharacters": "Спецыяльныя сімвалы",
         "Zalgo": "Залго",
-        "Diacritics": "Диакритические знаки",
+        "Diacritics": "Дыякрытычныя знакі",
         "Emojis": "Эмодзі"
       },
       "NicknamesModerationContains": "Іншыя значэнні",
-      "NicknamesModerationContainsDescription": "Убирать значения из никнеймов, которые содержатся в этом списке",
-      "SwearFilter": "Фильтрация слов",
+      "NicknamesModerationContainsDescription": "Выдаліць значэнні з нікнэймаў, якія змяшчаюцца ў гэтым спісе",
+      "SwearFilter": "Фільтрацыя слоў",
       "SwearFilterRegistryTitle": "Рэестр забароненых слоў",
       "UsersSlowdown": "Замедление отправки сообщений",
       "UsersSlowdownMessagesLimitTitle": "Ограничение сообщений",
