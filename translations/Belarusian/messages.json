@@ -1301,7 +1301,7 @@
       "ModeratorRolesDescription": "Выбранные роли получат те же права, что и владелец временного канала, но их разрешения в этом канале нельзя будет изменить. Для корректной работы, боту необходимо право администратора"
     },
     "VoiceRole": {
-      "BoundChannelsDescription": "Оставьте поле пустым, если хотите, чтобы роль выдавалась при подключении к любому каналу"
+      "BoundChannelsDescription": "Пакіньце поле пустым, калі хочаце, каб роля выдавалася пры падключэнні да любога канала"
     },
     "Header": {
       "Guilds": "Суполкі",
@@ -1377,12 +1377,12 @@
       "AddEmbedField": "Дадаць поле",
       "FieldName": "Загаловак поля",
       "FieldValue": "Значэнне поля",
-      "FieldInline": "В линию",
+      "FieldInline": "У лінію",
       "ImageURL": "Спасылка на поўнаразмерны відарыс",
       "ThumbnailURL": "Спасылка на відарыс-мініяцюру",
-      "FooterText": "Текст футера",
-      "FooterIconURL": "Иконка футера",
-      "FooterTimestamp": "Временная метка футера",
+      "FooterText": "Тэкст футэра",
+      "FooterIconURL": "Іконка футэра",
+      "FooterTimestamp": "Часавая метка футэра",
       "Replacers": "Заменители",
       "Functions": "Функцыі"
     },
@@ -1436,7 +1436,7 @@
     "GuildMemberAdded": "Карыстальнік далучыўся да сервера",
     "GuildMemberRemoved": "Карыстальнік пакінуў сервер",
     "GuildMemberUpdated": "Удзельнік зменены",
-    "GuildMemberUpdatedNickname": "отображаемое имя участника {username}",
+    "GuildMemberUpdatedNickname": "адлюстраванае імя ўдзельніка {username}",
     "GuildUpdated": "Сервер зменены",
     "GuildUpdatedName": "назву сервера",
     "GuildUpdatedAFKChannel": "канал прастою",
@@ -1489,8 +1489,8 @@
     "VoiceConnectionTemplate": "{username} далучаецца да галасавога канала {channel}",
     "VoiceDisconnection": "Галасавое адключэнне",
     "VoiceDisconnectionTemplate": "{username} адключаецца ад галасавога канала {channel}",
-    "VoiceMove": "Голосовое перемещение",
-    "VoiceMoveTemplate": "{username} перемещается из голосового канала {from} в {to}",
+    "VoiceMove": "Галасавое перамяшчэнне",
+    "VoiceMoveTemplate": "{username} перамяшчаецца з галасавога канала {from} у {to}",
     "VoiceServerDeaf": "Отключение звука",
     "VoiceServerMute": "Отключение микрофона",
     "VoiceServerUndeaf": "Включение звука",
