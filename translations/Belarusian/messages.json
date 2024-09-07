@@ -1115,7 +1115,7 @@
       "NicknamesModerationContainsDescription": "Выдаліць значэнні з нікнэймаў, якія змяшчаюцца ў гэтым спісе",
       "SwearFilter": "Фільтрацыя слоў",
       "SwearFilterRegistryTitle": "Рэестр забароненых слоў",
-      "UsersSlowdown": "Замедление отправки сообщений",
+      "UsersSlowdown": "Запавольванне адпраўкі паведамленняў",
       "UsersSlowdownMessagesLimitTitle": "Абмежаванне паведамленняў",
       "UsersSlowdownMessagesLimitDescription": "Колькі паведамленняў можа адправіць карыстальнік за 5 секунд",
       "IgnoredPermissionsDescription": "Удзельнікі з выбранымі дазволамі будуць ігнаравацца",
@@ -1298,7 +1298,7 @@
       "OwnerPermissions": "Дазволы ўладарніка канала",
       "OwnerPermissionsDescription": "Уладарніку часовага галасавога канала будуць выдадзены абраныя правы",
       "ModeratorRoles": "Ролі мадэратараў",
-      "ModeratorRolesDescription": "Выбранные роли получат те же права, что и владелец временного канала, но их разрешения в этом канале нельзя будет изменить. Для корректной работы, боту необходимо право администратора"
+      "ModeratorRolesDescription": "Выбраныя ролі атрымаюць тыя ж правы, што і ўладальнік часовага канала, але іх дазволы ў гэтым канале нельга будзе змяніць. Для карэктнай работы боту неабходна права адміністратара"
     },
     "VoiceRole": {
       "BoundChannelsDescription": "Пакіньце поле пустым, калі хочаце, каб роля выдавалася пры падключэнні да любога канала"
@@ -1383,7 +1383,7 @@
       "FooterText": "Тэкст футэра",
       "FooterIconURL": "Іконка футэра",
       "FooterTimestamp": "Часавая метка футэра",
-      "Replacers": "Заменители",
+      "Replacers": "Заменнікі",
       "Functions": "Функцыі"
     },
     "EmojiPicker": {
@@ -1491,35 +1491,35 @@
     "VoiceDisconnectionTemplate": "{username} адключаецца ад галасавога канала {channel}",
     "VoiceMove": "Галасавое перамяшчэнне",
     "VoiceMoveTemplate": "{username} перамяшчаецца з галасавога канала {from} у {to}",
-    "VoiceServerDeaf": "Отключение звука",
-    "VoiceServerMute": "Отключение микрофона",
-    "VoiceServerUndeaf": "Включение звука",
-    "VoiceServerUnmute": "Включение микрофона"
+    "VoiceServerDeaf": "Адключэнне гуку",
+    "VoiceServerMute": "Адключэнне мікрафона",
+    "VoiceServerUndeaf": "Уключэнне гуку",
+    "VoiceServerUnmute": "Уключэнне мікрафона"
   },
   "CaseLog": {
     "CaseTypes": {
       "BanAdd": "Блакіроўка выдадзена",
       "BanRemove": "Блакіроўка прыбрана",
-      "Kick": "Участник выгнан",
-      "MuteAdd": "Заглушение выдано",
-      "MuteRemove": "Заглушение убрано",
-      "PruneMessages": "Очистка сообщений",
-      "WarnAdd": "Предупреждение выдано",
-      "WarnRemove": "Предупреждение убрано"
+      "Kick": "Удзельнік выгнаны",
+      "MuteAdd": "Заглушэнне выдадзена",
+      "MuteRemove": "Заглушэнне прыбрана",
+      "PruneMessages": "Ачыстка паведамленняў",
+      "WarnAdd": "Папярэджанне выдадзена",
+      "WarnRemove": "Папярэджанне выдалена"
     },
     "Actions": {
-      "Title": "Действия",
-      "Ban": "Выдать блокировку",
-      "Mute": "Выдать заглушение",
-      "Kick": "Выгнать",
-      "Warn": "Выдать предупреждение",
+      "Title": "Дзеянні",
+      "Ban": "Выдаць блакіроўку",
+      "Mute": "Выдаць заглушэнне",
+      "Kick": "Выгнаць",
+      "Warn": "Выдаць папярэджанне",
       "ModifyRoles": "Змяніць ролі",
       "SendMessage": "Адправіць паведамленне",
       "DeleteMessage": "Выдаліць паведамленне",
-      "ResetViolations": "Обнулить предупреждения",
-      "EphemeralReply": "Эфемерное сообщение",
-      "OverwriteChannelPermissions": "Переопределить права канала",
-      "RestrictRoles": "Запретить выполнение ролям"
+      "ResetViolations": "Абнуліць папярэджанні",
+      "EphemeralReply": "Эфемернае паведамленне",
+      "OverwriteChannelPermissions": "Перавызначыць правы канала",
+      "RestrictRoles": "Забараніць выкананне ролям"
     },
     "CaseNumber": "Выпадак #{caseNumber}",
     "Moderator": "Мадэратар",
