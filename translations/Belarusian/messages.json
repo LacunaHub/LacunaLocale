@@ -1337,7 +1337,7 @@
       "TextStyles": {
         "Italic": "Курсіў"
       },
-      "TextTransform": "Преобразование текста",
+      "TextTransform": "Пераўтварэнне тэксту",
       "TextTransforms": {
         "Capitalize": "З вялікай літары",
         "Uppercase": "Верхні рэгістр",
@@ -1356,27 +1356,27 @@
       },
       "Image": "Відарыс",
       "ImageURL": "Спасылка на відарыс",
-      "BorderRadius": "Радиус краёв",
+      "BorderRadius": "Радыус краёў",
       "BorderRadiuses": {
         "XS": "Вельмі маленькі",
         "SM": "Маленькі",
         "MD": "Сярэдні",
         "LG": "Вялікі",
         "XL": "Вельмі вялікі",
-        "Circle": "Окружность"
+        "Circle": "Акружнасць"
       }
     },
     "MessageEditor": {
-      "SendEmbedMessage": "Отправлять встроенное сообщение",
-      "EmbedMessage": "Встроенное сообщение",
+      "SendEmbedMessage": "Адпраўляць убудаванае паведамленне",
+      "EmbedMessage": "Убудаванае паведамленне",
       "AuthorName": "Імя аўтара",
       "AuthorIconURL": "Аватар аўтара",
       "AuthorURL": "Спасылка аўтара",
-      "Title": "Заголовок",
-      "TitleURL": "Ссылка заголовка",
+      "Title": "Загаловак",
+      "TitleURL": "Спасылка загалоўка",
       "AddEmbedField": "Дадаць поле",
-      "FieldName": "Заголовок поля",
-      "FieldValue": "Значение поля",
+      "FieldName": "Загаловак поля",
+      "FieldValue": "Значэнне поля",
       "FieldInline": "В линию",
       "ImageURL": "Ссылка на полноразмерную картинку",
       "ThumbnailURL": "Ссылка на картинку-миниатюру",
