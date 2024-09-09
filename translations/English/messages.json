@@ -889,6 +889,10 @@
       "BillAmount": "Payment amount",
       "BillStatus": "Payment status"
     },
+    "DiamondPage": {
+      "Title": "(Максимум) возможностей, (минимум) ограничений",
+      "OurPatrons": "Наши покровители"
+    },
     "ErrorPage": {
       "ThereIsNothingHere": "Nothing to see here..."
     },
@@ -1022,13 +1026,6 @@
       "FeatureUtilityDescription": "Interactive messages and reactions, temporary voice channels, welcome messages and more!",
       "ReadyToGetStarted": "Ready to start?",
       "ReadyToGetStartedDescription": "Stability. Ease. Functionality. Lacuna is a powerful tool with an intuitive interface for enhancing your community."
-    },
-    "PatronsPage": {
-      "GratitudeMessageP1": "We want to express our sincere gratitude for your financial support of our bot! Your generous donation helps us further develop and improve our bot so that it can continue to provide useful services and be a useful tool for users.",
-      "GratitudeMessageP2": "Your kind donation makes a real difference in our work, and we appreciate your trust and support. Together we can make Lacuna even better by offering new features, improving the interface and making it more efficient.",
-      "GratitudeMessageP3": "We are deeply grateful for the loyal cooperation and trust you show in our project. Your support inspires us and gives us the energy to keep working. We are committed to continuing to develop and improve Lacuna so that it continues to be a valuable tool for you and other users.",
-      "ActivePatrons": "Active patrons",
-      "FormerPatrons": "Formerly supported"
     },
     "StatePage": {
       "TotalChannels": "Total channels",
@@ -1177,12 +1174,10 @@
       "BonusRespectDescription": "Material aid for project team and a special role on the official support server.",
       "SelectPlan": "Select plan",
       "SelectPaymentMethod": "Payment method",
+      "WaysToGet": "Способы получения",
       "Pay": "Pay",
-      "PatreonAfterCheckout": "Once you have paid for your subscription, you will need to check it to activate Lacuna Diamond.",
-      "PatreonAfterCheckoutImportantInfo": "To access Lacuna Diamond, you need to connect your Discord to {platform} and stay on our support server.",
-      "DNBBonusesInfo": "Once you have boosted our support server, click the check button below to activate Lacuna Diamond. (will be available as long as you are a booster of the support server). You can only activate Lacuna Diamond for one server.",
-      "TokensInfo": "You can vote for our bot and receive tokens that can be converted into Diamond subscription time (1 token = {bonusesDurationInHours}).",
       "Check": "Check",
+      "CheckForSubscription": "Проверить наличие подписки",
       "TransferringDescription": "You must be the owner of both communities to transfer Lacuna Diamond. The current community must not have Lacuna Diamond.",
       "PlanComparison": "Plan comparison",
       "PlanComparisonFeatures": {
@@ -1212,6 +1207,16 @@
         "SocialPlatformNumber": "Number of {socialPlatform} subscriptions",
         "PrioritySupport": "Priority support",
         "ImageEditorElementsNumber": "Number of elements in the image editor"
+      },
+      "FAQ": {
+        "Q1": "Подписка оплачена, но Diamond не активируется",
+        "A1": "Чтобы активировать Diamond, проверьте следующие моменты\n\n1. Привязан ли ваш аккаунт Discord к {platform}\n2. Присоединились ли вы к серверу поддержки и получили ли роль подписчика\n3. Нажали ли вы на кнопку проверки подписки\n\nЕсли после этих шагов проблема остаётся, свяжитесь с нами для дальнейшей помощи.",
+        "Q2": "У меня блокировка на сервере поддержки. Можно ли активировать Diamond?",
+        "A2": "Если у вас блокировка на сервере поддержки, активация Diamond будет невозможна, так как она требует наличия доступа к серверу. Рекомендуем связаться с нами, чтобы разобраться с причиной блокировки и попытаться её снять.",
+        "Q3": "Я забустил сервер больше 1 раза, но активировать Diamond могу только для одного сервера?",
+        "A3": "Да, активировать Diamond можно только 1 раз. Количество выданных бустов не влияет на возможность дополнительной активации.",
+        "Q4": "Как получить жетоны?",
+        "A4": "Чтобы получить жетоны, проголосуйте за нашего бота на странице [Top.gg]({topggLink}). За каждый голос вы получите 1 жетон."
       }
     },
     "CaseType": {
