@@ -1210,13 +1210,13 @@
       },
       "FAQ": {
         "Q1": "Subscription paid but Diamond won't activate",
-        "A1": "Чтобы активировать Diamond, проверьте следующие моменты\n\n1. Привязан ли ваш аккаунт Discord к {platform}\n2. Присоединились ли вы к серверу поддержки и получили ли роль подписчика\n3. Нажали ли вы на кнопку проверки подписки\n\nЕсли после этих шагов проблема остаётся, свяжитесь с нами для дальнейшей помощи.",
-        "Q2": "У меня блокировка на сервере поддержки. Можно ли активировать Diamond?",
-        "A2": "Если у вас блокировка на сервере поддержки, активация Diamond будет невозможна, так как она требует наличия доступа к серверу. Рекомендуем связаться с нами, чтобы разобраться с причиной блокировки и попытаться её снять.",
-        "Q3": "Я забустил сервер больше 1 раза, но активировать Diamond могу только для одного сервера?",
-        "A3": "Да, активировать Diamond можно только 1 раз. Количество выданных бустов не влияет на возможность дополнительной активации.",
-        "Q4": "Как получить жетоны?",
-        "A4": "Чтобы получить жетоны, проголосуйте за нашего бота на странице [Top.gg]({topggLink}). За каждый голос вы получите 1 жетон."
+        "A1": "To activate Diamond, check the following\n\n1. Make sure your Discord account is connected to {platform}\n2. Have you joined the support server and been assigned the subscriber role\n3. Make sure you have clicked on the button to check your subscription\n\nIf the problem persists after these steps, please contact us for further assistance.",
+        "Q2": "I've been banned from the support server. Can I activate Diamond?",
+        "A2": "If you are banned from the support server, you will not be able to activate Diamond as it requires access to the server. We recommend that you contact us so that we can investigate the cause of the ban and attempt to remove it.",
+        "Q3": "I've boosted a server more than 1 time, but I can only activate Diamond for one server?",
+        "A3": "Yes, you can only activate Diamond 1 time. The number of boosts given does not affect the ability to activate again.",
+        "Q4": "How do I get tokens?",
+        "A4": "To get tokens, vote for our bot on the [Top.gg]({topggLink}) page. You will receive 1 token per vote."
       }
     },
     "CaseType": {
