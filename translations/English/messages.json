@@ -890,8 +890,8 @@
       "BillStatus": "Payment status"
     },
     "DiamondPage": {
-      "Title": "(Максимум) возможностей, (минимум) ограничений",
-      "OurPatrons": "Наши покровители"
+      "Title": "(Maximum) possibilities, (minimum) limitations",
+      "OurPatrons": "Our patrons"
     },
     "ErrorPage": {
       "ThereIsNothingHere": "Nothing to see here..."
@@ -1174,10 +1174,10 @@
       "BonusRespectDescription": "Material aid for project team and a special role on the official support server.",
       "SelectPlan": "Select plan",
       "SelectPaymentMethod": "Payment method",
-      "WaysToGet": "Способы получения",
+      "WaysToGet": "Ways to get",
       "Pay": "Pay",
       "Check": "Check",
-      "CheckForSubscription": "Проверить наличие подписки",
+      "CheckForSubscription": "Check for subscription",
       "TransferringDescription": "You must be the owner of both communities to transfer Lacuna Diamond. The current community must not have Lacuna Diamond.",
       "PlanComparison": "Plan comparison",
       "PlanComparisonFeatures": {
@@ -1209,7 +1209,7 @@
         "ImageEditorElementsNumber": "Number of elements in the image editor"
       },
       "FAQ": {
-        "Q1": "Подписка оплачена, но Diamond не активируется",
+        "Q1": "Subscription paid but Diamond won't activate",
         "A1": "Чтобы активировать Diamond, проверьте следующие моменты\n\n1. Привязан ли ваш аккаунт Discord к {platform}\n2. Присоединились ли вы к серверу поддержки и получили ли роль подписчика\n3. Нажали ли вы на кнопку проверки подписки\n\nЕсли после этих шагов проблема остаётся, свяжитесь с нами для дальнейшей помощи.",
         "Q2": "У меня блокировка на сервере поддержки. Можно ли активировать Diamond?",
         "A2": "Если у вас блокировка на сервере поддержки, активация Diamond будет невозможна, так как она требует наличия доступа к серверу. Рекомендуем связаться с нами, чтобы разобраться с причиной блокировки и попытаться её снять.",
