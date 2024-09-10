@@ -889,6 +889,10 @@
       "BillAmount": "Payment amount",
       "BillStatus": "Payment status"
     },
+    "DiamondPage": {
+      "Title": "(Maximum) possibilities, (minimum) limitations",
+      "OurPatrons": "Our patrons"
+    },
     "ErrorPage": {
       "ThereIsNothingHere": "Nothing to see here..."
     },
@@ -1022,13 +1026,6 @@
       "FeatureUtilityDescription": "Interactive messages and reactions, temporary voice channels, welcome messages and more!",
       "ReadyToGetStarted": "Ready to start?",
       "ReadyToGetStartedDescription": "Stability. Ease. Functionality. Lacuna is a powerful tool with an intuitive interface for enhancing your community."
-    },
-    "PatronsPage": {
-      "GratitudeMessageP1": "We want to express our sincere gratitude for your financial support of our bot! Your generous donation helps us further develop and improve our bot so that it can continue to provide useful services and be a useful tool for users.",
-      "GratitudeMessageP2": "Your kind donation makes a real difference in our work, and we appreciate your trust and support. Together we can make Lacuna even better by offering new features, improving the interface and making it more efficient.",
-      "GratitudeMessageP3": "We are deeply grateful for the loyal cooperation and trust you show in our project. Your support inspires us and gives us the energy to keep working. We are committed to continuing to develop and improve Lacuna so that it continues to be a valuable tool for you and other users.",
-      "ActivePatrons": "Active patrons",
-      "FormerPatrons": "Formerly supported"
     },
     "StatePage": {
       "TotalChannels": "Total channels",
@@ -1177,12 +1174,10 @@
       "BonusRespectDescription": "Material aid for project team and a special role on the official support server.",
       "SelectPlan": "Select plan",
       "SelectPaymentMethod": "Payment method",
+      "WaysToGet": "Ways to get",
       "Pay": "Pay",
-      "PatreonAfterCheckout": "Once you have paid for your subscription, you will need to check it to activate Lacuna Diamond.",
-      "PatreonAfterCheckoutImportantInfo": "To access Lacuna Diamond, you need to connect your Discord to {platform} and stay on our support server.",
-      "DNBBonusesInfo": "Once you have boosted our support server, click the check button below to activate Lacuna Diamond. (will be available as long as you are a booster of the support server). You can only activate Lacuna Diamond for one server.",
-      "TokensInfo": "You can vote for our bot and receive tokens that can be converted into Diamond subscription time (1 token = {bonusesDurationInHours}).",
       "Check": "Check",
+      "CheckForSubscription": "Check for subscription",
       "TransferringDescription": "You must be the owner of both communities to transfer Lacuna Diamond. The current community must not have Lacuna Diamond.",
       "PlanComparison": "Plan comparison",
       "PlanComparisonFeatures": {
@@ -1212,6 +1207,16 @@
         "SocialPlatformNumber": "Number of {socialPlatform} subscriptions",
         "PrioritySupport": "Priority support",
         "ImageEditorElementsNumber": "Number of elements in the image editor"
+      },
+      "FAQ": {
+        "Q1": "Subscription paid but Diamond won't activate",
+        "A1": "To activate Diamond, check the following\n\n1. Make sure your Discord account is connected to {platform}\n2. Have you joined the support server and been assigned the subscriber role\n3. Make sure you have clicked on the button to check your subscription\n\nIf the problem persists after these steps, please contact us for further assistance.",
+        "Q2": "I've been banned from the support server. Can I activate Diamond?",
+        "A2": "If you are banned from the support server, you will not be able to activate Diamond as it requires access to the server. We recommend that you contact us so that we can investigate the cause of the ban and attempt to remove it.",
+        "Q3": "I've boosted a server more than 1 time, but I can only activate Diamond for one server?",
+        "A3": "Yes, you can only activate Diamond 1 time. The number of boosts given does not affect the ability to activate again.",
+        "Q4": "How do I get tokens?",
+        "A4": "To get tokens, vote for our bot on the [Top.gg]({topggLink}) page. You will receive 1 token per vote."
       }
     },
     "CaseType": {
@@ -1555,7 +1560,7 @@
       "11": "This person is too young to use Discord",
       "12": "It mentions self-harm or suicide",
       "13": "Raiding or using multiple accounts",
-      "14": "Exposing private identifying information",
+      "14": "Распространение недостоверной и опасной информации или прославление жестокости",
       "15": "Impersonation, scam, or fraud",
       "16": "Distributing stolen accounts or credit cards",
       "17": "Selling drugs or other illegal goods",
