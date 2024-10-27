@@ -960,7 +960,7 @@
         "ActionLogDescription": "Падзеі сервера",
         "AIMod": "ШІ Мадэрацыя",
         "AIModInfoChannel": "Інфармацыйны канал",
-        "AIModInfoChannelDescription": "В выбранный канал будет отправляться информация о нарушениях",
+        "AIModInfoChannelDescription": "У абраны канал будзе дасылацца інфармацыя аб парушэннях",
         "DAME": "Расширение для Discord AutoMod",
         "DAMETriggerKeyword": "Сообщение содержит слова из заданного списка ключевых слов",
         "DAMETriggerSpam": "Сообщение представляет собой обычный спам",
