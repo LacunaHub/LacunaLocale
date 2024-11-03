@@ -118,18 +118,18 @@
     "DiscordButtonStyles": {
       "Primary": "Алғашқы",
       "Secondary": "Екінші ретті",
-      "Success": "Успех",
+      "Success": "Жетістік",
       "Danger": "Қауіп",
       "Link": "Сілтеме"
     }
   },
   "Commands": {
     "Categories": {
-      "General": "Общие команды",
-      "Moderation": "Команды модерации",
-      "Music": "Управление музыкой",
-      "Useful": "Полезные команды",
-      "Custom": "Пользовательские команды"
+      "General": "Ортақ командалар",
+      "Moderation": "Модерация командалары",
+      "Music": "Музыканы басқару",
+      "Useful": "Пайдалы командалар",
+      "Custom": "Пайдаланушы командалары"
     },
     "Options": {
       "Command": "пәрмен",
@@ -224,8 +224,8 @@
           "Description": "Номер страницы таблицы лидеров"
         },
         "Order": {
-          "ChoiceAsc": "по возрастанию",
-          "ChoiceDesc": "по убыванию"
+          "ChoiceAsc": "өсу бойынша",
+          "ChoiceDesc": "кему бойынша"
         }
       },
       "Texts": {
@@ -234,15 +234,15 @@
         "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
         "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
         "ServerLeadersBy": "Лидеры сервера {sortBy}",
-        "CurrentLevel": "Ур. {level}"
+        "CurrentLevel": "Деңгей {level}"
       }
     },
     "RankCommand": {
-      "Name": "Показать уровень",
-      "Description": "Уровневая карточка",
+      "Name": "Деңгейді көрсету",
+      "Description": "Деңгей картасы",
       "Options": {
         "User": {
-          "Description": "Чью уровневую карточку необходимо показать"
+          "Description": "Кімнің деңгей картасын көрсету керек"
         }
       },
       "Texts": {
@@ -255,13 +255,13 @@
       "Texts": {
         "GuildOwner": "Владелец сервера",
         "GuildId": "Идентификатор сообщества",
-        "MemberCount": "Количество участников",
-        "ChannelCount": "Количество каналов",
-        "RoleCount": "Количество ролей",
-        "EmojiCount": "Количество эмодзи",
+        "MemberCount": "Қатысушылар саны",
+        "ChannelCount": "Арналар саны",
+        "RoleCount": "Рөлдер саны",
+        "EmojiCount": "Эмодзи саны",
         "GuildVerificationLevel": "Тексеру деңгейі",
         "GuildVerificationLevels": {
-          "None": "Без проверки",
+          "None": "Тексерусіз",
           "Low": "Төмен",
           "Medium": "Орта",
           "High": "Жоғары",
