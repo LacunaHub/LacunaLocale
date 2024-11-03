@@ -22,7 +22,7 @@
     "Description": "Сипаттама",
     "Identifier": "Идентификатор",
     "Date": "Мерзім",
-    "Other": "Другое",
+    "Other": "Басқа",
     "Indefinitely": "Мерзімсіз",
     "CopiedToClipboard": "Алмасу буферіне көшірілді",
     "TryAgain": "Тағы бір рет жасап көру",
@@ -75,7 +75,7 @@
       "ViewCreatorMonetizationAnalytics": "Просмотр аналитики монетизации",
       "UseSoundboard": "Использовать звуковую панель",
       "CreateGuildExpressions": "Создавать эмодзи, стикеры и звуки звуковой панели",
-      "CreateEvents": "Создавать события",
+      "CreateEvents": "Оқиғаларды құру",
       "UseExternalSounds": "Использовать внешние звуки звуковой панели",
       "SendVoiceMessages": "Дауысхаттар жіберу"
     },
@@ -92,8 +92,8 @@
     "BlockedChannels": "Запрещенные каналы",
     "BlockedRoles": "Запрещенные роли",
     "IgnoredChannels": "Еленбейтін арналар",
-    "IgnoredRoles": "Игнорируемые роли",
-    "IgnoredPermissions": "Игнорируемые разрешения",
+    "IgnoredRoles": "Еленбейтін рөлдер",
+    "IgnoredPermissions": "Еленбейтін рұқсаттар",
     "IgnoreBots": "Боттарды елемеу",
     "DateUnits": {
       "Minutes": "Минуттар",
@@ -158,7 +158,7 @@
     },
     "OptionTypes": {
       "SubCommand": "Ішкі команда",
-      "SubCommandGroup": "Группа подкоманд",
+      "SubCommandGroup": "Кіші командалар тобы",
       "String": "Жолдық",
       "Integer": "Бүтін сан",
       "Boolean": "Логикалық",
@@ -200,13 +200,13 @@
         "HelpForCommand": "Справка по команде {command}",
         "ControlPanel": "Басқару панелi",
         "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Использование команды",
+        "CommandUsage": "Команданы қолдану",
         "CommandArguments": "Аргументы команды",
-        "CommandArgumentRequired": "Обязательный аргумент",
-        "CommandArgumentOptional": "Необязательный аргумент",
-        "CommandArgumentType": "Тип аргумента: {type}",
+        "CommandArgumentRequired": "Міндетті аргумент",
+        "CommandArgumentOptional": "Міндетті емес дәлел",
+        "CommandArgumentType": "Аргумент типі: {type}",
         "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
-        "CommandPermissionsForBot": "Для бота",
+        "CommandPermissionsForBot": "Ботқа арналған",
         "CommandPermissionsForAuthor": "Пәрменнің авторы үшін"
       }
     },
@@ -251,9 +251,9 @@
       }
     },
     "ServerCommand": {
-      "Description": "Информация о текущем сервере",
+      "Description": "Ағымдағы сервер туралы ақпарат",
       "Texts": {
-        "GuildOwner": "Владелец сервера",
+        "GuildOwner": "Сервер иесі",
         "GuildId": "Идентификатор сообщества",
         "MemberCount": "Қатысушылар саны",
         "ChannelCount": "Арналар саны",
@@ -318,17 +318,17 @@
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Дата регистрации аккаунта",
+        "AccountRegistrationDate": "Аккаунттың тікелу күні",
         "DateOfJoiningServer": "Дата вступления на сервер",
         "LinkToAvatar": "Аватарға сілтеме",
         "LinkToBanner": "Баннерге сілтеме"
       }
     },
     "WalletCommand": {
-      "Description": "Операции с кошельком",
+      "Description": "Әмиян операциялары",
       "SubCommands": {
         "BalanceCommand": {
-          "Description": "Показать баланс кошелька",
+          "Description": "Әмиян теңгерімін көрсету",
           "Options": {
             "User": {
               "Description": "Кімнің әмиян теңгерімін көрсету керек"
@@ -362,13 +362,13 @@
       }
     },
     "BanCommand": {
-      "Description": "Заблокировать пользователя на сервере",
+      "Description": "Пайдаланушыны серверде бұғаттау",
       "Options": {
         "User": {
           "Description": "Кого необходимо заблокировать"
         },
         "Duration": {
-          "Description": "Длительность блокировки"
+          "Description": "Бұғаттау ұзақтығы"
         },
         "Reason": {
           "Description": "Бұғаттаудың себебі"
@@ -385,10 +385,10 @@
       }
     },
     "KickCommand": {
-      "Description": "Выгнать пользователя с сервера",
+      "Description": "Пайдаланушыны серверден қуып шығару",
       "Options": {
         "User": {
-          "Description": "Кого необходимо выгнать"
+          "Description": "Кімді қуып шығару керек"
         },
         "Reason": {
           "Description": "Причина изгнания"
@@ -482,7 +482,7 @@
             "Description": "Рассылка спама, нежелательные сообщения"
           },
           "Fraud": {
-            "Title": "Мошенничество",
+            "Title": "Алаяқтық",
             "Description": "Попытки обмана, вымогательство"
           },
           "IncitementToDiscord": {
@@ -490,7 +490,7 @@
             "Description": "Пропаганда ненависти, дискриминация"
           },
           "CopyrightInfringement": {
-            "Title": "Нарушение авторских прав",
+            "Title": "Авторлық құқықтың бұзылуы",
             "Description": "Копирование контента без разрешения"
           },
           "UnauthorizedAccess": {
