@@ -1207,8 +1207,8 @@
       "PlanComparisonFeatures": {
         "CustomCommandsNumber": "Number of custom commands",
         "AutomationNumber": "Number of automations",
-        "MaxNumberOfScripts": "Максимальное количество скриптов",
-        "MaxScriptSize": "Максимальный размер скрипта",
+        "MaxNumberOfScripts": "Max number of scripts",
+        "MaxScriptSize": "Max script size",
         "InteractiveMessagesNumber": "Number of interactive messages",
         "InteractiveReactionsNumber": "Number of interactive reactions",
         "TempVoiceChannelsNumber": "Number of temporary voice channels",
@@ -1416,9 +1416,9 @@
       "Functions": "Functions"
     },
     "ScriptEditor": {
-      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
-      "ScriptName": "Название скрипта",
-      "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
+      "MaxNumberOfScriptsReached": "Script will be not executed because max number of scripts reached",
+      "ScriptName": "Script name",
+      "ScriptDeleteConfirmation": "Are you sure you want to delete this script?"
     },
     "EmojiPicker": {
       "Search": "Search",
@@ -1483,8 +1483,8 @@
     "MessageCreated": "Message created",
     "MessageDeleted": "Message deleted",
     "MessageDeletedBulk": "Message delete bulk",
-    "MessageReactionAdded": "Реакция добавлена",
-    "MessageReactionRemoved": "Реакция убрана",
+    "MessageReactionAdded": "Reaction added",
+    "MessageReactionRemoved": "Reaction removed",
     "MessageUpdated": "Message updated",
     "MessageAuthor": "Message author",
     "MessageContent": "Message content",
