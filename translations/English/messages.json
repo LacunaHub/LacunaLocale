@@ -1195,7 +1195,6 @@
       "BonusMusicDescription": "Unlimited tracks in queue, playlist listening, audio streaming and volume changing.",
       "BonusIncreasedLimitsDescription": "More level rewards, store items, subscriptions, automations, interactive messages, voice roles, temporary voice channels, and more.",
       "BonusCustomBehaviorWithCodeDescription": "Ability to execute JavaScript code in custom commands and automation tasks.",
-      "BonusActivitiesDescription": "Ability to earn currencies in voice channels.",
       "BonusRespectDescription": "Material aid for project team and a special role on the official support server.",
       "SelectPlan": "Select plan",
       "SelectPaymentMethod": "Payment method",
@@ -1206,10 +1205,10 @@
       "TransferringDescription": "You must be the owner of both communities to transfer Lacuna Diamond. The current community must not have Lacuna Diamond.",
       "PlanComparison": "Plan comparison",
       "PlanComparisonFeatures": {
-        "ExecuteCode": "Action \"Execute code\"",
         "CustomCommandsNumber": "Number of custom commands",
         "AutomationNumber": "Number of automations",
-        "AutomationSequentialExecutionsWithOneTrigger": "Number of sequential executions of automations with one type of trigger",
+        "MaxNumberOfScripts": "Max number of scripts",
+        "MaxScriptSize": "Max script size",
         "InteractiveMessagesNumber": "Number of interactive messages",
         "InteractiveReactionsNumber": "Number of interactive reactions",
         "TempVoiceChannelsNumber": "Number of temporary voice channels",
@@ -1416,6 +1415,11 @@
       "Replacers": "Replacers",
       "Functions": "Functions"
     },
+    "ScriptEditor": {
+      "MaxNumberOfScriptsReached": "Script will be not executed because max number of scripts reached",
+      "ScriptName": "Script name",
+      "ScriptDeleteConfirmation": "Are you sure you want to delete this script?"
+    },
     "EmojiPicker": {
       "Search": "Search",
       "NotFound": "Nothing found",
@@ -1479,6 +1483,8 @@
     "MessageCreated": "Message created",
     "MessageDeleted": "Message deleted",
     "MessageDeletedBulk": "Message delete bulk",
+    "MessageReactionAdded": "Reaction added",
+    "MessageReactionRemoved": "Reaction removed",
     "MessageUpdated": "Message updated",
     "MessageAuthor": "Message author",
     "MessageContent": "Message content",

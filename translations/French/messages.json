@@ -1195,7 +1195,6 @@
       "BonusMusicDescription": "Nombre illimité de morceaux en file d'attente, écoute de playlists, lecture audio en streaming et ajustement du volume.",
       "BonusIncreasedLimitsDescription": "Plus de récompenses pour les niveaux, d'articles dans la boutique, d'abonnements, d'automatisations, de messages interactifs, de rôles vocaux, de canaux vocaux temporaires et autres.",
       "BonusCustomBehaviorWithCodeDescription": "Possibilité d'exécuter du code JavaScript dans les commandes personnalisées et les tâches d'automatisation.",
-      "BonusActivitiesDescription": "Possibilité de gagner des devises dans les canaux vocaux.",
       "BonusRespectDescription": "Aide matérielle à l'équipe du projet et rôle spécial sur le serveur officiel de support.",
       "SelectPlan": "Choisissez un plan",
       "SelectPaymentMethod": "Méthode de paiement",
@@ -1206,10 +1205,10 @@
       "TransferringDescription": "Для переноса Lacuna Diamond необходимо быть владельцем обоих сообществ. Текущее сообщество не должно иметь Lacuna Diamond.",
       "PlanComparison": "Comparaison des plans",
       "PlanComparisonFeatures": {
-        "ExecuteCode": "Action \"Exécuter du code\"",
         "CustomCommandsNumber": "Nombre de commandes personnalisées",
         "AutomationNumber": "Nombre d'automatisations",
-        "AutomationSequentialExecutionsWithOneTrigger": "Nombre d'exécutions séquentielles d'automatisations avec un seul type de déclencheur",
+        "MaxNumberOfScripts": "Максимальное количество скриптов",
+        "MaxScriptSize": "Максимальный размер скрипта",
         "InteractiveMessagesNumber": "Nombre de messages interactifs",
         "InteractiveReactionsNumber": "Nombre de réactions interactives",
         "TempVoiceChannelsNumber": "Nombre de canaux vocaux temporaires",
@@ -1416,6 +1415,11 @@
       "Replacers": "Substituts",
       "Functions": "Fonctions"
     },
+    "ScriptEditor": {
+      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
+      "ScriptName": "Название скрипта",
+      "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
+    },
     "EmojiPicker": {
       "Search": "Recherche",
       "NotFound": "Rien n'a été trouvé",
@@ -1479,6 +1483,8 @@
     "MessageCreated": "Message envoyé",
     "MessageDeleted": "Message supprimé",
     "MessageDeletedBulk": "Suppression en masse de messages",
+    "MessageReactionAdded": "Реакция добавлена",
+    "MessageReactionRemoved": "Реакция убрана",
     "MessageUpdated": "Message mis à jour",
     "MessageAuthor": "Auteur du message",
     "MessageContent": "Contenu du message",
