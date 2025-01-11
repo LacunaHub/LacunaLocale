@@ -1,6 +1,6 @@
 {
   "name": "@lacunahub/lacuna-locale",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Lacuna localization repository",
   "main": "index.js",
   "types": "index.d.ts",
