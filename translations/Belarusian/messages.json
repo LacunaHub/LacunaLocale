@@ -1195,7 +1195,6 @@
       "BonusMusicDescription": "Неабмежаваная колькасць трэкаў у чарзе, праслухоўванне спісаў прайгравання, патокавае аўдыё і змяненне гучнасці.",
       "BonusIncreasedLimitsDescription": "Больш узнагарод узроўняў, прадметаў крамы, падпісак, аўтаматызацый, інтэрактыўных паведамленняў, галасавых роляў, часовых галасавых каналаў і іншае.",
       "BonusCustomBehaviorWithCodeDescription": "Магчымасць выконваць код JavaScript у карыстальніцкіх камандах і задачах аўтаматызацыі.",
-      "BonusActivitiesDescription": "Магчымасць зарабляць валюту ў галасавых каналах.",
       "BonusRespectDescription": "Матэрыяльная дапамога камандзе праекта і спецыяльная роля на афіцыйным серверы падтрымкі.",
       "SelectPlan": "Выберыце план",
       "SelectPaymentMethod": "Спосаб аплаты",
@@ -1206,10 +1205,10 @@
       "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Параўнанне планаў",
       "PlanComparisonFeatures": {
-        "ExecuteCode": "Дзеянне \"Выканаць код\"",
         "CustomCommandsNumber": "Колькасць карыстальніцкіх каманд",
         "AutomationNumber": "Колькасць аўтаматызацый",
-        "AutomationSequentialExecutionsWithOneTrigger": "Колькасць паслядоўных выкананняў аўматызацый з адным тыпам трыгера",
+        "MaxNumberOfScripts": "Максимальное количество скриптов",
+        "MaxScriptSize": "Максимальный размер скрипта",
         "InteractiveMessagesNumber": "Колькасць інтэрактыўных паведамленняў",
         "InteractiveReactionsNumber": "Колькасць інтэрактыўных рэакцый",
         "TempVoiceChannelsNumber": "Колькасць часовых галасавых каналаў",
@@ -1416,6 +1415,11 @@
       "Replacers": "Заменнікі",
       "Functions": "Функцыі"
     },
+    "ScriptEditor": {
+      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
+      "ScriptName": "Название скрипта",
+      "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
+    },
     "EmojiPicker": {
       "Search": "Пошук",
       "NotFound": "Нічога не знойдзена",
@@ -1479,6 +1483,8 @@
     "MessageCreated": "Паведамленне адпраўлена",
     "MessageDeleted": "Паведамленне выдалена",
     "MessageDeletedBulk": "Масавае выдаленне паведамленняў",
+    "MessageReactionAdded": "Реакция добавлена",
+    "MessageReactionRemoved": "Реакция убрана",
     "MessageUpdated": "Паведамленне зменена",
     "MessageAuthor": "Аўтар паведамлення",
     "MessageContent": "Змесціва паведамлення",
