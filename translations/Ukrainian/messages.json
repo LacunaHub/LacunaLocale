@@ -1195,7 +1195,6 @@
       "BonusMusicDescription": "Необмежена кількість треків у черзі, прослуховування плейлистів, потокове відтворення аудіо та зміна гучності.",
       "BonusIncreasedLimitsDescription": "Більше нагород за рівні, предметів у магазині, підписок, автоматизацій, інтерактивних повідомлень, голосових ролей, тимчасових голосових каналів та інше.",
       "BonusCustomBehaviorWithCodeDescription": "Можливість виконання JavaScript-коду в користувацьких командах та задачах автоматизації.",
-      "BonusActivitiesDescription": "Можливість заробляти валюту в голосових каналах.",
       "BonusRespectDescription": "Матеріальна допомога команді проєкт та особлива роль на офіційному сервері підтримки.",
       "SelectPlan": "Оберіть план",
       "SelectPaymentMethod": "Спосіб оплати",
@@ -1206,10 +1205,10 @@
       "TransferringDescription": "Преміум можливості будуть перенесені з вибраної спільноти до поточної.",
       "PlanComparison": "Порівняння планів",
       "PlanComparisonFeatures": {
-        "ExecuteCode": "Дія \"Виконати код\"",
         "CustomCommandsNumber": "Кількість користувацьких команд",
         "AutomationNumber": "Кількість автоматизацій",
-        "AutomationSequentialExecutionsWithOneTrigger": "Кількість послідовних виконань автоматизацій з одним типом тригера",
+        "MaxNumberOfScripts": "Максимальное количество скриптов",
+        "MaxScriptSize": "Максимальный размер скрипта",
         "InteractiveMessagesNumber": "Кількість інтерактивних повідомлень",
         "InteractiveReactionsNumber": "Кількість інтерактивних реакцій",
         "TempVoiceChannelsNumber": "Кількість тимчасових голосових каналів",
@@ -1416,6 +1415,11 @@
       "Replacers": "Замінники",
       "Functions": "Функції"
     },
+    "ScriptEditor": {
+      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
+      "ScriptName": "Название скрипта",
+      "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
+    },
     "EmojiPicker": {
       "Search": "Пошук",
       "NotFound": "Нічого не знайдено",
@@ -1479,6 +1483,8 @@
     "MessageCreated": "Повідомлення відправлено",
     "MessageDeleted": "Повідомлення видалено",
     "MessageDeletedBulk": "Масове видалення повідомлень",
+    "MessageReactionAdded": "Реакция добавлена",
+    "MessageReactionRemoved": "Реакция убрана",
     "MessageUpdated": "Повідомлення змінено",
     "MessageAuthor": "Автор повідомлення",
     "MessageContent": "Вміст повідомлення",
