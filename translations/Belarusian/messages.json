@@ -1207,8 +1207,8 @@
       "PlanComparisonFeatures": {
         "CustomCommandsNumber": "Колькасць карыстальніцкіх каманд",
         "AutomationNumber": "Колькасць аўтаматызацый",
-        "MaxNumberOfScripts": "Максимальное количество скриптов",
-        "MaxScriptSize": "Максимальный размер скрипта",
+        "MaxNumberOfScripts": "Максімальная колькасць скрыптоў",
+        "MaxScriptSize": "Максімальны памер скрыпта",
         "InteractiveMessagesNumber": "Колькасць інтэрактыўных паведамленняў",
         "InteractiveReactionsNumber": "Колькасць інтэрактыўных рэакцый",
         "TempVoiceChannelsNumber": "Колькасць часовых галасавых каналаў",
@@ -1416,8 +1416,8 @@
       "Functions": "Функцыі"
     },
     "ScriptEditor": {
-      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
-      "ScriptName": "Название скрипта",
+      "MaxNumberOfScriptsReached": "Скрыпт не будзе выкананы, бо дасягнута максімальная колькасць скрыптоў",
+      "ScriptName": "Назва скрыпта",
       "ScriptDeleteConfirmation": "Вы ўпэўнены, што жадаеце выдаліць гэты скрыпт?"
     },
     "EmojiPicker": {
