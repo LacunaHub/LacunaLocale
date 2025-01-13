@@ -922,7 +922,7 @@
         "Locale": "Лакалізацыя",
         "Translate": "Перакласці",
         "BotExperts": "Эксперты па боце",
-        "BotExpertsDescription": "Вызначаныя ролі і карыстальнікі змогуць праглядаць і змяняць налады бота, будзьце асцярожныя. Ролі з правамі адміністратара маюць доступ да панэлі па змаўчанні.",
+        "BotExpertsDescription": "Вызначаныя ролі і карыстальнікі змогуць праглядаць і змяняць налады бота, будзьце асцярожныя. Ролі з правамі адміністратара маюць доступ да панэлі кіравання па змаўчанні.",
         "Greeting": "Прывітанне",
         "MessageFormat": "Фармат паведамленняў",
         "MessageFormats": {
@@ -1207,8 +1207,8 @@
       "PlanComparisonFeatures": {
         "CustomCommandsNumber": "Колькасць карыстальніцкіх каманд",
         "AutomationNumber": "Колькасць аўтаматызацый",
-        "MaxNumberOfScripts": "Максимальное количество скриптов",
-        "MaxScriptSize": "Максимальный размер скрипта",
+        "MaxNumberOfScripts": "Максімальная колькасць скрыптоў",
+        "MaxScriptSize": "Максімальны памер скрыпта",
         "InteractiveMessagesNumber": "Колькасць інтэрактыўных паведамленняў",
         "InteractiveReactionsNumber": "Колькасць інтэрактыўных рэакцый",
         "TempVoiceChannelsNumber": "Колькасць часовых галасавых каналаў",
@@ -1416,9 +1416,9 @@
       "Functions": "Функцыі"
     },
     "ScriptEditor": {
-      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
-      "ScriptName": "Название скрипта",
-      "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
+      "MaxNumberOfScriptsReached": "Скрыпт не будзе выкананы, бо дасягнута максімальная колькасць скрыптоў",
+      "ScriptName": "Назва скрыпта",
+      "ScriptDeleteConfirmation": "Вы ўпэўнены, што жадаеце выдаліць гэты скрыпт?"
     },
     "EmojiPicker": {
       "Search": "Пошук",
@@ -1483,8 +1483,8 @@
     "MessageCreated": "Паведамленне адпраўлена",
     "MessageDeleted": "Паведамленне выдалена",
     "MessageDeletedBulk": "Масавае выдаленне паведамленняў",
-    "MessageReactionAdded": "Реакция добавлена",
-    "MessageReactionRemoved": "Реакция убрана",
+    "MessageReactionAdded": "Рэакцыя дададзена",
+    "MessageReactionRemoved": "Рэакцыя прыбрана",
     "MessageUpdated": "Паведамленне зменена",
     "MessageAuthor": "Аўтар паведамлення",
     "MessageContent": "Змесціва паведамлення",
