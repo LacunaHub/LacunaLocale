@@ -510,7 +510,7 @@
             "Description": "Розповсюдження хибної інформації"
           },
           "IllegalActivity": {
-            "Title": "Незаконная деятельность",
+            "Title": "",
             "Description": "Описание или поощрение незаконных действий"
           },
           "MultiAccounting": {
