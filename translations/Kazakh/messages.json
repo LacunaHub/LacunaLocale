@@ -134,7 +134,7 @@
     "Options": {
       "Command": "пәрмен",
       "Sorting": "сұрыптау",
-      "Page": "парақ/ша",
+      "Page": "бет",
       "User": "пайдаланушы",
       "SKU": "жеткізуші коды",
       "Currency": "валюта",
@@ -142,7 +142,7 @@
       "Reason": "себеп",
       "Amount": "сан",
       "MessageId": "хабарлама-идентификаторы",
-      "UserId": "пайдаланушының-сәйкестендіргіші",
+      "UserId": "пайдаланушы-сәйкестендіргіші",
       "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
       "Source": "дереккөз",
@@ -1527,9 +1527,9 @@
     "VoiceDisconnectionTemplate": "{username} отключается от голосового канала {channel}",
     "VoiceMove": "Голосовое перемещение",
     "VoiceMoveTemplate": "{username} перемещается из голосового канала {from} в {to}",
-    "VoiceServerDeaf": "Дыбысты өшіру",
+    "VoiceServerDeaf": "Дыбыстың өшіріліуі",
     "VoiceServerMute": "Микрофонды өшіру",
-    "VoiceServerUndeaf": "Дыбысты қосу",
+    "VoiceServerUndeaf": "Дыбыстың қосылуы",
     "VoiceServerUnmute": "Микрофонның қосылуы"
   },
   "CaseLog": {
