@@ -116,8 +116,8 @@
       "Reply": "Хабарламаға жауап"
     },
     "DiscordButtonStyles": {
-      "Primary": "Алғашқы",
-      "Secondary": "Екінші ретті",
+      "Primary": "Негізгі",
+      "Secondary": "Қосалқы",
       "Success": "Жетістік",
       "Danger": "Қауіп",
       "Link": "Сілтеме"
@@ -126,17 +126,17 @@
   "Commands": {
     "Categories": {
       "General": "Ортақ командалар",
-      "Moderation": "Модерация командалары",
+      "Moderation": "Модерация пәрмендері",
       "Music": "Музыканы басқару",
-      "Useful": "Пайдалы командалар",
-      "Custom": "Пайдаланушы командалары"
+      "Useful": "Пайдалы пәрмендер",
+      "Custom": "Пайдаланушы пәрмендері"
     },
     "Options": {
       "Command": "пәрмен",
       "Sorting": "сұрыптау",
       "Page": "бет",
       "User": "пайдаланушы",
-      "SKU": "жеткізуші коды",
+      "SKU": "cақтау бірлігі коды",
       "Currency": "валюта",
       "Duration": "ұзақтық",
       "Reason": "себеп",
@@ -145,29 +145,29 @@
       "UserId": "пайдаланушы-сәйкестендіргіші",
       "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
-      "Source": "дереккөз",
-      "Volume": "дыбыс деңгейі/көлемі",
+      "Source": "дерек көзі",
+      "Volume": "дыбыс деңгейі",
       "Prize": "жүлде",
-      "WinnerCount": "жеңімпаздар саны",
+      "WinnerCount": "жеңімпаздар-саны",
       "Sponsor": "демеуші",
       "Role": "рөл",
       "Time": "уақыт",
       "Award": "марапат",
       "Operation": "операция",
-      "ResetAll": "қалпына келтіру-барлығы"
+      "ResetAll": "қалпына келтіру-барлығын"
     },
     "OptionTypes": {
       "SubCommand": "Ішкі команда",
-      "SubCommandGroup": "Кіші командалар тобы",
+      "SubCommandGroup": "Ішкі командалар тобы",
       "String": "Жолдық",
       "Integer": "Бүтін сан",
       "Boolean": "Логикалық",
       "User": "Пайдаланушы",
       "Channel": "Арна",
       "Role": "Рөл",
-      "Mentionable": "Аталған",
+      "Mentionable": "Атап өтілетін",
       "Number": "Сандық",
-      "Attachment": "Тіркеме файл"
+      "Attachment": "Тіркеме"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
@@ -179,11 +179,11 @@
       "Texts": {
         "Developer": "Әзірлеуші",
         "CurrentVersion": "Ағымдағы нұсқа",
-        "Shard": "Үзінді",
-        "ShardCount": "Фрагменттер саны",
-        "ShardUptime": "Фрагменттің жұмыс істеу уақыты",
+        "Shard": "Шард",
+        "ShardCount": "Шард саны",
+        "ShardUptime": "Фрагменттің жұмыс уақыты",
         "Latency": "Кідіріс",
-        "TotalGuilds": "Қауымдастық саны",
+        "TotalGuilds": "Қауымдастықтар саны",
         "TotalUsers": "Пайдаланушылар саны",
         "OSUptime": "Время работы системы"
       }
