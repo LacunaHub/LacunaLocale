@@ -40,12 +40,12 @@
       "ViewAuditLog": "Аудит журналын қарау",
       "PrioritySpeaker": "Әңгіменің басымдығы",
       "Stream": "Стрим жүргізу",
-      "ViewChannel": "Арнаны қарау",
-      "SendMessages": "Хабарлама жіберу",
+      "ViewChannel": "Арнаны көру",
+      "SendMessages": "Хабарламалар жіберу",
       "SendTTSMessages": "TTS-хабарламаларды жіберу",
       "ManageMessages": "Хабарламаларды басқару",
-      "EmbedLinks": "Сілтемелерді ендіру",
-      "AttachFiles": "Файлдарды бекіту",
+      "EmbedLinks": "Сілтемелерді енгізу",
+      "AttachFiles": "Файлдарды тіркеу",
       "ReadMessageHistory": "Хабарламалар тарихын оқу",
       "MentionEveryone": "Барлығын атап шығу",
       "UseExternalEmojis": "Сыртқы эмодзилерді қолдану",
@@ -101,7 +101,7 @@
       "Days": "Күндер"
     },
     "Permissions": "Рұқсаттар",
-    "Exceptions": "Ерекшеліктер",
+    "Exceptions": "Ерекше жағдайлар",
     "Components": "Компоненттер",
     "DiscordMessageTypes": {
       "Default": "Стандартты хабарлама",
@@ -207,7 +207,7 @@
         "CommandArgumentType": "Аргумент типі: {type}",
         "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
         "CommandPermissionsForBot": "Ботқа арналған",
-        "CommandPermissionsForAuthor": "Пәрменнің авторы үшін"
+        "CommandPermissionsForAuthor": "Пәрменнің авторына арналған"
       }
     },
     "LeadersCommand": {
@@ -215,7 +215,7 @@
       "Options": {
         "Sorting": {
           "Description": "Сортировка таблицы лидеров по выбранному типу активности",
-          "ChoiceLevel": "деңгейі бойынша",
+          "ChoiceLevel": "деңгей бойынша",
           "ChoiceBalance": "по балансу",
           "ChoiceMessageCount": "по количеству сообщений",
           "ChoiceVoiceTime": "по голосовому времени"
@@ -224,7 +224,7 @@
           "Description": "Номер страницы таблицы лидеров"
         },
         "Order": {
-          "ChoiceAsc": "өсу бойынша",
+          "ChoiceAsc": "өсу реті бойынша",
           "ChoiceDesc": "кему бойынша"
         }
       },
@@ -579,8 +579,8 @@
         "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
         "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
         "UserViolations": "Нарушения {target}",
-        "ViolationsIn24Hours": "1 тәулікте",
-        "ViolationsIn7Days": "7 күн арасында",
+        "ViolationsIn24Hours": "Тәулікте",
+        "ViolationsIn7Days": "7 күн ішінде",
         "Last10Violations": "Последние 10 нарушений",
         "TotalViolations": "Всего нарушений",
         "ListOfViolators": "Список нарушителей"
