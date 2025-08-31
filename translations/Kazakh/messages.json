@@ -61,7 +61,7 @@
       "ManageRoles": "Рөлдерді басқару",
       "ManageWebhooks": "Веб-түймелерді басқару",
       "ManageEmojisAndStickers": "Эмодзи мен стикерлерді басқару",
-      "ManageGuildExpressions": "Эмодзи, стикерлер және дыбыс панелінің дыбыстарын басқару",
+      "ManageGuildExpressions": "Эмодзи, стикерлер мен дыбыс панелін басқару",
       "UseApplicationCommands": "Қолданба командаларын пайдалану",
       "RequestToSpeak": "Әңгімеге сұратым",
       "ManageEvents": "Іс-шараларды басқару",
@@ -118,7 +118,7 @@
     "DiscordButtonStyles": {
       "Primary": "Негізгі",
       "Secondary": "Екінші деңгейлі",
-      "Success": "Жетістік",
+      "Success": "Сәтті",
       "Danger": "Қауіп",
       "Link": "Сілтеме"
     }
@@ -246,7 +246,7 @@
         }
       },
       "Texts": {
-        "ImageRenderError": "{username}, произошла ошибка при создании уровневой карточки",
+        "ImageRenderError": "{username}, деңгей картасын жасау барысында қате шықты",
         "LevelCardNotFound": "{username}, уровневая карточка не найдена"
       }
     },
@@ -325,7 +325,7 @@
       }
     },
     "WalletCommand": {
-      "Description": "Әмиян операциялары",
+      "Description": "Әмиянды басқару",
       "SubCommands": {
         "BalanceCommand": {
           "Description": "Әмиян теңгерімін көрсету",
@@ -346,7 +346,7 @@
               "Description": "Қаражатты кімге аудару қажет"
             },
             "Amount": {
-              "Description": "Аударым сомасы"
+              "Description": "Аударылатын сома"
             },
             "Currency": {
               "Description": "Аударым қандай валютада болады"
@@ -449,10 +449,10 @@
     },
     "ReportCommand": {
       "Name": "Шағымдану",
-      "Description": "Пайдаланушының үстінен шағым түсіру",
+      "Description": "Пайдаланушыға шағым жасау",
       "Options": {
         "User": {
-          "Description": "Кімге шағым түсіру қажет"
+          "Description": "Шағым кімге жасалуы қажет"
         },
         "Reason": {
           "Description": "Не туралы хабарлағыңыз келеді"
@@ -470,7 +470,7 @@
         "RecentReports": "Соңғы шағымдар",
         "ReportCount": "Количество жалоб",
         "RecommendedActions": "Рекомендованные действия",
-        "ReceivedReportAboutUser": "Пайдаланушыға {username} туралы шағым түсті",
+        "ReceivedReportAboutUser": "{username} пайдаланушыға қатысты шағым түсті",
         "ReportClosedBy": "{username} шағымды жапты",
         "ReportTypes": {
           "AggressionAndInsult": {
@@ -1499,7 +1499,7 @@
     "RoleMemberRemovedTemplate": "{username} убирает роли пользователя {target}",
     "RoleUpdated": "Рөл өзгертілді",
     "RoleUpdatedName": "рөл атауы {role}",
-    "RoleUpdatedColor": "рөл түсі {role}",
+    "RoleUpdatedColor": "{role} рөлінің түсі",
     "RoleUpdatedPermissions": "разрешения роли {role}",
     "RoleName": "Рөл атауы",
     "RoleColor": "Рөл түсі",
