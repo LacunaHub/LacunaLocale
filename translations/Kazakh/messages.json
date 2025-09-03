@@ -48,7 +48,7 @@
       "AttachFiles": "Файлдарды тіркеу",
       "ReadMessageHistory": "Хабарламалар тарихын оқу",
       "MentionEveryone": "Барлығын атап шығу",
-      "UseExternalEmojis": "Сыртқы эмодзилерді қолдану",
+      "UseExternalEmojis": "Сыртқы эмодзилерді пайдалану",
       "ViewGuildInsights": "Сервер аналитикасын қарау",
       "Connect": "Қосылу",
       "Speak": "Сөйлеу",
@@ -68,10 +68,10 @@
       "ManageThreads": "Тармақтарды басқару",
       "CreatePublicThreads": "Қоғамдық тармақтарды құру",
       "CreatePrivateThreads": "Жеке талқылау тармақтарын құру",
-      "UseExternalStickers": "Сыртқы стикерлерді қолдану",
+      "UseExternalStickers": "Сыртқы стикерлерді пайдалану",
       "SendMessagesInThreads": "Тармақтарға хабарлама жіберу",
       "UseEmbeddedActivities": "Енгізілген белсенділікті бастау",
-      "ModerateMembers": "Қатысушыларды модерациялау",
+      "ModerateMembers": "Қатысушыларды басқару",
       "ViewCreatorMonetizationAnalytics": "Просмотр аналитики монетизации",
       "UseSoundboard": "Использовать звуковую панель",
       "CreateGuildExpressions": "Создавать эмодзи, стикеры и звуки звуковой панели",
@@ -958,7 +958,7 @@
         "CaseLogTypesDescription": "События журнала модерации",
         "ActionLog": "Журнал действия",
         "ActionLogDescription": "События сервера",
-        "AIMod": "ИИ Модерация",
+        "AIMod": "ЖИ модерация",
         "AIModInfoChannel": "Информационный канал",
         "AIModInfoChannelDescription": "В выбранный канал будет отправляться информация о нарушениях",
         "DAME": "Расширение для Discord AutoMod",
@@ -1270,8 +1270,8 @@
         "PerChannel": "Арнаға",
         "PerGuild": "Серверге"
       },
-      "ThrottlingMaxUses": "Пайдаланудың максимумы",
-      "ThrottlingTimeout": "Қайта пайдалану"
+      "ThrottlingMaxUses": "Қолдану шегі",
+      "ThrottlingTimeout": "Қайта қолдану уақыты"
     },
     "UserSurvey": {
       "ItWouldHelpUs": "Мы будем рады, если вы потратите 10 секунд своего времени, чтобы оценить ваш опыт работы с нами.",
@@ -1425,16 +1425,16 @@
       "NotFound": "Сәйкес нәтижелер жоқ",
       "Categories": {
         "Search": "Іздеу нәтижесі",
-        "Recent": "Жиі қолданылатын",
+        "Recent": "Жиі қолданылатындар",
         "Smileys": "Смайликтер",
         "People": "Адамдар",
         "Nature": "Табиғат",
         "Foods": "Тамақ және сусындар",
         "Activity": "Белсенділік",
-        "Places": "Саяхат және орындар",
+        "Places": "Саяхаттар мен орындар",
         "Objects": "Объектілер",
         "Symbols": "Таңбалар",
-        "Flags": "Жалаушалар",
+        "Flags": "Тулар",
         "Custom": "Пайдаланушынікі"
       }
     }
