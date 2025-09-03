@@ -1065,7 +1065,7 @@
   "Components": {
     "EconomyCurrency": {
       "CurrencyName": "Название валюты",
-      "CurrencySymbol": "Валюта символы",
+      "CurrencySymbol": "Валюта белгісі",
       "IncomePerMessage": "Заработок за сообщение",
       "IncomePerMessageRl": "Временное ограничение",
       "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
@@ -1429,11 +1429,11 @@
         "Smileys": "Смайликтер",
         "People": "Адамдар",
         "Nature": "Табиғат",
-        "Foods": "Тамақ және сусындар",
+        "Foods": "Тағамдар мен сусындар",
         "Activity": "Белсенділік",
         "Places": "Саяхаттар мен орындар",
-        "Objects": "Объектілер",
-        "Symbols": "Таңбалар",
+        "Objects": "Заттар",
+        "Symbols": "Белгілер",
         "Flags": "Тулар",
         "Custom": "Пайдаланушынікі"
       }
@@ -1488,7 +1488,7 @@
     "MessageUpdated": "Хабарлама өзгертілді",
     "MessageAuthor": "Хабарлама авторы",
     "MessageContent": "Хабарлама мазмұны",
-    "MessageCount": "Хабарлама саны",
+    "MessageCount": "Хабарламалар саны",
     "RoleCreated": "Рөл құрылды",
     "RoleCreatedTemplate": "{username} создаёт роль {role}",
     "RoleDeleted": "Рөл жойылды",
