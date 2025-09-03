@@ -62,7 +62,7 @@
       "ManageWebhooks": "Веб-түймелерді басқару",
       "ManageEmojisAndStickers": "Эмодзи мен стикерлерді басқару",
       "ManageGuildExpressions": "Эмодзи, стикерлер мен дыбыс панелін басқару",
-      "UseApplicationCommands": "Қолданба командаларын пайдалану",
+      "UseApplicationCommands": "Қолданба пәрмендерін пайдалану",
       "RequestToSpeak": "Әңгімеге сұратым",
       "ManageEvents": "Іс-шараларды басқару",
       "ManageThreads": "Тармақтарды басқару",
@@ -125,7 +125,7 @@
   },
   "Commands": {
     "Categories": {
-      "General": "Ортақ командалар",
+      "General": "Жалпы пәрмендер",
       "Moderation": "Модерация пәрмендері",
       "Music": "Музыканы басқару",
       "Useful": "Пайдалы пәрмендер",
@@ -157,8 +157,8 @@
       "ResetAll": "қалпына келтіру-барлығын"
     },
     "OptionTypes": {
-      "SubCommand": "Ішкі команда",
-      "SubCommandGroup": "Ішкі командалар тобы",
+      "SubCommand": "Ішкі пәрмен",
+      "SubCommandGroup": "Ішкі пәрмендер тобы",
       "String": "Жолдық",
       "Integer": "Бүтін сан",
       "Boolean": "Логикалық",
@@ -200,11 +200,11 @@
         "HelpForCommand": "Справка по команде {command}",
         "ControlPanel": "Басқару панелi",
         "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Команданы қолдану",
+        "CommandUsage": "Пәрменді пайдалану",
         "CommandArguments": "Аргументы команды",
         "CommandArgumentRequired": "Міндетті аргумент",
-        "CommandArgumentOptional": "Міндетті емес дәлел",
-        "CommandArgumentType": "Аргумент типі: {type}",
+        "CommandArgumentOptional": "Міндетті емес аргумент",
+        "CommandArgumentType": "Аргумент түрі: {type}",
         "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
         "CommandPermissionsForBot": "Ботқа арналған",
         "CommandPermissionsForAuthor": "Пәрменнің авторына арналған"
@@ -224,8 +224,8 @@
           "Description": "Номер страницы таблицы лидеров"
         },
         "Order": {
-          "ChoiceAsc": "өсу реті бойынша",
-          "ChoiceDesc": "кему бойынша"
+          "ChoiceAsc": "өсу ретімен",
+          "ChoiceDesc": "кему ретімен"
         }
       },
       "Texts": {
@@ -234,12 +234,12 @@
         "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
         "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
         "ServerLeadersBy": "Лидеры сервера {sortBy}",
-        "CurrentLevel": "Деңгей {level}"
+        "CurrentLevel": "{level} деңгей"
       }
     },
     "RankCommand": {
       "Name": "Деңгейді көрсету",
-      "Description": "Деңгей картасы",
+      "Description": "Деңгейлік карта",
       "Options": {
         "User": {
           "Description": "Кімнің деңгей картасын көрсету керек"
@@ -247,7 +247,7 @@
       },
       "Texts": {
         "ImageRenderError": "{username}, деңгей картасын жасау барысында қате шықты",
-        "LevelCardNotFound": "{username}, деңгей картасы табылмады"
+        "LevelCardNotFound": "{username}, деңгейлік карта табылмады"
       }
     },
     "ServerCommand": {
@@ -905,7 +905,7 @@
       },
       "NavNames": {
         "General": "Жалпы",
-        "Commands": "Командалар",
+        "Commands": "Пәрмендер",
         "Moderation": "Модерлеу",
         "CustomBehavior": "Пользовательское поведение",
         "Activities": "Белсенділіктер",
@@ -918,7 +918,7 @@
       "SomethingWentWrongWhenTryingToSave": "Что-то пошло не так при попытке сохранения. Пожалуйста, попробуйте немного позже.",
       "UnsavedChangesArePresent": "Имеются несохраненные изменения! Вы действительно хотите покинуть эту страницу?",
       "GeneralSettings": {
-        "Title": "Жалпы параметрлер",
+        "Title": "Жалпы баптаулар",
         "Locale": "Локализация",
         "Translate": "Аудару",
         "BotExperts": "Эксперты по боту",
