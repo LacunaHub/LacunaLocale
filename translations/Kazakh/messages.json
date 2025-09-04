@@ -408,7 +408,7 @@
           "Description": "Кого необходимо заглушить"
         },
         "Duration": {
-          "Description": "Дыбыс өшірудің ұзақтығы"
+          "Description": "Дыбысты өшірудің ұзақтығы"
         },
         "Reason": {
           "Description": "Дыбысты өшірудің себебі"
@@ -553,13 +553,13 @@
       }
     },
     "UnmuteCommand": {
-      "Description": "Пайдаланушыдан үнсіз режимін алып тастау",
+      "Description": "Пайдаланушының дыбысын қосу",
       "Options": {
         "User": {
-          "Description": "Кімнен үнсіз режимін алып тастау қажет"
+          "Description": "Кімнің дыбысын қосу қажет"
         },
         "Reason": {
-          "Description": "Үнсіз режимінің алып тастау себебі"
+          "Description": "Дыбысты қосудың себебі"
         }
       },
       "Texts": {
@@ -982,8 +982,8 @@
         "DAMEBlockMessageCustomMessageDescription": "Сообщение будет отображено при блокировании сообщения от пользователя.",
         "DAMESendAlert": "Отправить оповещение",
         "DAMEBlockMemberInteractions": "Блокировать взаимодействия участника",
-        "Mutes": "Дыбысы өшірулілер",
-        "MutesRAR": "Дыбысты өшіру кезінде барлық рөлдерді алып тастау",
+        "Mutes": "Дыбысы өшірілгендер",
+        "MutesRAR": "Дыбыс өшіру кезінде барлық рөлдерді алып тастау",
         "MutesRARStrict": "-дан басқа барлығын алып тастау",
         "AutoMod": "Автомодерация",
         "AutoModDescription": "Автоматическое применение мер против нарушителей",
@@ -1268,7 +1268,7 @@
       "ThrottlingScopes": {
         "PerUser": "Пайдаланушыға",
         "PerChannel": "Арнаға",
-        "PerGuild": "Серверге"
+        "PerGuild": "Сервер бойынша"
       },
       "ThrottlingMaxUses": "Қолдану шегі",
       "ThrottlingTimeout": "Қайта қолдану уақыты"
@@ -1475,7 +1475,7 @@
     "GuildUpdatedName": "сервердің атауы",
     "GuildUpdatedAFKChannel": "канал простоя",
     "GuildUpdatedAFKTimeout": "тайм-аут бездействия в голосовых каналах",
-    "GuildUpdatedDescription": "сервер сипаттамасы",
+    "GuildUpdatedDescription": "сервердің сипаттамасы",
     "InviteCreated": "Шақыру құрылды",
     "InvitedDeleted": "Шақыру жойылды",
     "InviteCode": "Шақыру коды",
@@ -1528,7 +1528,7 @@
     "VoiceMove": "Голосовое перемещение",
     "VoiceMoveTemplate": "{username} перемещается из голосового канала {from} в {to}",
     "VoiceServerDeaf": "Дыбыстың өшіріліуі",
-    "VoiceServerMute": "Микрофонды өшіру",
+    "VoiceServerMute": "Микрофонның өшірілуі",
     "VoiceServerUndeaf": "Дыбыстың қосылуы",
     "VoiceServerUnmute": "Микрофонның қосылуы"
   },
