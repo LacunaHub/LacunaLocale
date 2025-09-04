@@ -368,10 +368,10 @@
           "Description": "Кого необходимо заблокировать"
         },
         "Duration": {
-          "Description": "Бұғаттау ұзақтығы"
+          "Description": "Бұғаттаудың ұзақтығы"
         },
         "Reason": {
-          "Description": "Бұғаттау себебі"
+          "Description": "Бұғаттаудың себебі"
         }
       },
       "Texts": {
@@ -537,7 +537,7 @@
       }
     },
     "UnbanCommand": {
-      "Description": "Пайдаланушыны серверде баннан босату",
+      "Description": "Пайдаланушыны серверде бұғаттан шығару",
       "Options": {
         "UserId": {
           "Description": "Кімді бұғаттан шығару керек"
@@ -982,7 +982,7 @@
         "DAMEBlockMessageCustomMessageDescription": "Сообщение будет отображено при блокировании сообщения от пользователя.",
         "DAMESendAlert": "Отправить оповещение",
         "DAMEBlockMemberInteractions": "Блокировать взаимодействия участника",
-        "Mutes": "Дыбысты өшіру параметрлері",
+        "Mutes": "Мюттар",
         "MutesRAR": "Дыбысты өшіру кезінде барлық рөлдерді алып тастау",
         "MutesRARStrict": "-дан басқа барлығын алып тастау",
         "AutoMod": "Автомодерация",
@@ -1463,7 +1463,7 @@
     "EmojiDeletedTemplate": "{username} удаляет эмодзи {emoji}",
     "EmojiUpdated": "Эмодзи өзгертілді",
     "EmojiUpdatedName": "эмодзи атауы {emoji}",
-    "GuildBanAdded": "Бан салынды",
+    "GuildBanAdded": "Бұғаттау берілді",
     "GuildBanAddedTemplate": "{username} выдаёт блокировку пользователю {target}",
     "GuildBanRemoved": "Блокировка убрана",
     "GuildBanRemovedTemplate": "{username} снимает блокировку пользователю {target}",
