@@ -371,7 +371,7 @@
           "Description": "Бұғаттау ұзақтығы"
         },
         "Reason": {
-          "Description": "Бұғаттаудың себебі"
+          "Description": "Бұғаттау себебі"
         }
       },
       "Texts": {
@@ -537,7 +537,7 @@
       }
     },
     "UnbanCommand": {
-      "Description": "Сервер пайдаланушыны бұғаттан шығару",
+      "Description": "Пайдаланушыны серверде баннан босату",
       "Options": {
         "UserId": {
           "Description": "Кімді бұғаттан шығару керек"
@@ -1463,7 +1463,7 @@
     "EmojiDeletedTemplate": "{username} удаляет эмодзи {emoji}",
     "EmojiUpdated": "Эмодзи өзгертілді",
     "EmojiUpdatedName": "эмодзи атауы {emoji}",
-    "GuildBanAdded": "Бұғаттау берілді",
+    "GuildBanAdded": "Бан салынды",
     "GuildBanAddedTemplate": "{username} выдаёт блокировку пользователю {target}",
     "GuildBanRemoved": "Блокировка убрана",
     "GuildBanRemovedTemplate": "{username} снимает блокировку пользователю {target}",
