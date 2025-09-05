@@ -31,7 +31,7 @@
     "SelectFile": "Файлды таңдаңыз",
     "DiscordPermissions": {
       "CreateInstantInvite": "Шақыру құру",
-      "KickMembers": "Қатысушыларды қуып шығу",
+      "KickMembers": "Қатысушыларды қуып шығару",
       "BanMembers": "Қатысушыларды бұғаттау",
       "Administrator": "Әкімші",
       "ManageChannels": "Арналарды басқару",
@@ -47,7 +47,7 @@
       "EmbedLinks": "Сілтемелерді енгізу",
       "AttachFiles": "Файлдарды тіркеу",
       "ReadMessageHistory": "Хабарламалар тарихын оқу",
-      "MentionEveryone": "Барлығын атап шығу",
+      "MentionEveryone": "Барлығын атап өту",
       "UseExternalEmojis": "Сыртқы эмодзилерді пайдалану",
       "ViewGuildInsights": "Сервер аналитикасын қарау",
       "Connect": "Қосылу",
@@ -376,7 +376,7 @@
       },
       "Texts": {
         "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите заблокировать",
-        "YouCannotBanYourself": "{username}, не думаю, что я могу позволить вам заблокировать самого себя",
+        "YouCannotBanYourself": "{username}, мен Сізге өзіңізді бұғаттауға рұқсат бере аламын деп ойламаймын",
         "CannotBanThisUser": "{username}, невозможно заблокировать этого пользователя",
         "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
         "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
@@ -395,9 +395,9 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите выгнать",
-        "YouCannotKickYourself": "{username}, не думаю, что я могу позволить вам выгнать самого себя",
-        "CannotKickThisUser": "{username}, невозможно выгнать этого пользователя",
+        "InvalidUser": "{username}, қай пайдаланушыны қуып шыққыңыз келетінін көрсетіңіз",
+        "YouCannotKickYourself": "{username}, мен Сізге өзіңізді қуып шығаруға рұқсат бере аламын деп ойламаймын",
+        "CannotKickThisUser": "{username}, бұл пайдаланушыны қуып шығару мүмкін емес",
         "UserHasBeenKicked": "{username}, пользователь {target} был выгнан с сервера"
       }
     },
