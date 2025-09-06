@@ -930,7 +930,7 @@
           "Channel": "В установленный канал",
           "CurrentChannel": "Ағымдағы арнаға"
         },
-        "ChannelForMessages": "Канал для сообщений",
+        "ChannelForMessages": "Хабарламалар арнасы",
         "MessageTemplate": "Шаблон сообщения",
         "InitialRoles": "Бастапқы рөлдер",
         "Restoring": "Қалпына келтіру",
@@ -952,9 +952,9 @@
         "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
         "Log": "Журнал",
         "LogDescription": "Отслеживание действий и событий",
-        "CaseLogChannel": "Жағдайларға арналған арна",
+        "CaseLogChannel": "Жағдайлар арнасы",
         "CaseLogChannelDescription": "В указанном канале будут логироваться действия модераторов",
-        "CaseLogTypes": "Типы случаев",
+        "CaseLogTypes": "Жағдайлардың түрлері",
         "CaseLogTypesDescription": "События журнала модерации",
         "ActionLog": "Журнал действия",
         "ActionLogDescription": "События сервера",
@@ -1075,7 +1075,7 @@
     },
     "EconomyStoreItem": {
       "ItemName": "Название предмета",
-      "ItemType": "Тип предмета",
+      "ItemType": "Заттың түрі",
       "ItemDescription": "Описание предмета",
       "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
       "ItemProducts": "Тауарлар",
@@ -1147,7 +1147,7 @@
       "CommandName": "Название команды",
       "CommandDescription": "Описание команды",
       "CommandArgumentName": "Название аргумента",
-      "CommandArgumentType": "Тип аргумента",
+      "CommandArgumentType": "Аргументтің түрі",
       "CommandArgumentDescription": "Описание аргумента",
       "CommandArgumentChoices": "Варианты выбора",
       "CommandArgumentChoiceName": "Название выбора",
@@ -1267,7 +1267,7 @@
       "ThrottlingScope": "Область действия",
       "ThrottlingScopes": {
         "PerUser": "Пайдаланушыға",
-        "PerChannel": "Арнаға",
+        "PerChannel": "Әр арнаға",
         "PerGuild": "Сервер бойынша"
       },
       "ThrottlingMaxUses": "Қолдану шегі",
@@ -1282,7 +1282,7 @@
     },
     "AutoReaction": {
       "ReactionsDescription": "Можно выбрать 10 реакций",
-      "MessageTypes": "Типы сообщения",
+      "MessageTypes": "Хабарламаның түрлері",
       "MessageTypesDescription": "Оставьте поле пустым, если хотите добавлять реакции на все типы сообщений",
       "TextMatches": "Совпадения в тексте",
       "TextMatchesDescription": "Будет реагировать только, если в сообщении содержится указанные параметры",
