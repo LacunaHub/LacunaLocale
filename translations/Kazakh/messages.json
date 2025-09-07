@@ -494,7 +494,7 @@
             "Description": "Копирование контента без разрешения"
           },
           "UnauthorizedAccess": {
-            "Title": "Рұқсат етілмеген қол жеткізу",
+            "Title": "Рұқсатсыз қол жеткізу",
             "Description": "Взлом аккаунтов, несанкционированное использование информации"
           },
           "PornographyAndObscenity": {
@@ -518,7 +518,7 @@
             "Description": "Шектеулерді айналып өту үшін бірнеше аккаунттың ашылуы"
           },
           "ViolationOfCommunityRules": {
-            "Title": "Нарушение правил сообщества",
+            "Title": "Қауымдастық ережелерін бұзу",
             "Description": "Несоблюдение установленных правил"
           },
           "DisclosureOfPersonalInformation": {
