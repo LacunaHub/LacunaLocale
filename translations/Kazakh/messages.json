@@ -515,7 +515,7 @@
           },
           "MultiAccounting": {
             "Title": "Бірнеше аккаунттар",
-            "Description": "Создание множественных аккаунтов для обхода ограничений"
+            "Description": "Шектеулерді айналып өту үшін бірнеше аккаунт ашу"
           },
           "ViolationOfCommunityRules": {
             "Title": "Нарушение правил сообщества",
@@ -891,7 +891,7 @@
       "BillStatus": "Статус платежа"
     },
     "DiamondPage": {
-      "Title": "(Максимум) возможностей, (минимум) ограничений",
+      "Title": "(Максимум) мүмкіндіктер, (минимум) шектеулер",
       "OurPatrons": "Наши покровители"
     },
     "ErrorPage": {
@@ -1067,7 +1067,7 @@
       "CurrencyName": "Название валюты",
       "CurrencySymbol": "Валюта белгісі",
       "IncomePerMessage": "Заработок за сообщение",
-      "IncomePerMessageRl": "Временное ограничение",
+      "IncomePerMessageRl": "Уақыт бойынша шектеу",
       "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
       "IncomePerMinute": "Заработок за минуту в голосовом канале",
       "From": "От",
@@ -1081,7 +1081,7 @@
       "ItemProducts": "Тауарлар",
       "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
       "ItemOptions": {
-        "LimitedQuantity": "Ограниченное количество",
+        "LimitedQuantity": "Шектеулі саны",
         "TemporaryReferences": "Выдавать роли временно",
         "CustomPurchaseReply": "Индивидуальное сообщение покупки"
       },
@@ -1138,7 +1138,7 @@
       "SwearFilter": "Фильтрация слов",
       "SwearFilterRegistryTitle": "Реестр запрещенных слов",
       "UsersSlowdown": "Замедление отправки сообщений",
-      "UsersSlowdownMessagesLimitTitle": "Ограничение сообщений",
+      "UsersSlowdownMessagesLimitTitle": "Хабарлама жіберу жиілігінің шектеуі",
       "UsersSlowdownMessagesLimitDescription": "Сколько сообщений можно отправить в течении 5 секунд",
       "IgnoredPermissionsDescription": "Участники имеющие выбранные права будут игнорироваться",
       "PenaltyTimeout": "Тайм-аут наказания"
@@ -1191,7 +1191,7 @@
     },
     "LacunaDiamond": {
       "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
-      "UnlimitedSubscription": "Серверде уақытпен шектелмеген бонустар бар",
+      "UnlimitedSubscription": "Серверде уақытпен шектелмеген Lacuna Diamond жазылымы бар",
       "BonusMusicDescription": "Неограниченное количество треков в очереди, прослушивание плейлистов, потоковое воспроизведение аудио и изменение громкости.",
       "BonusIncreasedLimitsDescription": "Больше наград за уровни, предметов в магазине, подписок, автоматизаций, интерактивных сообщений, голосовых ролей, временных голосовых каналов и другое.",
       "BonusCustomBehaviorWithCodeDescription": "Возможность выполнения JavaScript-кода в пользовательских командах и задачах автоматизации.",
@@ -1263,7 +1263,7 @@
       "CreateThread": "Создать ветвь"
     },
     "SystemCommand": {
-      "Throttling": "Ограничение использований",
+      "Throttling": "Қолдану шектеуі",
       "ThrottlingScope": "Область действия",
       "ThrottlingScopes": {
         "PerUser": "Пайдаланушыға",
@@ -1316,7 +1316,7 @@
     "AutoVoice": {
       "VoiceChannelDescription": "Выбранный голосовой канал будет использован в качестве триггера",
       "DefaultName": "Стандартное название",
-      "DefaultUserLimit": "Ограничение пользователей",
+      "DefaultUserLimit": "Пайдаланушыларды шектеу",
       "DefaultCategory": "Категория по умолчанию",
       "DefaultPosition": "Позиция",
       "DefaultPositionDescription": "Позиция временного голосового канала относительно других каналов в категории",
