@@ -460,7 +460,7 @@
       },
       "Texts": {
         "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
-        "UnknownUser": "{username}, пользователь не найден",
+        "UnknownUser": "{username}, пайдаланушы табылмады",
         "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
         "ReasonPlaceholder": "Опишите суть вашей жалобы, укажите детали и дополнительную информацию",
         "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
@@ -469,7 +469,7 @@
         "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
         "RecentReports": "Соңғы шағымдар",
         "ReportCount": "Шағымдар саны",
-        "RecommendedActions": "Рекомендованные действия",
+        "RecommendedActions": "Ұсынылған әрекеттер",
         "ReceivedReportAboutUser": "{username} пайдаланушыға қатысты шағым түсті",
         "ReportClosedBy": "{username} шағымды жапты",
         "ReportTypes": {
@@ -495,7 +495,7 @@
           },
           "UnauthorizedAccess": {
             "Title": "Рұқсатсыз қол жеткізу",
-            "Description": "Взлом аккаунтов, несанкционированное использование информации"
+            "Description": "Бұзып кіру, ақпаратты рұқсатсыз пайдалану"
           },
           "PornographyAndObscenity": {
             "Title": "Порнография және ұятсыздық",
@@ -503,7 +503,7 @@
           },
           "ViolenceAndAbuse": {
             "Title": "Зорлық-зомбылық және қатыгездік",
-            "Description": "Описание или демонстрация насилия"
+            "Description": "Зорлық-зомбылықты сипаттау немесе көрсету"
           },
           "Disinformation": {
             "Title": "Жалған жаңалықтар және жалған ақпарат",
