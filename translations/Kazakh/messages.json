@@ -464,9 +464,9 @@
         "InvalidReason": "{username}, шағымның себебін дұрыс көрсетіңіз",
         "ReasonPlaceholder": "Шағымыңыздың мәнін сипаттап, қосымша ақпаратпен толықтырыңыз",
         "YouRecentlyReportedThisUser": "{username}, Сіз жақында осы пайдаланушыға шағым жібергенсіз",
-        "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
+        "YouHaveToManySubmittedReports": "{username}, Сіз шағымдардың тәуліктік лимитіне жеттіңіз",
         "ReportSubmitted": "{username}, бізге хабарлағаныңызға рахмет",
-        "PotentiallyUnwantedUser": "Келіп түскен шағымдарға байланысты потенциалды қалаусыз пайдаланушы",
+        "PotentiallyUnwantedUser": "Түскен шағымдарға орай потенциалды қалаусыз пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
         "ReportCount": "Шағымдар саны",
         "RecommendedActions": "Ұсынылған әрекеттер",
@@ -523,7 +523,7 @@
           },
           "DisclosureOfPersonalInformation": {
             "Title": "Жеке ақпаратты тарату",
-            "Description": "Передача или обнародование персональных данных без согласия человека, которому они принадлежат"
+            "Description": "Дербес деректерді иесінің келісімінсіз тарату немесе жария ету"
           },
           "Meaningless": {
             "Title": "Мағынасыздық",
@@ -1138,7 +1138,7 @@
       "SwearFilter": "Фильтрация слов",
       "SwearFilterRegistryTitle": "Реестр запрещенных слов",
       "UsersSlowdown": "Замедление отправки сообщений",
-      "UsersSlowdownMessagesLimitTitle": "Хабарлама жіберу жиілігінің шектеуі",
+      "UsersSlowdownMessagesLimitTitle": "Хабарлама жіберу жиілігінің шегі",
       "UsersSlowdownMessagesLimitDescription": "Сколько сообщений можно отправить в течении 5 секунд",
       "IgnoredPermissionsDescription": "Участники имеющие выбранные права будут игнорироваться",
       "PenaltyTimeout": "Тайм-аут наказания"
