@@ -459,9 +459,9 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
+        "InvalidUser": "{username}, шағымданғыңыз келетін пайдаланушыны көрсетіңіз",
         "UnknownUser": "{username}, пайдаланушы табылмады",
-        "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
+        "InvalidReason": "{username}, шағымның себебін дұрыс көрсетіңіз",
         "ReasonPlaceholder": "Опишите суть вашей жалобы, укажите детали и дополнительную информацию",
         "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
         "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
