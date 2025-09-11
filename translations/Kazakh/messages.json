@@ -398,7 +398,7 @@
         "InvalidUser": "{username}, қай пайдаланушыны қуып шыққыңыз келетінін көрсетіңіз",
         "YouCannotKickYourself": "{username}, мен Сізге өзіңізді қуып шығаруға рұқсат бере аламын деп ойламаймын",
         "CannotKickThisUser": "{username}, бұл пайдаланушыны қуып шығару мүмкін емес",
-        "UserHasBeenKicked": "{username}, пользователь {target} был выгнан с сервера"
+        "UserHasBeenKicked": "{username}, {target} серверден қуып шығарылды"
       }
     },
     "MuteCommand": {
@@ -707,7 +707,7 @@
       "Texts": {
         "InvalidVolume": "{username}, неверно указано значение громкости",
         "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
-        "VolumeHasBeenChanged": "{username}, громкость изменена с {from} на {to}"
+        "VolumeHasBeenChanged": "{username}, дыбыс деңгейі {from}-дан {to}-ға өзгертілді"
       }
     },
     "ActivitiesCommand": {
@@ -916,7 +916,7 @@
         "DownloadLogs": "Логтарды жүктеу"
       },
       "SomethingWentWrongWhenTryingToSave": "Что-то пошло не так при попытке сохранения. Пожалуйста, попробуйте немного позже.",
-      "UnsavedChangesArePresent": "Имеются несохраненные изменения! Вы действительно хотите покинуть эту страницу?",
+      "UnsavedChangesArePresent": "Сақталмаған өзгертулер бар! Бұл беттен шынымен шыққыңыз келе ме?",
       "GeneralSettings": {
         "Title": "Жалпы баптаулар",
         "Locale": "Локализация",
@@ -1369,8 +1369,8 @@
       "TextTransform": "Преобразование текста",
       "TextTransforms": {
         "Capitalize": "С заглавной буквы",
-        "Uppercase": "Верхний регистр",
-        "Lowercase": "Нижний регистр"
+        "Uppercase": "Бас әріптер",
+        "Lowercase": "Кіші әріптер"
       },
       "TextDecoration": "Оформление текста",
       "TextDecorations": {
@@ -1462,7 +1462,7 @@
     "EmojiDeleted": "Эмодзи жойылды",
     "EmojiDeletedTemplate": "{username} удаляет эмодзи {emoji}",
     "EmojiUpdated": "Эмодзи өзгертілді",
-    "EmojiUpdatedName": "эмодзи атауы {emoji}",
+    "EmojiUpdatedName": "{emoji} эмодзидің атауы",
     "GuildBanAdded": "Бұғаттау берілді",
     "GuildBanAddedTemplate": "{username} выдаёт блокировку пользователю {target}",
     "GuildBanRemoved": "Блокировка убрана",
@@ -1498,10 +1498,10 @@
     "RoleMemberRemoved": "Рөл алынып тасталды",
     "RoleMemberRemovedTemplate": "{username} убирает роли пользователя {target}",
     "RoleUpdated": "Рөл өзгертілді",
-    "RoleUpdatedName": "рөл атауы {role}",
+    "RoleUpdatedName": "{role} рөлінің атауы",
     "RoleUpdatedColor": "{role} рөлінің түсі",
     "RoleUpdatedPermissions": "разрешения роли {role}",
-    "RoleName": "Рөл атауы",
+    "RoleName": "Рөлдің атауы",
     "RoleColor": "Рөл түсі",
     "RolePosition": "Рөл позициясы",
     "StickerCreated": "Стикер қосылды",
@@ -1509,7 +1509,7 @@
     "StickerDeleted": "Стикер жойылды",
     "StickerDeletedTemplate": "{username} удаляет стрикер {sticker}",
     "StickerUpdated": "Стикер өзгертілді",
-    "StickerUpdatedName": "стикер атауы {sticker}",
+    "StickerUpdatedName": "{sticker} стикерінің атауы",
     "ThreadCreated": "Ветка создана",
     "ThreadCreatedTemplate": "{username} создаёт ветку {thread}",
     "ThreadDeleted": "Ветка удалена",
@@ -1535,9 +1535,9 @@
   "CaseLog": {
     "CaseTypes": {
       "BanAdd": "Бұғаттау берілді",
-      "BanRemove": "Блокировка убрана",
-      "Kick": "Участник выгнан",
-      "MuteAdd": "Заглушение выдано",
+      "BanRemove": "Бұғаттау алынды",
+      "Kick": "Қатысушы қуып шығарылды",
+      "MuteAdd": "Дыбысы өшірулі",
       "MuteRemove": "Заглушение убрано",
       "PruneMessages": "Очистка сообщений",
       "WarnAdd": "Предупреждение выдано",
