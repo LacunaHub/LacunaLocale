@@ -1509,7 +1509,7 @@
     "StickerDeleted": "Стикер жойылды",
     "StickerDeletedTemplate": "{username} удаляет стрикер {sticker}",
     "StickerUpdated": "Стикер өзгертілді",
-    "StickerUpdatedName": "{sticker} стикерінің атауы",
+    "StickerUpdatedName": "{sticker} стикердің атауы",
     "ThreadCreated": "Ветка создана",
     "ThreadCreatedTemplate": "{username} создаёт ветку {thread}",
     "ThreadDeleted": "Ветка удалена",
