@@ -172,7 +172,7 @@
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
     "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
-    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
+    "CommandExecutionDisabled": "{username}, бұл пәрмен сервер баптауларында өшірулі",
     "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
     "AboutCommand": {
       "Description": "Базовая информация о боте",
@@ -192,14 +192,14 @@
       "Description": "Қолжетімді пәрмендердің тізімі және олардың сипаттамасы",
       "Options": {
         "Command": {
-          "Description": "Дополнительная информация об указанной команде"
+          "Description": "Көрсетілген пәрмен туралы қосымша ақпарат"
         }
       },
       "Texts": {
         "ListOfCommands": "Пәрмендер тізімі",
-        "HelpForCommand": "Справка по команде {command}",
+        "HelpForCommand": "{command} пәрмені бойынша анықтама",
         "ControlPanel": "Басқару панелi",
-        "UnknownCommand": "{username}, команда не найдена",
+        "UnknownCommand": "{username}, пәрмен табылмады",
         "CommandUsage": "Пәрменді пайдалану",
         "CommandArguments": "Пәрмен аргументтері",
         "CommandArgumentRequired": "Міндетті аргумент",
@@ -1008,7 +1008,7 @@
         "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
         "EconomyCurrencies": "Валюталар",
         "EconomyStoreItems": "Предметы магазина",
-        "EconomyTransferPermissions": "Разрешения команды перевода",
+        "EconomyTransferPermissions": "Аударым пәрменінің рұқсаттары",
         "Multipliers": "Множители опыта и заработка",
         "PublicLeaderboard": "Публичная таблица лидеров"
       },
@@ -1059,7 +1059,7 @@
       "ShardLatencies": "Латентность фрагментов",
       "MusicPlayers": "Музыкалық ойнатқыштар",
       "PlayerCPULoad": "Плеердің жүктемесі",
-      "CommandUses": "Количество использований команд"
+      "CommandUses": "Пәрмендердің қолданылу саны"
     }
   },
   "Components": {
@@ -1568,13 +1568,13 @@
     }
   },
   "AIMod": {
-    "ViolationSeverityLevel": "Уровень серьёзности нарушения",
+    "ViolationSeverityLevel": "Бұзушылықтың ауырлық деңгейі",
     "ViolationSeverityLevels": {
-      "None": "Никакой",
-      "Low": "Невысокий",
-      "Moderate": "Умеренный",
-      "High": "Повышенный",
-      "Severe": "Серьёзный"
+      "None": "Ешқандай",
+      "Low": "Төмен",
+      "Moderate": "Орта",
+      "High": "Жоғары",
+      "Severe": "Өте жоғары"
     },
     "ViolationCategories": {
       "0": "Спам",
@@ -1588,7 +1588,7 @@
       "8": "Распространение дезинформации или теорий заговора",
       "9": "Оправдание или поощрение актов насилия",
       "10": "Распространение недостоверной и опасной информации или прославление жестокости",
-      "11": "Этот человек не может пользоваться Discord в силу юного возраста",
+      "11": "Бұл пайдаланушы жас шектеуіне байланысты Discord қолдана алмайды",
       "12": "Здесь упоминается причинение вреда себе или самоубийство",
       "13": "Рейдерство или использование нескольких учетных записей",
       "14": "Құпия мәліметтерді жариялау",
