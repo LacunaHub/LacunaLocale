@@ -112,7 +112,7 @@
       "UserPremiumGuildSubscriptionTier2": "Буст сервера: 2 уровень",
       "UserPremiumGuildSubscriptionTier3": "Буст сервера: 3 уровень",
       "ChannelFollowAdd": "Арнаға жазылу",
-      "ThreadCreated": "Ветка создана",
+      "ThreadCreated": "Тармақ құрылды",
       "Reply": "Хабарламаға жауап"
     },
     "DiscordButtonStyles": {
@@ -189,7 +189,7 @@
       }
     },
     "HelpCommand": {
-      "Description": "Список доступных команд и их описание",
+      "Description": "Қолжетімді пәрмендердің тізімі және олардың сипаттамасы",
       "Options": {
         "Command": {
           "Description": "Дополнительная информация об указанной команде"
@@ -201,7 +201,7 @@
         "ControlPanel": "Басқару панелi",
         "UnknownCommand": "{username}, команда не найдена",
         "CommandUsage": "Пәрменді пайдалану",
-        "CommandArguments": "Аргументы команды",
+        "CommandArguments": "Пәрмен аргументтері",
         "CommandArgumentRequired": "Міндетті аргумент",
         "CommandArgumentOptional": "Міндетті емес аргумент",
         "CommandArgumentType": "Аргумент түрі: {type}",
@@ -942,7 +942,7 @@
         "Farewell": "Прощание"
       },
       "Commands": {
-        "SystemCommands": "Системные команды"
+        "SystemCommands": "Жүйелік пәрмендер"
       },
       "Moderation": {
         "Hierarchy": "Иерархия",
@@ -1030,7 +1030,7 @@
         "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
         "AutoReactions": "Автореакции",
         "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
-        "AutoThreads": "Автоветки",
+        "AutoThreads": "Авто-тармақтар",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
         "InteractiveMessages": "Интерактивные сообщения",
         "InteractiveReactions": "Интерактивтік реакциялар",
@@ -1144,8 +1144,8 @@
       "PenaltyTimeout": "Тайм-аут наказания"
     },
     "CustomCommand": {
-      "CommandName": "Название команды",
-      "CommandDescription": "Описание команды",
+      "CommandName": "Пәрмен атауы",
+      "CommandDescription": "Пәрмен сипаттамасы",
       "CommandArgumentName": "Название аргумента",
       "CommandArgumentType": "Аргументтің түрі",
       "CommandArgumentDescription": "Описание аргумента",
@@ -1205,7 +1205,7 @@
       "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Сравнение планов",
       "PlanComparisonFeatures": {
-        "CustomCommandsNumber": "Количество пользовательских команд",
+        "CustomCommandsNumber": "Пайдаланушы пәрмендерінің саны",
         "AutomationNumber": "Количество автоматизаций",
         "MaxNumberOfScripts": "Максимальное количество скриптов",
         "MaxScriptSize": "Максимальный размер скрипта",
@@ -1290,7 +1290,7 @@
       "ExcludedTextMatchesDescription": "Не будет реагировать, если в сообщении содержится указанные параметры"
     },
     "AutoThread": {
-      "ThreadName": "Название ветки"
+      "ThreadName": "Тармақтың атауы"
     },
     "InteractiveMessage": {
       "ActionRows": "Операционные ряды",
@@ -1510,13 +1510,13 @@
     "StickerDeletedTemplate": "{username} удаляет стрикер {sticker}",
     "StickerUpdated": "Стикер өзгертілді",
     "StickerUpdatedName": "{sticker} стикердің атауы",
-    "ThreadCreated": "Ветка создана",
-    "ThreadCreatedTemplate": "{username} создаёт ветку {thread}",
-    "ThreadDeleted": "Ветка удалена",
-    "ThreadDeletedTemplate": "{username} удаляет ветку {thread}",
-    "ThreadUpdated": "Ветка изменена",
-    "ThreadUpdatedName": "название ветки {thread}",
-    "ThreadUpdatedAutoArchive": "время автоархивации ветки {thread}",
+    "ThreadCreated": "Тармақ құрылды",
+    "ThreadCreatedTemplate": "{username} {thread} тармағын құрды",
+    "ThreadDeleted": "Тармақ жойылды",
+    "ThreadDeletedTemplate": "{username} {thread} тармағын жойды",
+    "ThreadUpdated": "Тармақ өзгертілді",
+    "ThreadUpdatedName": "{thread} тармағының атауы",
+    "ThreadUpdatedAutoArchive": "{thread} тармағының автомұрағаттау уақыты",
     "ThreadAutoArchiveTime": "Автомұрағаттау уақыты",
     "UserUpdated": "Пайдаланушы өзгертілді",
     "UserUpdatedName": "{username} изменяет своё имя пользователя",
