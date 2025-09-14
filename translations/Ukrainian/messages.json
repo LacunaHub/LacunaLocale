@@ -511,14 +511,14 @@
           },
           "IllegalActivity": {
             "Title": "",
-            "Description": "Описание или поощрение незаконных действий"
+            "Description": "Описання або заохочення незаконних дій"
           },
           "MultiAccounting": {
             "Title": "Множественные аккаунты",
-            "Description": "Создание множественных аккаунтов для обхода ограничений"
+            "Description": "Створення множинних акаунтів для обходу обмежень"
           },
           "ViolationOfCommunityRules": {
-            "Title": "Нарушение правил сообщества",
+            "Title": "Порушення правил спільноти",
             "Description": "Несоблюдение установленных правил"
           },
           "DisclosureOfPersonalInformation": {
@@ -530,7 +530,7 @@
             "Description": "Не имеет смысловой нагрузки"
           },
           "Toxicity": {
-            "Title": "Токсичность",
+            "Title": "Токсичність",
             "Description": "Проявление негативного и агрессивного поведения"
           }
         }
@@ -958,7 +958,7 @@
         "CaseLogTypesDescription": "Події журналу модерації",
         "ActionLog": "Журнал дій",
         "ActionLogDescription": "Події сервера",
-        "AIMod": "ИИ Модерация",
+        "AIMod": "ШІ Модерація",
         "AIModInfoChannel": "Информационный канал",
         "AIModInfoChannelDescription": "В выбранный канал будет отправляться информация о нарушениях",
         "DAME": "Расширение для Discord AutoMod",
@@ -967,12 +967,12 @@
         "DAMETriggerKeywordPreset": "Сообщение содержит слова из заранее определенного набора слов",
         "DAMETriggerMentionSpam": "Сообщение содержит больше упоминаний, чем разрешено",
         "DAMETriggerMemberProfile": "Профиль пользователя содержит слова из заданного списка ключевых слов",
-        "DAMEKeywordFilter": "Список слов и фраз",
+        "DAMEKeywordFilter": "Список слів й фраз",
         "DAMERegexPatterns": "Шаблоны регулярных выражений",
         "DAMERegexPatternsDescription": "Флаг, чувствительный к регистру и глобальный флаг применяются по умолчанию. Другие флаги не поддерживаются.",
-        "DAMEAllowList": "Разрешенные слова и фразы",
+        "DAMEAllowList": "Дозволені слова й фрази",
         "DAMEKeywordPresets": "Предустановка ключевых слов",
-        "DAMEKeywordPresetsProfanity": "Грубая ненормативная лексика",
+        "DAMEKeywordPresetsProfanity": "Груба ненормативна лексика",
         "DAMEKeywordPresetsSexualContent": "Сексуальный контент",
         "DAMEKeywordPresetsSlurs": "Оскорбления",
         "DAMEMentionSpamNumberOfUniqueMentions": "Количество уникальных упоминаний",
