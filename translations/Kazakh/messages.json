@@ -811,7 +811,7 @@
           },
           "Texts": {
             "InvalidPrize": "{username}, вы не указали приз за победу в розыгрыше",
-            "InvalidDuration": "{username}, аргумент длительности указан неверно",
+            "InvalidDuration": "{username}, ұзақтық аргументі қате көрсетілген",
             "InvalidWinnerCount": "{username}, количество победителей должно быть диапазоне от 1 до 50",
             "MaxActiveGiveawaysReached": "{username}, достигнуто максимальное количество активных розыгрышей",
             "GiveawaySponsoredBy": "{sponsor} ұйымдастырған ұтыс ойыны",
@@ -1105,7 +1105,7 @@
       "Trigger": "Триггер",
       "TriggerNames": {
         "InteractionButton": "Батырманы басу",
-        "InteractionSelectMenu": "Выбор опции в списке",
+        "InteractionSelectMenu": "Тізімнен нұсқаны таңдау",
         "InteractionModalSubmit": "Отправка формы модального окна",
         "MessageCreate": "Хабарлама жіберу",
         "MessageReactionAdd": "Хабарламаға реакциялар қосу"
@@ -1148,10 +1148,10 @@
       "CommandDescription": "Пәрмен сипаттамасы",
       "CommandArgumentName": "Аргумент атауы",
       "CommandArgumentType": "Аргументтің түрі",
-      "CommandArgumentDescription": "Описание аргумента",
-      "CommandArgumentChoices": "Варианты выбора",
+      "CommandArgumentDescription": "Аргументтің сипаттамасы",
+      "CommandArgumentChoices": "Таңдау нұсқалары",
       "CommandArgumentChoiceName": "Таңдау атауы",
-      "CommandArgumentChoiceValue": "Значение выбора",
+      "CommandArgumentChoiceValue": "Таңдаудың мәні",
       "AddCondition": "Добавить условие",
       "AddAction": "Добавить действие",
       "ComponentNames": {
@@ -1300,8 +1300,8 @@
       "ButtonStyle": "Стиль кнопки",
       "ButtonURL": "Ссылка кнопки",
       "SelectMenuPlaceholder": "Заполнитель",
-      "OptionName": "Опция атауы",
-      "OptionDescription": "Опция сипаттамасы",
+      "OptionName": "Таңдаудың атауы",
+      "OptionDescription": "Опцияның сипаттамасы",
       "ModifyRolesReversibleMode": "Реверсивный режим"
     },
     "InteractiveReaction": {
@@ -1315,7 +1315,7 @@
     },
     "AutoVoice": {
       "VoiceChannelDescription": "Выбранный голосовой канал будет использован в качестве триггера",
-      "DefaultName": "Стандартное название",
+      "DefaultName": "Стандартты атауы",
       "DefaultUserLimit": "Пайдаланушыларды шектеу",
       "DefaultCategory": "Категория по умолчанию",
       "DefaultPosition": "Позиция",
@@ -1417,7 +1417,7 @@
     },
     "ScriptEditor": {
       "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
-      "ScriptName": "Название скрипта",
+      "ScriptName": "Скрипттің атауы",
       "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
     },
     "EmojiPicker": {
