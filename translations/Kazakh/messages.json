@@ -346,7 +346,7 @@
               "Description": "Қаражатты кімге аудару қажет"
             },
             "Amount": {
-              "Description": "Аударылатын сома"
+              "Description": "Аударылатын қаражат мөлшері"
             },
             "Currency": {
               "Description": "Аударым қандай валютада болады"
@@ -751,7 +751,7 @@
           "Texts": {
             "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
             "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, {target} әмиянының балансы орнатылды"
+            "WalletBalanceHasBeenSet": "{username}, {target} әмиянының теңгерімі орнатылды"
           }
         },
         "ResetWalletCommand": {
