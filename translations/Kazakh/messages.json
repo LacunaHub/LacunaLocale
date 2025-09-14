@@ -576,14 +576,14 @@
         }
       },
       "Texts": {
-        "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
+        "ThisUserHasNoViolations": "{username}, бұл пайдаланушының ереже бұзушылықтары жоқ",
         "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
         "UserViolations": "Нарушения {target}",
         "ViolationsIn24Hours": "Тәулікте",
         "ViolationsIn7Days": "7 күн ішінде",
         "Last10Violations": "Последние 10 нарушений",
         "TotalViolations": "Всего нарушений",
-        "ListOfViolators": "Список нарушителей"
+        "ListOfViolators": "Тәртіп бұзушылардың тізімі"
       }
     },
     "WarnCommand": {
@@ -1300,7 +1300,7 @@
       "ButtonStyle": "Стиль кнопки",
       "ButtonURL": "Ссылка кнопки",
       "SelectMenuPlaceholder": "Заполнитель",
-      "OptionName": "Таңдаудың атауы",
+      "OptionName": "Опцияның атауы",
       "OptionDescription": "Опцияның сипаттамасы",
       "ModifyRolesReversibleMode": "Реверсивный режим"
     },
@@ -1538,7 +1538,7 @@
       "BanRemove": "Бұғаттау алынды",
       "Kick": "Қатысушы қуып шығарылды",
       "MuteAdd": "Дыбысы өшірулі",
-      "MuteRemove": "Заглушение убрано",
+      "MuteRemove": "Дыбысты өшіру алынды",
       "PruneMessages": "Очистка сообщений",
       "WarnAdd": "Предупреждение выдано",
       "WarnRemove": "Предупреждение убрано"
