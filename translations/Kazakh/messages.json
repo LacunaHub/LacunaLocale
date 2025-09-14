@@ -1064,7 +1064,7 @@
   },
   "Components": {
     "EconomyCurrency": {
-      "CurrencyName": "Название валюты",
+      "CurrencyName": "Валютаның атауы",
       "CurrencySymbol": "Валюта белгісі",
       "IncomePerMessage": "Заработок за сообщение",
       "IncomePerMessageRl": "Уақыт бойынша шектеу",
@@ -1146,11 +1146,11 @@
     "CustomCommand": {
       "CommandName": "Пәрмен атауы",
       "CommandDescription": "Пәрмен сипаттамасы",
-      "CommandArgumentName": "Название аргумента",
+      "CommandArgumentName": "Аргумент атауы",
       "CommandArgumentType": "Аргументтің түрі",
       "CommandArgumentDescription": "Описание аргумента",
       "CommandArgumentChoices": "Варианты выбора",
-      "CommandArgumentChoiceName": "Название выбора",
+      "CommandArgumentChoiceName": "Таңдау атауы",
       "CommandArgumentChoiceValue": "Значение выбора",
       "AddCondition": "Добавить условие",
       "AddAction": "Добавить действие",
