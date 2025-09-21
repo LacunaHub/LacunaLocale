@@ -768,7 +768,7 @@
             "NoRequiredArgs": "{username}, қатысушыны, оның идентификаторын көрсетіңіз немесе барлығының әмияндарын нөлге түсіріңіз",
             "NoExistingWallets": "{username}, әмияндар жоқ",
             "AllWalletsHaveBeenReset": "{username}, барлық әмияндар сәтті нөлге түсірілді",
-            "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
+            "UserWalletHasBeenReset": "{username}, әмиян сәтті нөлге түсірілді"
           }
         },
         "ResetLevelCommand": {
@@ -1005,7 +1005,7 @@
         "LevelsAwards": "Марапаттар",
         "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
         "Economy": "Экономика",
-        "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
+        "EconomyResetOnLeave": "Қатысушы серверден шыққан кезде әмиянды нөлге түсіру",
         "EconomyCurrencies": "Валюталар",
         "EconomyStoreItems": "Предметы магазина",
         "EconomyTransferPermissions": "Аударым пәрменінің рұқсаттары",
@@ -1180,7 +1180,7 @@
       "ModifyRolesUserId": "Идентификатор пользователя",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
       "ModifyWalletAmount": "Количество валюты",
-      "ModifyWalletUserIdDescription": "Изменить кошелёк указанного пользователя (по умолчанию указан автор команды)",
+      "ModifyWalletUserIdDescription": "Көрсетілген пайдаланушының әмиянын өзгерту (әдепкі бойынша команданы жіберген автор көрсетіледі)",
       "ModifyWalletCurrencyId": "Идентификатор валюты",
       "ModifyWalletCurrencyIdDescription": "Укажите, если хотите выдать другую валюту, а не стандартную",
       "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
