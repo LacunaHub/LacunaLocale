@@ -232,7 +232,7 @@
         "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
         "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
         "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
-        "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
+        "NoWalletsYet": "{username}, бұл серверде әлі әмияндар жоқ",
         "ServerLeadersBy": "Лидеры сервера {sortBy}",
         "CurrentLevel": "{level} деңгей"
       }
@@ -730,10 +730,10 @@
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Пайдаланушының әмиян теңгерімін орнату",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Қай пайдаланушының әмиян теңгерімі орнатылады"
             },
             "Amount": {
               "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
