@@ -742,32 +742,32 @@
               "Description": "Какая валюта будет установлена/прибавлена/вычтена"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
+              "Description": "Әмиян теңгерімі бойынша әрекетті таңдаңыз",
               "ChoiceSet": "Установить",
               "ChoiceInc": "Прибавить",
               "ChoiceSub": "Вычесть"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
-            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
+            "InvalidUser": "{username}, әмиян теңгерімін орнатқыңыз келетін пайдаланушыны көрсетіңіз",
+            "InvalidAmount": "{username}, орнатылатын әмиян теңгерімін көрсетіңіз",
             "WalletBalanceHasBeenSet": "{username}, {target} әмиянының теңгерімі орнатылды"
           }
         },
         "ResetWalletCommand": {
-          "Description": "Сбросить кошелёк пользователю",
+          "Description": "Пайдаланушының әмиянын нөлге түсіру",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить кошелёк"
+              "Description": "Қай пайдаланушының әмиянын нөлге түсіру қажет"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Сервердегі барлық қатысушылардың әмияндарын нөлге түсіру"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
-            "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
+            "NoRequiredArgs": "{username}, қатысушыны, оның идентификаторын көрсетіңіз немесе барлығының әмияндарын нөлге түсіріңіз",
+            "NoExistingWallets": "{username}, әмияндар жоқ",
+            "AllWalletsHaveBeenReset": "{username}, барлық әмияндар сәтті нөлге түсірілді",
             "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
           }
         },
