@@ -353,10 +353,10 @@
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите сделать перевод",
-            "InvalidAmount": "{username}, пожалуйста, укажите сумму перевода",
-            "NoSuchAmountOfFunds": "{username}, у вас нет такой суммы перевода",
-            "SuccessfulFundsTransfer": "{username}, {amount} успешно переведено на счет {target}"
+            "InvalidUser": "{username}, аударым жасағыңыз келетін пайдаланушыны көрсетіңіз",
+            "InvalidAmount": "{username}, аударым сомасын көрсетіңіз",
+            "NoSuchAmountOfFunds": "{username}, сізде мұндай аударым сомасы жоқ",
+            "SuccessfulFundsTransfer": "{username}, {amount} {target} шотына сәтті аударылды"
           }
         }
       }
@@ -736,16 +736,16 @@
               "Description": "Қай пайдаланушының әмиян теңгерімі орнатылады"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "Орнатылатын/қосылатын/алынатын валюта сомасы"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Орнатылатын/қосылатын/алынатын валюта түрі"
             },
             "Operation": {
               "Description": "Әмиян теңгерімі бойынша әрекетті таңдаңыз",
-              "ChoiceSet": "Установить",
-              "ChoiceInc": "Прибавить",
-              "ChoiceSub": "Вычесть"
+              "ChoiceSet": "Орнату",
+              "ChoiceInc": "Қосу",
+              "ChoiceSub": "Алу"
             }
           },
           "Texts": {
@@ -1179,9 +1179,9 @@
       "CompareValuesFalseReply": "Жалған жауап",
       "ModifyRolesUserId": "Идентификатор пользователя",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
-      "ModifyWalletAmount": "Количество валюты",
+      "ModifyWalletAmount": "Валюта мөлшері",
       "ModifyWalletUserIdDescription": "Көрсетілген пайдаланушының әмиянын өзгерту (әдепкі бойынша команданы жіберген автор көрсетіледі)",
-      "ModifyWalletCurrencyId": "Идентификатор валюты",
+      "ModifyWalletCurrencyId": "Валютаның идентификаторы",
       "ModifyWalletCurrencyIdDescription": "Укажите, если хотите выдать другую валюту, а не стандартную",
       "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
       "ShowModalFieldPlaceholder": "Заполнитель",
