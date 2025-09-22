@@ -582,7 +582,7 @@
         "ViolationsIn24Hours": "Тәулікте",
         "ViolationsIn7Days": "7 күн ішінде",
         "Last10Violations": "Последние 10 нарушений",
-        "TotalViolations": "Всего нарушений",
+        "TotalViolations": "Барлық бұзушылықтар саны",
         "ListOfViolators": "Тәртіп бұзушылардың тізімі"
       }
     },
@@ -1182,7 +1182,7 @@
       "ModifyWalletAmount": "Валюта мөлшері",
       "ModifyWalletUserIdDescription": "Көрсетілген пайдаланушының әмиянын өзгерту (әдепкі бойынша команданы жіберген автор көрсетіледі)",
       "ModifyWalletCurrencyId": "Валютаның идентификаторы",
-      "ModifyWalletCurrencyIdDescription": "Укажите, если хотите выдать другую валюту, а не стандартную",
+      "ModifyWalletCurrencyIdDescription": "Стандартты валютадан басқа валютаны бергіңіз келсе, көрсетіңіз",
       "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
       "ShowModalFieldPlaceholder": "Заполнитель",
       "ShowModalFieldMinLength": "Минимум символов",
