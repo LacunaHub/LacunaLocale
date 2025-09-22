@@ -336,7 +336,7 @@
           },
           "Texts": {
             "WalletIsEmpty": "Әмиян бос",
-            "WalletBalanceOfUser": "Баланс пользователя {username}"
+            "WalletBalanceOfUser": "{username} пайдаланушысының әмиян теңгерімі"
           }
         },
         "TransferCommand": {
