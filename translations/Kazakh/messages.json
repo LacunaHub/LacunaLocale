@@ -1020,7 +1020,7 @@
         "MusicDefaultSource": "Источник по умолчанию",
         "VoiceRoles": "Голосовые роли",
         "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
-        "AutoVoices": "Временные голосовые каналы",
+        "AutoVoices": "Уақытша дауыстық арналар",
         "AutoVoicesDescription": "Автоматическое создание и удаление голосовых каналов"
       },
       "Useful": {
@@ -1028,8 +1028,8 @@
         "ReportsNotifyAboutUnwantedUsers": "Потенциалды қалаусыз пайдаланушылардың қосылуы туралы хабарлау",
         "BannerRotation": "Ротация баннера",
         "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
-        "AutoReactions": "Автореакции",
-        "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
+        "AutoReactions": "Автореакциялар",
+        "AutoReactionsDescription": "Хабарламаға реакциялардың автоматты түрде қосылуы",
         "AutoThreads": "Авто-тармақтар",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
         "InteractiveMessages": "Интерактивті хабарламалар",
@@ -1082,7 +1082,7 @@
       "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
       "ItemOptions": {
         "LimitedQuantity": "Шектеулі саны",
-        "TemporaryReferences": "Выдавать роли временно",
+        "TemporaryReferences": "Рөлдерді уақытша беру",
         "CustomPurchaseReply": "Индивидуальное сообщение покупки"
       },
       "ItemQuantity": "Количество предметов",
@@ -1210,11 +1210,11 @@
         "MaxNumberOfScripts": "Скрипттердің максималды саны",
         "MaxScriptSize": "Скрипттің максималды көлемі",
         "InteractiveMessagesNumber": "Интерактивті хабарламалар саны",
-        "InteractiveReactionsNumber": "Количество интерактивных реакций",
-        "TempVoiceChannelsNumber": "Количество временных голосовых каналов",
+        "InteractiveReactionsNumber": "Интерактивті реакциялар саны",
+        "TempVoiceChannelsNumber": "Уақытша дауыстық арналарының саны",
         "VoiceRolesNumber": "Количество голосовых ролей",
         "AutoThreadsNumber": "Количество автоветок",
-        "AutoReactionsNumber": "Количество автореакций",
+        "AutoReactionsNumber": "Автореакциялар саны",
         "ImageRotationInterval": "Интервал ротации изображений",
         "ActionLogEventsProcessedPerMinuteNumber": "Количество обрабатываемых событий журнала действий в минуту",
         "PlaylistsPlayback": "Воспроизведение плейлистов",
@@ -1281,7 +1281,7 @@
       "SurveySubmitted": "Спасибо! Вы помогаете нам стать лучше."
     },
     "AutoReaction": {
-      "ReactionsDescription": "Можно выбрать 10 реакций",
+      "ReactionsDescription": "10 реакцияны таңдауға болады",
       "MessageTypes": "Хабарламаның түрлері",
       "MessageTypesDescription": "Оставьте поле пустым, если хотите добавлять реакции на все типы сообщений",
       "TextMatches": "Совпадения в тексте",
@@ -1483,8 +1483,8 @@
     "MessageCreated": "Сообщение отправлено",
     "MessageDeleted": "Хабарлама жойылды",
     "MessageDeletedBulk": "Хабарламаларды жаппай жою",
-    "MessageReactionAdded": "Реакция добавлена",
-    "MessageReactionRemoved": "Реакция убрана",
+    "MessageReactionAdded": "Реакция қосылды",
+    "MessageReactionRemoved": "Реакция алынды",
     "MessageUpdated": "Хабарлама өзгертілді",
     "MessageAuthor": "Хабарлама авторы",
     "MessageContent": "Хабарлама мазмұны",
