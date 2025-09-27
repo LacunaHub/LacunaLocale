@@ -882,7 +882,7 @@
     },
     "DashboardPage": {
       "Profile": "Профиль",
-      "NoActivities": "Похоже, вы не проявляли активности",
+      "NoActivities": "Сіз белсенділік көрсетпеген сияқтысыз",
       "MyGuilds": "Мои сообщества",
       "NoGuilds": "У вас нет доступных сообществ.",
       "Bills": "Выставленные счета",
@@ -910,7 +910,7 @@
         "CustomBehavior": "Пользовательское поведение",
         "Activities": "Белсенділіктер",
         "Subscriptions": "Социальные оповещения",
-        "VoiceChannels": "Дауыс арналары",
+        "VoiceChannels": "Дауыстық арналар",
         "Utility": "Пайдалы",
         "ChangeLog": "Өзгерістер журналы",
         "DownloadLogs": "Логтарды жүктеу"
@@ -998,8 +998,8 @@
       },
       "Activities": {
         "Levels": "Деңгейлер",
-        "LevelsTextExp": "Опыт за текстовую активность",
-        "LevelsVoiceExp": "Опыт за голосовую активность",
+        "LevelsTextExp": "Мәтіндік белсенділік үшін тәжірибе",
+        "LevelsVoiceExp": "Дауыстық белсенділік үшін тәжірибе",
         "LevelsResetOnLeave": "Сбрасывать уровень при выходе участника",
         "LevelsAlerts": "Оповещения о повышении уровня",
         "LevelsAwards": "Марапаттар",
@@ -1032,7 +1032,7 @@
         "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
         "AutoThreads": "Авто-тармақтар",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
-        "InteractiveMessages": "Интерактивные сообщения",
+        "InteractiveMessages": "Интерактивті хабарламалар",
         "InteractiveReactions": "Интерактивтік реакциялар",
         "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции"
       }
@@ -1098,8 +1098,8 @@
     "ActivityMultipliers": {
       "LevelMultipliers": "Множители опыта",
       "EconomyMultipliers": "Множители заработка",
-      "ForTextActivity": "За текстовую активность",
-      "ForVoiceActivity": "За голосовую активность"
+      "ForTextActivity": "Мәтіндік белсенділік үшін",
+      "ForVoiceActivity": "Дауыстық белсенділік үшін"
     },
     "Automation": {
       "Trigger": "Триггер",
@@ -1209,7 +1209,7 @@
         "AutomationNumber": "Автоматтандырулар саны",
         "MaxNumberOfScripts": "Скрипттердің максималды саны",
         "MaxScriptSize": "Скрипттің максималды көлемі",
-        "InteractiveMessagesNumber": "Количество интерактивных сообщений",
+        "InteractiveMessagesNumber": "Интерактивті хабарламалар саны",
         "InteractiveReactionsNumber": "Количество интерактивных реакций",
         "TempVoiceChannelsNumber": "Количество временных голосовых каналов",
         "VoiceRolesNumber": "Количество голосовых ролей",
@@ -1223,8 +1223,8 @@
         "PlaybackQueueTrackNumber": "Количество треков в очереди",
         "PlaybackFilters": "Фильтры для воспроизведения",
         "PlaybackSeek": "Перемотка воспроизведения трека",
-        "EarnCurrenciesInVoiceChannels": "Заработок валюты в голосовых каналах",
-        "VoiceExpMembersNumber": "Количество одновременно находящихся участников в голосовых каналах, которым будет начисляться опыт за голосовую активность",
+        "EarnCurrenciesInVoiceChannels": "Дауыстық арналарда валюталар табу",
+        "VoiceExpMembersNumber": "Дауыстық арналарда бір мезгілде отырған, дауыстық белсенділігі үшін тәжірибе берілетін қатысушылар саны",
         "LevelAwardsNumber": "Количество наград за уровни",
         "StoreItemsNumber": "Количество предметов в магазине",
         "ActivityMultipliersNumber": "Количество множителей опыта и заработка",
