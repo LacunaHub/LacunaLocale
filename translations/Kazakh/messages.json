@@ -577,11 +577,11 @@
       },
       "Texts": {
         "ThisUserHasNoViolations": "{username}, бұл пайдаланушының ереже бұзушылықтары жоқ",
-        "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
-        "UserViolations": "Нарушения {target}",
+        "NoOneHasAnyViolations": "{username}, серверде ешкімнің ереже бұзушылықтары жоқ",
+        "UserViolations": "{target}-тің ереже бұзушылықтары",
         "ViolationsIn24Hours": "Тәулікте",
         "ViolationsIn7Days": "7 күн ішінде",
-        "Last10Violations": "Последние 10 нарушений",
+        "Last10Violations": "Соңғы 10 ереже бұзушылықтар",
         "TotalViolations": "Барлық бұзушылықтар саны",
         "ListOfViolators": "Тәртіп бұзушылардың тізімі"
       }
@@ -960,7 +960,7 @@
         "ActionLogDescription": "События сервера",
         "AIMod": "ЖИ модерация",
         "AIModInfoChannel": "Информационный канал",
-        "AIModInfoChannelDescription": "В выбранный канал будет отправляться информация о нарушениях",
+        "AIModInfoChannelDescription": "Таңдалған арнаға бұзушылықтар туралы ақпарат жіберіледі",
         "DAME": "Расширение для Discord AutoMod",
         "DAMETriggerKeyword": "Сообщение содержит слова из заданного списка ключевых слов",
         "DAMETriggerSpam": "Сообщение представляет собой обычный спам",
@@ -986,7 +986,7 @@
         "MutesRAR": "Дыбыс өшіру кезінде барлық рөлдерді алып тастау",
         "MutesRARStrict": "-дан басқа барлығын алып тастау",
         "AutoMod": "Автомодерация",
-        "AutoModDescription": "Автоматическое применение мер против нарушителей",
+        "AutoModDescription": "Ереже бұзушыларға қарсы шараларды автоматты түрде қолдану",
         "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
         "Penalties": "Наказания за предупреждения",
         "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
@@ -1354,7 +1354,7 @@
       "Height": "Высота",
       "Width": "Ширина",
       "Text": "Текст",
-      "TextColor": "Цвет текста",
+      "TextColor": "Мәтіннің түсі",
       "TextSize": "Размер текста",
       "TextSizes": {
         "Header": "Тақырып",
@@ -1502,7 +1502,7 @@
     "RoleUpdatedColor": "{role} рөлінің түсі",
     "RoleUpdatedPermissions": "разрешения роли {role}",
     "RoleName": "Рөлдің атауы",
-    "RoleColor": "Рөл түсі",
+    "RoleColor": "Рөлдің түсі",
     "RolePosition": "Рөл позициясы",
     "StickerCreated": "Стикер қосылды",
     "StickerCreatedTemplate": "{username} добавляет стикер {sticker}",
