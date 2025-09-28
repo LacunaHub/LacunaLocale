@@ -717,16 +717,16 @@
           "Description": "Пайдаланушыға марапат тағайындау",
           "Options": {
             "User": {
-              "Description": "Кому необходимо назначить награду"
+              "Description": "Марапатты кімге тағайындау қажет"
             },
             "Award": {
-              "Description": "Выберите из списка или введите идентификатор награды"
+              "Description": "Тізімнен марапатты таңдаңыз немесе оның идентификаторын теріңіз"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите назначить награду",
-            "UnknownAward": "{username}, не удалось найти награду",
-            "AwardHasBeenAssigned": "{username}, награда успешно назначена"
+            "InvalidUser": "{username}, марапатты тағайындағыңыз келетін пайдаланушыны көрсетіңіз",
+            "UnknownAward": "{username}, марапат табылмады",
+            "AwardHasBeenAssigned": "{username}, марапат сәтті тағайындалды"
           }
         },
         "SetWalletBalanceCommand": {
@@ -1003,7 +1003,7 @@
         "LevelsResetOnLeave": "Сбрасывать уровень при выходе участника",
         "LevelsAlerts": "Оповещения о повышении уровня",
         "LevelsAwards": "Марапаттар",
-        "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
+        "LevelsAwardsDescription": "Белгілі деңгейлерге жеткендері үшін марапаттар беру",
         "Economy": "Экономика",
         "EconomyResetOnLeave": "Қатысушы серверден шыққан кезде әмиянды нөлге түсіру",
         "EconomyCurrencies": "Валюталар",
@@ -1089,11 +1089,11 @@
       "ItemDuration": "Длительность предмета"
     },
     "LevelAward": {
-      "AwardConditions": "Условия для получения награды",
-      "RequiredLevel": "Необходимый уровень",
-      "RequiredVoiceTime": "Необходимое голосовое время",
-      "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
-      "AwardMessage": "Сообщение при получении награды"
+      "AwardConditions": "Марапатты алу шарттары",
+      "RequiredLevel": "Қажетті деңгей",
+      "RequiredVoiceTime": "Қажетті дауыс уақыты",
+      "RequiredNumberOfSentMessages": "Жіберілген хабарламалардың қажетті саны",
+      "AwardMessage": "Марапатты алған кездегі хабарлама"
     },
     "ActivityMultipliers": {
       "LevelMultipliers": "Множители опыта",
@@ -1225,7 +1225,7 @@
         "PlaybackSeek": "Перемотка воспроизведения трека",
         "EarnCurrenciesInVoiceChannels": "Дауыстық арналарда валюталар табу",
         "VoiceExpMembersNumber": "Дауыстық арналарда бір мезгілде отырған, дауыстық белсенділігі үшін тәжірибе берілетін қатысушылар саны",
-        "LevelAwardsNumber": "Количество наград за уровни",
+        "LevelAwardsNumber": "Деңгейлер үшін марапаттардың саны",
         "StoreItemsNumber": "Количество предметов в магазине",
         "ActivityMultipliersNumber": "Количество множителей опыта и заработка",
         "SocialPlatformNumber": "Количество {socialPlatform} подписок",
