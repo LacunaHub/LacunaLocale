@@ -714,7 +714,7 @@
       "Description": "Белсенділікті басқару",
       "SubCommands": {
         "AssignLevelAwardCommand": {
-          "Description": "Назначить награду пользователю",
+          "Description": "Пайдаланушыға марапат тағайындау",
           "Options": {
             "User": {
               "Description": "Кому необходимо назначить награду"
@@ -1212,8 +1212,8 @@
         "InteractiveMessagesNumber": "Интерактивті хабарламалар саны",
         "InteractiveReactionsNumber": "Интерактивті реакциялар саны",
         "TempVoiceChannelsNumber": "Уақытша дауыстық арналарының саны",
-        "VoiceRolesNumber": "Количество голосовых ролей",
-        "AutoThreadsNumber": "Количество автоветок",
+        "VoiceRolesNumber": "Дауыстық рөлдер саны",
+        "AutoThreadsNumber": "Автотармақтар саны",
         "AutoReactionsNumber": "Автореакциялар саны",
         "ImageRotationInterval": "Интервал ротации изображений",
         "ActionLogEventsProcessedPerMinuteNumber": "Количество обрабатываемых событий журнала действий в минуту",
