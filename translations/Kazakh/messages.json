@@ -171,7 +171,7 @@
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
-    "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
+    "CommandExecutionOnlyWithPremium": "{username}, бұл пәрменді тек Lacuna Diamond-пен орындауға болады",
     "CommandExecutionDisabled": "{username}, бұл пәрмен сервер баптауларында өшірулі",
     "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
     "AboutCommand": {
@@ -892,7 +892,7 @@
     },
     "DiamondPage": {
       "Title": "(Максимум) мүмкіндіктер, (минимум) шектеулер",
-      "OurPatrons": "Наши покровители"
+      "OurPatrons": "Біздің демеушілеріміз"
     },
     "ErrorPage": {
       "ThereIsNothingHere": "Здесь ничего нет..."
@@ -915,7 +915,7 @@
         "ChangeLog": "Өзгерістер журналы",
         "DownloadLogs": "Логтарды жүктеу"
       },
-      "SomethingWentWrongWhenTryingToSave": "Что-то пошло не так при попытке сохранения. Пожалуйста, попробуйте немного позже.",
+      "SomethingWentWrongWhenTryingToSave": "Сақтау кезінде қате кетті. Кейінірек қайталап көруіңізді өтінеміз.",
       "UnsavedChangesArePresent": "Сақталмаған өзгертулер бар! Бұл беттен шынымен шыққыңыз келе ме?",
       "GeneralSettings": {
         "Title": "Жалпы баптаулар",
@@ -1274,7 +1274,7 @@
       "ThrottlingTimeout": "Қайта қолдану уақыты"
     },
     "UserSurvey": {
-      "ItWouldHelpUs": "Мы будем рады, если вы потратите 10 секунд своего времени, чтобы оценить ваш опыт работы с нами.",
+      "ItWouldHelpUs": "Біздің қызметімізді пайдалану тәжірибеңізді бағалауға 10 секунд уақытыңызды бөлсеңіз, қуанышты боламыз.",
       "HowSatisfied": "Ботқа қаншалықты көңіліңіз толады?",
       "HowManyMembers": "Сколько пользователей на вашем сервере?",
       "TellUsMore": "Өзіңіздің пайдалану тәжірибеңіз туралы көбірек айтып берсеңіз",
