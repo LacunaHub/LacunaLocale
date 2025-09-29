@@ -1009,7 +1009,7 @@
         "EconomyCurrencies": "Валюталар",
         "EconomyStoreItems": "Предметы магазина",
         "EconomyTransferPermissions": "Аударым пәрменінің рұқсаттары",
-        "Multipliers": "Множители опыта и заработка",
+        "Multipliers": "Тәжірибе мен табыс көбейткіштері",
         "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
@@ -1096,7 +1096,7 @@
       "AwardMessage": "Марапатты алған кездегі хабарлама"
     },
     "ActivityMultipliers": {
-      "LevelMultipliers": "Множители опыта",
+      "LevelMultipliers": "Тәжірибе көбейткіштері",
       "EconomyMultipliers": "Множители заработка",
       "ForTextActivity": "Мәтіндік белсенділік үшін",
       "ForVoiceActivity": "Дауыстық белсенділік үшін"
@@ -1227,7 +1227,7 @@
         "VoiceExpMembersNumber": "Дауыстық арналарда бір мезгілде отырған, дауыстық белсенділігі үшін тәжірибе берілетін қатысушылар саны",
         "LevelAwardsNumber": "Деңгейлер үшін марапаттардың саны",
         "StoreItemsNumber": "Количество предметов в магазине",
-        "ActivityMultipliersNumber": "Количество множителей опыта и заработка",
+        "ActivityMultipliersNumber": "Тәжірибе мен табыс көбейткіштерінің саны",
         "SocialPlatformNumber": "Количество {socialPlatform} подписок",
         "PrioritySupport": "Приоритетная поддержка",
         "ImageEditorElementsNumber": "Количество элементов в редакторе изображения"
@@ -1277,7 +1277,7 @@
       "ItWouldHelpUs": "Мы будем рады, если вы потратите 10 секунд своего времени, чтобы оценить ваш опыт работы с нами.",
       "HowSatisfied": "Ботқа қаншалықты көңіліңіз толады?",
       "HowManyMembers": "Сколько пользователей на вашем сервере?",
-      "TellUsMore": "Расскажите нам больше о своем опыте использования",
+      "TellUsMore": "Өзіңіздің пайдалану тәжірибеңіз туралы көбірек айтып берсеңіз",
       "SurveySubmitted": "Спасибо! Вы помогаете нам стать лучше."
     },
     "AutoReaction": {
