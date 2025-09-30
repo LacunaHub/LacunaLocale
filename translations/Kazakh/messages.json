@@ -185,7 +185,7 @@
         "Latency": "Кідіріс",
         "TotalGuilds": "Қауымдастықтар саны",
         "TotalUsers": "Пайдаланушылар саны",
-        "OSUptime": "Время работы системы"
+        "OSUptime": "Жүйенің жұмыс уақыты"
       }
     },
     "HelpCommand": {
@@ -205,23 +205,23 @@
         "CommandArgumentRequired": "Міндетті аргумент",
         "CommandArgumentOptional": "Міндетті емес аргумент",
         "CommandArgumentType": "Аргумент түрі: {type}",
-        "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
+        "CommandRequiredPermissions": "Команданы орындау үшін қажетті рұқсаттар",
         "CommandPermissionsForBot": "Ботқа арналған",
         "CommandPermissionsForAuthor": "Пәрменнің авторына арналған"
       }
     },
     "LeadersCommand": {
-      "Description": "Таблица лидеров сервера по активности",
+      "Description": "Белсенділік бойынша сервер көшбасшыларының кестесі",
       "Options": {
         "Sorting": {
-          "Description": "Сортировка таблицы лидеров по выбранному типу активности",
+          "Description": "Көшбасшылар тақтасын таңдалған әрекет түрі бойынша сұрыптау",
           "ChoiceLevel": "деңгей бойынша",
-          "ChoiceBalance": "по балансу",
-          "ChoiceMessageCount": "по количеству сообщений",
+          "ChoiceBalance": "балансы бойынша",
+          "ChoiceMessageCount": "хабарлар саны бойынша",
           "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
-          "Description": "Номер страницы таблицы лидеров"
+          "Description": "Көшбасшылар тақтасының бет нөмірі"
         },
         "Order": {
           "ChoiceAsc": "өсу ретімен",
@@ -229,11 +229,11 @@
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
-        "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
-        "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
+        "LevelsIsDisabled": "{username}, деңгейлер осы серверде өшірілген",
+        "EconomyIsDisabled": "{username}, экономика осы серверде өшірілген",
+        "NoLevelsYet": "{username}, бұл серверде әлі ешкім деңгей алған жоқ",
         "NoWalletsYet": "{username}, бұл серверде әлі әмияндар жоқ",
-        "ServerLeadersBy": "Лидеры сервера {sortBy}",
+        "ServerLeadersBy": "Сервер көшбасшылары {sortBy}",
         "CurrentLevel": "{level} деңгей"
       }
     },
@@ -254,7 +254,7 @@
       "Description": "Ағымдағы сервер туралы ақпарат",
       "Texts": {
         "GuildOwner": "Сервер иесі",
-        "GuildId": "Идентификатор сообщества",
+        "GuildId": "Қауымдастық идентификаторы",
         "MemberCount": "Қатысушылар саны",
         "ChannelCount": "Арналар саны",
         "RoleCount": "Рөлдер саны",
@@ -267,8 +267,8 @@
           "High": "Жоғары",
           "VeryHigh": "Өте жоғары"
         },
-        "GuildAFKChannel": "Канал простоя",
-        "GuildDateOfCreation": "Сервер создан {relativeTime}"
+        "GuildAFKChannel": "Күту арнасы",
+        "GuildDateOfCreation": "Сервер құрылды {relativeTime}"
       }
     },
     "StoreCommand": {
