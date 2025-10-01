@@ -464,7 +464,7 @@
         "InvalidReason": "{username}, шағымның себебін дұрыс көрсетіңіз",
         "ReasonPlaceholder": "Шағымыңыздың мәнін сипаттап, қосымша ақпаратпен толықтырыңыз",
         "YouRecentlyReportedThisUser": "{username}, Сіз жақында осы пайдаланушыға шағым жібергенсіз",
-        "YouHaveToManySubmittedReports": "{username}, Сіз шағымдардың тәуліктік лимитіне жеттіңіз",
+        "YouHaveToManySubmittedReports": "{username}, сіз шағым жіберудің күндік шегіне жеттіңіз",
         "ReportSubmitted": "{username}, бізге хабарлағаныңызға рахмет",
         "PotentiallyUnwantedUser": "Түскен шағымдарға орай потенциалды қалаусыз пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
@@ -1108,7 +1108,7 @@
         "InteractionSelectMenu": "Тізімнен нұсқаны таңдау",
         "InteractionModalSubmit": "Отправка формы модального окна",
         "MessageCreate": "Хабарлама жіберу",
-        "MessageReactionAdd": "Хабарламаға реакциялар қосу"
+        "MessageReactionAdd": "Хабарламаға реакция қосу"
       }
     },
     "AutoMod": {
@@ -1259,7 +1259,7 @@
       "TelegramHelpNote": "Для того, чтобы связать Telegram и Discord, необходимо добавить бота {botLink} в нужный канал, затем ввести его название или идентификатор в поле ниже.",
       "TelegramChannelNameDescription": "Уникальный идентификатор или имя выбранного канала (в формате {'@'}channelusername)",
       "MentionRoles": "Рөлдерді атап өту",
-      "CrosspostMessage": "Хабарлама жариялау",
+      "CrosspostMessage": "Хабарламаны жариялау",
       "CreateThread": "Создать ветвь"
     },
     "SystemCommand": {
@@ -1480,7 +1480,7 @@
     "InvitedDeleted": "Шақыру жойылды",
     "InviteCode": "Шақыру коды",
     "InviteInviter": "Шақырушы",
-    "MessageCreated": "Сообщение отправлено",
+    "MessageCreated": "Хабарлама жіберілді",
     "MessageDeleted": "Хабарлама жойылды",
     "MessageDeletedBulk": "Хабарламаларды жаппай жою",
     "MessageReactionAdded": "Реакция қосылды",
@@ -1553,7 +1553,7 @@
       "SendMessage": "Хабарлама жіберу",
       "DeleteMessage": "Хабарламаны жою",
       "ResetViolations": "Ескертулерді нөлдеу",
-      "EphemeralReply": "Эфемерлі хабарлама",
+      "EphemeralReply": "Эфемерлік хабарлама",
       "OverwriteChannelPermissions": "Переопределить права канала",
       "RestrictRoles": "Рөлдерді шектеу"
     },
