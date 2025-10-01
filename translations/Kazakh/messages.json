@@ -962,10 +962,10 @@
         "AIModInfoChannel": "Информационный канал",
         "AIModInfoChannelDescription": "Таңдалған арнаға бұзушылықтар туралы ақпарат жіберіледі",
         "DAME": "Расширение для Discord AutoMod",
-        "DAMETriggerKeyword": "Сообщение содержит слова из заданного списка ключевых слов",
-        "DAMETriggerSpam": "Сообщение представляет собой обычный спам",
-        "DAMETriggerKeywordPreset": "Сообщение содержит слова из заранее определенного набора слов",
-        "DAMETriggerMentionSpam": "Сообщение содержит больше упоминаний, чем разрешено",
+        "DAMETriggerKeyword": "Хабарламада берілген кілт сөздер тізіміндегі сөздер бар",
+        "DAMETriggerSpam": "Хабарлама қарапайым спам болып табылады",
+        "DAMETriggerKeywordPreset": "Хабарламада алдын ала анықталған сөздер жиынтығы бар",
+        "DAMETriggerMentionSpam": "Хабарламада рұқсат етілген шектен асатын атап өтулер бар",
         "DAMETriggerMemberProfile": "Профиль пользователя содержит слова из заданного списка ключевых слов",
         "DAMEKeywordFilter": "Список слов и фраз",
         "DAMERegexPatterns": "Шаблоны регулярных выражений",
@@ -977,9 +977,9 @@
         "DAMEKeywordPresetsSlurs": "Оскорбления",
         "DAMEMentionSpamNumberOfUniqueMentions": "Количество уникальных упоминаний",
         "DAMEMentionSpamMentionRaidProtectionEnabled": "Включить защиту от рейдов через упоминания",
-        "DAMEBlockMessage": "Заблокировать сообщение",
-        "DAMEBlockMessageCustomMessage": "Пользовательское сообщение",
-        "DAMEBlockMessageCustomMessageDescription": "Сообщение будет отображено при блокировании сообщения от пользователя.",
+        "DAMEBlockMessage": "Хабарламаны бұғаттау",
+        "DAMEBlockMessageCustomMessage": "Пайдаланушыға арналған хабарлама",
+        "DAMEBlockMessageCustomMessageDescription": "Пайдаланушының хабарламасы бұғатталған кезде хабарлама көрсетіледі.",
         "DAMESendAlert": "Отправить оповещение",
         "DAMEBlockMemberInteractions": "Блокировать взаимодействия участника",
         "Mutes": "Дыбысы өшірілгендер",
@@ -1066,7 +1066,7 @@
     "EconomyCurrency": {
       "CurrencyName": "Валютаның атауы",
       "CurrencySymbol": "Валюта белгісі",
-      "IncomePerMessage": "Заработок за сообщение",
+      "IncomePerMessage": "Хабарлама үшін табыс",
       "IncomePerMessageRl": "Уақыт бойынша шектеу",
       "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
       "IncomePerMinute": "Заработок за минуту в голосовом канале",
@@ -1244,7 +1244,7 @@
       }
     },
     "CaseType": {
-      "CustomDMMessage": "Пользовательское личное сообщение"
+      "CustomDMMessage": "Пайдаланушыға арналған жеке хабарлама"
     },
     "WarningPenalty": {
       "WarningsPlural": "0 предупреждений | {n} предупреждение | {n} предупреждения | {n} предупреждений",
@@ -1396,8 +1396,8 @@
       }
     },
     "MessageEditor": {
-      "SendEmbedMessage": "Отправлять встроенное сообщение",
-      "EmbedMessage": "Встроенное сообщение",
+      "SendEmbedMessage": "Құрамдастырылған хабарлама жіберу",
+      "EmbedMessage": "Құрамдастырылған хабарлама",
       "AuthorName": "Автордың есімі",
       "AuthorIconURL": "Автордың аватары",
       "AuthorURL": "Автордың сілтемесі",
