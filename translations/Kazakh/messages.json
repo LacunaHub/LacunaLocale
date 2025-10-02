@@ -1343,8 +1343,8 @@
       "ReleaseNotes": "Өзгерістер тізімі"
     },
     "ImageEditor": {
-      "SendImage": "Отправлять изображение",
-      "ImageHeight": "Высота изображения",
+      "SendImage": "Суретті жіберу",
+      "ImageHeight": "Кескіннің биіктігі",
       "ImageWidth": "Ширина изображения",
       "ImageBackgroundColor": "Кескін фонының түсі",
       "ImageBackgroundURL": "Ссылка на фоновое изображение",
