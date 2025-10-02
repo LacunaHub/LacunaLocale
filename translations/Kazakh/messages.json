@@ -1027,7 +1027,7 @@
         "Reports": "Шағымдар",
         "ReportsNotifyAboutUnwantedUsers": "Потенциалды қалаусыз пайдаланушылардың қосылуы туралы хабарлау",
         "BannerRotation": "Ротация баннера",
-        "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
+        "ImageRotationNote": "Сурет келесі оқиғалар болғанда {relativeTime} ішінде жаңартылады:",
         "AutoReactions": "Автореакциялар",
         "AutoReactionsDescription": "Хабарламаға реакциялардың автоматты түрде қосылуы",
         "AutoThreads": "Авто-тармақтар",
@@ -1215,7 +1215,7 @@
         "VoiceRolesNumber": "Дауыстық рөлдер саны",
         "AutoThreadsNumber": "Автотармақтар саны",
         "AutoReactionsNumber": "Автореакциялар саны",
-        "ImageRotationInterval": "Интервал ротации изображений",
+        "ImageRotationInterval": "Суреттердің ауысып тұру интервалы",
         "ActionLogEventsProcessedPerMinuteNumber": "Количество обрабатываемых событий журнала действий в минуту",
         "PlaylistsPlayback": "Воспроизведение плейлистов",
         "AudioStreamingPlayback": "Воспроизведение потокового аудио",
@@ -1230,7 +1230,7 @@
         "ActivityMultipliersNumber": "Тәжірибе мен табыс көбейткіштерінің саны",
         "SocialPlatformNumber": "Количество {socialPlatform} подписок",
         "PrioritySupport": "Приоритетная поддержка",
-        "ImageEditorElementsNumber": "Количество элементов в редакторе изображения"
+        "ImageEditorElementsNumber": "Сурет редакторындағы элементтер саны"
       },
       "FAQ": {
         "Q1": "Подписка оплачена, но Diamond не активируется",
@@ -1344,12 +1344,12 @@
     },
     "ImageEditor": {
       "SendImage": "Суретті жіберу",
-      "ImageHeight": "Кескіннің биіктігі",
-      "ImageWidth": "Ширина изображения",
+      "ImageHeight": "Суреттің биіктігі",
+      "ImageWidth": "Суреттің ені",
       "ImageBackgroundColor": "Кескін фонының түсі",
-      "ImageBackgroundURL": "Ссылка на фоновое изображение",
-      "ImageElements": "Элементы изображения",
-      "AddSampleImageElements": "Добавить пример элементов изображения",
+      "ImageBackgroundURL": "Фондық суретке сілтеме",
+      "ImageElements": "Суреттің элементтері",
+      "AddSampleImageElements": "Сурет элементтерінің үлгісін қосу",
       "PositionCoordinate": "{XY} бойынша орналасуы",
       "Height": "Высота",
       "Width": "Ширина",
@@ -1383,8 +1383,8 @@
         "End": "По правому краю",
         "Start": "По левому краю"
       },
-      "Image": "Изображение",
-      "ImageURL": "Ссылка на изображение",
+      "Image": "Сурет",
+      "ImageURL": "Суретке сілтеме",
       "BorderRadius": "Радиус краёв",
       "BorderRadiuses": {
         "XS": "Очень маленький",
