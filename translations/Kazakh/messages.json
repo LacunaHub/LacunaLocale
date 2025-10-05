@@ -77,7 +77,7 @@
       "CreateGuildExpressions": "Эмодзи, стикерлер және дыбыс панелі дыбыстарын жасау",
       "CreateEvents": "Оқиғаларды құру",
       "UseExternalSounds": "Сыртқы дыбыс панелі дыбыстарын пайдалану",
-      "SendVoiceMessages": "Дауысхаттар жіберу"
+      "SendVoiceMessages": "Дауыстық хабарламалар жіберу"
     },
     "Pagination": "Бет {current} / {total}",
     "NextPage": "Келесі бет",
@@ -1016,9 +1016,9 @@
         "Music": "Музыка",
         "MusicAllowRadioPlayback": "Разрешить потоковое воспроизведение",
         "MusicQueueMaxLength": "Максимальный размер очереди",
-        "MusicDefaultVolume": "Громкость по умолчанию",
+        "MusicDefaultVolume": "Әдепкі дыбыс деңгейі",
         "MusicDefaultSource": "Источник по умолчанию",
-        "VoiceRoles": "Голосовые роли",
+        "VoiceRoles": "Дауыстық рөлдер",
         "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
         "AutoVoices": "Уақытша дауыстық арналар",
         "AutoVoicesDescription": "Автоматическое создание и удаление голосовых каналов"
