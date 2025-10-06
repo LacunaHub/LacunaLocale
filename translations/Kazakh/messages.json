@@ -1174,8 +1174,8 @@
         "Contains": "Қамтиды",
         "NotContains": "Қамтымайды"
       },
-      "CompareValuesLeftPart": "Сол жақ",
-      "CompareValuesRightPart": "Оң жақ",
+      "CompareValuesLeftPart": "Сол жақ бөлігі",
+      "CompareValuesRightPart": "Оң жақ бөлігі",
       "CompareValuesFalseReply": "Жалған жауап",
       "ModifyRolesUserId": "Идентификатор пользователя",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
