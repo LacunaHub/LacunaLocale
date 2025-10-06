@@ -1170,9 +1170,9 @@
         "GreaterThan": "Больше чем",
         "LessThan": "Меньше чем",
         "StartsWith": "-басталады",
-        "EndsWith": "-мен аяқталады",
-        "Contains": "Қамтиды",
-        "NotContains": "Қамтымайды"
+        "EndsWith": "-аяқталады",
+        "Contains": "Құрамында бар",
+        "NotContains": "Құрамында жоқ"
       },
       "CompareValuesLeftPart": "Сол жақ бөлігі",
       "CompareValuesRightPart": "Оң жақ бөлігі",
