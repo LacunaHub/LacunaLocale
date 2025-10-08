@@ -1398,7 +1398,7 @@
     "MessageEditor": {
       "SendEmbedMessage": "Құрамдастырылған хабарлама жіберу",
       "EmbedMessage": "Құрамдастырылған хабарлама",
-      "AuthorName": "Автордың есімі",
+      "AuthorName": "Автордың аты",
       "AuthorIconURL": "Автордың аватары",
       "AuthorURL": "Автордың сілтемесі",
       "Title": "Тақырып",
