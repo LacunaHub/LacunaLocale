@@ -101,7 +101,7 @@
       "Days": "Күндер"
     },
     "Permissions": "Рұқсаттар",
-    "Exceptions": "Айрықша жағдайлар",
+    "Exceptions": "Ерекшеліктер",
     "Components": "Компоненттер",
     "DiscordMessageTypes": {
       "Default": "Стандартты хабарлама",
@@ -804,7 +804,7 @@
               "Description": "Длительность розыгрыша"
             },
             "WinnerCount": {
-              "Description": "Сыйлықтар ойынында қанша жеңімпаз болады"
+              "Description": "Ұтыс ойынында қ��нша жеңімпаз болады"
             },
             "Sponsor": {
               "Description": "Кто проспонсировал этот розыгрыш"
