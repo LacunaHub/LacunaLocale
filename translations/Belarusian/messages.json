@@ -677,7 +677,7 @@
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, чарга прайгравання пустая",
         "SelectTrackToPlay": "Выберыце трэк, які хочаце прайграць",
-        "EmptyQueueStatus": "Ничего не воспроизводится"
+        "EmptyQueueStatus": "Нічога не прайграецца"
       }
     },
     "SeekCommand": {
@@ -1019,7 +1019,7 @@
         "MusicQueueMaxLength": "Максімальны памер чаргі",
         "MusicDefaultVolume": "Гучнасць па змаўчанні",
         "MusicDefaultSource": "Крыніца па змаўчанні",
-        "MusicSetVoiceStatus": "Показывать текущий трек в статусе голосового канала",
+        "MusicSetVoiceStatus": "Паказваць бягучы трэк у статусе галасавога канала",
         "VoiceRoles": "Галасавыя ролі",
         "VoiceRolesDescription": "Аўтаматычная выдача роляў пры далучэнні да галасавых каналаў",
         "AutoVoices": "Часовыя галасавыя каналы",
@@ -1396,8 +1396,8 @@
         "XL": "Вельмі вялікі",
         "Circle": "Акружнасць"
       },
-      "AllowedImageError": "Допустимы прямые ссылки ({hosts}) на изображения с расширениями: {extensions}",
-      "DiscordCdnWarning": "Ссылки на CDN Discord могут перестать работать по истечении срока действия."
+      "AllowedImageError": "Дазваляюцца прамыя спасылкі ({hosts}) на відарысы з пашырэннямі: {extensions}",
+      "DiscordCdnWarning": "Спасылкі на CDN Discord могуць перастаць працаваць па заканчэнні тэрміну дзеяння."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Адпраўляць убудаванае паведамленне",
