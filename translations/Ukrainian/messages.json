@@ -676,7 +676,8 @@
       "Description": "Поточна черга відтворення музики",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, черга відтворення порожня",
-        "SelectTrackToPlay": "Виберіть трек для відтворення"
+        "SelectTrackToPlay": "Виберіть трек для відтворення",
+        "EmptyQueueStatus": "Ничего не воспроизводится"
       }
     },
     "SeekCommand": {
@@ -1018,6 +1019,7 @@
         "MusicQueueMaxLength": "Максимальний розмір черги",
         "MusicDefaultVolume": "Гучність за умовчанням",
         "MusicDefaultSource": "Джерело за замовчуванням",
+        "MusicSetVoiceStatus": "Показывать текущий трек в статусе голосового канала",
         "VoiceRoles": "Голосові ролі",
         "VoiceRolesDescription": "Автоматичне отримання ролей під час підключення до голосових каналів",
         "AutoVoices": "Тимчасові голосові канали",
@@ -1393,7 +1395,9 @@
         "LG": "Великий",
         "XL": "Дуже великий",
         "Circle": "Коло"
-      }
+      },
+      "AllowedImageError": "Допустимы прямые ссылки ({hosts}) на изображения с расширениями: {extensions}",
+      "DiscordCdnWarning": "Ссылки на CDN Discord могут перестать работать по истечении срока действия."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Надсилати вбудоване повідомлення",
