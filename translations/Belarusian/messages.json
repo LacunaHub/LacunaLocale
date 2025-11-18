@@ -676,7 +676,8 @@
       "Description": "Бягучая чарга прайгравання музыкі",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, чарга прайгравання пустая",
-        "SelectTrackToPlay": "Выберыце трэк, які хочаце прайграць"
+        "SelectTrackToPlay": "Выберыце трэк, які хочаце прайграць",
+        "EmptyQueueStatus": "Нічога не прайграецца"
       }
     },
     "SeekCommand": {
@@ -1018,6 +1019,7 @@
         "MusicQueueMaxLength": "Максімальны памер чаргі",
         "MusicDefaultVolume": "Гучнасць па змаўчанні",
         "MusicDefaultSource": "Крыніца па змаўчанні",
+        "MusicSetVoiceStatus": "Паказваць бягучы трэк у статусе галасавога канала",
         "VoiceRoles": "Галасавыя ролі",
         "VoiceRolesDescription": "Аўтаматычная выдача роляў пры далучэнні да галасавых каналаў",
         "AutoVoices": "Часовыя галасавыя каналы",
@@ -1191,7 +1193,7 @@
     },
     "LacunaDiamond": {
       "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
-      "UnlimitedSubscription": "Сервер имеет неограниченные по времени бонусы",
+      "UnlimitedSubscription": "Сервер мае бестэрміновы Lacuna Diamond",
       "BonusMusicDescription": "Неабмежаваная колькасць трэкаў у чарзе, праслухоўванне спісаў прайгравання, патокавае аўдыё і змяненне гучнасці.",
       "BonusIncreasedLimitsDescription": "Больш узнагарод узроўняў, прадметаў крамы, падпісак, аўтаматызацый, інтэрактыўных паведамленняў, галасавых роляў, часовых галасавых каналаў і іншае.",
       "BonusCustomBehaviorWithCodeDescription": "Магчымасць выконваць код JavaScript у карыстальніцкіх камандах і задачах аўтаматызацыі.",
@@ -1393,7 +1395,9 @@
         "LG": "Вялікі",
         "XL": "Вельмі вялікі",
         "Circle": "Акружнасць"
-      }
+      },
+      "AllowedImageError": "Дазваляюцца прамыя спасылкі ({hosts}) на відарысы з пашырэннямі: {extensions}",
+      "DiscordCdnWarning": "Спасылкі на CDN Discord могуць перастаць працаваць па заканчэнні тэрміну дзеяння."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Адпраўляць убудаванае паведамленне",

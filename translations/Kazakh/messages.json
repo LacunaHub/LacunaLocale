@@ -21,63 +21,63 @@
     "Name": "Атауы",
     "Description": "Сипаттама",
     "Identifier": "Идентификатор",
-    "Date": "Мерзім",
+    "Date": "Күн",
     "Other": "Басқа",
     "Indefinitely": "Мерзімсіз",
     "CopiedToClipboard": "Алмасу буферіне көшірілді",
-    "TryAgain": "Тағы бір рет жасап көру",
+    "TryAgain": "Қайтадан көру",
     "SupportServer": "Қолдау сервері",
-    "RemindLater": "Кейінірек ескерту",
+    "RemindLater": "Кейінірек еске салу",
     "SelectFile": "Файлды таңдаңыз",
     "DiscordPermissions": {
       "CreateInstantInvite": "Шақыру құру",
-      "KickMembers": "Қатысушыларды қуып шығу",
+      "KickMembers": "Қатысушыларды қуып шығару",
       "BanMembers": "Қатысушыларды бұғаттау",
       "Administrator": "Әкімші",
       "ManageChannels": "Арналарды басқару",
       "ManageGuild": "Серверді басқару",
       "AddReactions": "Реакциялар қосу",
       "ViewAuditLog": "Аудит журналын қарау",
-      "PrioritySpeaker": "Әңгіменің басымдығы",
+      "PrioritySpeaker": "Басым дауыс",
       "Stream": "Стрим жүргізу",
-      "ViewChannel": "Арнаны қарау",
-      "SendMessages": "Хабарлама жіберу",
+      "ViewChannel": "Арнаны көру",
+      "SendMessages": "Хабарламалар жіберу",
       "SendTTSMessages": "TTS-хабарламаларды жіберу",
       "ManageMessages": "Хабарламаларды басқару",
-      "EmbedLinks": "Сілтемелерді ендіру",
-      "AttachFiles": "Файлдарды бекіту",
+      "EmbedLinks": "Сілтемелерді енгізу",
+      "AttachFiles": "Файлдарды тіркеу",
       "ReadMessageHistory": "Хабарламалар тарихын оқу",
-      "MentionEveryone": "Барлығын атап шығу",
-      "UseExternalEmojis": "Хабарламаларды басқару",
+      "MentionEveryone": "Барлығын атап өту",
+      "UseExternalEmojis": "Сыртқы эмодзилерді пайдалану",
       "ViewGuildInsights": "Сервер аналитикасын қарау",
       "Connect": "Қосылу",
       "Speak": "Сөйлеу",
-      "MuteMembers": "Қатысушылардың дыбысын өшіру",
+      "MuteMembers": "Қатысушылардың дауысын өшіру",
       "DeafenMembers": "Қатысушылардың дыбысын өшіру",
-      "MoveMembers": "Қатысушылардың орнын ауыстыру",
+      "MoveMembers": "Қатысушыларды көшіру",
       "UseVAD": "Дауыс бойынша белсенділік режимін пайдалану",
       "ChangeNickname": "Никнеймді өзгерту",
       "ManageNicknames": "Никнеймдерді басқару",
       "ManageRoles": "Рөлдерді басқару",
       "ManageWebhooks": "Веб-түймелерді басқару",
-      "ManageEmojisAndStickers": "Эмодзи және стикерлерді басқару",
-      "ManageGuildExpressions": "Эмодзи, стикерлер және дыбыс панелінің дыбыстарын басқару",
-      "UseApplicationCommands": "Қолданба командаларын пайдалану",
+      "ManageEmojisAndStickers": "Эмодзи мен стикерлерді басқару",
+      "ManageGuildExpressions": "Эмодзи, стикерлер мен дыбыс панелін басқару",
+      "UseApplicationCommands": "Қолданба пәрмендерін пайдалану",
       "RequestToSpeak": "Әңгімеге сұратым",
-      "ManageEvents": "Оқиғаларды басқару",
-      "ManageThreads": "Бөлімдерді басқару",
-      "CreatePublicThreads": "Жалпыға ашық бөлімдер жасау",
-      "CreatePrivateThreads": "Жеке бөлімдер жасау",
-      "UseExternalStickers": "Сыртқы стикерлерді қолдану",
-      "SendMessagesInThreads": "Тармақтарда хабарламалар жіберу",
+      "ManageEvents": "Іс-шараларды басқару",
+      "ManageThreads": "Тармақтарды басқару",
+      "CreatePublicThreads": "Қоғамдық тармақтарды құру",
+      "CreatePrivateThreads": "Жеке талқылау тармақтарын құру",
+      "UseExternalStickers": "Сыртқы стикерлерді пайдалану",
+      "SendMessagesInThreads": "Тармақтарға хабарлама жіберу",
       "UseEmbeddedActivities": "Енгізілген белсенділікті бастау",
-      "ModerateMembers": "Қатысушыларды модерациялау",
-      "ViewCreatorMonetizationAnalytics": "Просмотр аналитики монетизации",
-      "UseSoundboard": "Использовать звуковую панель",
-      "CreateGuildExpressions": "Создавать эмодзи, стикеры и звуки звуковой панели",
+      "ModerateMembers": "Қатысушыларды басқару",
+      "ViewCreatorMonetizationAnalytics": "Монетизация аналитикасын көру",
+      "UseSoundboard": "Дыбыс панелін пайдалану",
+      "CreateGuildExpressions": "Эмодзи, стикерлер және дыбыс панелі дыбыстарын жасау",
       "CreateEvents": "Оқиғаларды құру",
-      "UseExternalSounds": "Использовать внешние звуки звуковой панели",
-      "SendVoiceMessages": "Дауысхаттар жіберу"
+      "UseExternalSounds": "Сыртқы дыбыс панелі дыбыстарын пайдалану",
+      "SendVoiceMessages": "Дауыстық хабарламалар жіберу"
     },
     "Pagination": "Бет {current} / {total}",
     "NextPage": "Келесі бет",
@@ -87,10 +87,10 @@
     "Reactions": "Реакциялар",
     "AddRoles": "Рөлдерді қосу",
     "RemoveRoles": "Рөлдерді алып тастау",
-    "AllowedChannels": "Разрешенные каналы",
-    "AllowedRoles": "Разрешенные роли",
-    "BlockedChannels": "Запрещенные каналы",
-    "BlockedRoles": "Запрещенные роли",
+    "AllowedChannels": "Рұқсат етілген арналар",
+    "AllowedRoles": "Рұқсат етілген рөлдер",
+    "BlockedChannels": "Бұғатталған арналар",
+    "BlockedRoles": "Тыйым салынған рөлдер",
     "IgnoredChannels": "Еленбейтін арналар",
     "IgnoredRoles": "Еленбейтін рөлдер",
     "IgnoredPermissions": "Еленбейтін рұқсаттар",
@@ -101,160 +101,160 @@
       "Days": "Күндер"
     },
     "Permissions": "Рұқсаттар",
-    "Exceptions": "Ерекше жағдайлар",
+    "Exceptions": "Айрықша жағдайлар",
     "Components": "Компоненттер",
     "DiscordMessageTypes": {
       "Default": "Стандартты хабарлама",
       "ChannelPinnedMessage": "Хабарлама бекітілді",
       "GuildMemberJoin": "Қатысушы қосылды",
-      "UserPremiumGuildSubscription": "Серверді жақсарту",
-      "UserPremiumGuildSubscriptionTier1": "Буст сервера: 1 уровень",
-      "UserPremiumGuildSubscriptionTier2": "Буст сервера: 2 уровень",
-      "UserPremiumGuildSubscriptionTier3": "Буст сервера: 3 уровень",
+      "UserPremiumGuildSubscription": "Серверді күшейту",
+      "UserPremiumGuildSubscriptionTier1": "Сервер бусты: 1-деңгей",
+      "UserPremiumGuildSubscriptionTier2": "Сервер бусты: 2-деңгей",
+      "UserPremiumGuildSubscriptionTier3": "Сервер бусты: 3-деңгей",
       "ChannelFollowAdd": "Арнаға жазылу",
-      "ThreadCreated": "Ветка создана",
+      "ThreadCreated": "Тармақ құрылды",
       "Reply": "Хабарламаға жауап"
     },
     "DiscordButtonStyles": {
-      "Primary": "Алғашқы",
-      "Secondary": "Екінші ретті",
-      "Success": "Жетістік",
+      "Primary": "Негізгі",
+      "Secondary": "Екінші деңгейлі",
+      "Success": "Сәтті",
       "Danger": "Қауіп",
       "Link": "Сілтеме"
     }
   },
   "Commands": {
     "Categories": {
-      "General": "Ортақ командалар",
-      "Moderation": "Модерация командалары",
+      "General": "Жалпы пәрмендер",
+      "Moderation": "Модерация пәрмендері",
       "Music": "Музыканы басқару",
-      "Useful": "Пайдалы командалар",
-      "Custom": "Пайдаланушы командалары"
+      "Useful": "Пайдалы пәрмендер",
+      "Custom": "Пайдаланушы пәрмендері"
     },
     "Options": {
       "Command": "пәрмен",
       "Sorting": "сұрыптау",
-      "Page": "парақ/ша",
+      "Page": "бет",
       "User": "пайдаланушы",
-      "SKU": "жеткізуші коды",
+      "SKU": "cақтау бірлігі коды",
       "Currency": "валюта",
       "Duration": "ұзақтық",
       "Reason": "себеп",
       "Amount": "сан",
       "MessageId": "хабарлама-идентификаторы",
-      "UserId": "пайдаланушының-сәйкестендіргіші",
+      "UserId": "пайдаланушы-сәйкестендіргіші",
       "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
-      "Source": "дереккөз",
-      "Volume": "дыбыс деңгейі/көлемі",
+      "Source": "дерек көзі",
+      "Volume": "дыбыс деңгейі",
       "Prize": "жүлде",
-      "WinnerCount": "жеңімпаздар саны",
+      "WinnerCount": "жеңімпаздар-саны",
       "Sponsor": "демеуші",
       "Role": "рөл",
       "Time": "уақыт",
       "Award": "марапат",
       "Operation": "операция",
-      "ResetAll": "қалпына келтіру-барлығы"
+      "ResetAll": "қалпына келтіру-барлығын"
     },
     "OptionTypes": {
-      "SubCommand": "Ішкі команда",
-      "SubCommandGroup": "Кіші командалар тобы",
+      "SubCommand": "Ішкі пәрмен",
+      "SubCommandGroup": "Ішкі пәрмендер тобы",
       "String": "Жолдық",
       "Integer": "Бүтін сан",
       "Boolean": "Логикалық",
       "User": "Пайдаланушы",
       "Channel": "Арна",
       "Role": "Рөл",
-      "Mentionable": "Аталған",
+      "Mentionable": "Атап өтілетін",
       "Number": "Сандық",
-      "Attachment": "Тіркеме файл"
+      "Attachment": "Тіркеме"
     },
-    "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
-    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
-    "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
-    "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
-    "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
+    "MissingRequiredPermissionsToExecuteCommand": "{username}, бұл команданы орындау үшін келесі рұқсаттар қажет: {permissions}",
+    "CommandExecutionDenied": "{username}, бұл команданы орындауға құқықтарыңыз жеткіліксіз",
+    "CommandExecutionOnlyWithPremium": "{username}, бұл пәрменді тек Lacuna Diamond-пен орындауға болады",
+    "CommandExecutionDisabled": "{username}, бұл пәрмен сервер баптауларында өшірулі",
+    "CommandThrottling": "{username}, бұл команданы орындау жиілігі шектелген; {time} кейін қайта көріңіз",
     "AboutCommand": {
-      "Description": "Базовая информация о боте",
+      "Description": "Бот туралы негізгі ақпарат",
       "Texts": {
         "Developer": "Әзірлеуші",
         "CurrentVersion": "Ағымдағы нұсқа",
-        "Shard": "Үзінді",
-        "ShardCount": "Фрагменттер саны",
-        "ShardUptime": "Фрагменттің жұмыс істеу уақыты",
+        "Shard": "Шард",
+        "ShardCount": "Шард саны",
+        "ShardUptime": "Фрагменттің жұмыс уақыты",
         "Latency": "Кідіріс",
-        "TotalGuilds": "Қауымдастық саны",
+        "TotalGuilds": "Қауымдастықтар саны",
         "TotalUsers": "Пайдаланушылар саны",
-        "OSUptime": "Время работы системы"
+        "OSUptime": "Жүйенің жұмыс уақыты"
       }
     },
     "HelpCommand": {
-      "Description": "Список доступных команд и их описание",
+      "Description": "Қолжетімді пәрмендердің тізімі және олардың сипаттамасы",
       "Options": {
         "Command": {
-          "Description": "Дополнительная информация об указанной команде"
+          "Description": "Көрсетілген пәрмен туралы қосымша ақпарат"
         }
       },
       "Texts": {
         "ListOfCommands": "Пәрмендер тізімі",
-        "HelpForCommand": "Справка по команде {command}",
+        "HelpForCommand": "{command} пәрмені бойынша анықтама",
         "ControlPanel": "Басқару панелi",
-        "UnknownCommand": "{username}, команда не найдена",
-        "CommandUsage": "Команданы қолдану",
-        "CommandArguments": "Аргументы команды",
+        "UnknownCommand": "{username}, пәрмен табылмады",
+        "CommandUsage": "Пәрменді пайдалану",
+        "CommandArguments": "Пәрмен аргументтері",
         "CommandArgumentRequired": "Міндетті аргумент",
-        "CommandArgumentOptional": "Міндетті емес дәлел",
-        "CommandArgumentType": "Аргумент типі: {type}",
-        "CommandRequiredPermissions": "Необходимые разрешения для выполнения команды",
+        "CommandArgumentOptional": "Міндетті емес аргумент",
+        "CommandArgumentType": "Аргумент түрі: {type}",
+        "CommandRequiredPermissions": "Команданы орындау үшін қажетті рұқсаттар",
         "CommandPermissionsForBot": "Ботқа арналған",
-        "CommandPermissionsForAuthor": "Пәрменнің авторы үшін"
+        "CommandPermissionsForAuthor": "Пәрменнің авторына арналған"
       }
     },
     "LeadersCommand": {
-      "Description": "Таблица лидеров сервера по активности",
+      "Description": "Белсенділік бойынша сервер көшбасшыларының кестесі",
       "Options": {
         "Sorting": {
-          "Description": "Сортировка таблицы лидеров по выбранному типу активности",
-          "ChoiceLevel": "деңгейі бойынша",
-          "ChoiceBalance": "по балансу",
-          "ChoiceMessageCount": "по количеству сообщений",
+          "Description": "Көшбасшылар тақтасын таңдалған әрекет түрі бойынша сұрыптау",
+          "ChoiceLevel": "деңгей бойынша",
+          "ChoiceBalance": "балансы бойынша",
+          "ChoiceMessageCount": "хабарлар саны бойынша",
           "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
-          "Description": "Номер страницы таблицы лидеров"
+          "Description": "Көшбасшылар тақтасының бет нөмірі"
         },
         "Order": {
-          "ChoiceAsc": "өсу бойынша",
-          "ChoiceDesc": "кему бойынша"
+          "ChoiceAsc": "өсу ретімен",
+          "ChoiceDesc": "кему ретімен"
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, уровни отключены на этом сервере",
-        "EconomyIsDisabled": "{username}, экономика отключена на этом сервере",
-        "NoLevelsYet": "{username}, на этом сервере еще никто не получал уровень",
-        "NoWalletsYet": "{username}, на этом сервере еще нет кошельков",
-        "ServerLeadersBy": "Лидеры сервера {sortBy}",
-        "CurrentLevel": "Деңгей {level}"
+        "LevelsIsDisabled": "{username}, деңгейлер осы серверде өшірілген",
+        "EconomyIsDisabled": "{username}, экономика осы серверде өшірілген",
+        "NoLevelsYet": "{username}, бұл серверде әлі ешкім деңгей алған жоқ",
+        "NoWalletsYet": "{username}, бұл серверде әлі әмияндар жоқ",
+        "ServerLeadersBy": "Сервер көшбасшылары {sortBy}",
+        "CurrentLevel": "{level} деңгей"
       }
     },
     "RankCommand": {
       "Name": "Деңгейді көрсету",
-      "Description": "Деңгей картасы",
+      "Description": "Деңгейлік карта",
       "Options": {
         "User": {
           "Description": "Кімнің деңгей картасын көрсету керек"
         }
       },
       "Texts": {
-        "ImageRenderError": "{username}, произошла ошибка при создании уровневой карточки",
-        "LevelCardNotFound": "{username}, уровневая карточка не найдена"
+        "ImageRenderError": "{username}, деңгей картасын жасау барысында қате шықты",
+        "LevelCardNotFound": "{username}, деңгейлік карта табылмады"
       }
     },
     "ServerCommand": {
       "Description": "Ағымдағы сервер туралы ақпарат",
       "Texts": {
         "GuildOwner": "Сервер иесі",
-        "GuildId": "Идентификатор сообщества",
+        "GuildId": "Қауымдастық идентификаторы",
         "MemberCount": "Қатысушылар саны",
         "ChannelCount": "Арналар саны",
         "RoleCount": "Рөлдер саны",
@@ -267,8 +267,8 @@
           "High": "Жоғары",
           "VeryHigh": "Өте жоғары"
         },
-        "GuildAFKChannel": "Канал простоя",
-        "GuildDateOfCreation": "Сервер создан {relativeTime}"
+        "GuildAFKChannel": "Күту арнасы",
+        "GuildDateOfCreation": "Сервер құрылды {relativeTime}"
       }
     },
     "StoreCommand": {
@@ -311,21 +311,21 @@
       }
     },
     "UserCommand": {
-      "Description": "Информация об аккаунте пользователя",
+      "Description": "Пайдаланушының есептік жазбасы туралы ақпарат",
       "Options": {
         "User": {
-          "Description": "Информация об аккаунте указанного пользователя"
+          "Description": "Көрсетілген пайдаланушының есептік жазбасы туралы ақпарат"
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Аккаунттың тікелу күні",
-        "DateOfJoiningServer": "Дата вступления на сервер",
+        "AccountRegistrationDate": "Аккаунттың тіркелген күні",
+        "DateOfJoiningServer": "Серверге қосылған күні",
         "LinkToAvatar": "Аватарға сілтеме",
         "LinkToBanner": "Баннерге сілтеме"
       }
     },
     "WalletCommand": {
-      "Description": "Әмиян операциялары",
+      "Description": "Әмиянды басқару",
       "SubCommands": {
         "BalanceCommand": {
           "Description": "Әмиян теңгерімін көрсету",
@@ -336,7 +336,7 @@
           },
           "Texts": {
             "WalletIsEmpty": "Әмиян бос",
-            "WalletBalanceOfUser": "Баланс пользователя {username}"
+            "WalletBalanceOfUser": "{username} пайдаланушысының әмиян теңгерімі"
           }
         },
         "TransferCommand": {
@@ -346,17 +346,17 @@
               "Description": "Қаражатты кімге аудару қажет"
             },
             "Amount": {
-              "Description": "Аударым сомасы"
+              "Description": "Аударылатын қаражат мөлшері"
             },
             "Currency": {
               "Description": "Аударым қандай валютада болады"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите сделать перевод",
-            "InvalidAmount": "{username}, пожалуйста, укажите сумму перевода",
-            "NoSuchAmountOfFunds": "{username}, у вас нет такой суммы перевода",
-            "SuccessfulFundsTransfer": "{username}, {amount} успешно переведено на счет {target}"
+            "InvalidUser": "{username}, аударым жасағыңыз келетін пайдаланушыны көрсетіңіз",
+            "InvalidAmount": "{username}, аударым сомасын көрсетіңіз",
+            "NoSuchAmountOfFunds": "{username}, сізде мұндай аударым сомасы жоқ",
+            "SuccessfulFundsTransfer": "{username}, {amount} {target} шотына сәтті аударылды"
           }
         }
       }
@@ -365,10 +365,10 @@
       "Description": "Пайдаланушыны серверде бұғаттау",
       "Options": {
         "User": {
-          "Description": "Кого необходимо заблокировать"
+          "Description": "Кімді бұғаттау қажет"
         },
         "Duration": {
-          "Description": "Бұғаттау ұзақтығы"
+          "Description": "Бұғаттаудың ұзақтығы"
         },
         "Reason": {
           "Description": "Бұғаттаудың себебі"
@@ -376,7 +376,7 @@
       },
       "Texts": {
         "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите заблокировать",
-        "YouCannotBanYourself": "{username}, не думаю, что я могу позволить вам заблокировать самого себя",
+        "YouCannotBanYourself": "{username}, мен Сізге өзіңізді бұғаттауға рұқсат бере аламын деп ойламаймын",
         "CannotBanThisUser": "{username}, невозможно заблокировать этого пользователя",
         "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
         "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
@@ -395,10 +395,10 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, которого хотите выгнать",
-        "YouCannotKickYourself": "{username}, не думаю, что я могу позволить вам выгнать самого себя",
-        "CannotKickThisUser": "{username}, невозможно выгнать этого пользователя",
-        "UserHasBeenKicked": "{username}, пользователь {target} был выгнан с сервера"
+        "InvalidUser": "{username}, қай пайдаланушыны қуып шыққыңыз келетінін көрсетіңіз",
+        "YouCannotKickYourself": "{username}, мен Сізге өзіңізді қуып шығаруға рұқсат бере аламын деп ойламаймын",
+        "CannotKickThisUser": "{username}, бұл пайдаланушыны қуып шығару мүмкін емес",
+        "UserHasBeenKicked": "{username}, {target} серверден қуып шығарылды"
       }
     },
     "MuteCommand": {
@@ -408,7 +408,7 @@
           "Description": "Кого необходимо заглушить"
         },
         "Duration": {
-          "Description": "Дыбыс өшірудің ұзақтығы"
+          "Description": "Дыбысты өшірудің ұзақтығы"
         },
         "Reason": {
           "Description": "Дыбысты өшірудің себебі"
@@ -416,7 +416,7 @@
       },
       "Texts": {
         "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите выдать заглушение",
-        "YouCannotMuteYourself": "{username}, не думаю, что я могу позволить вам заглушить самого себя",
+        "YouCannotMuteYourself": "{username}, мен Сізге өзіңіздің дыбысыңызды өшіруге рұқсат бере аламын деп ойламаймын",
         "CannotMuteThisUser": "{username}, невозможно заглушить этого пользователя",
         "ThisUserIsAlreadyMuted": "{username}, пользователь уже заглушён",
         "UserHasBeenMuted": "{username}, пользователю {target} было выдано заглушение"
@@ -449,65 +449,65 @@
     },
     "ReportCommand": {
       "Name": "Шағымдану",
-      "Description": "Пайдаланушының үстінен шағым түсіру",
+      "Description": "Пайдаланушыға шағым жасау",
       "Options": {
         "User": {
-          "Description": "Кімге шағым түсіру қажет"
+          "Description": "Шағым кімге жасалуы қажет"
         },
         "Reason": {
-          "Description": "Не туралы хабарлағыңыз келеді"
+          "Description": "Не жайлы хабарлағыңыз келеді"
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите пользователя, на которого хотите пожаловаться",
-        "UnknownUser": "{username}, пользователь не найден",
-        "InvalidReason": "{username}, пожалуйста, укажите причину жалобы правильно",
-        "ReasonPlaceholder": "Опишите суть вашей жалобы, укажите детали и дополнительную информацию",
-        "YouRecentlyReportedThisUser": "{username}, вы недавно уже отправили жалобу на этого пользователя",
-        "YouHaveToManySubmittedReports": "{username}, вы достигли дневного ограничения на количество жалоб",
-        "ReportSubmitted": "{username}, спасибо, что сообщили нам об этом",
-        "PotentiallyUnwantedUser": "Потенциально нежелательный пользователь из-за полученных жалоб",
+        "InvalidUser": "{username}, шағымданғыңыз келетін пайдаланушыны көрсетіңіз",
+        "UnknownUser": "{username}, пайдаланушы табылмады",
+        "InvalidReason": "{username}, шағымның себебін дұрыс көрсетіңіз",
+        "ReasonPlaceholder": "Шағымыңыздың мәнін сипаттап, қосымша ақпаратпен толықтырыңыз",
+        "YouRecentlyReportedThisUser": "{username}, Сіз жақында осы пайдаланушыға шағым жібергенсіз",
+        "YouHaveToManySubmittedReports": "{username}, сіз шағым жіберудің күндік шегіне жеттіңіз",
+        "ReportSubmitted": "{username}, бізге хабарлағаныңызға рахмет",
+        "PotentiallyUnwantedUser": "Түскен шағымдарға орай потенциалды қалаусыз пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
-        "ReportCount": "Количество жалоб",
-        "RecommendedActions": "Рекомендованные действия",
-        "ReceivedReportAboutUser": "Пайдаланушыға {username} туралы шағым түсті",
+        "ReportCount": "Шағымдар саны",
+        "RecommendedActions": "Ұсынылған әрекеттер",
+        "ReceivedReportAboutUser": "{username} пайдаланушыға қатысты шағым түсті",
         "ReportClosedBy": "{username} шағымды жапты",
         "ReportTypes": {
           "AggressionAndInsult": {
-            "Title": "Агрессия и оскорбления",
-            "Description": "Угрозы, оскорбительные высказывания, травля"
+            "Title": "Агрессия және қорлау",
+            "Description": "Қорқыту, қорлайтын сөздер, буллинг"
           },
           "Spam": {
-            "Title": "Спам и нежелательная реклама",
-            "Description": "Рассылка спама, нежелательные сообщения"
+            "Title": "Спам және қажетсіз жарнама",
+            "Description": "Спам тарату, қажетсіз хабарламалар"
           },
           "Fraud": {
             "Title": "Алаяқтық",
-            "Description": "Попытки обмана, вымогательство"
+            "Description": "Алаяқтық әрекеттер, бопсалау"
           },
           "IncitementToDiscord": {
-            "Title": "Разжигание розни",
-            "Description": "Пропаганда ненависти, дискриминация"
+            "Title": "Араздық тудыру",
+            "Description": "Өшпенділікті насихаттау, кемсіту"
           },
           "CopyrightInfringement": {
             "Title": "Авторлық құқықтың бұзылуы",
-            "Description": "Копирование контента без разрешения"
+            "Description": "Контентті рұқсатсыз көшіру"
           },
           "UnauthorizedAccess": {
-            "Title": "Несанкционированный доступ",
-            "Description": "Взлом аккаунтов, несанкционированное использование информации"
+            "Title": "Рұқсатсыз қол жеткізу",
+            "Description": "Бұзып кіру, ақпаратты рұқсатсыз пайдалану"
           },
           "PornographyAndObscenity": {
-            "Title": "Порнография и непристойности",
-            "Description": "Распространение порнографических материалов"
+            "Title": "Порнография және ұятсыздық",
+            "Description": "Порнографиялық материалдарды тарату"
           },
           "ViolenceAndAbuse": {
-            "Title": "Зорлық-зомбылық және қатігездік",
-            "Description": "Описание или демонстрация насилия"
+            "Title": "Зорлық-зомбылық және қатыгездік",
+            "Description": "Зорлық-зомбылықты сипаттау немесе көрсету"
           },
           "Disinformation": {
-            "Title": "Жалған жаңалықтар мен жалған ақпарат",
-            "Description": "Распространение ложной информации"
+            "Title": "Жалған жаңалықтар және жалған ақпарат",
+            "Description": "Жалған ақпарат тарату"
           },
           "IllegalActivity": {
             "Title": "Заңсыз әрекет",
@@ -515,32 +515,32 @@
           },
           "MultiAccounting": {
             "Title": "Бірнеше аккаунттар",
-            "Description": "Создание множественных аккаунтов для обхода ограничений"
+            "Description": "Шектеулерді айналып өту үшін бірнеше аккаунттың ашылуы"
           },
           "ViolationOfCommunityRules": {
-            "Title": "Нарушение правил сообщества",
-            "Description": "Несоблюдение установленных правил"
+            "Title": "Қауымдастық ережелерін бұзу",
+            "Description": "Белгіленген ережелерді сақтамау"
           },
           "DisclosureOfPersonalInformation": {
-            "Title": "Распространение личной информации",
-            "Description": "Передача или обнародование персональных данных без согласия человека, которому они принадлежат"
+            "Title": "Жеке ақпаратты тарату",
+            "Description": "Дербес деректерді иесінің келісімінсіз тарату немесе жария ету"
           },
           "Meaningless": {
             "Title": "Мағынасыздық",
             "Description": "Мағыналық жүктемесі жоқ"
           },
           "Toxicity": {
-            "Title": "Токсичность",
-            "Description": "Проявление негативного и агрессивного поведения"
+            "Title": "Токсикалық мінез-құлық",
+            "Description": "Негативті және агрессивті мінез-құлық"
           }
         }
       }
     },
     "UnbanCommand": {
-      "Description": "Сервер пайдаланушыны бұғаттан шығару",
+      "Description": "Пайдаланушыны серверде бұғаттан шығару",
       "Options": {
         "UserId": {
-          "Description": "Кімді бұғаттан шығару керек"
+          "Description": "Кімді бұғаттан шығару қажет"
         },
         "Reason": {
           "Description": "Бұғаттан шығарудың себебі"
@@ -553,13 +553,13 @@
       }
     },
     "UnmuteCommand": {
-      "Description": "Пайдаланушыдан үнсіз режимін алып тастау",
+      "Description": "Пайдаланушының дыбысын қосу",
       "Options": {
         "User": {
-          "Description": "Кімнен үнсіз режимін алып тастау қажет"
+          "Description": "Кімнің дыбысын қосу қажет"
         },
         "Reason": {
-          "Description": "Үнсіз режимінің алып тастау себебі"
+          "Description": "Дыбысты қосудың себебі"
         }
       },
       "Texts": {
@@ -576,14 +576,14 @@
         }
       },
       "Texts": {
-        "ThisUserHasNoViolations": "{username}, у этого пользователя нет нарушений",
-        "NoOneHasAnyViolations": "{username}, ни у кого на сервере нет нарушений",
-        "UserViolations": "Нарушения {target}",
-        "ViolationsIn24Hours": "1 тәулікте",
-        "ViolationsIn7Days": "7 күн арасында",
-        "Last10Violations": "Последние 10 нарушений",
-        "TotalViolations": "Всего нарушений",
-        "ListOfViolators": "Список нарушителей"
+        "ThisUserHasNoViolations": "{username}, бұл пайдаланушының ереже бұзушылықтары жоқ",
+        "NoOneHasAnyViolations": "{username}, серверде ешкімнің ереже бұзушылықтары жоқ",
+        "UserViolations": "{target}-тің ереже бұзушылықтары",
+        "ViolationsIn24Hours": "Тәулікте",
+        "ViolationsIn7Days": "7 күн ішінде",
+        "Last10Violations": "Соңғы 10 ереже бұзушылықтар",
+        "TotalViolations": "Барлық бұзушылықтар саны",
+        "ListOfViolators": "Тәртіп бұзушылардың тізімі"
       }
     },
     "WarnCommand": {
@@ -596,12 +596,12 @@
               "Description": "Кому необходимо выдать предупреждение"
             },
             "Reason": {
-              "Description": "Ескертудің себебі"
+              "Description": "Ескерту берудің себебі"
             }
           },
           "Texts": {
             "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно выдать предупреждение",
-            "YouCannotWarnYourself": "{username}, не думаю, что я могу позволить вам предупредить самого себя",
+            "YouCannotWarnYourself": "{username}, мен Сізге өзіңізге ескерту беруге рұқсат бере аламын деп ойламаймын",
             "UserHasBeenWarned": "{username}, пользователю {target} было выдано предупреждение"
           }
         },
@@ -667,7 +667,7 @@
         "StreamPlaybackIsDisabled": "{username}, потоковые воспроизведения отключены",
         "TrackHasBeenAddedToQueue": "{username}, трек {track} добавлен в очередь воспроизведения",
         "PlaylistHasBeenAddedToQueue": "{username}, плейлист {playlist} добавлен в очередь воспроизведения",
-        "HostIsNotAllowedToBePlayed": "{username}, указанная ссылка не находится в списке разрешенных. Пожалуйста, обратитесь на сервер поддержки",
+        "HostIsNotAllowedToBePlayed": "{username}, көрсетілген сілтеме рұқсат етілген тізімде жоқ. Қолдау серверіне хабарласуыңызды өтінеміз",
         "Player": "Плеер",
         "AddedBy": "Добавил(-а) {requester}"
       }
@@ -676,7 +676,8 @@
       "Description": "Ағымдағы музыканы ойнату тізімі",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, очередь воспроизведения пуста",
-        "SelectTrackToPlay": "Выберите трек для воспроизведения"
+        "SelectTrackToPlay": "Ойнату үшін жолды таңдаңыз",
+        "EmptyQueueStatus": "Ештеңе ойнатылмайды"
       }
     },
     "SeekCommand": {
@@ -707,68 +708,68 @@
       "Texts": {
         "InvalidVolume": "{username}, неверно указано значение громкости",
         "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
-        "VolumeHasBeenChanged": "{username}, громкость изменена с {from} на {to}"
+        "VolumeHasBeenChanged": "{username}, дыбыс деңгейі {from}-дан {to}-ға өзгертілді"
       }
     },
     "ActivitiesCommand": {
       "Description": "Белсенділікті басқару",
       "SubCommands": {
         "AssignLevelAwardCommand": {
-          "Description": "Назначить награду пользователю",
+          "Description": "Пайдаланушыға марапат тағайындау",
           "Options": {
             "User": {
-              "Description": "Кому необходимо назначить награду"
+              "Description": "Марапатты кімге тағайындау қажет"
             },
             "Award": {
-              "Description": "Выберите из списка или введите идентификатор награды"
+              "Description": "Тізімнен марапатты таңдаңыз немесе оның идентификаторын теріңіз"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите назначить награду",
-            "UnknownAward": "{username}, не удалось найти награду",
-            "AwardHasBeenAssigned": "{username}, награда успешно назначена"
+            "InvalidUser": "{username}, марапатты тағайындағыңыз келетін пайдаланушыны көрсетіңіз",
+            "UnknownAward": "{username}, марапат табылмады",
+            "AwardHasBeenAssigned": "{username}, марапат сәтті тағайындалды"
           }
         },
         "SetWalletBalanceCommand": {
-          "Description": "Установить баланс кошелька для пользователя",
+          "Description": "Пайдаланушының әмиян теңгерімін орнату",
           "Options": {
             "User": {
-              "Description": "Какому пользователю будет установлен баланс кошелька"
+              "Description": "Қай пайдаланушының әмиян теңгерімі орнатылады"
             },
             "Amount": {
-              "Description": "Сколько валюты будет установлено/прибавлено/вычтено"
+              "Description": "Орнатылатын/қосылатын/алынатын валюта сомасы"
             },
             "Currency": {
-              "Description": "Какая валюта будет установлена/прибавлена/вычтена"
+              "Description": "Орнатылатын/қосылатын/алынатын валюта түрі"
             },
             "Operation": {
-              "Description": "Выберите операцию для баланса кошелька",
-              "ChoiceSet": "Установить",
-              "ChoiceInc": "Прибавить",
-              "ChoiceSub": "Вычесть"
+              "Description": "Әмиян теңгерімі бойынша әрекетті таңдаңыз",
+              "ChoiceSet": "Орнату",
+              "ChoiceInc": "Қосу",
+              "ChoiceSub": "Алу"
             }
           },
           "Texts": {
-            "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому хотите установить баланс кошелька",
-            "InvalidAmount": "{username}, пожалуйста, укажите устанавливаемый баланс кошелька",
-            "WalletBalanceHasBeenSet": "{username}, {target} әмиянының балансы орнатылды"
+            "InvalidUser": "{username}, әмиян теңгерімін орнатқыңыз келетін пайдаланушыны көрсетіңіз",
+            "InvalidAmount": "{username}, орнатылатын әмиян теңгерімін көрсетіңіз",
+            "WalletBalanceHasBeenSet": "{username}, {target} әмиянының теңгерімі орнатылды"
           }
         },
         "ResetWalletCommand": {
-          "Description": "Сбросить кошелёк пользователю",
+          "Description": "Пайдаланушының әмиянын нөлге түсіру",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить кошелёк"
+              "Description": "Қай пайдаланушының әмиянын нөлге түсіру қажет"
             },
             "ResetAll": {
-              "Description": "Сбросить кошельки всем участникам на сервере"
+              "Description": "Сервердегі барлық қатысушылардың әмияндарын нөлге түсіру"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс кошельков всем",
-            "NoExistingWallets": "{username}, нет существующих кошельков",
-            "AllWalletsHaveBeenReset": "{username}, все кошельки успешно сброшены",
-            "UserWalletHasBeenReset": "{username}, кошелёк успешно сброшен"
+            "NoRequiredArgs": "{username}, қатысушыны, оның идентификаторын көрсетіңіз немесе барлығының әмияндарын нөлге түсіріңіз",
+            "NoExistingWallets": "{username}, әмияндар жоқ",
+            "AllWalletsHaveBeenReset": "{username}, барлық әмияндар сәтті нөлге түсірілді",
+            "UserWalletHasBeenReset": "{username}, әмиян сәтті нөлге түсірілді"
           }
         },
         "ResetLevelCommand": {
@@ -803,7 +804,7 @@
               "Description": "Длительность розыгрыша"
             },
             "WinnerCount": {
-              "Description": "Ұтыс ойынында қ��нша жеңімпаз болады"
+              "Description": "Сыйлықтар ойынында қанша жеңімпаз болады"
             },
             "Sponsor": {
               "Description": "Кто проспонсировал этот розыгрыш"
@@ -811,7 +812,7 @@
           },
           "Texts": {
             "InvalidPrize": "{username}, вы не указали приз за победу в розыгрыше",
-            "InvalidDuration": "{username}, аргумент длительности указан неверно",
+            "InvalidDuration": "{username}, ұзақтық аргументі қате көрсетілген",
             "InvalidWinnerCount": "{username}, количество победителей должно быть диапазоне от 1 до 50",
             "MaxActiveGiveawaysReached": "{username}, достигнуто максимальное количество активных розыгрышей",
             "GiveawaySponsoredBy": "{sponsor} ұйымдастырған ұтыс ойыны",
@@ -882,17 +883,17 @@
     },
     "DashboardPage": {
       "Profile": "Профиль",
-      "NoActivities": "Похоже, вы не проявляли активности",
+      "NoActivities": "Сіз белсенділік көрсетпеген сияқтысыз",
       "MyGuilds": "Мои сообщества",
       "NoGuilds": "У вас нет доступных сообществ.",
-      "Bills": "Выставленные счета",
+      "Bills": "Төлемге шығарылған шоттар",
       "BillId": "Шот нөмірі",
-      "BillAmount": "Сумма платежа",
-      "BillStatus": "Статус платежа"
+      "BillAmount": "Төлем сомасы",
+      "BillStatus": "Төлем мәртебесі"
     },
     "DiamondPage": {
-      "Title": "(Максимум) возможностей, (минимум) ограничений",
-      "OurPatrons": "Наши покровители"
+      "Title": "(Максимум) мүмкіндіктер, (минимум) шектеулер",
+      "OurPatrons": "Біздің демеушілеріміз"
     },
     "ErrorPage": {
       "ThereIsNothingHere": "Здесь ничего нет..."
@@ -905,26 +906,26 @@
       },
       "NavNames": {
         "General": "Жалпы",
-        "Commands": "Командалар",
+        "Commands": "Пәрмендер",
         "Moderation": "Модерлеу",
         "CustomBehavior": "Пользовательское поведение",
-        "Activities": "Белсенділік",
+        "Activities": "Белсенділіктер",
         "Subscriptions": "Социальные оповещения",
         "VoiceChannels": "Дауыстық арналар",
         "Utility": "Пайдалы",
         "ChangeLog": "Өзгерістер журналы",
         "DownloadLogs": "Логтарды жүктеу"
       },
-      "SomethingWentWrongWhenTryingToSave": "Что-то пошло не так при попытке сохранения. Пожалуйста, попробуйте немного позже.",
-      "UnsavedChangesArePresent": "Имеются несохраненные изменения! Вы действительно хотите покинуть эту страницу?",
+      "SomethingWentWrongWhenTryingToSave": "Сақтау кезінде қате кетті. Кейінірек қайталап көруіңізді өтінеміз.",
+      "UnsavedChangesArePresent": "Сақталмаған өзгертулер бар! Бұл беттен шынымен шыққыңыз келе ме?",
       "GeneralSettings": {
-        "Title": "Жалпы параметрлер",
+        "Title": "Жалпы баптаулар",
         "Locale": "Локализация",
         "Translate": "Аудару",
-        "BotExperts": "Эксперты по боту",
+        "BotExperts": "Бот мамандары",
         "BotExpertsDescription": "Указанные роли и пользователи смогут просматривать и изменять настройки бота, будьте осторожны. Роли с правами администратора имеют доступ к панели по умолчанию.",
-        "Greeting": "Сәлемдесу",
-        "MessageFormat": "Хабарлама форматы",
+        "Greeting": "Сәлемдесу/Қош келдіңіз хабарламасы",
+        "MessageFormat": "Хабарламалар форматы",
         "MessageFormats": {
           "DM": "Жеке хабарламаларға",
           "Channel": "В установленный канал",
@@ -937,12 +938,12 @@
         "RestoringDescription": "Восстанавливать роли и/или никнейм участнику, который повторно зашел на сервер",
         "RestoreRoles": "Рөлдерді қалпына келтіру",
         "RestoreNickname": "Никнеймді бұрыңғы қалпына келтіру",
-        "RestoreStrictRoles": "Қатал рөлдер",
+        "RestoreStrictRoles": "Қатаң рөлдер",
         "RestoreStrictRolesDescription": "Эти роли не будут восстановлены при повторном присоединении на сервер",
         "Farewell": "Прощание"
       },
       "Commands": {
-        "SystemCommands": "Системные команды"
+        "SystemCommands": "Жүйелік пәрмендер"
       },
       "Moderation": {
         "Hierarchy": "Иерархия",
@@ -952,20 +953,20 @@
         "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
         "Log": "Журнал",
         "LogDescription": "Отслеживание действий и событий",
-        "CaseLogChannel": "Жағдайларға арналған арна",
+        "CaseLogChannel": "Жағдайлар арнасы",
         "CaseLogChannelDescription": "В указанном канале будут логироваться действия модераторов",
-        "CaseLogTypes": "Типы случаев",
+        "CaseLogTypes": "Жағдайлардың түрлері",
         "CaseLogTypesDescription": "События журнала модерации",
         "ActionLog": "Журнал действия",
         "ActionLogDescription": "События сервера",
-        "AIMod": "ИИ Модерация",
+        "AIMod": "ЖИ модерация",
         "AIModInfoChannel": "Информационный канал",
-        "AIModInfoChannelDescription": "В выбранный канал будет отправляться информация о нарушениях",
+        "AIModInfoChannelDescription": "Таңдалған арнаға бұзушылықтар туралы ақпарат жіберіледі",
         "DAME": "Расширение для Discord AutoMod",
-        "DAMETriggerKeyword": "Сообщение содержит слова из заданного списка ключевых слов",
-        "DAMETriggerSpam": "Сообщение представляет собой обычный спам",
-        "DAMETriggerKeywordPreset": "Сообщение содержит слова из заранее определенного набора слов",
-        "DAMETriggerMentionSpam": "Сообщение содержит больше упоминаний, чем разрешено",
+        "DAMETriggerKeyword": "Хабарламада берілген кілт сөздер тізіміндегі сөздер бар",
+        "DAMETriggerSpam": "Хабарлама қарапайым спам болып табылады",
+        "DAMETriggerKeywordPreset": "Хабарламада алдын ала анықталған сөздер жиынтығы бар",
+        "DAMETriggerMentionSpam": "Хабарламада рұқсат етілген шектен асатын атап өтулер бар",
         "DAMETriggerMemberProfile": "Профиль пользователя содержит слова из заданного списка ключевых слов",
         "DAMEKeywordFilter": "Список слов и фраз",
         "DAMERegexPatterns": "Шаблоны регулярных выражений",
@@ -977,62 +978,63 @@
         "DAMEKeywordPresetsSlurs": "Оскорбления",
         "DAMEMentionSpamNumberOfUniqueMentions": "Количество уникальных упоминаний",
         "DAMEMentionSpamMentionRaidProtectionEnabled": "Включить защиту от рейдов через упоминания",
-        "DAMEBlockMessage": "Заблокировать сообщение",
-        "DAMEBlockMessageCustomMessage": "Пользовательское сообщение",
-        "DAMEBlockMessageCustomMessageDescription": "Сообщение будет отображено при блокировании сообщения от пользователя.",
+        "DAMEBlockMessage": "Хабарламаны бұғаттау",
+        "DAMEBlockMessageCustomMessage": "Пайдаланушыға арналған хабарлама",
+        "DAMEBlockMessageCustomMessageDescription": "Пайдаланушының хабарламасы бұғатталған кезде хабарлама көрсетіледі.",
         "DAMESendAlert": "Отправить оповещение",
         "DAMEBlockMemberInteractions": "Блокировать взаимодействия участника",
-        "Mutes": "Дыбысты өшіру параметрлері",
-        "MutesRAR": "Дыбысты өшіру кезінде барлық рөлдерді алып тастау",
+        "Mutes": "Дыбысы өшірілгендер",
+        "MutesRAR": "Дыбыс өшіру кезінде барлық рөлдерді алып тастау",
         "MutesRARStrict": "-дан басқа барлығын алып тастау",
         "AutoMod": "Автомодерация",
-        "AutoModDescription": "Автоматическое применение мер против нарушителей",
+        "AutoModDescription": "Ереже бұзушыларға қарсы шараларды автоматты түрде қолдану",
         "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
         "Penalties": "Наказания за предупреждения",
         "PenaltiesDescription": "Выдача наказаний при достижении определенного количества предупреждений"
       },
       "CustomBehavior": {
-        "Automation": "Автоматизация",
+        "Automation": "Автоматтандыру",
         "Plugins": "Плагины",
         "AboutCustomPlugins": "Создавайте свои собственные плагины и делитесь ими с сообществом. Эта возможность открывает перед пользователями уникальные перспективы в настройке и оптимизации бота под свои индивидуальные потребности."
       },
       "Activities": {
         "Levels": "Деңгейлер",
-        "LevelsTextExp": "Опыт за текстовую активность",
-        "LevelsVoiceExp": "Опыт за голосовую активность",
+        "LevelsTextExp": "Мәтіндік белсенділік үшін тәжірибе",
+        "LevelsVoiceExp": "Дауыстық белсенділік үшін тәжірибе",
         "LevelsResetOnLeave": "Сбрасывать уровень при выходе участника",
         "LevelsAlerts": "Оповещения о повышении уровня",
         "LevelsAwards": "Марапаттар",
-        "LevelsAwardsDescription": "Выдача наград за достижения определенных уровней",
+        "LevelsAwardsDescription": "Белгілі деңгейлерге жеткендері үшін марапаттар беру",
         "Economy": "Экономика",
-        "EconomyResetOnLeave": "Сбрасывать кошелёк при выходе участника",
+        "EconomyResetOnLeave": "Қатысушы серверден шыққан кезде әмиянды нөлге түсіру",
         "EconomyCurrencies": "Валюталар",
         "EconomyStoreItems": "Предметы магазина",
-        "EconomyTransferPermissions": "Разрешения команды перевода",
-        "Multipliers": "Множители опыта и заработка",
+        "EconomyTransferPermissions": "Аударым пәрменінің рұқсаттары",
+        "Multipliers": "Тәжірибе мен табыс көбейткіштері",
         "PublicLeaderboard": "Публичная таблица лидеров"
       },
       "VoiceChannels": {
         "Music": "Музыка",
         "MusicAllowRadioPlayback": "Разрешить потоковое воспроизведение",
         "MusicQueueMaxLength": "Максимальный размер очереди",
-        "MusicDefaultVolume": "Громкость по умолчанию",
+        "MusicDefaultVolume": "Әдепкі дыбыс деңгейі",
         "MusicDefaultSource": "Источник по умолчанию",
-        "VoiceRoles": "Голосовые роли",
+        "MusicSetVoiceStatus": "Дыбыстық арна статусында ағымдағы тректі көрсету",
+        "VoiceRoles": "Дауыстық рөлдер",
         "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
-        "AutoVoices": "Временные голосовые каналы",
+        "AutoVoices": "Уақытша дауыстық арналар",
         "AutoVoicesDescription": "Автоматическое создание и удаление голосовых каналов"
       },
       "Useful": {
-        "Reports": "Наразылықтар",
-        "ReportsNotifyAboutUnwantedUsers": "Уведомлять о присоединении потенциально нежелательных пользователей",
+        "Reports": "Шағымдар",
+        "ReportsNotifyAboutUnwantedUsers": "Потенциалды қалаусыз пайдаланушылардың қосылуы туралы хабарлау",
         "BannerRotation": "Ротация баннера",
-        "ImageRotationNote": "Изображение обновится {relativeTime} при срабатывании следующих событий:",
-        "AutoReactions": "Автореакции",
-        "AutoReactionsDescription": "Автоматическое добавление реакций на сообщение",
-        "AutoThreads": "Автоветки",
+        "ImageRotationNote": "Сурет келесі оқиғалар болғанда {relativeTime} ішінде жаңартылады:",
+        "AutoReactions": "Автореакциялар",
+        "AutoReactionsDescription": "Хабарламаға реакциялардың автоматты түрде қосылуы",
+        "AutoThreads": "Авто-тармақтар",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
-        "InteractiveMessages": "Интерактивные сообщения",
+        "InteractiveMessages": "Интерактивті хабарламалар",
         "InteractiveReactions": "Интерактивтік реакциялар",
         "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции"
       }
@@ -1049,7 +1051,7 @@
       "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Spotify, Yandex.Music, SoundCloud, прямые ссылки на аудио и радиостанции.",
       "FeatureUtility": "Пайдалы функциялар",
       "FeatureUtilityDescription": "Интерактивные сообщения и реакции, временные голосовые каналы, приветственные сообщения и многое другое!",
-      "ReadyToGetStarted": "Дайынсыз ба?",
+      "ReadyToGetStarted": "Бастауға дайынсыз ба?",
       "ReadyToGetStartedDescription": "Стабильность. Легкость. Функциональность. Lacuna – это мощный инструмент для улучшения сообщества с интуитивно понятным интерфейсом."
     },
     "StatePage": {
@@ -1059,56 +1061,56 @@
       "ShardLatencies": "Латентность фрагментов",
       "MusicPlayers": "Музыкалық ойнатқыштар",
       "PlayerCPULoad": "Плеердің жүктемесі",
-      "CommandUses": "Количество использований команд"
+      "CommandUses": "Пәрмендердің қолданылу саны"
     }
   },
   "Components": {
     "EconomyCurrency": {
-      "CurrencyName": "Название валюты",
-      "CurrencySymbol": "Валюта символы",
-      "IncomePerMessage": "Заработок за сообщение",
-      "IncomePerMessageRl": "Временное ограничение",
+      "CurrencyName": "Валютаның атауы",
+      "CurrencySymbol": "Валюта белгісі",
+      "IncomePerMessage": "Хабарлама үшін табыс",
+      "IncomePerMessageRl": "Уақыт бойынша шектеу",
       "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
-      "IncomePerMinute": "Заработок за минуту в голосовом канале",
+      "IncomePerMinute": "Дауыстық арнадағы минуттық табыс",
       "From": "От",
       "To": "Дейін"
     },
     "EconomyStoreItem": {
       "ItemName": "Название предмета",
-      "ItemType": "Тип предмета",
+      "ItemType": "Заттың түрі",
       "ItemDescription": "Описание предмета",
       "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
       "ItemProducts": "Тауарлар",
       "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
       "ItemOptions": {
-        "LimitedQuantity": "Ограниченное количество",
-        "TemporaryReferences": "Выдавать роли временно",
+        "LimitedQuantity": "Шектеулі саны",
+        "TemporaryReferences": "Рөлдерді уақытша беру",
         "CustomPurchaseReply": "Индивидуальное сообщение покупки"
       },
       "ItemQuantity": "Количество предметов",
       "ItemDuration": "Длительность предмета"
     },
     "LevelAward": {
-      "AwardConditions": "Условия для получения награды",
-      "RequiredLevel": "Необходимый уровень",
-      "RequiredVoiceTime": "Необходимое голосовое время",
-      "RequiredNumberOfSentMessages": "Необходимое количество отправленных сообщений",
-      "AwardMessage": "Сообщение при получении награды"
+      "AwardConditions": "Марапатты алу шарттары",
+      "RequiredLevel": "Қажетті деңгей",
+      "RequiredVoiceTime": "Қажетті дауыс уақыты",
+      "RequiredNumberOfSentMessages": "Жіберілген хабарламалардың қажетті саны",
+      "AwardMessage": "Марапатты алған кездегі хабарлама"
     },
     "ActivityMultipliers": {
-      "LevelMultipliers": "Множители опыта",
-      "EconomyMultipliers": "Множители заработка",
-      "ForTextActivity": "За текстовую активность",
-      "ForVoiceActivity": "За голосовую активность"
+      "LevelMultipliers": "Тәжірибе көбейткіштері",
+      "EconomyMultipliers": "Табыс көбейткіштері",
+      "ForTextActivity": "Мәтіндік белсенділік үшін",
+      "ForVoiceActivity": "Дауыстық белсенділік үшін"
     },
     "Automation": {
       "Trigger": "Триггер",
       "TriggerNames": {
         "InteractionButton": "Батырманы басу",
-        "InteractionSelectMenu": "Выбор опции в списке",
+        "InteractionSelectMenu": "Тізімнен нұсқаны таңдау",
         "InteractionModalSubmit": "Отправка формы модального окна",
         "MessageCreate": "Хабарлама жіберу",
-        "MessageReactionAdd": "Хабарламаға реакциялар қосу"
+        "MessageReactionAdd": "Хабарламаға реакция қосу"
       }
     },
     "AutoMod": {
@@ -1123,8 +1125,8 @@
         "DeleteReferralInvites": "Удалять все сторонние приглашения"
       },
       "NewbiesModeration": "Модерирование новоприбывших",
-      "NewbiesModerationMinimumAccountAge": "Минимальный возраст аккаунта",
-      "NewbiesModerationMinimumAccountAgeDescription": "Аккаунт должен быть зарегистрирован указанное количество времени",
+      "NewbiesModerationMinimumAccountAge": "Есептік жазбаның минималды жасы",
+      "NewbiesModerationMinimumAccountAgeDescription": "Есептік жазба көрсетілген уақыт бойы тіркелген болуы керек",
       "NicknamesModeration": "Модерирование никнеймов",
       "NicknamesModerationSelectWhatRemove": "Выберите что убирать из никнеймов",
       "NicknamesModerationRemovableSymbols": {
@@ -1138,20 +1140,20 @@
       "SwearFilter": "Фильтрация слов",
       "SwearFilterRegistryTitle": "Реестр запрещенных слов",
       "UsersSlowdown": "Замедление отправки сообщений",
-      "UsersSlowdownMessagesLimitTitle": "Ограничение сообщений",
+      "UsersSlowdownMessagesLimitTitle": "Хабарлама жіберу жиілігінің шегі",
       "UsersSlowdownMessagesLimitDescription": "Сколько сообщений можно отправить в течении 5 секунд",
       "IgnoredPermissionsDescription": "Участники имеющие выбранные права будут игнорироваться",
       "PenaltyTimeout": "Тайм-аут наказания"
     },
     "CustomCommand": {
-      "CommandName": "Название команды",
-      "CommandDescription": "Описание команды",
-      "CommandArgumentName": "Название аргумента",
-      "CommandArgumentType": "Тип аргумента",
-      "CommandArgumentDescription": "Описание аргумента",
-      "CommandArgumentChoices": "Варианты выбора",
-      "CommandArgumentChoiceName": "Название выбора",
-      "CommandArgumentChoiceValue": "Значение выбора",
+      "CommandName": "Пәрмен атауы",
+      "CommandDescription": "Пәрмен сипаттамасы",
+      "CommandArgumentName": "Аргумент атауы",
+      "CommandArgumentType": "Аргументтің түрі",
+      "CommandArgumentDescription": "Аргументтің сипаттамасы",
+      "CommandArgumentChoices": "Таңдау нұсқалары",
+      "CommandArgumentChoiceName": "Таңдау атауы",
+      "CommandArgumentChoiceValue": "Таңдаудың мәні",
       "AddCondition": "Добавить условие",
       "AddAction": "Добавить действие",
       "ComponentNames": {
@@ -1170,19 +1172,19 @@
         "GreaterThan": "Больше чем",
         "LessThan": "Меньше чем",
         "StartsWith": "-басталады",
-        "EndsWith": "-мен аяқталады",
-        "Contains": "Қамтиды",
-        "NotContains": "Қамтымайды"
+        "EndsWith": "-аяқталады",
+        "Contains": "Құрамында бар",
+        "NotContains": "Құрамында жоқ"
       },
-      "CompareValuesLeftPart": "Сол жақ",
-      "CompareValuesRightPart": "Оң жақ",
+      "CompareValuesLeftPart": "Сол жақ бөлігі",
+      "CompareValuesRightPart": "Оң жақ бөлігі",
       "CompareValuesFalseReply": "Жалған жауап",
       "ModifyRolesUserId": "Идентификатор пользователя",
       "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
-      "ModifyWalletAmount": "Количество валюты",
-      "ModifyWalletUserIdDescription": "Изменить кошелёк указанного пользователя (по умолчанию указан автор команды)",
-      "ModifyWalletCurrencyId": "Идентификатор валюты",
-      "ModifyWalletCurrencyIdDescription": "Укажите, если хотите выдать другую валюту, а не стандартную",
+      "ModifyWalletAmount": "Валюта мөлшері",
+      "ModifyWalletUserIdDescription": "Көрсетілген пайдаланушының әмиянын өзгерту (әдепкі бойынша команданы жіберген автор көрсетіледі)",
+      "ModifyWalletCurrencyId": "Валютаның идентификаторы",
+      "ModifyWalletCurrencyIdDescription": "Стандартты валютадан басқа валютаны бергіңіз келсе, көрсетіңіз",
       "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
       "ShowModalFieldPlaceholder": "Заполнитель",
       "ShowModalFieldMinLength": "Минимум символов",
@@ -1191,7 +1193,7 @@
     },
     "LacunaDiamond": {
       "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
-      "UnlimitedSubscription": "Серверде уақытпен шектелмеген бонустар бар",
+      "UnlimitedSubscription": "Серверде уақытпен шектелмеген Lacuna Diamond жазылымы бар",
       "BonusMusicDescription": "Неограниченное количество треков в очереди, прослушивание плейлистов, потоковое воспроизведение аудио и изменение громкости.",
       "BonusIncreasedLimitsDescription": "Больше наград за уровни, предметов в магазине, подписок, автоматизаций, интерактивных сообщений, голосовых ролей, временных голосовых каналов и другое.",
       "BonusCustomBehaviorWithCodeDescription": "Возможность выполнения JavaScript-кода в пользовательских командах и задачах автоматизации.",
@@ -1205,17 +1207,17 @@
       "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
       "PlanComparison": "Сравнение планов",
       "PlanComparisonFeatures": {
-        "CustomCommandsNumber": "Количество пользовательских команд",
-        "AutomationNumber": "Количество автоматизаций",
-        "MaxNumberOfScripts": "Максимальное количество скриптов",
-        "MaxScriptSize": "Максимальный размер скрипта",
-        "InteractiveMessagesNumber": "Количество интерактивных сообщений",
-        "InteractiveReactionsNumber": "Количество интерактивных реакций",
-        "TempVoiceChannelsNumber": "Количество временных голосовых каналов",
-        "VoiceRolesNumber": "Количество голосовых ролей",
-        "AutoThreadsNumber": "Количество автоветок",
-        "AutoReactionsNumber": "Количество автореакций",
-        "ImageRotationInterval": "Интервал ротации изображений",
+        "CustomCommandsNumber": "Пайдаланушы пәрмендерінің саны",
+        "AutomationNumber": "Автоматтандырулар саны",
+        "MaxNumberOfScripts": "Скрипттердің максималды саны",
+        "MaxScriptSize": "Скрипттің максималды көлемі",
+        "InteractiveMessagesNumber": "Интерактивті хабарламалар саны",
+        "InteractiveReactionsNumber": "Интерактивті реакциялар саны",
+        "TempVoiceChannelsNumber": "Уақытша дауыстық арналарының саны",
+        "VoiceRolesNumber": "Дауыстық рөлдер саны",
+        "AutoThreadsNumber": "Автотармақтар саны",
+        "AutoReactionsNumber": "Автореакциялар саны",
+        "ImageRotationInterval": "Суреттердің ауысып тұру интервалы",
         "ActionLogEventsProcessedPerMinuteNumber": "Количество обрабатываемых событий журнала действий в минуту",
         "PlaylistsPlayback": "Воспроизведение плейлистов",
         "AudioStreamingPlayback": "Воспроизведение потокового аудио",
@@ -1223,14 +1225,14 @@
         "PlaybackQueueTrackNumber": "Количество треков в очереди",
         "PlaybackFilters": "Фильтры для воспроизведения",
         "PlaybackSeek": "Перемотка воспроизведения трека",
-        "EarnCurrenciesInVoiceChannels": "Заработок валюты в голосовых каналах",
-        "VoiceExpMembersNumber": "Количество одновременно находящихся участников в голосовых каналах, которым будет начисляться опыт за голосовую активность",
-        "LevelAwardsNumber": "Количество наград за уровни",
+        "EarnCurrenciesInVoiceChannels": "Дауыстық арналарда валюталар табу",
+        "VoiceExpMembersNumber": "Дауыстық арналарда бір мезгілде отырған, дауыстық белсенділігі үшін тәжірибе берілетін қатысушылар саны",
+        "LevelAwardsNumber": "Деңгейлер үшін марапаттардың саны",
         "StoreItemsNumber": "Количество предметов в магазине",
-        "ActivityMultipliersNumber": "Количество множителей опыта и заработка",
+        "ActivityMultipliersNumber": "Тәжірибе мен табыс көбейткіштерінің саны",
         "SocialPlatformNumber": "Количество {socialPlatform} подписок",
         "PrioritySupport": "Приоритетная поддержка",
-        "ImageEditorElementsNumber": "Количество элементов в редакторе изображения"
+        "ImageEditorElementsNumber": "Сурет редакторындағы элементтер саны"
       },
       "FAQ": {
         "Q1": "Подписка оплачена, но Diamond не активируется",
@@ -1244,14 +1246,14 @@
       }
     },
     "CaseType": {
-      "CustomDMMessage": "Пользовательское личное сообщение"
+      "CustomDMMessage": "Пайдаланушыға арналған жеке хабарлама"
     },
     "WarningPenalty": {
       "WarningsPlural": "0 предупреждений | {n} предупреждение | {n} предупреждения | {n} предупреждений",
       "WarningCount": "Количество предупреждений"
     },
     "Subscriptions": {
-      "ChannelName": "Название канала",
+      "ChannelName": "Арна атауы",
       "TwitchDisplayStreamPreview": "Показывать предпросмотр стрима",
       "YoutubeChannelName": "Название или идентификатор канала",
       "NotificationsChannel": "Хабарландыру арнасы",
@@ -1259,30 +1261,30 @@
       "TelegramHelpNote": "Для того, чтобы связать Telegram и Discord, необходимо добавить бота {botLink} в нужный канал, затем ввести его название или идентификатор в поле ниже.",
       "TelegramChannelNameDescription": "Уникальный идентификатор или имя выбранного канала (в формате {'@'}channelusername)",
       "MentionRoles": "Рөлдерді атап өту",
-      "CrosspostMessage": "Хабарлама жариялау",
+      "CrosspostMessage": "Хабарламаны жариялау",
       "CreateThread": "Создать ветвь"
     },
     "SystemCommand": {
-      "Throttling": "Ограничение использований",
+      "Throttling": "Қолдану шектеуі",
       "ThrottlingScope": "Область действия",
       "ThrottlingScopes": {
         "PerUser": "Пайдаланушыға",
-        "PerChannel": "Арнаға",
-        "PerGuild": "Серверге"
+        "PerChannel": "Әр арнаға",
+        "PerGuild": "Сервер бойынша"
       },
-      "ThrottlingMaxUses": "Пайдаланудың максимумы",
-      "ThrottlingTimeout": "Қайта пайдалану"
+      "ThrottlingMaxUses": "Қолдану шегі",
+      "ThrottlingTimeout": "Қайта қолдану уақыты"
     },
     "UserSurvey": {
-      "ItWouldHelpUs": "Мы будем рады, если вы потратите 10 секунд своего времени, чтобы оценить ваш опыт работы с нами.",
+      "ItWouldHelpUs": "Біздің қызметімізді пайдалану тәжірибеңізді бағалауға 10 секунд уақытыңызды бөлсеңіз, қуанышты боламыз.",
       "HowSatisfied": "Ботқа қаншалықты көңіліңіз толады?",
       "HowManyMembers": "Сколько пользователей на вашем сервере?",
-      "TellUsMore": "Расскажите нам больше о своем опыте использования",
+      "TellUsMore": "Өзіңіздің пайдалану тәжірибеңіз туралы көбірек айтып берсеңіз",
       "SurveySubmitted": "Спасибо! Вы помогаете нам стать лучше."
     },
     "AutoReaction": {
-      "ReactionsDescription": "Можно выбрать 10 реакций",
-      "MessageTypes": "Типы сообщения",
+      "ReactionsDescription": "10 реакцияны таңдауға болады",
+      "MessageTypes": "Хабарламаның түрлері",
       "MessageTypesDescription": "Оставьте поле пустым, если хотите добавлять реакции на все типы сообщений",
       "TextMatches": "Совпадения в тексте",
       "TextMatchesDescription": "Будет реагировать только, если в сообщении содержится указанные параметры",
@@ -1290,7 +1292,7 @@
       "ExcludedTextMatchesDescription": "Не будет реагировать, если в сообщении содержится указанные параметры"
     },
     "AutoThread": {
-      "ThreadName": "Название ветки"
+      "ThreadName": "Тармақтың атауы"
     },
     "InteractiveMessage": {
       "ActionRows": "Операционные ряды",
@@ -1298,10 +1300,10 @@
       "ActionRowSelectMenu": "Выпадающий список",
       "ButtonName": "Батырма атауы",
       "ButtonStyle": "Стиль кнопки",
-      "ButtonURL": "Ссылка кнопки",
+      "ButtonURL": "Түйме сілтемесі",
       "SelectMenuPlaceholder": "Заполнитель",
-      "OptionName": "Опция атауы",
-      "OptionDescription": "Опция сипаттамасы",
+      "OptionName": "Опцияның атауы",
+      "OptionDescription": "Опцияның сипаттамасы",
       "ModifyRolesReversibleMode": "Реверсивный режим"
     },
     "InteractiveReaction": {
@@ -1315,10 +1317,10 @@
     },
     "AutoVoice": {
       "VoiceChannelDescription": "Выбранный голосовой канал будет использован в качестве триггера",
-      "DefaultName": "Стандартное название",
-      "DefaultUserLimit": "Ограничение пользователей",
+      "DefaultName": "Стандартты атауы",
+      "DefaultUserLimit": "Пайдаланушыларды шектеу",
       "DefaultCategory": "Категория по умолчанию",
-      "DefaultPosition": "Позиция",
+      "DefaultPosition": "Әдепкі орналасу орны",
       "DefaultPositionDescription": "Позиция временного голосового канала относительно других каналов в категории",
       "DefaultPositions": {
         "Top": "Сверху",
@@ -1343,18 +1345,18 @@
       "ReleaseNotes": "Өзгерістер тізімі"
     },
     "ImageEditor": {
-      "SendImage": "Отправлять изображение",
-      "ImageHeight": "Высота изображения",
-      "ImageWidth": "Ширина изображения",
-      "ImageBackgroundColor": "Цвет фона изображения",
-      "ImageBackgroundURL": "Ссылка на фоновое изображение",
-      "ImageElements": "Элементы изображения",
-      "AddSampleImageElements": "Добавить пример элементов изображения",
-      "PositionCoordinate": "Позиция {XY}",
+      "SendImage": "Суретті жіберу",
+      "ImageHeight": "Суреттің биіктігі",
+      "ImageWidth": "Суреттің ені",
+      "ImageBackgroundColor": "Кескін фонының түсі",
+      "ImageBackgroundURL": "Фондық суретке сілтеме",
+      "ImageElements": "Суреттің элементтері",
+      "AddSampleImageElements": "Сурет элементтерінің үлгісін қосу",
+      "PositionCoordinate": "{XY} бойынша орналасуы",
       "Height": "Высота",
       "Width": "Ширина",
       "Text": "Текст",
-      "TextColor": "Цвет текста",
+      "TextColor": "Мәтіннің түсі",
       "TextSize": "Размер текста",
       "TextSizes": {
         "Header": "Тақырып",
@@ -1369,8 +1371,8 @@
       "TextTransform": "Преобразование текста",
       "TextTransforms": {
         "Capitalize": "С заглавной буквы",
-        "Uppercase": "Верхний регистр",
-        "Lowercase": "Нижний регистр"
+        "Uppercase": "Бас әріптер",
+        "Lowercase": "Кіші әріптер"
       },
       "TextDecoration": "Оформление текста",
       "TextDecorations": {
@@ -1383,8 +1385,8 @@
         "End": "По правому краю",
         "Start": "По левому краю"
       },
-      "Image": "Изображение",
-      "ImageURL": "Ссылка на изображение",
+      "Image": "Сурет",
+      "ImageURL": "Суретке сілтеме",
       "BorderRadius": "Радиус краёв",
       "BorderRadiuses": {
         "XS": "Очень маленький",
@@ -1393,22 +1395,24 @@
         "LG": "Большой",
         "XL": "Очень большой",
         "Circle": "Окружность"
-      }
+      },
+      "AllowedImageError": "Рұқсат етілген тікелей сілтемелер ({hosts}) кеңейтімдері {extensions} болатын суреттерге﻿",
+      "DiscordCdnWarning": "Discord CDN сілтемелері мерзімі аяқталғаннан кейін жұмысын тоқтатуы мүмкін."
     },
     "MessageEditor": {
-      "SendEmbedMessage": "Отправлять встроенное сообщение",
-      "EmbedMessage": "Встроенное сообщение",
-      "AuthorName": "Автордың есімі",
+      "SendEmbedMessage": "Құрамдастырылған хабарлама жіберу",
+      "EmbedMessage": "Құрамдастырылған хабарлама",
+      "AuthorName": "Автордың аты",
       "AuthorIconURL": "Автордың аватары",
       "AuthorURL": "Автордың сілтемесі",
       "Title": "Тақырып",
-      "TitleURL": "Ссылка заголовка",
+      "TitleURL": "Тақырыптың сілтемесі",
       "AddEmbedField": "Өріс қосу",
-      "FieldName": "Өріс тақырыбы",
-      "FieldValue": "Өріс мәні",
+      "FieldName": "Өрістің атауы",
+      "FieldValue": "Өрістің мәні",
       "FieldInline": "В линию",
-      "ImageURL": "Ссылка на полноразмерную картинку",
-      "ThumbnailURL": "Ссылка на картинку-миниатюру",
+      "ImageURL": "Толық өлшемді суретке сілтеме",
+      "ThumbnailURL": "Миниатюралық суретке сілтеме",
       "FooterText": "Төменгі колонтитулдың мәтіні",
       "FooterIconURL": "Төменгі колонтитулдың таңбашасы",
       "FooterTimestamp": "Төменгі колонтитулдың уақыт белгісі",
@@ -1417,7 +1421,7 @@
     },
     "ScriptEditor": {
       "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
-      "ScriptName": "Название скрипта",
+      "ScriptName": "Скрипттің атауы",
       "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
     },
     "EmojiPicker": {
@@ -1425,16 +1429,16 @@
       "NotFound": "Сәйкес нәтижелер жоқ",
       "Categories": {
         "Search": "Іздеу нәтижесі",
-        "Recent": "Жиі қолданылатын",
+        "Recent": "Жиі қолданылатындар",
         "Smileys": "Смайликтер",
         "People": "Адамдар",
         "Nature": "Табиғат",
-        "Foods": "Тамақ және сусындар",
+        "Foods": "Тағамдар мен сусындар",
         "Activity": "Белсенділік",
-        "Places": "Саяхат және орындар",
-        "Objects": "Объектілер",
-        "Symbols": "Таңбалар",
-        "Flags": "Жалаушалар",
+        "Places": "Саяхаттар мен орындар",
+        "Objects": "Заттар",
+        "Symbols": "Белгілер",
+        "Flags": "Тулар",
         "Custom": "Пайдаланушынікі"
       }
     }
@@ -1445,7 +1449,7 @@
     "BeforeChange": "Өзгеріске дейін",
     "AfterChange": "Өзгерістен кейін",
     "ChannelCreated": "Арна құрылды",
-    "ChannelCreatedTemplate": "{username} создаёт канал {channel}",
+    "ChannelCreatedTemplate": "{username} {channel} арнасын құрды",
     "ChannelDeleted": "Арна жойылды",
     "ChannelDeletedTemplate": "{username} удаляет канал {channel}",
     "ChannelUpdated": "Арна өзгертілді",
@@ -1455,40 +1459,40 @@
     "ChannelUpdatedParent": "категорию канала {channel}",
     "ChannelUpdatedBitrate": "битрейт канала {channel}",
     "ChannelUpdatedUserLimit": "{channel} арнасының пайдаланушыларын шектеу",
-    "ChannelCategory": "Категория канала",
-    "ChannelPosition": "Позиция канала",
+    "ChannelCategory": "Арна санаты",
+    "ChannelPosition": "Арнаның орналасуы",
     "EmojiCreated": "Эмодзи қосылды",
     "EmojiCreatedTemplate": "{username} добавляет эмодзи {emoji}",
     "EmojiDeleted": "Эмодзи жойылды",
     "EmojiDeletedTemplate": "{username} удаляет эмодзи {emoji}",
     "EmojiUpdated": "Эмодзи өзгертілді",
-    "EmojiUpdatedName": "эмодзи атауы {emoji}",
+    "EmojiUpdatedName": "{emoji} эмодзидің атауы",
     "GuildBanAdded": "Бұғаттау берілді",
     "GuildBanAddedTemplate": "{username} выдаёт блокировку пользователю {target}",
-    "GuildBanRemoved": "Блокировка убрана",
+    "GuildBanRemoved": "Бұғаттау алынды",
     "GuildBanRemovedTemplate": "{username} снимает блокировку пользователю {target}",
-    "GuildMemberAdded": "Пользователь присоединился к серверу",
-    "GuildMemberRemoved": "Пользователь покинул сервер",
+    "GuildMemberAdded": "Пайдаланушы серверге қосылды",
+    "GuildMemberRemoved": "Пайдаланушы серверден шықты",
     "GuildMemberUpdated": "Қатысушы өзгертілді",
-    "GuildMemberUpdatedNickname": "отображаемое имя участника {username}",
+    "GuildMemberUpdatedNickname": "{username} қатысушының көрсетілетін аты",
     "GuildUpdated": "Сервер өзгертілді",
     "GuildUpdatedName": "сервердің атауы",
     "GuildUpdatedAFKChannel": "канал простоя",
     "GuildUpdatedAFKTimeout": "тайм-аут бездействия в голосовых каналах",
-    "GuildUpdatedDescription": "сервер сипаттамасы",
+    "GuildUpdatedDescription": "сервердің сипаттамасы",
     "InviteCreated": "Шақыру құрылды",
     "InvitedDeleted": "Шақыру жойылды",
     "InviteCode": "Шақыру коды",
     "InviteInviter": "Шақырушы",
-    "MessageCreated": "Сообщение отправлено",
+    "MessageCreated": "Хабарлама жіберілді",
     "MessageDeleted": "Хабарлама жойылды",
     "MessageDeletedBulk": "Хабарламаларды жаппай жою",
-    "MessageReactionAdded": "Реакция добавлена",
-    "MessageReactionRemoved": "Реакция убрана",
+    "MessageReactionAdded": "Реакция қосылды",
+    "MessageReactionRemoved": "Реакция алынды",
     "MessageUpdated": "Хабарлама өзгертілді",
     "MessageAuthor": "Хабарлама авторы",
     "MessageContent": "Хабарлама мазмұны",
-    "MessageCount": "Хабарлама саны",
+    "MessageCount": "Хабарламалар саны",
     "RoleCreated": "Рөл құрылды",
     "RoleCreatedTemplate": "{username} создаёт роль {role}",
     "RoleDeleted": "Рөл жойылды",
@@ -1498,25 +1502,25 @@
     "RoleMemberRemoved": "Рөл алынып тасталды",
     "RoleMemberRemovedTemplate": "{username} убирает роли пользователя {target}",
     "RoleUpdated": "Рөл өзгертілді",
-    "RoleUpdatedName": "рөл атауы {role}",
-    "RoleUpdatedColor": "рөл түсі {role}",
+    "RoleUpdatedName": "{role} рөлінің атауы",
+    "RoleUpdatedColor": "{role} рөлінің түсі",
     "RoleUpdatedPermissions": "разрешения роли {role}",
-    "RoleName": "Рөл атауы",
-    "RoleColor": "Рөл түсі",
+    "RoleName": "Рөлдің атауы",
+    "RoleColor": "Рөлдің түсі",
     "RolePosition": "Рөл позициясы",
     "StickerCreated": "Стикер қосылды",
     "StickerCreatedTemplate": "{username} добавляет стикер {sticker}",
     "StickerDeleted": "Стикер жойылды",
     "StickerDeletedTemplate": "{username} удаляет стрикер {sticker}",
     "StickerUpdated": "Стикер өзгертілді",
-    "StickerUpdatedName": "стикер атауы {sticker}",
-    "ThreadCreated": "Ветка создана",
-    "ThreadCreatedTemplate": "{username} создаёт ветку {thread}",
-    "ThreadDeleted": "Ветка удалена",
-    "ThreadDeletedTemplate": "{username} удаляет ветку {thread}",
-    "ThreadUpdated": "Ветка изменена",
-    "ThreadUpdatedName": "название ветки {thread}",
-    "ThreadUpdatedAutoArchive": "время автоархивации ветки {thread}",
+    "StickerUpdatedName": "{sticker} стикердің атауы",
+    "ThreadCreated": "Тармақ құрылды",
+    "ThreadCreatedTemplate": "{username} {thread} тармағын құрды",
+    "ThreadDeleted": "Тармақ жойылды",
+    "ThreadDeletedTemplate": "{username} {thread} тармағын жойды",
+    "ThreadUpdated": "Тармақ өзгертілді",
+    "ThreadUpdatedName": "{thread} тармағының атауы",
+    "ThreadUpdatedAutoArchive": "{thread} тармағының автомұрағаттау уақыты",
     "ThreadAutoArchiveTime": "Автомұрағаттау уақыты",
     "UserUpdated": "Пайдаланушы өзгертілді",
     "UserUpdatedName": "{username} изменяет своё имя пользователя",
@@ -1527,33 +1531,33 @@
     "VoiceDisconnectionTemplate": "{username} отключается от голосового канала {channel}",
     "VoiceMove": "Голосовое перемещение",
     "VoiceMoveTemplate": "{username} перемещается из голосового канала {from} в {to}",
-    "VoiceServerDeaf": "Дыбысты өшіру",
-    "VoiceServerMute": "Микрофонды өшіру",
-    "VoiceServerUndeaf": "Дыбысты қосу",
-    "VoiceServerUnmute": "Микрофонды қосу"
+    "VoiceServerDeaf": "Дыбыстың өшіріліуі",
+    "VoiceServerMute": "Микрофонның өшірілуі",
+    "VoiceServerUndeaf": "Дыбыстың қосылуы",
+    "VoiceServerUnmute": "Микрофонның қосылуы"
   },
   "CaseLog": {
     "CaseTypes": {
       "BanAdd": "Бұғаттау берілді",
-      "BanRemove": "Блокировка убрана",
-      "Kick": "Участник выгнан",
-      "MuteAdd": "Заглушение выдано",
-      "MuteRemove": "Заглушение убрано",
+      "BanRemove": "Бұғаттау алынды",
+      "Kick": "Қатысушы қуып шығарылды",
+      "MuteAdd": "Дыбысы өшірулі",
+      "MuteRemove": "Дыбысты өшіру алынды",
       "PruneMessages": "Очистка сообщений",
       "WarnAdd": "Предупреждение выдано",
       "WarnRemove": "Предупреждение убрано"
     },
     "Actions": {
       "Title": "Әрекеттер",
-      "Ban": "Выдать блокировку",
-      "Mute": "Дыбысты өшіру",
+      "Ban": "Бұғаттау беру",
+      "Mute": "Дыбысын өшіру",
       "Kick": "Қуып шығару",
-      "Warn": "Ескерту жасау",
+      "Warn": "Ескерту беру",
       "ModifyRoles": "Рөлдерді өзгерту",
       "SendMessage": "Хабарлама жіберу",
       "DeleteMessage": "Хабарламаны жою",
       "ResetViolations": "Ескертулерді нөлдеу",
-      "EphemeralReply": "Эфемерлі хабарлама",
+      "EphemeralReply": "Эфемерлік хабарлама",
       "OverwriteChannelPermissions": "Переопределить права канала",
       "RestrictRoles": "Рөлдерді шектеу"
     },
@@ -1563,39 +1567,39 @@
   },
   "RoleConnections": {
     "RegistrationDate": {
-      "Name": "Дата регистрации",
+      "Name": "Тіркелген күні",
       "Description": "Пайдаланушы қанша күн бұрын тіркелді"
     }
   },
   "AIMod": {
-    "ViolationSeverityLevel": "Уровень серьёзности нарушения",
+    "ViolationSeverityLevel": "Бұзушылықтың ауырлық деңгейі",
     "ViolationSeverityLevels": {
-      "None": "Никакой",
-      "Low": "Невысокий",
-      "Moderate": "Умеренный",
-      "High": "Повышенный",
-      "Severe": "Серьёзный"
+      "None": "Ешқандай",
+      "Low": "Төмен",
+      "Moderate": "Орта",
+      "High": "Жоғары",
+      "Severe": "Өте жоғары"
     },
     "ViolationCategories": {
       "0": "Спам",
-      "1": "Вербальная агрессия по отношению ко мне или другому человеку",
-      "2": "Использование грубых, пошлых или оскорбительных выражений",
-      "3": "Пропаганда ненависти на основе идентичности или личностных особенностей",
-      "4": "Откровенный или нежелательный контент сексуального характера",
-      "5": "Обход бана или блокировки путём смены учётной записи",
-      "6": "Угрозы насилия или причинения вреда в реальной жизни",
-      "7": "Контент с участием несовершеннолетнего или адресованный несовершеннолетнему",
-      "8": "Распространение дезинформации или теорий заговора",
-      "9": "Оправдание или поощрение актов насилия",
-      "10": "Распространение недостоверной и опасной информации или прославление жестокости",
-      "11": "Этот человек не может пользоваться Discord в силу юного возраста",
-      "12": "Здесь упоминается причинение вреда себе или самоубийство",
-      "13": "Рейдерство или использование нескольких учетных записей",
-      "14": "Распространение недостоверной и опасной информации или прославление жестокости",
-      "15": "Выдача себя за другого человека, обман или мошенничество",
-      "16": "Продажа украденных учётных записей или кредитных карт",
-      "17": "Продажа наркотиков или других запрещённых товаров",
-      "18": "Взлом, читы, фишинговые или вредоносные ссылки"
+      "1": "Маған немесе басқа адамға бағытталған сөздік озбырлық",
+      "2": "Дөрекі, тұрпайы немесе қорлайтын сөздерді қолдану",
+      "3": "Жеке басы немесе тұлғалық ерекшеліктері бойынша өшпенділікті насихаттау",
+      "4": "Ашық немесе сексуалдық сипаттағы қалаусыз контент",
+      "5": "Есептік жазбаны өзгерту арқылы банды немесе бұғаттауды айналып өту",
+      "6": "Шынайы өмірде зорлық-зомбылық немесе зиян келтіру қаупі",
+      "7": "Кәмелетке толмағандар қатысқан немесе кәмелетке толмағандарға бағытталған контент",
+      "8": "Жалған ақпарат немесе қастандық теорияларын татару",
+      "9": "Зорлық-зомбылық әрекеттерін ақтау немесе мадақтау",
+      "10": "Күмәнді және қауіпті ақпаратты тарату немесе қатыгездікті дәріптеу",
+      "11": "Бұл пайдаланушы жас шектеуіне байланысты Discord қолдана алмайды",
+      "12": "Мұнда өзін-өзі зақымдау немесе суицид туралы айтылған",
+      "13": "Бірнеше есептік жазбаларды пайдалану немесе рейдерлік әрекет",
+      "14": "Құпия деректерді жариялау",
+      "15": "Басқа адам атынан әрекет ету, алдау немесе алаяқтық",
+      "16": "Ұрланған есептік жазбаларын немесе несие карталарын сату",
+      "17": "Есірткі немесе басқа тыйым салынған тауарларды сату",
+      "18": "Бұзып кіру, читтер, фишингтік немесе зиянды сілтемелер"
     }
   }
 }

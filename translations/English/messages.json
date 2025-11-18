@@ -55,7 +55,7 @@
       "MuteMembers": "Mute members",
       "DeafenMembers": "Deafen members",
       "MoveMembers": "Move members",
-      "UseVAD": "Use VAD",
+      "UseVAD": "Use Voice Activity",
       "ChangeNickname": "Change nickname",
       "ManageNicknames": "Manage nicknames",
       "ManageRoles": "Manage roles",
@@ -676,7 +676,8 @@
       "Description": "Current music playback queue",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, the play queue is empty",
-        "SelectTrackToPlay": "Select the track you want to play"
+        "SelectTrackToPlay": "Select the track you want to play",
+        "EmptyQueueStatus": "Nothing is being played"
       }
     },
     "SeekCommand": {
@@ -1018,6 +1019,7 @@
         "MusicQueueMaxLength": "Max length of the queue",
         "MusicDefaultVolume": "Default volume",
         "MusicDefaultSource": "Default source",
+        "MusicSetVoiceStatus": "Show current track in voice channel status",
         "VoiceRoles": "Voice roles",
         "VoiceRolesDescription": "Automatic addition of roles when connecting to voice channel",
         "AutoVoices": "Temporary voice channels",
@@ -1393,7 +1395,9 @@
         "LG": "Large",
         "XL": "Extra large",
         "Circle": "Circle"
-      }
+      },
+      "AllowedImageError": "Direct links ({hosts}) to images with extensions: {extensions} are allowed",
+      "DiscordCdnWarning": "Discord CDN links may cease to function after their expiration date."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Send embed message",
