@@ -676,7 +676,8 @@
       "Description": "Ағымдағы музыканы ойнату тізімі",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, очередь воспроизведения пуста",
-        "SelectTrackToPlay": "Выберите трек для воспроизведения"
+        "SelectTrackToPlay": "Выберите трек для воспроизведения",
+        "EmptyQueueStatus": "Ничего не воспроизводится"
       }
     },
     "SeekCommand": {
@@ -1018,6 +1019,7 @@
         "MusicQueueMaxLength": "Максимальный размер очереди",
         "MusicDefaultVolume": "Әдепкі дыбыс деңгейі",
         "MusicDefaultSource": "Источник по умолчанию",
+        "MusicSetVoiceStatus": "Показывать текущий трек в статусе голосового канала",
         "VoiceRoles": "Дауыстық рөлдер",
         "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
         "AutoVoices": "Уақытша дауыстық арналар",
@@ -1393,7 +1395,9 @@
         "LG": "Большой",
         "XL": "Очень большой",
         "Circle": "Окружность"
-      }
+      },
+      "AllowedImageError": "Допустимы прямые ссылки ({hosts}) на изображения с расширениями: {extensions}",
+      "DiscordCdnWarning": "Ссылки на CDN Discord могут перестать работать по истечении срока действия."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Құрамдастырылған хабарлама жіберу",
