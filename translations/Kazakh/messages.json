@@ -90,7 +90,7 @@
     "AllowedChannels": "Рұқсат етілген арналар",
     "AllowedRoles": "Рұқсат етілген рөлдер",
     "BlockedChannels": "Бұғатталған арналар",
-    "BlockedRoles": "Бұғатталған рөлдер",
+    "BlockedRoles": "Тыйым салынған рөлдер",
     "IgnoredChannels": "Еленбейтін арналар",
     "IgnoredRoles": "Еленбейтін рөлдер",
     "IgnoredPermissions": "Еленбейтін рұқсаттар",
@@ -676,8 +676,8 @@
       "Description": "Ағымдағы музыканы ойнату тізімі",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, очередь воспроизведения пуста",
-        "SelectTrackToPlay": "Выберите трек для воспроизведения",
-        "EmptyQueueStatus": "Ничего не воспроизводится"
+        "SelectTrackToPlay": "Ойнату үшін жолды таңдаңыз",
+        "EmptyQueueStatus": "Ештеңе ойнатылмайды"
       }
     },
     "SeekCommand": {
@@ -1019,7 +1019,7 @@
         "MusicQueueMaxLength": "Максимальный размер очереди",
         "MusicDefaultVolume": "Әдепкі дыбыс деңгейі",
         "MusicDefaultSource": "Источник по умолчанию",
-        "MusicSetVoiceStatus": "Показывать текущий трек в статусе голосового канала",
+        "MusicSetVoiceStatus": "Дыбыстық арна статусында ағымдағы тректі көрсету",
         "VoiceRoles": "Дауыстық рөлдер",
         "VoiceRolesDescription": "Автоматическая выдача ролей при подключении к голосовым каналам",
         "AutoVoices": "Уақытша дауыстық арналар",
@@ -1396,8 +1396,8 @@
         "XL": "Очень большой",
         "Circle": "Окружность"
       },
-      "AllowedImageError": "Допустимы прямые ссылки ({hosts}) на изображения с расширениями: {extensions}",
-      "DiscordCdnWarning": "Ссылки на CDN Discord могут перестать работать по истечении срока действия."
+      "AllowedImageError": "Рұқсат етілген тікелей сілтемелер ({hosts}) кеңейтімдері {extensions} болатын суреттерге﻿",
+      "DiscordCdnWarning": "Discord CDN сілтемелері мерзімі аяқталғаннан кейін жұмысын тоқтатуы мүмкін."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Құрамдастырылған хабарлама жіберу",
