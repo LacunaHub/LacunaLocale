@@ -676,7 +676,8 @@
       "Description": "Current music playback queue",
       "Texts": {
         "PlaybackQueueIsEmpty": "{username}, the play queue is empty",
-        "SelectTrackToPlay": "Select the track you want to play"
+        "SelectTrackToPlay": "Select the track you want to play",
+        "EmptyQueueStatus": "Ничего не воспроизводится"
       }
     },
     "SeekCommand": {
@@ -1018,6 +1019,7 @@
         "MusicQueueMaxLength": "Max length of the queue",
         "MusicDefaultVolume": "Default volume",
         "MusicDefaultSource": "Default source",
+        "MusicSetVoiceStatus": "Показывать текущий трек в статусе голосового канала",
         "VoiceRoles": "Voice roles",
         "VoiceRolesDescription": "Automatic addition of roles when connecting to voice channel",
         "AutoVoices": "Temporary voice channels",
@@ -1393,7 +1395,9 @@
         "LG": "Large",
         "XL": "Extra large",
         "Circle": "Circle"
-      }
+      },
+      "AllowedImageError": "Допустимы прямые ссылки ({hosts}) на изображения с расширениями: {extensions}",
+      "DiscordCdnWarning": "Ссылки на CDN Discord могут перестать работать по истечении срока действия."
     },
     "MessageEditor": {
       "SendEmbedMessage": "Send embed message",
