@@ -1430,13 +1430,13 @@
       "Categories": {
         "Search": "Suchergebnisse",
         "Recent": "Häufig verwendet",
-        "Smileys": "Smileys & Emotionen",
-        "People": "Menschen & Körper",
-        "Nature": "Tiere & Natur",
+        "Smileys": "Смайлики и эмоции",
+        "People": "Люди и тело",
+        "Nature": "Животные и природа",
         "Foods": "Essen & Trinken",
         "Activity": "Aktivitäten",
         "Places": "Reisen & Orte",
-        "Objects": "Objekte",
+        "Objects": "Предметы",
         "Symbols": "Symbole",
         "Flags": "Flaggen",
         "Custom": "Benutzerdefiniert"
