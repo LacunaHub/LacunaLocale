@@ -1015,6 +1015,11 @@
       },
       "VoiceChannels": {
         "Music": "Музыка",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музыка"
+        },
         "MusicAllowRadioPlayback": "Дазволіць патокавае прайграванне",
         "MusicQueueMaxLength": "Максімальны памер чаргі",
         "MusicDefaultVolume": "Гучнасць па змаўчанні",
