@@ -218,19 +218,19 @@
           "ChoiceLevel": "па ўзроўню",
           "ChoiceBalance": "па балансе",
           "ChoiceMessageCount": "па колькасці паведамленняў",
-          "ChoiceVoiceTime": "па галасавым часе"
+          "ChoiceVoiceTime": "па галасавым часу"
         },
         "Page": {
           "Description": "Нумар старонкі табліцы лідараў"
         },
         "Order": {
           "ChoiceAsc": "па ўзрастанні",
-          "ChoiceDesc": "па змяншэнні"
+          "ChoiceDesc": "па ўбыванні"
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, узроўні адключаны на гэтым серверы",
-        "EconomyIsDisabled": "{username}, эканоміка адключана на гэтым серверы",
+        "LevelsIsDisabled": "{username}, узроўні адключаныя на гэтым серверы",
+        "EconomyIsDisabled": "{username}, эканоміка адключаная на гэтым серверы",
         "NoLevelsYet": "{username}, на гэтым серверы яшчэ ніхто не атрымліваў узровень",
         "NoWalletsYet": "{username}, на гэтым серверы яшчэ няма кашалькоў",
         "ServerLeadersBy": "Лідары сервера {sortBy}",
@@ -247,7 +247,7 @@
       },
       "Texts": {
         "ImageRenderError": "{username}, адбылася памылка пры стварэнні ўзроўневай карткі",
-        "LevelCardNotFound": "{username}, узроўневая картка не знойдзена"
+        "LevelCardNotFound": "{username}, узроўневая картка не знойдзеная"
       }
     },
     "ServerCommand": {
@@ -256,7 +256,7 @@
         "GuildOwner": "Уладальнік сервера",
         "GuildId": "Ідэнтыфікатар суполкі",
         "MemberCount": "Колькасць удзельнікаў",
-        "ChannelCount": "Колькасьць каналаў",
+        "ChannelCount": "Колькасць каналаў",
         "RoleCount": "Колькасць роляў",
         "EmojiCount": "Колькасць эмодзі",
         "GuildVerificationLevel": "Узровень праверкі",
@@ -856,7 +856,7 @@
           "Description": "Якую ролю неабходна выдаць"
         },
         "Duration": {
-          "Description": "На які час будзе выдадзена роля"
+          "Description": "На які час будзе выдадзеная роля"
         }
       },
       "Texts": {
