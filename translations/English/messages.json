@@ -1018,7 +1018,7 @@
         "MusicProviders": {
           "SoundCloud": "SoundCloud",
           "Spotify": "Spotify",
-          "YandexMusic": "Яндекс Музыка"
+          "YandexMusic": "Yandex Music"
         },
         "MusicAllowRadioPlayback": "Allow radio playback",
         "MusicQueueMaxLength": "Max length of the queue",
