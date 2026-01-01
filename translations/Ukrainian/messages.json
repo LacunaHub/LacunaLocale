@@ -1018,7 +1018,7 @@
         "MusicProviders": {
           "SoundCloud": "SoundCloud",
           "Spotify": "Spotify",
-          "YandexMusic": "Яндекс Музыка"
+          "YandexMusic": "Яндекс Музика"
         },
         "MusicAllowRadioPlayback": "Дозволити потокове відтворення",
         "MusicQueueMaxLength": "Максимальний розмір черги",
@@ -1435,13 +1435,13 @@
       "Categories": {
         "Search": "Результати пошуку",
         "Recent": "Часто вживані",
-        "Smileys": "Смайлики и эмоции",
+        "Smileys": "Смайлики та емоції",
         "People": "Люди и тело",
-        "Nature": "Животные и природа",
+        "Nature": "Тварини та природа",
         "Foods": "Їжа та напої",
         "Activity": "Активність",
         "Places": "Подорожі та місця",
-        "Objects": "Предметы",
+        "Objects": "Предмети",
         "Symbols": "Символи",
         "Flags": "Прапорці",
         "Custom": "Користувацьке"
