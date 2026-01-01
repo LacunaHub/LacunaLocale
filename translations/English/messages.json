@@ -1015,6 +1015,11 @@
       },
       "VoiceChannels": {
         "Music": "Music",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музыка"
+        },
         "MusicAllowRadioPlayback": "Allow radio playback",
         "MusicQueueMaxLength": "Max length of the queue",
         "MusicDefaultVolume": "Default volume",
