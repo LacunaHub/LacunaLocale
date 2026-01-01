@@ -65,11 +65,11 @@
       "UseApplicationCommands": "Выкарыстоўваць каманды дадаткаў",
       "RequestToSpeak": "Запыт на размову",
       "ManageEvents": "Кіраванне падзеямі",
-      "ManageThreads": "Кіраванне галінамі",
-      "CreatePublicThreads": "Ствараць публічныя галіны",
-      "CreatePrivateThreads": "Ствараць прыватныя галіны",
+      "ManageThreads": "Кіраванне гутаркамі",
+      "CreatePublicThreads": "Ствараць публічныя гутаркі",
+      "CreatePrivateThreads": "Ствараць прыватныя гутаркі",
       "UseExternalStickers": "Выкарыстоўваць знешнія стыкеры",
-      "SendMessagesInThreads": "Адпраўляць паведамленні ў галінах",
+      "SendMessagesInThreads": "Адпраўляць паведамленні ў гутарках",
       "UseEmbeddedActivities": "Пачаць убудаваную актыўнасць",
       "ModerateMembers": "Мадэраваць удзельнікаў",
       "ViewCreatorMonetizationAnalytics": "Прагляд аналітыкі манетызацыі",
@@ -112,7 +112,7 @@
       "UserPremiumGuildSubscriptionTier2": "Буст сервера: 2 узровень",
       "UserPremiumGuildSubscriptionTier3": "Буст сервера: 3 узровень",
       "ChannelFollowAdd": "Падпіска на канал",
-      "ThreadCreated": "Галіна створана",
+      "ThreadCreated": "Гутарка створана",
       "Reply": "Адказ на паведамленне"
     },
     "DiscordButtonStyles": {
@@ -1032,8 +1032,8 @@
         "ImageRotationNote": "Выява абновіцца {relativeTime} пры спрацоўванні наступных падзей:",
         "AutoReactions": "Аўтарэакцыі",
         "AutoReactionsDescription": "Аўтаматычнае дадаванне рэакцый на паведамленне",
-        "AutoThreads": "Аўтагалінкі",
-        "AutoThreadsDescription": "Аўтаматычнае стварэнне галінак пад паведамленнямі",
+        "AutoThreads": "Аўтагутаркі",
+        "AutoThreadsDescription": "Аўтаматычнае стварэнне гутарак пад паведамленнямі",
         "InteractiveMessages": "Інтэрактыўныя паведамленні",
         "InteractiveReactions": "Інтэрактыўныя рэакцыі",
         "InteractiveReactionsDescription": "Атрыманне роляў і доступу да каналаў пры націсканні на рэакцыі"
@@ -1215,7 +1215,7 @@
         "InteractiveReactionsNumber": "Колькасць інтэрактыўных рэакцый",
         "TempVoiceChannelsNumber": "Колькасць часовых галасавых каналаў",
         "VoiceRolesNumber": "Колькасць галасавых роляў",
-        "AutoThreadsNumber": "Колькасць аўтагалінак",
+        "AutoThreadsNumber": "Колькасць аўтагутарак",
         "AutoReactionsNumber": "Колькасць аўтарэакцый",
         "ImageRotationInterval": "Інтэрвал ратацыі відарысаў",
         "ActionLogEventsProcessedPerMinuteNumber": "Колькасць апрацаваных падзей журнала дзеянняў у хвіліну",
@@ -1262,7 +1262,7 @@
       "TelegramChannelNameDescription": "Унікальны ідэнтыфікатар або імя абранага канала (у фармаце {'@'}channelusername)",
       "MentionRoles": "Згадаць ролі",
       "CrosspostMessage": "Апублікаваць паведамленне",
-      "CreateThread": "Стварыць галінку"
+      "CreateThread": "Стварыць гутарку"
     },
     "SystemCommand": {
       "Throttling": "Абмежаванні выкарыстання",
@@ -1292,7 +1292,7 @@
       "ExcludedTextMatchesDescription": "Не будзе рэагаваць, калі ў паведамленні змяшчаюцца ўказаныя параметры"
     },
     "AutoThread": {
-      "ThreadName": "Назва галінкі"
+      "ThreadName": "Назва гутаркі"
     },
     "InteractiveMessage": {
       "ActionRows": "Аперацыйныя рады",
@@ -1514,13 +1514,13 @@
     "StickerDeletedTemplate": "{username} выдаляе стыкер {sticker}",
     "StickerUpdated": "Стыкер зменены",
     "StickerUpdatedName": "назву стыкера {sticker}",
-    "ThreadCreated": "Галіна створана",
-    "ThreadCreatedTemplate": "{username} стварае галінку {thread}",
-    "ThreadDeleted": "Галінка выдалена",
-    "ThreadDeletedTemplate": "{username} выдаляе галінку {thread}",
-    "ThreadUpdated": "Галінка зменена",
-    "ThreadUpdatedName": "назву галінкі {thread}",
-    "ThreadUpdatedAutoArchive": "час аўтаархівацыі галінкі {thread}",
+    "ThreadCreated": "Гутарка створана",
+    "ThreadCreatedTemplate": "{username} стварае гутарку {thread}",
+    "ThreadDeleted": "Гутарка выдалена",
+    "ThreadDeletedTemplate": "{username} выдаляе гутарку {thread}",
+    "ThreadUpdated": "Гутарка зменена",
+    "ThreadUpdatedName": "назву гутаркі {thread}",
+    "ThreadUpdatedAutoArchive": "час аўтаархівацыі гутаркі {thread}",
     "ThreadAutoArchiveTime": "Час аўтаархівацыі",
     "UserUpdated": "Карыстальнік зменены",
     "UserUpdatedName": "{username} змяняе свае імя карыстальніка",
