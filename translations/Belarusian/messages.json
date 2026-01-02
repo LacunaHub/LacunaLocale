@@ -644,7 +644,7 @@
       "Description": "Пошук і прайграванне музыкі ў галасавым канале",
       "Options": {
         "Query": {
-          "Description": "Спасылка на трэк, плэйліст, альбом ці назву трэка"
+          "Description": "Спасылка на трэк, плэй-ліст, альбом ці назву трэка"
         },
         "Source": {
           "Description": "Пошук трэкаў у канкрэтнай крыніцы"
@@ -660,8 +660,8 @@
         "NoQuery": "{username}, трэба пазначыць спасылку на плэйліст, спасылку на трэк ці назву",
         "TrackLoadFailed": "{username}, адбылася неспадзяваная памылка пры загрузцы трэка",
         "NoMatches": "{username}, па ўказаным запыце нічога не знойдзена",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
-        "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
+        "PlaylistsAvailableOnlyForPremium": "{username}, прайграванне плэй-лістоў даступна толькі серверам з Lacuna Diamond",
+        "PlaylistLoaded": "{username}, плэй-ліст паспяхова загружаны і дададзены ў чаргу прайгравання",
         "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
         "StreamPlaybackAvailableOnlyForPremium": "{username}, патокавыя прайграванні даступны толькі серверам з Lacuna Diamond",
         "StreamPlaybackIsDisabled": "{username}, патокавыя прайграванні адключаны",
