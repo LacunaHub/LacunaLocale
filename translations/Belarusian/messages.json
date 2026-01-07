@@ -1263,8 +1263,8 @@
       "YoutubeChannelName": "Імя ці ідэнтыфікатар канала",
       "NotificationsChannel": "Канал для апавяшчэнняў",
       "NotificationsText": "Тэкст апавяшчэнняў",
-      "TelegramHelpNote": "Каб звязаць Telegram і Discord, дадайце бота {botLink} да патрэбнага канала, а затым увядзіце яго імя або ідэнтыфікатар у поле ніжэй.",
-      "TelegramChannelNameDescription": "Унікальны ідэнтыфікатар або імя абранага канала (у фармаце {'@'}channelusername)",
+      "TelegramHelpNote": "Каб звязаць Telegram і Discord, дадайце бота {botLink} у патрэбны канал, а затым увядзіце яго імя ці ідэнтыфікатар у полі ніжэй.",
+      "TelegramChannelNameDescription": "Унікальны ідэнтыфікатар ці імя абранага канала (у фармаце {'@'}channelusername)",
       "MentionRoles": "Згадаць ролі",
       "CrosspostMessage": "Апублікаваць паведамленне",
       "CreateThread": "Стварыць гутарку"
