@@ -101,7 +101,7 @@
       "Days": "Күндер"
     },
     "Permissions": "Рұқсаттар",
-    "Exceptions": "Айрықша жағдайлар",
+    "Exceptions": "Ерекшеліктер",
     "Components": "Компоненттер",
     "DiscordMessageTypes": {
       "Default": "Стандартты хабарлама",
@@ -804,7 +804,7 @@
               "Description": "Длительность розыгрыша"
             },
             "WinnerCount": {
-              "Description": "Сыйлықтар ойынында қанша жеңімпаз болады"
+              "Description": "Ұтыс ойынында қ��нша жеңімпаз болады"
             },
             "Sponsor": {
               "Description": "Кто проспонсировал этот розыгрыш"
@@ -1015,6 +1015,11 @@
       },
       "VoiceChannels": {
         "Music": "Музыка",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музыка"
+        },
         "MusicAllowRadioPlayback": "Разрешить потоковое воспроизведение",
         "MusicQueueMaxLength": "Максимальный размер очереди",
         "MusicDefaultVolume": "Әдепкі дыбыс деңгейі",
@@ -1430,13 +1435,13 @@
       "Categories": {
         "Search": "Іздеу нәтижесі",
         "Recent": "Жиі қолданылатындар",
-        "Smileys": "Смайликтер",
-        "People": "Адамдар",
-        "Nature": "Табиғат",
+        "Smileys": "Смайлики и эмоции",
+        "People": "Люди и тело",
+        "Nature": "Животные и природа",
         "Foods": "Тағамдар мен сусындар",
         "Activity": "Белсенділік",
         "Places": "Саяхаттар мен орындар",
-        "Objects": "Заттар",
+        "Objects": "Предметы",
         "Symbols": "Белгілер",
         "Flags": "Тулар",
         "Custom": "Пайдаланушынікі"
