@@ -167,7 +167,7 @@
       "Role": "Роля",
       "Mentionable": "Згадка",
       "Number": "Лікавы",
-      "Attachment": "Прымацаванне"
+      "Attachment": "Далучэнне"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выканання дадзенай каманды неабходны наступныя дазволы: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недастаткова правоў для выканання гэтай каманды",
@@ -200,7 +200,7 @@
         "HelpForCommand": "Даведка па камандзе {command}",
         "ControlPanel": "Панэль кіравання",
         "UnknownCommand": "{username}, каманда не знойдзена",
-        "CommandUsage": "Выкарыстоўванне каманды",
+        "CommandUsage": "Выкарыстанне каманды",
         "CommandArguments": "Аргументы каманды",
         "CommandArgumentRequired": "Абавязковы аргумент",
         "CommandArgumentOptional": "Неабавязковы аргумент",
