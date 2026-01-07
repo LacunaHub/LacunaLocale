@@ -32,7 +32,7 @@
     "DiscordPermissions": {
       "CreateInstantInvite": "Ствараць запрашэнні",
       "KickMembers": "Выгнаць удзельнікаў",
-      "BanMembers": "Баніць удзельнікаў",
+      "BanMembers": "Блакіраваць удзельнікаў",
       "Administrator": "Адміністратар",
       "ManageChannels": "Кіраванне каналамі",
       "ManageGuild": "Кіраванне серверам",
@@ -45,10 +45,10 @@
       "SendTTSMessages": "Адпраўляць TTS-паведамленні",
       "ManageMessages": "Кіраванне паведамленнямі",
       "EmbedLinks": "Убудоўваць спасылкі",
-      "AttachFiles": "Прымацоўваць файлы",
+      "AttachFiles": "Далучаць файлы",
       "ReadMessageHistory": "Чытаць гісторыю паведамленняў",
       "MentionEveryone": "Згадаць усіх",
-      "UseExternalEmojis": "Выкарыстоўваць знешнія эмодзі",
+      "UseExternalEmojis": "Выкарыстоўваць вонкавыя эмодзі",
       "ViewGuildInsights": "Прагляд аналітыкі сервера",
       "Connect": "Падключыцца",
       "Speak": "Гаварыць",
@@ -94,7 +94,7 @@
     "IgnoredChannels": "Ігнараваныя каналы",
     "IgnoredRoles": "Ігнараваныя ролі",
     "IgnoredPermissions": "Ігнараваныя дазволы",
-    "IgnoreBots": "Ігнараваць батоў",
+    "IgnoreBots": "Ігнараваць ботаў",
     "DateUnits": {
       "Minutes": "Хвіліны",
       "Hours": "Гадзіны",
@@ -192,7 +192,7 @@
       "Description": "Спіс даступных каманд і іх апісанне",
       "Options": {
         "Command": {
-          "Description": "Дадатковая інфармацыя аб указанай камандзе"
+          "Description": "Дадатковая інфармацыя пра выбраную каманду"
         }
       },
       "Texts": {
@@ -251,7 +251,7 @@
       }
     },
     "ServerCommand": {
-      "Description": "Інфармацыя аб гэтым серверы",
+      "Description": "Інфармацыя пра гэты сервер",
       "Texts": {
         "GuildOwner": "Уладальнік сервера",
         "GuildId": "Ідэнтыфікатар суполкі",
@@ -311,7 +311,7 @@
       }
     },
     "UserCommand": {
-      "Description": "Інфармацыя аб уліковым запісе карыстальніка",
+      "Description": "Інфармацыя пра ўліковы запіс карыстальніка",
       "Options": {
         "User": {
           "Description": "Інфармацыя аб уліковым запісе абранага карыстальніка"
@@ -465,7 +465,7 @@
         "ReasonPlaceholder": "Апішыце сутнасць вашай скаргі, зазначце дэталі і дадатковую інфармацыю",
         "YouRecentlyReportedThisUser": "{username}, вы нядаўна ўжо адправілі скаргу на гэтага карыстальніка",
         "YouHaveToManySubmittedReports": "{username}, вы дасягнулі дзённага абмежавання на колькасць скаргаў",
-        "ReportSubmitted": "{username}, дзякуй, што паведамілі нам аб гэтым",
+        "ReportSubmitted": "{username}, дзякуй, што паведамілі нам пра гэта",
         "PotentiallyUnwantedUser": "Патэнцыйна непажаданы карыстальнік з-за атрыманых скаргаў",
         "RecentReports": "Апошнія скаргі",
         "ReportCount": "Колькасць скаргаў",
