@@ -318,7 +318,7 @@
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Дата рэгістрацыі акаўнта",
+        "AccountRegistrationDate": "Дата рэгістрацыі ўліковага запісу",
         "DateOfJoiningServer": "Дата далучэння да сервера",
         "LinkToAvatar": "Спасылка на аватар",
         "LinkToBanner": "Спасылка на банер"
@@ -365,10 +365,10 @@
       "Description": "Заблакіраваць карыстальніка на серверы",
       "Options": {
         "User": {
-          "Description": "Каго неабходна заблакіраваць"
+          "Description": "Каго трэба заблакіраваць"
         },
         "Duration": {
-          "Description": "Працягласць блакавання"
+          "Description": "Працягласць блакіроўкі"
         },
         "Reason": {
           "Description": "Прычына блакіроўкі"
@@ -388,7 +388,7 @@
       "Description": "Выгнаць карыстальніка з сервера",
       "Options": {
         "User": {
-          "Description": "Каго неабходна выгнаць"
+          "Description": "Каго трэба выгнаць"
         },
         "Reason": {
           "Description": "Прычына выгнання"
@@ -452,7 +452,7 @@
       "Description": "Адправіць скаргу на карыстальніка",
       "Options": {
         "User": {
-          "Description": "На каго неабходна даслаць скаргу"
+          "Description": "На каго трэба даслаць скаргу"
         },
         "Reason": {
           "Description": "Пра што вы жадаеце паведаміць"
@@ -593,7 +593,7 @@
           "Description": "Выдаць папярэджанне карыстальніку",
           "Options": {
             "User": {
-              "Description": "Каму неабходна выдаць папярэджанне"
+              "Description": "Каму трэба выдаць папярэджанне"
             },
             "Reason": {
               "Description": "Прычына папярэджання"
@@ -887,7 +887,7 @@
       "MyGuilds": "Мае суполкі",
       "NoGuilds": "У вас няма даступных суполак.",
       "Bills": "Выстаўленыя рахункі",
-      "BillId": "Нумар рахунку",
+      "BillId": "Нумар рахунка",
       "BillAmount": "Сума плацяжу",
       "BillStatus": "Статус плацяжу"
     },
@@ -916,7 +916,7 @@
         "ChangeLog": "Журнал змен",
         "DownloadLogs": "Спампаваць логі"
       },
-      "SomethingWentWrongWhenTryingToSave": "Нешта пайшло не так пры спробе захавання. Калі ласка, паспрабуйце крыху пазней.",
+      "SomethingWentWrongWhenTryingToSave": "Нешта пайшло не так пры спробе захавання. Паспрабуйце крыху пазней.",
       "UnsavedChangesArePresent": "Ёсць незахаваныя змены! Вы ўпэўнены, што хочаце пакінуць гэтую старонку?",
       "GeneralSettings": {
         "Title": "Агульныя налады",
