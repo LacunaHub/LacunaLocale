@@ -1351,8 +1351,8 @@
     },
     "ImageEditor": {
       "SendImage": "Адпраўляць відарыс",
-      "ImageHeight": "Вышыня відарыса",
-      "ImageWidth": "Шырыня відарыса",
+      "ImageHeight": "Вышыня выявы",
+      "ImageWidth": "Шырыня выявы",
       "ImageBackgroundColor": "Колер фону відарыса",
       "ImageBackgroundURL": "Спасылка на фонавы відарыс",
       "ImageElements": "Элементы відарыса",
