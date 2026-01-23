@@ -1015,6 +1015,11 @@
       },
       "VoiceChannels": {
         "Music": "Music",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Yandex Music"
+        },
         "MusicAllowRadioPlayback": "Allow radio playback",
         "MusicQueueMaxLength": "Max length of the queue",
         "MusicDefaultVolume": "Default volume",
@@ -1430,9 +1435,9 @@
       "Categories": {
         "Search": "Search results",
         "Recent": "Frequently used",
-        "Smileys": "Emojis",
-        "People": "Humans",
-        "Nature": "Nature",
+        "Smileys": "Smileys & Emotion",
+        "People": "People & Body",
+        "Nature": "Animals & Nature",
         "Foods": "Food and drinks",
         "Activity": "Activities",
         "Places": "Travel and places",

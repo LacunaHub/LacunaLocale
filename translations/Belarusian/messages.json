@@ -32,7 +32,7 @@
     "DiscordPermissions": {
       "CreateInstantInvite": "Ствараць запрашэнні",
       "KickMembers": "Выгнаць удзельнікаў",
-      "BanMembers": "Баніць удзельнікаў",
+      "BanMembers": "Блакіраваць удзельнікаў",
       "Administrator": "Адміністратар",
       "ManageChannels": "Кіраванне каналамі",
       "ManageGuild": "Кіраванне серверам",
@@ -45,14 +45,14 @@
       "SendTTSMessages": "Адпраўляць TTS-паведамленні",
       "ManageMessages": "Кіраванне паведамленнямі",
       "EmbedLinks": "Убудоўваць спасылкі",
-      "AttachFiles": "Прымацоўваць файлы",
+      "AttachFiles": "Далучаць файлы",
       "ReadMessageHistory": "Чытаць гісторыю паведамленняў",
       "MentionEveryone": "Згадаць усіх",
-      "UseExternalEmojis": "Выкарыстоўваць знешнія эмодзі",
+      "UseExternalEmojis": "Выкарыстоўваць вонкавыя эмодзі",
       "ViewGuildInsights": "Прагляд аналітыкі сервера",
       "Connect": "Падключыцца",
       "Speak": "Гаварыць",
-      "MuteMembers": "Адключаць голас удзельнікаў",
+      "MuteMembers": "Адключаць голас удзельнікам",
       "DeafenMembers": "Адключаць гук удзельнікам",
       "MoveMembers": "Перамясціць удзельнікаў",
       "UseVAD": "Выкарыстоўваць рэжым актывацыі па голасу",
@@ -65,11 +65,11 @@
       "UseApplicationCommands": "Выкарыстоўваць каманды дадаткаў",
       "RequestToSpeak": "Запыт на размову",
       "ManageEvents": "Кіраванне падзеямі",
-      "ManageThreads": "Кіраванне галінамі",
-      "CreatePublicThreads": "Ствараць публічныя галіны",
-      "CreatePrivateThreads": "Ствараць прыватныя галіны",
+      "ManageThreads": "Кіраванне гутаркамі",
+      "CreatePublicThreads": "Ствараць публічныя гутаркі",
+      "CreatePrivateThreads": "Ствараць прыватныя гутаркі",
       "UseExternalStickers": "Выкарыстоўваць знешнія стыкеры",
-      "SendMessagesInThreads": "Адпраўляць паведамленні ў галінах",
+      "SendMessagesInThreads": "Адпраўляць паведамленні ў гутарках",
       "UseEmbeddedActivities": "Пачаць убудаваную актыўнасць",
       "ModerateMembers": "Мадэраваць удзельнікаў",
       "ViewCreatorMonetizationAnalytics": "Прагляд аналітыкі манетызацыі",
@@ -94,7 +94,7 @@
     "IgnoredChannels": "Ігнараваныя каналы",
     "IgnoredRoles": "Ігнараваныя ролі",
     "IgnoredPermissions": "Ігнараваныя дазволы",
-    "IgnoreBots": "Ігнараваць батоў",
+    "IgnoreBots": "Ігнараваць ботаў",
     "DateUnits": {
       "Minutes": "Хвіліны",
       "Hours": "Гадзіны",
@@ -112,7 +112,7 @@
       "UserPremiumGuildSubscriptionTier2": "Буст сервера: 2 узровень",
       "UserPremiumGuildSubscriptionTier3": "Буст сервера: 3 узровень",
       "ChannelFollowAdd": "Падпіска на канал",
-      "ThreadCreated": "Галіна створана",
+      "ThreadCreated": "Гутарка створана",
       "Reply": "Адказ на паведамленне"
     },
     "DiscordButtonStyles": {
@@ -167,7 +167,7 @@
       "Role": "Роля",
       "Mentionable": "Згадка",
       "Number": "Лікавы",
-      "Attachment": "Прымацаванне"
+      "Attachment": "Далучэнне"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выканання дадзенай каманды неабходны наступныя дазволы: {permissions}",
     "CommandExecutionDenied": "{username}, у вас недастаткова правоў для выканання гэтай каманды",
@@ -192,7 +192,7 @@
       "Description": "Спіс даступных каманд і іх апісанне",
       "Options": {
         "Command": {
-          "Description": "Дадатковая інфармацыя аб указанай камандзе"
+          "Description": "Дадатковая інфармацыя пра выбраную каманду"
         }
       },
       "Texts": {
@@ -200,7 +200,7 @@
         "HelpForCommand": "Даведка па камандзе {command}",
         "ControlPanel": "Панэль кіравання",
         "UnknownCommand": "{username}, каманда не знойдзена",
-        "CommandUsage": "Выкарыстоўванне каманды",
+        "CommandUsage": "Выкарыстанне каманды",
         "CommandArguments": "Аргументы каманды",
         "CommandArgumentRequired": "Абавязковы аргумент",
         "CommandArgumentOptional": "Неабавязковы аргумент",
@@ -218,19 +218,19 @@
           "ChoiceLevel": "па ўзроўню",
           "ChoiceBalance": "па балансе",
           "ChoiceMessageCount": "па колькасці паведамленняў",
-          "ChoiceVoiceTime": "па галасавым часе"
+          "ChoiceVoiceTime": "па галасавым часу"
         },
         "Page": {
           "Description": "Нумар старонкі табліцы лідараў"
         },
         "Order": {
           "ChoiceAsc": "па ўзрастанні",
-          "ChoiceDesc": "па змяншэнні"
+          "ChoiceDesc": "па ўбыванні"
         }
       },
       "Texts": {
-        "LevelsIsDisabled": "{username}, узроўні адключаны на гэтым серверы",
-        "EconomyIsDisabled": "{username}, эканоміка адключана на гэтым серверы",
+        "LevelsIsDisabled": "{username}, узроўні адключаныя на гэтым серверы",
+        "EconomyIsDisabled": "{username}, эканоміка адключаная на гэтым серверы",
         "NoLevelsYet": "{username}, на гэтым серверы яшчэ ніхто не атрымліваў узровень",
         "NoWalletsYet": "{username}, на гэтым серверы яшчэ няма кашалькоў",
         "ServerLeadersBy": "Лідары сервера {sortBy}",
@@ -247,16 +247,16 @@
       },
       "Texts": {
         "ImageRenderError": "{username}, адбылася памылка пры стварэнні ўзроўневай карткі",
-        "LevelCardNotFound": "{username}, узроўневая картка не знойдзена"
+        "LevelCardNotFound": "{username}, узроўневая картка не знойдзеная"
       }
     },
     "ServerCommand": {
-      "Description": "Інфармацыя аб гэтым серверы",
+      "Description": "Інфармацыя пра гэты сервер",
       "Texts": {
         "GuildOwner": "Уладальнік сервера",
         "GuildId": "Ідэнтыфікатар суполкі",
         "MemberCount": "Колькасць удзельнікаў",
-        "ChannelCount": "Колькасьць каналаў",
+        "ChannelCount": "Колькасць каналаў",
         "RoleCount": "Колькасць роляў",
         "EmojiCount": "Колькасць эмодзі",
         "GuildVerificationLevel": "Узровень праверкі",
@@ -311,14 +311,14 @@
       }
     },
     "UserCommand": {
-      "Description": "Інфармацыя аб уліковым запісе карыстальніка",
+      "Description": "Інфармацыя пра ўліковы запіс карыстальніка",
       "Options": {
         "User": {
           "Description": "Інфармацыя аб уліковым запісе абранага карыстальніка"
         }
       },
       "Texts": {
-        "AccountRegistrationDate": "Дата рэгістрацыі акаўнта",
+        "AccountRegistrationDate": "Дата рэгістрацыі ўліковага запісу",
         "DateOfJoiningServer": "Дата далучэння да сервера",
         "LinkToAvatar": "Спасылка на аватар",
         "LinkToBanner": "Спасылка на банер"
@@ -365,10 +365,10 @@
       "Description": "Заблакіраваць карыстальніка на серверы",
       "Options": {
         "User": {
-          "Description": "Каго неабходна заблакіраваць"
+          "Description": "Каго трэба заблакіраваць"
         },
         "Duration": {
-          "Description": "Працягласць блакавання"
+          "Description": "Працягласць блакіроўкі"
         },
         "Reason": {
           "Description": "Прычына блакіроўкі"
@@ -388,7 +388,7 @@
       "Description": "Выгнаць карыстальніка з сервера",
       "Options": {
         "User": {
-          "Description": "Каго неабходна выгнаць"
+          "Description": "Каго трэба выгнаць"
         },
         "Reason": {
           "Description": "Прычына выгнання"
@@ -452,7 +452,7 @@
       "Description": "Адправіць скаргу на карыстальніка",
       "Options": {
         "User": {
-          "Description": "На каго неабходна даслаць скаргу"
+          "Description": "На каго трэба даслаць скаргу"
         },
         "Reason": {
           "Description": "Пра што вы жадаеце паведаміць"
@@ -465,7 +465,7 @@
         "ReasonPlaceholder": "Апішыце сутнасць вашай скаргі, зазначце дэталі і дадатковую інфармацыю",
         "YouRecentlyReportedThisUser": "{username}, вы нядаўна ўжо адправілі скаргу на гэтага карыстальніка",
         "YouHaveToManySubmittedReports": "{username}, вы дасягнулі дзённага абмежавання на колькасць скаргаў",
-        "ReportSubmitted": "{username}, дзякуй, што паведамілі нам аб гэтым",
+        "ReportSubmitted": "{username}, дзякуй, што паведамілі нам пра гэта",
         "PotentiallyUnwantedUser": "Патэнцыйна непажаданы карыстальнік з-за атрыманых скаргаў",
         "RecentReports": "Апошнія скаргі",
         "ReportCount": "Колькасць скаргаў",
@@ -593,7 +593,7 @@
           "Description": "Выдаць папярэджанне карыстальніку",
           "Options": {
             "User": {
-              "Description": "Каму неабходна выдаць папярэджанне"
+              "Description": "Каму трэба выдаць папярэджанне"
             },
             "Reason": {
               "Description": "Прычына папярэджання"
@@ -644,7 +644,7 @@
       "Description": "Пошук і прайграванне музыкі ў галасавым канале",
       "Options": {
         "Query": {
-          "Description": "Спасылка на трэк, плэйліст, альбом ці назву трэка"
+          "Description": "Спасылка на трэк, плэй-ліст, альбом ці назву трэка"
         },
         "Source": {
           "Description": "Пошук трэкаў у канкрэтнай крыніцы"
@@ -660,10 +660,10 @@
         "NoQuery": "{username}, трэба пазначыць спасылку на плэйліст, спасылку на трэк ці назву",
         "TrackLoadFailed": "{username}, адбылася неспадзяваная памылка пры загрузцы трэка",
         "NoMatches": "{username}, па ўказаным запыце нічога не знойдзена",
-        "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
-        "PlaylistLoaded": "{username}, плэйліст паспяхова загружаны і дададзены ў чаргу прайгравання",
+        "PlaylistsAvailableOnlyForPremium": "{username}, прайграванне плэй-лістоў даступна толькі серверам з Lacuna Diamond",
+        "PlaylistLoaded": "{username}, плэй-ліст паспяхова загружаны і дададзены ў чаргу прайгравання",
         "QueueLimitReached": "{username}, дасягнута максімальная колькасць трэкаў у чарзе",
-        "StreamPlaybackAvailableOnlyForPremium": "{username}, потоковые воспроизведения доступны только бонусным серверам",
+        "StreamPlaybackAvailableOnlyForPremium": "{username}, патокавыя прайграванні даступны толькі серверам з Lacuna Diamond",
         "StreamPlaybackIsDisabled": "{username}, патокавыя прайграванні адключаны",
         "TrackHasBeenAddedToQueue": "{username}, трэк {track} дададзены ў чаргу прайгравання",
         "PlaylistHasBeenAddedToQueue": "{username}, плэйліст {playlist} дададзены ў чаргу прайгравання",
@@ -856,7 +856,7 @@
           "Description": "Якую ролю неабходна выдаць"
         },
         "Duration": {
-          "Description": "На які час будзе выдадзена роля"
+          "Description": "На які час будзе выдадзеная роля"
         }
       },
       "Texts": {
@@ -887,7 +887,7 @@
       "MyGuilds": "Мае суполкі",
       "NoGuilds": "У вас няма даступных суполак.",
       "Bills": "Выстаўленыя рахункі",
-      "BillId": "Нумар рахунку",
+      "BillId": "Нумар рахунка",
       "BillAmount": "Сума плацяжу",
       "BillStatus": "Статус плацяжу"
     },
@@ -916,7 +916,7 @@
         "ChangeLog": "Журнал змен",
         "DownloadLogs": "Спампаваць логі"
       },
-      "SomethingWentWrongWhenTryingToSave": "Нешта пайшло не так пры спробе захавання. Калі ласка, паспрабуйце крыху пазней.",
+      "SomethingWentWrongWhenTryingToSave": "Нешта пайшло не так пры спробе захавання. Паспрабуйце крыху пазней.",
       "UnsavedChangesArePresent": "Ёсць незахаваныя змены! Вы ўпэўнены, што хочаце пакінуць гэтую старонку?",
       "GeneralSettings": {
         "Title": "Агульныя налады",
@@ -994,8 +994,8 @@
       },
       "CustomBehavior": {
         "Automation": "Аўтаматызацыя",
-        "Plugins": "Плагiны",
-        "AboutCustomPlugins": "Стварайце свае ўласныя плагіны і дзяліцеся імі з суполкай. Гэтая магчымасць адчыняе перад карыстальнікамі ўнікальныя перспектывы ў наладзе і аптымізацыі бота пад свае індывідуальныя патрэбнасці."
+        "Plugins": "Убудовы",
+        "AboutCustomPlugins": "Стварайце свае ўласныя ўбудовы і дзяліцеся імі з суполкай. Гэтая магчымасць адчыняе перад карыстальнікамі ўнікальныя перспектывы ў наладзе і аптымізацыі бота пад свае індывідуальныя патрэбнасці."
       },
       "Activities": {
         "Levels": "Узроўні",
@@ -1015,6 +1015,11 @@
       },
       "VoiceChannels": {
         "Music": "Музыка",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музыка"
+        },
         "MusicAllowRadioPlayback": "Дазволіць патокавае прайграванне",
         "MusicQueueMaxLength": "Максімальны памер чаргі",
         "MusicDefaultVolume": "Гучнасць па змаўчанні",
@@ -1032,8 +1037,8 @@
         "ImageRotationNote": "Выява абновіцца {relativeTime} пры спрацоўванні наступных падзей:",
         "AutoReactions": "Аўтарэакцыі",
         "AutoReactionsDescription": "Аўтаматычнае дадаванне рэакцый на паведамленне",
-        "AutoThreads": "Аўтагалінкі",
-        "AutoThreadsDescription": "Аўтаматычнае стварэнне галінак пад паведамленнямі",
+        "AutoThreads": "Аўтагутаркі",
+        "AutoThreadsDescription": "Аўтаматычнае стварэнне гутарак пад паведамленнямі",
         "InteractiveMessages": "Інтэрактыўныя паведамленні",
         "InteractiveReactions": "Інтэрактыўныя рэакцыі",
         "InteractiveReactionsDescription": "Атрыманне роляў і доступу да каналаў пры націсканні на рэакцыі"
@@ -1141,7 +1146,7 @@
       "SwearFilterRegistryTitle": "Рэестр забароненых слоў",
       "UsersSlowdown": "Запавольванне адпраўкі паведамленняў",
       "UsersSlowdownMessagesLimitTitle": "Абмежаванне паведамленняў",
-      "UsersSlowdownMessagesLimitDescription": "Колькі паведамленняў можа адправіць карыстальнік за 5 секунд",
+      "UsersSlowdownMessagesLimitDescription": "Колькі паведамленняў можна адправіць цягам 5 секунд",
       "IgnoredPermissionsDescription": "Удзельнікі з выбранымі дазволамі будуць ігнаравацца",
       "PenaltyTimeout": "Тайм-аўт пакарання"
     },
@@ -1160,7 +1165,7 @@
         "CompareValues": "Параўнаць значэнні",
         "Reply": "Адказаць",
         "SendMessage": "Адправіць паведамленне",
-        "ForwardToCommand": "Перанакіраваць на каманду",
+        "ForwardToCommand": "Накіраваць на каманду",
         "ModifyWallet": "Змяніць кашалёк",
         "ExecuteCode": "Выканаць код",
         "ShowModal": "Адкрыць мадальнае акно"
@@ -1192,7 +1197,7 @@
       "ShowModalFieldDefaultValue": "Значэнне па змаўчанні"
     },
     "LacunaDiamond": {
-      "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
+      "HasSubscription": "Гэтая суполка ўжо мае Lacuna Diamond да {date}",
       "UnlimitedSubscription": "Сервер мае бестэрміновы Lacuna Diamond",
       "BonusMusicDescription": "Неабмежаваная колькасць трэкаў у чарзе, праслухоўванне спісаў прайгравання, патокавае аўдыё і змяненне гучнасці.",
       "BonusIncreasedLimitsDescription": "Больш узнагарод узроўняў, прадметаў крамы, падпісак, аўтаматызацый, інтэрактыўных паведамленняў, галасавых роляў, часовых галасавых каналаў і іншае.",
@@ -1215,13 +1220,13 @@
         "InteractiveReactionsNumber": "Колькасць інтэрактыўных рэакцый",
         "TempVoiceChannelsNumber": "Колькасць часовых галасавых каналаў",
         "VoiceRolesNumber": "Колькасць галасавых роляў",
-        "AutoThreadsNumber": "Колькасць аўтагалінак",
+        "AutoThreadsNumber": "Колькасць аўтагутарак",
         "AutoReactionsNumber": "Колькасць аўтарэакцый",
-        "ImageRotationInterval": "Інтэрвал ратацыі відарысаў",
-        "ActionLogEventsProcessedPerMinuteNumber": "Колькасць апрацаваных падзей журнала дзеянняў у хвіліну",
-        "PlaylistsPlayback": "Прайграванне плэйлістоў",
+        "ImageRotationInterval": "Інтэрвал ратацыі выяў",
+        "ActionLogEventsProcessedPerMinuteNumber": "Колькасць падзей журнала дзеянняў, якія апрацоўваюцца цягам хвіліны",
+        "PlaylistsPlayback": "Прайграванне плэй-лістоў",
         "AudioStreamingPlayback": "Прайграванне патокавага аўдыя",
-        "PlaybackVolumeChanging": "Змена гучнасці прайгравання",
+        "PlaybackVolumeChanging": "Змяненне гучнасці прайгравання",
         "PlaybackQueueTrackNumber": "Колькасць трэкаў у чарзе",
         "PlaybackFilters": "Фільтры прайгравання",
         "PlaybackSeek": "Перамотка прайгравання трэка",
@@ -1232,15 +1237,15 @@
         "ActivityMultipliersNumber": "Колькасць множнікаў вопыту і заробку",
         "SocialPlatformNumber": "Колькасць падпісак {socialPlatform}",
         "PrioritySupport": "Прыярытэтная падтрымка",
-        "ImageEditorElementsNumber": "Колькасць элементаў у рэдактары відарысаў"
+        "ImageEditorElementsNumber": "Колькасць элементаў у рэдактары выяў"
       },
       "FAQ": {
         "Q1": "Падпіска аплачана, але Diamond не актывуецца",
-        "A1": "Каб актываваць Diamond, праверце наступныя пункты\n\n1. Ці прывязаны ваш акаўнт Discord да {platform}\n2. Ці далучыліся вы да сервера падтрымкі і ці атрымалі вы ролю падпісчыка\n3. Ці націснулі вы на кнопку праверкі падпіскі\n\nКалі пасля ўсіх гэтых крокаў праблема застаецца, звяжыцеся з намі для далейшай дапамогі.",
-        "Q2": "Мяне забанілі на серверы падтрымкі. Ці можна актываваць Diamond?",
-        "A2": "Калі вас забанілі на серверы падтрымкі, вы не зможаце актываваць Diamond, бо ён патрабуе доступ да сервера. Мы рэкамендуем вам звязацца з намі, каб мы маглі вызначыць прычыну бана і паспрабаваць зняць яго.",
-        "Q3": "Я дадаў буст серверу больш за 1 раз, але актываваць Diamond магу толькі для аднаго сервера?",
-        "A3": "Так, актываваць Diamond можна толькі 1 раз. Колькасць выдадзеных бустоў не ўплывае на магчымасць дадатковай актывацыі.",
+        "A1": "Каб актываваць Diamond, праверце наступныя пункты\n\n1. Ці прывязаны ваш уліковы запіс Discord да {platform}\n2. Ці далучыліся вы да сервера падтрымкі і ці атрымалі вы ролю падпісчыка\n3. Ці націснулі вы на кнопку праверкі падпіскі\n\nКалі пасля ўсіх гэтых крокаў праблема застаецца, звяжыцеся з намі для далейшай дапамогі.",
+        "Q2": "У мяне блакіроўка на серверы падтрымкі. Ці можна актываваць Diamond?",
+        "A2": "Калі ў вас блакіроўка на серверы падтрымкі, актывацыя Diamond будзе немагчымая, бо яна патрабуе доступу да сервера. Рэкамендуем звязацца з намі, каб разабрацца з прычынай блакіроўкі і паспрабаваць яе зняць.",
+        "Q3": "Я падтрымаў сервер бустам больш за 1 раз, але актываваць Diamond магу толькі для аднаго сервера?",
+        "A3": "Так, актываваць Diamond можна толькі 1 раз. Колькасць нададзеных бустаў не ўплывае на магчымасць дадатковай актывацыі.",
         "Q4": "Як атрымаць жэтоны?",
         "A4": "Каб атрымаць жэтоны, прагаласуйце за нашага бота на старонцы [Top.gg]({topggLink}). За кожны голас вы атрымаеце 1 жэтон."
       }
@@ -1249,20 +1254,20 @@
       "CustomDMMessage": "Карыстальніцкае асабістае паведамленне"
     },
     "WarningPenalty": {
-      "WarningsPlural": "0 папярэджанняў | {n} папярэджанне | {n} папярэджання | {n} папярэджанняў",
+      "WarningsPlural": "0 папярэджанняў | {n} папярэджанне | {n} папярэджанні | {n} папярэджанняў",
       "WarningCount": "Колькасць папярэджанняў"
     },
     "Subscriptions": {
       "ChannelName": "Назва канала",
-      "TwitchDisplayStreamPreview": "Паказаць папярэдні прагляд трансляцыі",
-      "YoutubeChannelName": "Імя або ідэнтыфікатар канала",
-      "NotificationsChannel": "Канал паведамленняў",
-      "NotificationsText": "Тэкст паведамленняў",
-      "TelegramHelpNote": "Каб звязаць Telegram і Discord, дадайце бота {botLink} да патрэбнага канала, а затым увядзіце яго імя або ідэнтыфікатар у поле ніжэй.",
-      "TelegramChannelNameDescription": "Унікальны ідэнтыфікатар або імя абранага канала (у фармаце {'@'}channelusername)",
+      "TwitchDisplayStreamPreview": "Паказваць перадпрагляд трансляцыі",
+      "YoutubeChannelName": "Імя ці ідэнтыфікатар канала",
+      "NotificationsChannel": "Канал для апавяшчэнняў",
+      "NotificationsText": "Тэкст апавяшчэнняў",
+      "TelegramHelpNote": "Каб звязаць Telegram і Discord, дадайце бота {botLink} у патрэбны канал, а затым увядзіце яго імя ці ідэнтыфікатар у полі ніжэй.",
+      "TelegramChannelNameDescription": "Унікальны ідэнтыфікатар ці імя абранага канала (у фармаце {'@'}channelusername)",
       "MentionRoles": "Згадаць ролі",
       "CrosspostMessage": "Апублікаваць паведамленне",
-      "CreateThread": "Стварыць галінку"
+      "CreateThread": "Стварыць гутарку"
     },
     "SystemCommand": {
       "Throttling": "Абмежаванні выкарыстання",
@@ -1292,7 +1297,7 @@
       "ExcludedTextMatchesDescription": "Не будзе рэагаваць, калі ў паведамленні змяшчаюцца ўказаныя параметры"
     },
     "AutoThread": {
-      "ThreadName": "Назва галінкі"
+      "ThreadName": "Назва гутаркі"
     },
     "InteractiveMessage": {
       "ActionRows": "Аперацыйныя рады",
@@ -1346,8 +1351,8 @@
     },
     "ImageEditor": {
       "SendImage": "Адпраўляць відарыс",
-      "ImageHeight": "Вышыня відарыса",
-      "ImageWidth": "Шырыня відарыса",
+      "ImageHeight": "Вышыня выявы",
+      "ImageWidth": "Шырыня выявы",
       "ImageBackgroundColor": "Колер фону відарыса",
       "ImageBackgroundURL": "Спасылка на фонавы відарыс",
       "ImageElements": "Элементы відарыса",
@@ -1430,13 +1435,13 @@
       "Categories": {
         "Search": "Вынікі пошуку",
         "Recent": "Часта выкарыстоўваюцца",
-        "Smileys": "Смайлікі",
-        "People": "Людзі",
-        "Nature": "Прырода",
+        "Smileys": "Смайлікі і эмоцыі",
+        "People": "Людзі і цела",
+        "Nature": "Жывёлы і прырода",
         "Foods": "Ежа і напоі",
         "Activity": "Дзейнасць",
         "Places": "Падарожжы і мясціны",
-        "Objects": "Аб'екты",
+        "Objects": "Рэчы",
         "Symbols": "Сімвалы",
         "Flags": "Сцягі",
         "Custom": "Карыстальніцкія"
@@ -1514,13 +1519,13 @@
     "StickerDeletedTemplate": "{username} выдаляе стыкер {sticker}",
     "StickerUpdated": "Стыкер зменены",
     "StickerUpdatedName": "назву стыкера {sticker}",
-    "ThreadCreated": "Галіна створана",
-    "ThreadCreatedTemplate": "{username} стварае галінку {thread}",
-    "ThreadDeleted": "Галінка выдалена",
-    "ThreadDeletedTemplate": "{username} выдаляе галінку {thread}",
-    "ThreadUpdated": "Галінка зменена",
-    "ThreadUpdatedName": "назву галінкі {thread}",
-    "ThreadUpdatedAutoArchive": "час аўтаархівацыі галінкі {thread}",
+    "ThreadCreated": "Гутарка створана",
+    "ThreadCreatedTemplate": "{username} стварае гутарку {thread}",
+    "ThreadDeleted": "Гутарка выдалена",
+    "ThreadDeletedTemplate": "{username} выдаляе гутарку {thread}",
+    "ThreadUpdated": "Гутарка зменена",
+    "ThreadUpdatedName": "назву гутаркі {thread}",
+    "ThreadUpdatedAutoArchive": "час аўтаархівацыі гутаркі {thread}",
     "ThreadAutoArchiveTime": "Час аўтаархівацыі",
     "UserUpdated": "Карыстальнік зменены",
     "UserUpdatedName": "{username} змяняе свае імя карыстальніка",
