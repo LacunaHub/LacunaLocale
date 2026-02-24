@@ -78,10 +78,10 @@
       "CreateEvents": "Create events",
       "UseExternalSounds": "Use external sounds",
       "SendVoiceMessages": "Send voice messages",
-      "SendPolls": "Создавать опросы",
-      "UseExternalApps": "Использовать внешние приложения",
-      "PinMessages": "Закреплять сообщения",
-      "BypassSlowmode": "Обходить медленный режим"
+      "SendPolls": "Create polls",
+      "UseExternalApps": "Use external apps",
+      "PinMessages": "Pin messages",
+      "BypassSlowmode": "Bypass slowmode"
     },
     "Pagination": "Page {current} of {total}",
     "NextPage": "Next page",
