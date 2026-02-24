@@ -77,7 +77,11 @@
       "CreateGuildExpressions": "Создавать эмодзи, стикеры и звуки звуковой панели",
       "CreateEvents": "Создавать события",
       "UseExternalSounds": "Использовать внешние звуки звуковой панели",
-      "SendVoiceMessages": "Отправлять голосовые сообщения"
+      "SendVoiceMessages": "Отправлять голосовые сообщения",
+      "SendPolls": "Создавать опросы",
+      "UseExternalApps": "Использовать внешние приложения",
+      "PinMessages": "Закреплять сообщения",
+      "BypassSlowmode": "Обходить медленный режим"
     },
     "Pagination": "Страница {current} из {total}",
     "NextPage": "Следующая страница",
