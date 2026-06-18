@@ -1,14 +1,9 @@
 {
   "name": "@lacunahub/lacuna-locale",
-  "version": "1.1.4",
   "description": "Lacuna localization repository",
   "main": "index.js",
   "types": "index.d.ts",
-  "scripts": {
-    "bumpv:patch": "npm version patch -m \"chore: bump version to %s\"",
-    "bumpv:minor": "npm version minor -m \"chore: bump version to %s\"",
-    "bumpv:major": "npm version major -m \"chore: bump version to %s\""
-  },
+  "scripts": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@lacunahub"
   },
