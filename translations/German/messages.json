@@ -77,7 +77,11 @@
       "CreateGuildExpressions": "Ausdrücke, Sticker und Soundboard-Sounds erstellen",
       "CreateEvents": "Veranstaltungen erstellen",
       "UseExternalSounds": "Externe Soundboard-Sounds verwenden",
-      "SendVoiceMessages": "Sprachnachrichten senden"
+      "SendVoiceMessages": "Sprachnachrichten senden",
+      "SendPolls": "Создавать опросы",
+      "UseExternalApps": "Использовать внешние приложения",
+      "PinMessages": "Закреплять сообщения",
+      "BypassSlowmode": "Обходить медленный режим"
     },
     "Pagination": "Seite {current} von {total}",
     "NextPage": "Nächste Seite",
@@ -1015,6 +1019,11 @@
       },
       "VoiceChannels": {
         "Music": "Musik",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музыка"
+        },
         "MusicAllowRadioPlayback": "Streaming-Wiedergabe erlauben",
         "MusicQueueMaxLength": "Maximale Warteschlangenlänge",
         "MusicDefaultVolume": "Standardlautstärke",
@@ -1048,7 +1057,7 @@
       "FeatureActivitiesDescription": "Level und Wirtschaft. Konkurrieren Sie mit anderen Benutzern um einen ehrenvollen Platz auf dem Leaderboard und erhalten Sie Belohnungen!",
       "FeatureModerationDescription": "Einfache und benutzerfreundliche Befehle, Aktionslogs, Automoderation, Benachrichtigungen über potenzielle Regelbrecher, Nutzerbeschwerden und vieles mehr. Lassen Sie Ihre Gemeinschaft nicht ungeschützt.",
       "FeatureSubscriptionsDescription": "Verknüpfen Sie Ihren Telegram, Twitch und YouTube-Kanal, damit Ihre Abonnenten über neue Inhalte informiert werden.",
-      "FeatureMusicDescription": "Hören Sie Ihre Lieblingsmusik in Sprachkanälen. Unterstützung für Spotify, Yandex.Music, SoundCloud, direkte Audio-Links und Radiosender.",
+      "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Yandex.Music, SoundCloud и некоторые радиостанции.",
       "FeatureUtility": "Nützliche Funktionen",
       "FeatureUtilityDescription": "Interaktive Nachrichten und Reaktionen, temporäre Sprachkanäle, Willkommensnachrichten und vieles mehr!",
       "ReadyToGetStarted": "Bereit zum Start?",
@@ -1430,13 +1439,13 @@
       "Categories": {
         "Search": "Suchergebnisse",
         "Recent": "Häufig verwendet",
-        "Smileys": "Smileys & Emotionen",
-        "People": "Menschen & Körper",
-        "Nature": "Tiere & Natur",
+        "Smileys": "Смайлики и эмоции",
+        "People": "Люди и тело",
+        "Nature": "Животные и природа",
         "Foods": "Essen & Trinken",
         "Activity": "Aktivitäten",
         "Places": "Reisen & Orte",
-        "Objects": "Objekte",
+        "Objects": "Предметы",
         "Symbols": "Symbole",
         "Flags": "Flaggen",
         "Custom": "Benutzerdefiniert"

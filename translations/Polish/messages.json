@@ -77,7 +77,11 @@
       "CreateGuildExpressions": "Tworzenie emoji, naklejek i dźwięków panelu dźwiękowego",
       "CreateEvents": "Tworzenie wydarzeń",
       "UseExternalSounds": "Używanie zewnętrznych dźwięków panelu dźwiękowego",
-      "SendVoiceMessages": "Wysyłanie wiadomości głosowych"
+      "SendVoiceMessages": "Wysyłanie wiadomości głosowych",
+      "SendPolls": "Создавать опросы",
+      "UseExternalApps": "Использовать внешние приложения",
+      "PinMessages": "Закреплять сообщения",
+      "BypassSlowmode": "Обходить медленный режим"
     },
     "Pagination": "Strona {current} z {total}",
     "NextPage": "Następna strona",
@@ -1015,6 +1019,11 @@
       },
       "VoiceChannels": {
         "Music": "Muzyka",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музыка"
+        },
         "MusicAllowRadioPlayback": "Zezwól na odtwarzanie radia",
         "MusicQueueMaxLength": "Maksymalna długość kolejki",
         "MusicDefaultVolume": "Domyślna głośność",
@@ -1048,7 +1057,7 @@
       "FeatureActivitiesDescription": "Poziomy i ekonomia. Rywalizuj z innymi użytkownikami o prestiżowe miejsce w rankingu i zdobywaj nagrody!",
       "FeatureModerationDescription": "Proste i intuicyjne komendy, dziennik działań, automoderacja, powiadomienia o potencjalnych naruszycielach, skargi na użytkowników i wiele więcej. Nie pozostawiaj swojej społeczności bez ochrony.",
       "FeatureSubscriptionsDescription": "Połącz swój kanał Telegram, Twitch i YouTube, aby subskrybenci byli informowani o nowych treściach.",
-      "FeatureMusicDescription": "Słuchaj swojej ulubionej muzyki na kanałach głosowych. Obsługujemy Spotify, Yandex.Music, SoundCloud, bezpośrednie linki do audio i stacje radiowe.",
+      "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Yandex.Music, SoundCloud и некоторые радиостанции.",
       "FeatureUtility": "Funkcje użytkowe",
       "FeatureUtilityDescription": "Interaktywne wiadomości i reakcje, tymczasowe kanały głosowe, powitania i wiele więcej!",
       "ReadyToGetStarted": "Gotowy, aby zacząć?",
@@ -1430,13 +1439,13 @@
       "Categories": {
         "Search": "Wyniki wyszukiwania",
         "Recent": "Często używane",
-        "Smileys": "Buźki",
-        "People": "Ludzie",
-        "Nature": "Natura",
+        "Smileys": "Смайлики и эмоции",
+        "People": "Люди и тело",
+        "Nature": "Животные и природа",
         "Foods": "Jedzenie i napoje",
         "Activity": "Aktywności",
         "Places": "Podróże i miejsca",
-        "Objects": "Przedmioty",
+        "Objects": "Предметы",
         "Symbols": "Symbole",
         "Flags": "Flagi",
         "Custom": "Niestandardowe"

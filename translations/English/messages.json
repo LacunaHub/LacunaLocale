@@ -77,7 +77,11 @@
       "CreateGuildExpressions": "Create emojis, stickers and soundboard sounds",
       "CreateEvents": "Create events",
       "UseExternalSounds": "Use external sounds",
-      "SendVoiceMessages": "Send voice messages"
+      "SendVoiceMessages": "Send voice messages",
+      "SendPolls": "Create polls",
+      "UseExternalApps": "Use external apps",
+      "PinMessages": "Pin messages",
+      "BypassSlowmode": "Bypass slowmode"
     },
     "Pagination": "Page {current} of {total}",
     "NextPage": "Next page",
@@ -1015,6 +1019,11 @@
       },
       "VoiceChannels": {
         "Music": "Music",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Yandex Music"
+        },
         "MusicAllowRadioPlayback": "Allow radio playback",
         "MusicQueueMaxLength": "Max length of the queue",
         "MusicDefaultVolume": "Default volume",
@@ -1048,7 +1057,7 @@
       "FeatureActivitiesDescription": "Levels and Economy. Compete with other users in the race for a top spot on the leaderboard and get rewarded for it!",
       "FeatureModerationDescription": "Simple and easy to use commands, action logs, auto-moderation, potential offender alerts, user reporting, and more. Don't leave your community vulnerable.",
       "FeatureSubscriptionsDescription": "Link your Telegram, Twitch, and YouTube channels so subscribers will know when new content is released.",
-      "FeatureMusicDescription": "Listen to your favorite music in voice channels. We support Spotify, Yandex.Music, SoundCloud, direct audio links and radio stations.",
+      "FeatureMusicDescription": "Listen to your favorite music in voice channels. We support Yandex.Music, SoundCloud and some radio stations.",
       "FeatureUtility": "Useful features",
       "FeatureUtilityDescription": "Interactive messages and reactions, temporary voice channels, welcome messages and more!",
       "ReadyToGetStarted": "Ready to start?",
@@ -1430,9 +1439,9 @@
       "Categories": {
         "Search": "Search results",
         "Recent": "Frequently used",
-        "Smileys": "Emojis",
-        "People": "Humans",
-        "Nature": "Nature",
+        "Smileys": "Smileys & Emotion",
+        "People": "People & Body",
+        "Nature": "Animals & Nature",
         "Foods": "Food and drinks",
         "Activity": "Activities",
         "Places": "Travel and places",

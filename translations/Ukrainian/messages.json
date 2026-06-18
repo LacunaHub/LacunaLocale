@@ -77,7 +77,11 @@
       "CreateGuildExpressions": "Створювати емодзі, наліпки та звуки звукової панелі",
       "CreateEvents": "Створювати події",
       "UseExternalSounds": "Використовувати зовнішні звуки звукової панелі",
-      "SendVoiceMessages": "Відправляти голосові повідомлення"
+      "SendVoiceMessages": "Відправляти голосові повідомлення",
+      "SendPolls": "Создавать опросы",
+      "UseExternalApps": "Использовать внешние приложения",
+      "PinMessages": "Закреплять сообщения",
+      "BypassSlowmode": "Обходить медленный режим"
     },
     "Pagination": "Сторінка {current} з {total}",
     "NextPage": "Наступна сторінка",
@@ -1015,6 +1019,11 @@
       },
       "VoiceChannels": {
         "Music": "Музика",
+        "MusicProviders": {
+          "SoundCloud": "SoundCloud",
+          "Spotify": "Spotify",
+          "YandexMusic": "Яндекс Музика"
+        },
         "MusicAllowRadioPlayback": "Дозволити потокове відтворення",
         "MusicQueueMaxLength": "Максимальний розмір черги",
         "MusicDefaultVolume": "Гучність за умовчанням",
@@ -1048,7 +1057,7 @@
       "FeatureActivitiesDescription": "Рівні та економіка. Змагайтеся з іншими користувачами у боротьбі за почесне місце у таблиці лідерів та отримуйте за це нагороди!",
       "FeatureModerationDescription": "Прості та зручні команди, журнал дій, автомодерування, повідомлення про потенційних порушників, скарги на користувачів та багато іншого. Не залишайте свою спільноту без захисту.",
       "FeatureSubscriptionsDescription": "Прив'яжіть свій Telegram, Twitch та YouTube канал, щоб підписники дізнавалися про вихід нового контенту.",
-      "FeatureMusicDescription": "Слухайте свою улюблену музику в голосових каналах. Ми підтримуємо Spotify, Yandex.Music, SoundCloud, прямі посилання на аудіозапис та радіостанції.",
+      "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Yandex.Music, SoundCloud и некоторые радиостанции.",
       "FeatureUtility": "Корисні функції",
       "FeatureUtilityDescription": "Інтерактивні повідомлення та реакції, тимчасові голосові канали, вітальні повідомлення та багато іншого!",
       "ReadyToGetStarted": "Готові розпочати?",
@@ -1430,13 +1439,13 @@
       "Categories": {
         "Search": "Результати пошуку",
         "Recent": "Часто вживані",
-        "Smileys": "Смайлики",
-        "People": "Люди",
-        "Nature": "Природа",
+        "Smileys": "Смайлики та емоції",
+        "People": "Люди и тело",
+        "Nature": "Тварини та природа",
         "Foods": "Їжа та напої",
         "Activity": "Активність",
         "Places": "Подорожі та місця",
-        "Objects": "Об'єкти",
+        "Objects": "Предмети",
         "Symbols": "Символи",
         "Flags": "Прапорці",
         "Custom": "Користувацьке"
