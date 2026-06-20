@@ -174,7 +174,7 @@
       "Attachment": "Вложение"
     },
     "MissingRequiredPermissionsToExecuteCommand": "{username}, для выполнения данной команды необходимы следующие разрешения: {permissions}",
-    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение этой команды",
+    "CommandExecutionDenied": "{username}, у вас недостаточно прав на выполнение данной команды",
     "CommandExecutionOnlyWithPremium": "{username}, выполнение данной команды доступно только с Lacuna Diamond",
     "CommandExecutionDisabled": "{username}, данная команда отключена в настройках сервера",
     "CommandThrottling": "{username}, достигнуто ограничение на выполнение команды, попробуйте еще раз в {time}",
