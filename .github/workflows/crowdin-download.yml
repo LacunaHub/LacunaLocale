@@ -20,8 +20,11 @@ jobs:
           upload_sources: false
           download_translations: true
           create_pull_request: true
+          pull_request_title: 'locale: update translations'
+          pull_request_body: '[![Crowdin](https://badges.crowdin.net/lacuna/localized.svg)](https://crowdin.com/project/lacuna)'
           pull_request_base_branch_name: main
-          localization_branch_name: l10n_crowdin
+          localization_branch_name: crowdin
+          commit_message: 'locale: update translations'
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
