@@ -1368,7 +1368,7 @@
       "TextColor": "Couleur du texte",
       "TextSize": "Taille du texte",
       "TextSizes": {
-        "Header": "En-tête",
+        "Header": "Titre",
         "Subtitle": "Sous-titre",
         "Body": "Corps",
         "Caption": "Légende"
@@ -1523,7 +1523,7 @@
     "StickerDeletedTemplate": "{username} supprime le sticker {sticker}",
     "StickerUpdated": "Sticker mis à jour",
     "StickerUpdatedName": "nom du sticker {sticker}",
-    "ThreadCreated": "Discussion créée",
+    "ThreadCreated": "Fil créé",
     "ThreadCreatedTemplate": "{username} crée la discussion {thread}",
     "ThreadDeleted": "Discussion supprimée",
     "ThreadDeletedTemplate": "{username} supprime la discussion {thread}",
@@ -1548,7 +1548,7 @@
   "CaseLog": {
     "CaseTypes": {
       "BanAdd": "Blocage ajouté",
-      "BanRemove": "Blocage retiré",
+      "BanRemove": "Blocage supprimé",
       "Kick": "Membre expulsé",
       "MuteAdd": "Mute ajouté",
       "MuteRemove": "Mute retiré",
