@@ -1368,7 +1368,7 @@
       "TextColor": "Textfarbe",
       "TextSize": "Textgröße",
       "TextSizes": {
-        "Header": "Kopfzeile",
+        "Header": "Titel",
         "Subtitle": "Untertitel",
         "Body": "Standard",
         "Caption": "Bildunterschrift"
@@ -1547,7 +1547,7 @@
   },
   "CaseLog": {
     "CaseTypes": {
-      "BanAdd": "Bann erteilt",
+      "BanAdd": "Bann hinzugefügt",
       "BanRemove": "Bann aufgehoben",
       "Kick": "Mitglied gekickt",
       "MuteAdd": "Stummschaltung erteilt",
