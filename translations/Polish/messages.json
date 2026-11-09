@@ -1368,7 +1368,7 @@
       "TextColor": "Kolor tekstu",
       "TextSize": "Rozmiar tekstu",
       "TextSizes": {
-        "Header": "Nagłówek",
+        "Header": "Tytuł",
         "Subtitle": "Podtytuł",
         "Body": "Standardowy",
         "Caption": "Podpis"
@@ -1400,7 +1400,7 @@
       "BorderRadiuses": {
         "XS": "Bardzo małe",
         "SM": "Małe",
-        "MD": "Średnie",
+        "MD": "Średni",
         "LG": "Duże",
         "XL": "Bardzo duże",
         "Circle": "Koło"
@@ -1523,7 +1523,7 @@
     "StickerDeletedTemplate": "{username} usuwa naklejkę {sticker}",
     "StickerUpdated": "Naklejka zmieniona",
     "StickerUpdatedName": "nazwa naklejki {sticker}",
-    "ThreadCreated": "Wątek utworzony",
+    "ThreadCreated": "Utworzono wątek",
     "ThreadCreatedTemplate": "{username} tworzy wątek {thread}",
     "ThreadDeleted": "Wątek usunięty",
     "ThreadDeletedTemplate": "{username} usuwa wątek {thread}",
@@ -1548,7 +1548,7 @@
   "CaseLog": {
     "CaseTypes": {
       "BanAdd": "Ban nadany",
-      "BanRemove": "Ban zdjęty",
+      "BanRemove": "Ban usunięty",
       "Kick": "Użytkownik wyrzucony",
       "MuteAdd": "Wyciszenie nadane",
       "MuteRemove": "Wyciszenie zdjęte",
