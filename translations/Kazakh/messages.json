@@ -25,7 +25,7 @@
     "Other": "Басқа",
     "Indefinitely": "Мерзімсіз",
     "CopiedToClipboard": "Алмасу буферіне көшірілді",
-    "TryAgain": "Қайтадан көру",
+    "TryAgain": "Қайталап көру",
     "SupportServer": "Қолдау сервері",
     "RemindLater": "Кейінірек еске салу",
     "SelectFile": "Файлды таңдаңыз",
@@ -48,8 +48,8 @@
       "AttachFiles": "Файлдарды тіркеу",
       "ReadMessageHistory": "Хабарламалар тарихын оқу",
       "MentionEveryone": "Барлығын атап өту",
-      "UseExternalEmojis": "Сыртқы эмодзилерді пайдалану",
-      "ViewGuildInsights": "Сервер аналитикасын қарау",
+      "UseExternalEmojis": "Сыртқы эмодзиді пайдалану",
+      "ViewGuildInsights": "Сервердің аналитикасын қарау",
       "Connect": "Қосылу",
       "Speak": "Сөйлеу",
       "MuteMembers": "Қатысушылардың дауысын өшіру",
@@ -61,26 +61,26 @@
       "ManageRoles": "Рөлдерді басқару",
       "ManageWebhooks": "Веб-түймелерді басқару",
       "ManageEmojisAndStickers": "Эмодзи мен стикерлерді басқару",
-      "ManageGuildExpressions": "Эмодзи, стикерлер мен дыбыс панелін басқару",
+      "ManageGuildExpressions": "Эмодзи, стикерлер және дыбыс тақтасының дыбыстарын басқару",
       "UseApplicationCommands": "Қолданба пәрмендерін пайдалану",
-      "RequestToSpeak": "Әңгімеге сұратым",
+      "RequestToSpeak": "Сөйлеуге сұраныс беру",
       "ManageEvents": "Іс-шараларды басқару",
       "ManageThreads": "Тармақтарды басқару",
-      "CreatePublicThreads": "Қоғамдық тармақтарды құру",
+      "CreatePublicThreads": "Жалпыға ортақ тармақтар құру",
       "CreatePrivateThreads": "Жеке талқылау тармақтарын құру",
       "UseExternalStickers": "Сыртқы стикерлерді пайдалану",
       "SendMessagesInThreads": "Тармақтарға хабарлама жіберу",
       "UseEmbeddedActivities": "Енгізілген белсенділікті бастау",
       "ModerateMembers": "Қатысушыларды басқару",
-      "ViewCreatorMonetizationAnalytics": "Монетизация аналитикасын көру",
-      "UseSoundboard": "Дыбыс панелін пайдалану",
-      "CreateGuildExpressions": "Эмодзи, стикерлер және дыбыс панелі дыбыстарын жасау",
-      "CreateEvents": "Оқиғаларды құру",
+      "ViewCreatorMonetizationAnalytics": "Монетизация аналитикасын қарау",
+      "UseSoundboard": "Дыбыс тақтасын пайдалану",
+      "CreateGuildExpressions": "Эмодзи, стикерлер және дыбыс тақтасының дыбыстарын құру",
+      "CreateEvents": "Іс-шараларды құру",
       "UseExternalSounds": "Сыртқы дыбыс панелі дыбыстарын пайдалану",
       "SendVoiceMessages": "Дауыстық хабарламалар жіберу",
       "SendPolls": "Создавать опросы",
       "UseExternalApps": "Использовать внешние приложения",
-      "PinMessages": "Закреплять сообщения",
+      "PinMessages": "Хабарламаларды бекіту",
       "BypassSlowmode": "Обходить медленный режим"
     },
     "Pagination": "Бет {current} / {total}",
@@ -93,7 +93,7 @@
     "RemoveRoles": "Рөлдерді алып тастау",
     "AllowedChannels": "Рұқсат етілген арналар",
     "AllowedRoles": "Рұқсат етілген рөлдер",
-    "BlockedChannels": "Бұғатталған арналар",
+    "BlockedChannels": "Тыйым салынған арналар",
     "BlockedRoles": "Тыйым салынған рөлдер",
     "IgnoredChannels": "Еленбейтін арналар",
     "IgnoredRoles": "Еленбейтін рөлдер",
@@ -140,16 +140,16 @@
       "Sorting": "сұрыптау",
       "Page": "бет",
       "User": "пайдаланушы",
-      "SKU": "cақтау бірлігі коды",
+      "SKU": "артикул",
       "Currency": "валюта",
       "Duration": "ұзақтық",
       "Reason": "себеп",
       "Amount": "сан",
       "MessageId": "хабарлама-идентификаторы",
-      "UserId": "пайдаланушы-сәйкестендіргіші",
+      "UserId": "пайдаланушы-идентификаторы",
       "WarnId": "ескерту-нөмірі",
       "Query": "сұратым",
-      "Source": "дерек көзі",
+      "Source": "дереккөз",
       "Volume": "дыбыс деңгейі",
       "Prize": "жүлде",
       "WinnerCount": "жеңімпаздар-саны",
@@ -173,11 +173,11 @@
       "Number": "Сандық",
       "Attachment": "Тіркеме"
     },
-    "MissingRequiredPermissionsToExecuteCommand": "{username}, бұл команданы орындау үшін келесі рұқсаттар қажет: {permissions}",
-    "CommandExecutionDenied": "{username}, бұл команданы орындауға құқықтарыңыз жеткіліксіз",
-    "CommandExecutionOnlyWithPremium": "{username}, бұл пәрменді тек Lacuna Diamond-пен орындауға болады",
+    "MissingRequiredPermissionsToExecuteCommand": "{username}, бұл пәрменді орындау үшін сізге келесі рұқсаттар қажет: {permissions}",
+    "CommandExecutionDenied": "{username}, бұл пәрменді орындауға рұқсаттарыңыз жеткіліксіз",
+    "CommandExecutionOnlyWithPremium": "{username}, бұл пәрмен тек Lacuna Diamond иелеріне қолжетімді",
     "CommandExecutionDisabled": "{username}, бұл пәрмен сервер баптауларында өшірулі",
-    "CommandThrottling": "{username}, бұл команданы орындау жиілігі шектелген; {time} кейін қайта көріңіз",
+    "CommandThrottling": "{username}, пәрменді орындау шегіне жеттіңіз. {time} өткен соң қайталап көріңіз",
     "AboutCommand": {
       "Description": "Бот туралы негізгі ақпарат",
       "Texts": {
@@ -193,7 +193,7 @@
       }
     },
     "HelpCommand": {
-      "Description": "Қолжетімді пәрмендердің тізімі және олардың сипаттамасы",
+      "Description": "Қолжетімді пәрмендер тізімі мен сипаттамасы",
       "Options": {
         "Command": {
           "Description": "Көрсетілген пәрмен туралы қосымша ақпарат"
@@ -209,23 +209,23 @@
         "CommandArgumentRequired": "Міндетті аргумент",
         "CommandArgumentOptional": "Міндетті емес аргумент",
         "CommandArgumentType": "Аргумент түрі: {type}",
-        "CommandRequiredPermissions": "Команданы орындау үшін қажетті рұқсаттар",
+        "CommandRequiredPermissions": "Пәрменді орындау үшін қажетті рұқсаттар",
         "CommandPermissionsForBot": "Ботқа арналған",
-        "CommandPermissionsForAuthor": "Пәрменнің авторына арналған"
+        "CommandPermissionsForAuthor": "Пәрмен авторы үшін"
       }
     },
     "LeadersCommand": {
       "Description": "Белсенділік бойынша сервер көшбасшыларының кестесі",
       "Options": {
         "Sorting": {
-          "Description": "Көшбасшылар тақтасын таңдалған әрекет түрі бойынша сұрыптау",
+          "Description": "Көшбасшылар кестесін таңдалған белсенділік түрі бойынша сұрыптау",
           "ChoiceLevel": "деңгей бойынша",
           "ChoiceBalance": "балансы бойынша",
-          "ChoiceMessageCount": "хабарлар саны бойынша",
+          "ChoiceMessageCount": "хабарламалар саны бойынша",
           "ChoiceVoiceTime": "по голосовому времени"
         },
         "Page": {
-          "Description": "Көшбасшылар тақтасының бет нөмірі"
+          "Description": "Көшбасшылар кестесінің бет нөмірі"
         },
         "Order": {
           "ChoiceAsc": "өсу ретімен",
@@ -237,7 +237,7 @@
         "EconomyIsDisabled": "{username}, экономика осы серверде өшірілген",
         "NoLevelsYet": "{username}, бұл серверде әлі ешкім деңгей алған жоқ",
         "NoWalletsYet": "{username}, бұл серверде әлі әмияндар жоқ",
-        "ServerLeadersBy": "Сервер көшбасшылары {sortBy}",
+        "ServerLeadersBy": "{sortBy} бойынша сервер көшбасшылары",
         "CurrentLevel": "{level} деңгей"
       }
     },
@@ -258,7 +258,7 @@
       "Description": "Ағымдағы сервер туралы ақпарат",
       "Texts": {
         "GuildOwner": "Сервер иесі",
-        "GuildId": "Қауымдастық идентификаторы",
+        "GuildId": "Қоғамдастықтың идентификаторы",
         "MemberCount": "Қатысушылар саны",
         "ChannelCount": "Арналар саны",
         "RoleCount": "Рөлдер саны",
@@ -276,40 +276,40 @@
       }
     },
     "StoreCommand": {
-      "Description": "Магазин предметов сервера",
+      "Description": "Сервер тауарларының дүкені",
       "Texts": {
-        "NoItemsForPurchaseInStore": "{username}, в магазине нет предметов для приобретения",
-        "InsufficientFundsToPurchaseItem": "{username}, недостаточно средств для приобретения предмета",
-        "ItemPreviouslyPurchased": "{username}, вы уже ранее приобрели этот предмет",
-        "UserHasPurchasedItem": "{username}, вы приобрели предмет {item}"
+        "NoItemsForPurchaseInStore": "{username}, дүкенде сатып алуға болатын тауарлар жоқ",
+        "InsufficientFundsToPurchaseItem": "{username}, тауарды сатып алуға қаражат жеткіліксіз",
+        "ItemPreviouslyPurchased": "{username}, сіз бұл тауарды бұған дейін сатып алғансыз",
+        "UserHasPurchasedItem": "{username}, сіз {item} тауарын сатып алдыңыз"
       },
       "SubCommands": {
         "BuyCommand": {
-          "Description": "Покупка предметов в магазине сервера",
+          "Description": "Тауарларды сервер дүкенінен сатып алу",
           "Options": {
             "SKU": {
-              "Description": "Артикул (SKU) предмета в магазине"
+              "Description": "Дүкен тауарының артикулы (SKU)"
             }
           },
           "Texts": {
-            "InvalidSKU": "{username}, пожалуйста, укажите артикул предмета",
-            "ItemNotFound": "{username}, предмет с таким артикулом не найден"
+            "InvalidSKU": "{username}, өтініш, тауар артикулын көрсетіңіз",
+            "ItemNotFound": "{username}, мұндай артикулды тауар табылмады"
           }
         },
         "ItemsCommand": {
-          "Description": "Список доступных для покупки предметов в магазине сервера",
+          "Description": "Сервер дүкенінен сатып алуға қолжетімді тауарлар тізімі",
           "Options": {
             "Page": {
-              "Description": "Номер страницы магазина предметов"
+              "Description": "Тауарлар дүкенінің бет нөмірі"
             }
           },
           "Texts": {
             "ServerStore": "Сервер дүкені",
-            "ServerStoreHowToBuyItem": "Выберите предмет в выпадающем списке ниже или введите команду {command}, чтобы приобрести его",
+            "ServerStoreHowToBuyItem": "Төмендегі ашылмалы тізімнен тауарды таңдаңыз немесе оны сатып алу үшін {command} пәрменін енгізіңіз",
             "PurchasePrice": "Сатып алу бағасы",
             "ItemContains": "Содержит в себе",
             "ItemQuantity": "Оставшееся количество",
-            "SelectItemToPurchase": "Выберите предмет для покупки"
+            "SelectItemToPurchase": "Сатып алынатын тауарды таңдаңыз"
           }
         }
       }
@@ -384,7 +384,7 @@
         "CannotBanThisUser": "{username}, невозможно заблокировать этого пользователя",
         "UserRoleIsHigherThanYour": "{username}, пользователь находится выше вас в иерархии ролей",
         "UserIsModerator": "{username}, пользователь имеет права модератора, я не могу позволить сделать это",
-        "UserHasUnmoderatedRoles": "{username}, пользователь имеет одну или несколько ролей для которых запрещены действия модерирования",
+        "UserHasUnmoderatedRoles": "{username}, пайдаланушыда модерациялау әрекеттеріне тыйым салынған бір немесе бірнеше рөл бар",
         "UserHasBeenBanned": "{username}, пользователю {target} выдана блокировка на сервере"
       }
     },
@@ -430,13 +430,13 @@
       "Description": "Очистка последних сообщений в канале (сообщения старше 2 недель игнорируются)",
       "Options": {
         "Amount": {
-          "Description": "Қанша хабарламаларды жою керек"
+          "Description": "Қанша хабарламаны жою керек"
         },
         "User": {
           "Description": "Кімнің хабарламаларын жою керек"
         },
         "Reason": {
-          "Description": "Хабарламаларды жоюдың себебі"
+          "Description": "Хабарламаларды тазартудың себебі"
         }
       },
       "Texts": {
@@ -470,7 +470,7 @@
         "YouRecentlyReportedThisUser": "{username}, Сіз жақында осы пайдаланушыға шағым жібергенсіз",
         "YouHaveToManySubmittedReports": "{username}, сіз шағым жіберудің күндік шегіне жеттіңіз",
         "ReportSubmitted": "{username}, бізге хабарлағаныңызға рахмет",
-        "PotentiallyUnwantedUser": "Түскен шағымдарға орай потенциалды қалаусыз пайдаланушы",
+        "PotentiallyUnwantedUser": "Түскен шағымдарға байланысты ықтимал қалаусыз пайдаланушы",
         "RecentReports": "Соңғы шағымдар",
         "ReportCount": "Шағымдар саны",
         "RecommendedActions": "Ұсынылған әрекеттер",
@@ -522,7 +522,7 @@
             "Description": "Шектеулерді айналып өту үшін бірнеше аккаунттың ашылуы"
           },
           "ViolationOfCommunityRules": {
-            "Title": "Қауымдастық ережелерін бұзу",
+            "Title": "Қоғамдастық ережелерін бұзу",
             "Description": "Белгіленген ережелерді сақтамау"
           },
           "DisclosureOfPersonalInformation": {
@@ -551,8 +551,8 @@
         }
       },
       "Texts": {
-        "InvalidUser": "{username}, пожалуйста, укажите идентификатор пользователя, которого необходимо разблокировать",
-        "BanNotFound": "{username}, не удалось найти заблокированного пользователя с указанным идентификатором",
+        "InvalidUser": "{username}, бұғаттан шығарылатын пайдаланушының идентификаторын көрсетіңіз",
+        "BanNotFound": "{username}, көрсетілген идентификаторы бар бұғатталған пайдаланушы табылмады",
         "UserHasBeenUnbanned": "{username}, пользователь {target} был успешно разблокирован"
       }
     },
@@ -573,20 +573,20 @@
       }
     },
     "ViolationsCommand": {
-      "Description": "Пайдаланушының ескерту тізімі",
+      "Description": "Пайдаланушының ескертулер тізімі",
       "Options": {
         "User": {
-          "Description": "Кімнің ескерту тізімін экранға шығару қажет"
+          "Description": "Кімнің ескертулер тізімін көрсету керек"
         }
       },
       "Texts": {
         "ThisUserHasNoViolations": "{username}, бұл пайдаланушының ереже бұзушылықтары жоқ",
         "NoOneHasAnyViolations": "{username}, серверде ешкімнің ереже бұзушылықтары жоқ",
-        "UserViolations": "{target}-тің ереже бұзушылықтары",
-        "ViolationsIn24Hours": "Тәулікте",
+        "UserViolations": "{target} ереже бұзушылықтары",
+        "ViolationsIn24Hours": "Тәулік ішінде",
         "ViolationsIn7Days": "7 күн ішінде",
-        "Last10Violations": "Соңғы 10 ереже бұзушылықтар",
-        "TotalViolations": "Барлық бұзушылықтар саны",
+        "Last10Violations": "Соңғы 10 ереже бұзушылық",
+        "TotalViolations": "Барлық ереже бұзушылық саны",
         "ListOfViolators": "Тәртіп бұзушылардың тізімі"
       }
     },
@@ -600,12 +600,12 @@
               "Description": "Кому необходимо выдать предупреждение"
             },
             "Reason": {
-              "Description": "Ескерту берудің себебі"
+              "Description": "Ескертудің себебі"
             }
           },
           "Texts": {
             "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно выдать предупреждение",
-            "YouCannotWarnYourself": "{username}, мен Сізге өзіңізге ескерту беруге рұқсат бере аламын деп ойламаймын",
+            "YouCannotWarnYourself": "{username}, өзіңізге ескерту беруге рұқсат ете алмаймын деп ойлаймын",
             "UserHasBeenWarned": "{username}, пользователю {target} было выдано предупреждение"
           }
         },
@@ -616,7 +616,7 @@
               "Description": "С кого необходимо снять предупреждение"
             },
             "WarnId": {
-              "Description": "Идентификатор, порядковый номер предупреждения или \"all\" для снятие всех предупреждений"
+              "Description": "Ескертудің идентификаторы, реттік нөмірі немесе барлық ескертулерді алып тастау үшін \"all\""
             },
             "Reason": {
               "Description": "Причина снятия предупреждения"
@@ -624,8 +624,8 @@
           },
           "Texts": {
             "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому нужно снять предупреждение",
-            "NoWarnId": "{username}, пожалуйста, укажите идентификатор предупреждения",
-            "InvalidWarnId": "{username}, вы указали неверный идентификатор предупреждения",
+            "NoWarnId": "{username}, ескерту идентификаторын көрсетуіңізді өтінеміз",
+            "InvalidWarnId": "{username}, сіз ескертудің идентификаторын қате көрсеттіңіз",
             "ThisUserHasNoViolations": "{username}, похоже, что этот пользователь не получал ранее предупреждений",
             "UserWarnHasBeenRemoved": "{username}, предупреждение успешно снято",
             "AllUserWarnsHaveBeenRemoved": "{username}, все предупреждения успешно сняты"
@@ -663,7 +663,7 @@
         "PlaybackIsNotStarted": "{username}, воспроизведение треков не запущено на этом сервере",
         "NoQuery": "{username}, нужно указать ссылку на плейлист, ссылку на трек или название",
         "TrackLoadFailed": "{username}, произошла непредвиденная ошибка при загрузке трека",
-        "NoMatches": "{username}, по указанному запросу ничего не найдено",
+        "NoMatches": "{username}, көрсетілген сұраныс бойынша ештеңе табылмады",
         "PlaylistsAvailableOnlyForPremium": "{username}, проигрывание плейлистов доступно только бонусным серверам",
         "PlaylistLoaded": "{username}, плейлист успешно загружен и добавлен в очередь воспроизведения",
         "QueueLimitReached": "{username}, достигнуто максимальное количество треков в очереди",
@@ -710,13 +710,13 @@
         }
       },
       "Texts": {
-        "InvalidVolume": "{username}, неверно указано значение громкости",
-        "InvalidVolumeDiapason": "{username}, громкость должна быть в диапазоне от 1 до 100",
+        "InvalidVolume": "{username}, дыбыс деңгейінің мәні қате көрсетілген",
+        "InvalidVolumeDiapason": "{username}, дыбыс деңгейі 1 мен 100 аралығында болуы тиіс",
         "VolumeHasBeenChanged": "{username}, дыбыс деңгейі {from}-дан {to}-ға өзгертілді"
       }
     },
     "ActivitiesCommand": {
-      "Description": "Белсенділікті басқару",
+      "Description": "Белсенділіктерді басқару",
       "SubCommands": {
         "AssignLevelAwardCommand": {
           "Description": "Пайдаланушыға марапат тағайындау",
@@ -777,20 +777,20 @@
           }
         },
         "ResetLevelCommand": {
-          "Description": "Сбросить уровень пользователю",
+          "Description": "Пайдаланушының деңгейін ысыру",
           "Options": {
             "User": {
-              "Description": "Кому необходимо сбросить уровень"
+              "Description": "Деңгейін ысыру қажет пайдаланушы"
             },
             "ResetAll": {
-              "Description": "Сбросить уровни всем участникам на сервере"
+              "Description": "Сервердегі барлық қатысушылардың деңгейлерін ысыру"
             }
           },
           "Texts": {
-            "NoRequiredArgs": "{username}, укажите участника, его идентификатор или сделайте сброс уровня всем",
-            "NoExistingLevels": "{username}, нет существующих уровней",
-            "AllLevelsHaveBeenReset": "{username}, все уровни успешно сброшены",
-            "UserLevelHasBeenReset": "{username}, уровень успешно сброшен"
+            "NoRequiredArgs": "{username}, қатысушыны, оның идентификаторын көрсетіңіз немесе барлығының деңгейін ысырыңыз",
+            "NoExistingLevels": "{username}, қолжетімді деңгейлер жоқ",
+            "AllLevelsHaveBeenReset": "{username}, барлық деңгейлер сәтті ысырылды",
+            "UserLevelHasBeenReset": "{username}, деңгей сәтті ысырылды"
           }
         }
       }
@@ -805,10 +805,10 @@
               "Description": "Приз за победу в розыгрыше"
             },
             "Duration": {
-              "Description": "Длительность розыгрыша"
+              "Description": "Ұтыс ойынының ұзақтығы"
             },
             "WinnerCount": {
-              "Description": "Ұтыс ойынында қ��нша жеңімпаз болады"
+              "Description": "Ұтыс ойыны жеңімпаздарының саны"
             },
             "Sponsor": {
               "Description": "Кто проспонсировал этот розыгрыш"
@@ -821,7 +821,7 @@
             "MaxActiveGiveawaysReached": "{username}, достигнуто максимальное количество активных розыгрышей",
             "GiveawaySponsoredBy": "{sponsor} ұйымдастырған ұтыс ойыны",
             "GiveawayWillBeOverIn": "Завершится {relativeTime}",
-            "WinningPrize": "Жеңіс жүлдесі",
+            "WinningPrize": "Ұтыс жүлдесі",
             "WinnerCount": "Жеңімпаздар саны",
             "GiveawayHasBeenCreated": "{username}, розыгрыш успешно создан",
             "YouHaveParticipatedInGiveaway": "{username}, вы приняли участие в розыгрыше {giveaway}",
@@ -832,19 +832,19 @@
           "Description": "Принудительно завершить розыгрыш",
           "Options": {
             "MessageId": {
-              "Description": "Идентификатор сообщения с розыгрышем"
+              "Description": "Ұтыс ойыны бар хабарламаның идентификаторы"
             }
           },
           "Texts": {
             "NoGiveawayParticipants": "Участники розыгрыша не найдены",
             "GiveawayWinners": "Жеңімпаздар: {winners}",
-            "CongratulationsYouHaveWon": "Жеңісіңіз құтты болсын {winner}! Сіз {prize} ұтып алдыңыз!"
+            "CongratulationsYouHaveWon": "Құттықтаймын, {winner}! Сіз {prize} ұттыңыз!"
           }
         },
         "RerollCommand": {
           "Description": "Выбрать победителей розыгрыша заново",
           "Texts": {
-            "InvalidMessageId": "{username}, пожалуйста, укажите идентификатор сообщения с розыгрышем",
+            "InvalidMessageId": "{username}, ұтыс ойыны бар хабарламаның идентификаторын көрсетуіңізді өтінеміз",
             "GiveawayNotFound": "{username}, розыгрыш не найден"
           }
         }
@@ -866,8 +866,8 @@
       "Texts": {
         "InvalidUser": "{username}, пожалуйста, укажите пользователя, которому будет выдана временная роль",
         "NoRole": "{username}, вы не указали роль",
-        "InvalidDuration": "{username}, длительность временной роли указано неверно",
-        "RoleIsNotEditable": "{username}, у меня нет разрешений на выдачу этой роли кому-либо",
+        "InvalidDuration": "{username}, уақытша рөлдің ұзақтығы қате көрсетілген",
+        "RoleIsNotEditable": "{username}, бұл рөлді ешкімге беруге рұқсатым жоқ",
         "UserAlreadyHasThisRole": "{username}, пользователь уже имеет эту роль",
         "RoleAssignedToUser": "{username}, роль {role} выдана пользователю {target} до {date}"
       }
@@ -883,13 +883,13 @@
     "AuthorizationResultPage": {
       "AuthorizationSuccessful": "Авторизация прошла успешно",
       "AuthorizationFailed": "Авторизация не удалась",
-      "SomethingWentWrong": "Что-то пошло не так. Попробуйте позже."
+      "SomethingWentWrong": "Қателік орын алды. Кейін қайталап көріңіз."
     },
     "DashboardPage": {
       "Profile": "Профиль",
       "NoActivities": "Сіз белсенділік көрсетпеген сияқтысыз",
-      "MyGuilds": "Мои сообщества",
-      "NoGuilds": "У вас нет доступных сообществ.",
+      "MyGuilds": "Менің қоғамдастықтарым",
+      "NoGuilds": "Сізде қолжетімді қоғамдастықтар жоқ.",
       "Bills": "Төлемге шығарылған шоттар",
       "BillId": "Шот нөмірі",
       "BillAmount": "Төлем сомасы",
@@ -900,27 +900,27 @@
       "OurPatrons": "Біздің демеушілеріміз"
     },
     "ErrorPage": {
-      "ThereIsNothingHere": "Здесь ничего нет..."
+      "ThereIsNothingHere": "Бұл жерде ештеңе жоқ..."
     },
     "GuildPage": {
       "MembersOnline": "{n} в сети",
       "MembersPlural": "0 участников | {n} участник | {n} участника | {n} участников",
       "Leaders": {
-        "Leaderboard": "Таблица лидеров"
+        "Leaderboard": "Көшбасшылар кестесі"
       },
       "NavNames": {
         "General": "Жалпы",
         "Commands": "Пәрмендер",
-        "Moderation": "Модерлеу",
+        "Moderation": "Модерациялау",
         "CustomBehavior": "Пользовательское поведение",
         "Activities": "Белсенділіктер",
-        "Subscriptions": "Социальные оповещения",
+        "Subscriptions": "Әлеуметтік мәлімдемелер",
         "VoiceChannels": "Дауыстық арналар",
         "Utility": "Пайдалы",
         "ChangeLog": "Өзгерістер журналы",
         "DownloadLogs": "Логтарды жүктеу"
       },
-      "SomethingWentWrongWhenTryingToSave": "Сақтау кезінде қате кетті. Кейінірек қайталап көруіңізді өтінеміз.",
+      "SomethingWentWrongWhenTryingToSave": "Сақтау барысында қателік орын алды. Кейінірек қайталап көруіңізді сұраймыз.",
       "UnsavedChangesArePresent": "Сақталмаған өзгертулер бар! Бұл беттен шынымен шыққыңыз келе ме?",
       "GeneralSettings": {
         "Title": "Жалпы баптаулар",
@@ -938,12 +938,12 @@
         "ChannelForMessages": "Хабарламалар арнасы",
         "MessageTemplate": "Шаблон сообщения",
         "InitialRoles": "Бастапқы рөлдер",
-        "Restoring": "Қалпына келтіру",
-        "RestoringDescription": "Восстанавливать роли и/или никнейм участнику, который повторно зашел на сервер",
+        "Restoring": "Қалпына келтірілуде",
+        "RestoringDescription": "Серверге қайта кірген қатысушының рөлдері мен/немесе никнеймін қалпына келтіру",
         "RestoreRoles": "Рөлдерді қалпына келтіру",
-        "RestoreNickname": "Никнеймді бұрыңғы қалпына келтіру",
+        "RestoreNickname": "Никнеймді қалпына келтіру",
         "RestoreStrictRoles": "Қатаң рөлдер",
-        "RestoreStrictRolesDescription": "Эти роли не будут восстановлены при повторном присоединении на сервер",
+        "RestoreStrictRolesDescription": "Бұл рөлдер серверге қайта кірген кезде қалпына келтірілмейді",
         "Farewell": "Прощание"
       },
       "Commands": {
@@ -952,15 +952,15 @@
       "Moderation": {
         "Hierarchy": "Иерархия",
         "RespectHierarchy": "Учитывать иерархию ролей в командах модерирования",
-        "DenyModerateUsersWithModeratorPermissions": "Запретить модерировать пользователей с правами модератора",
+        "DenyModerateUsersWithModeratorPermissions": "Модератор құқығы бар пайдаланушыларды модерациялауға тыйым салу",
         "UnmoderatedRoles": "Немодерируемые роли",
         "UnmoderatedRolesDescription": "К этим ролям невозможно будет применить команды модерирования",
         "Log": "Журнал",
         "LogDescription": "Отслеживание действий и событий",
-        "CaseLogChannel": "Жағдайлар арнасы",
-        "CaseLogChannelDescription": "В указанном канале будут логироваться действия модераторов",
-        "CaseLogTypes": "Жағдайлардың түрлері",
-        "CaseLogTypesDescription": "События журнала модерации",
+        "CaseLogChannel": "Оқиғалар арнасы",
+        "CaseLogChannelDescription": "Көрсетілген арнада модераторлардың іс-әрекеттері тіркеледі",
+        "CaseLogTypes": "Оқиға түрлері",
+        "CaseLogTypesDescription": "Модерация журналының оқиғалары",
         "ActionLog": "Журнал действия",
         "ActionLogDescription": "События сервера",
         "AIMod": "ЖИ модерация",
@@ -984,12 +984,12 @@
         "DAMEMentionSpamMentionRaidProtectionEnabled": "Включить защиту от рейдов через упоминания",
         "DAMEBlockMessage": "Хабарламаны бұғаттау",
         "DAMEBlockMessageCustomMessage": "Пайдаланушыға арналған хабарлама",
-        "DAMEBlockMessageCustomMessageDescription": "Пайдаланушының хабарламасы бұғатталған кезде хабарлама көрсетіледі.",
+        "DAMEBlockMessageCustomMessageDescription": "Пайдаланушының хабарламасы бұғатталған кезде осы мәтін көрсетіледі.",
         "DAMESendAlert": "Отправить оповещение",
         "DAMEBlockMemberInteractions": "Блокировать взаимодействия участника",
         "Mutes": "Дыбысы өшірілгендер",
         "MutesRAR": "Дыбыс өшіру кезінде барлық рөлдерді алып тастау",
-        "MutesRARStrict": "-дан басқа барлығын алып тастау",
+        "MutesRARStrict": "Қоспағанда, бәрін алып тастау",
         "AutoMod": "Автомодерация",
         "AutoModDescription": "Ереже бұзушыларға қарсы шараларды автоматты түрде қолдану",
         "AutoModDeprecated": "Функция автомодерации устарела и мы рекомендуем использовать Discord AutoMod.",
@@ -1012,10 +1012,10 @@
         "Economy": "Экономика",
         "EconomyResetOnLeave": "Қатысушы серверден шыққан кезде әмиянды нөлге түсіру",
         "EconomyCurrencies": "Валюталар",
-        "EconomyStoreItems": "Предметы магазина",
+        "EconomyStoreItems": "Дүкен тауарлары",
         "EconomyTransferPermissions": "Аударым пәрменінің рұқсаттары",
         "Multipliers": "Тәжірибе мен табыс көбейткіштері",
-        "PublicLeaderboard": "Публичная таблица лидеров"
+        "PublicLeaderboard": "Көшбасшылардың жалпыға ортақ кестесі"
       },
       "VoiceChannels": {
         "Music": "Музыка",
@@ -1036,21 +1036,21 @@
       },
       "Useful": {
         "Reports": "Шағымдар",
-        "ReportsNotifyAboutUnwantedUsers": "Потенциалды қалаусыз пайдаланушылардың қосылуы туралы хабарлау",
+        "ReportsNotifyAboutUnwantedUsers": "Ықтимал қалаусыз пайдаланушылардың қосылуы туралы хабарлау",
         "BannerRotation": "Ротация баннера",
-        "ImageRotationNote": "Сурет келесі оқиғалар болғанда {relativeTime} ішінде жаңартылады:",
+        "ImageRotationNote": "Мынадай оқиғалар тіркелген жағдайда, сурет {relativeTime} ішінде жаңартылады:",
         "AutoReactions": "Автореакциялар",
         "AutoReactionsDescription": "Хабарламаға реакциялардың автоматты түрде қосылуы",
         "AutoThreads": "Авто-тармақтар",
         "AutoThreadsDescription": "Автоматическое создание веток под сообщениями",
         "InteractiveMessages": "Интерактивті хабарламалар",
-        "InteractiveReactions": "Интерактивтік реакциялар",
+        "InteractiveReactions": "Интерактивті реакциялар",
         "InteractiveReactionsDescription": "Выдача ролей и доступов к каналам при нажатии на реакции"
       }
     },
     "LandingPage": {
       "Title": "Создавайте (всё), что пожелаете",
-      "Description": "Многофункциональный бот для Discord, предназначенный расширить возможности управления и модерирования сообществ.",
+      "Description": "Қоғамдастықтарды басқару мен модерациялау мүмкіндіктерін кеңейтуге арналған Discord-тың көп атқарымды боты.",
       "AddToMe": "Добавить себе",
       "LearnMore": "Толығырақ білу",
       "FeatureCustomBehaviorDescription": "Настройте поведение бота с помощью JavaScript. Создавайте пользовательские команды и задачи автоматизации, чтобы придать волшебство своему сообществу.",
@@ -1059,7 +1059,7 @@
       "FeatureSubscriptionsDescription": "Привяжите свой Telegram, Twitch и YouTube канал, чтобы подписчики узнавали о выходе нового контента.",
       "FeatureMusicDescription": "Прослушивайте свою любимую музыку в голосовых каналах. Поддерживаем Yandex.Music, SoundCloud и некоторые радиостанции.",
       "FeatureUtility": "Пайдалы функциялар",
-      "FeatureUtilityDescription": "Интерактивные сообщения и реакции, временные голосовые каналы, приветственные сообщения и многое другое!",
+      "FeatureUtilityDescription": "Интерактивті хабарламалар мен реакциялар, уақытша дауыстық арналар, қарсы алу хабарламалары және тағы басқалар!",
       "ReadyToGetStarted": "Бастауға дайынсыз ба?",
       "ReadyToGetStartedDescription": "Стабильность. Легкость. Функциональность. Lacuna – это мощный инструмент для улучшения сообщества с интуитивно понятным интерфейсом."
     },
@@ -1078,17 +1078,17 @@
       "CurrencyName": "Валютаның атауы",
       "CurrencySymbol": "Валюта белгісі",
       "IncomePerMessage": "Хабарлама үшін табыс",
-      "IncomePerMessageRl": "Уақыт бойынша шектеу",
-      "IncomePerMessageRlDescription": "Пользователь сможет получить монеты снова по истечению данного времени",
+      "IncomePerMessageRl": "Уақытша шектеу",
+      "IncomePerMessageRlDescription": "Осы уақыт өткеннен кейін пайдаланушы қайтадан монета ала алады",
       "IncomePerMinute": "Дауыстық арнадағы минуттық табыс",
-      "From": "От",
-      "To": "Дейін"
+      "From": "Кімнен",
+      "To": "Кімге"
     },
     "EconomyStoreItem": {
-      "ItemName": "Название предмета",
-      "ItemType": "Заттың түрі",
-      "ItemDescription": "Описание предмета",
-      "ItemPurchasePriceDescription": "Установите значение на 0, чтобы сделать предмет бесплатным",
+      "ItemName": "Тауар атауы",
+      "ItemType": "Тауар түрі",
+      "ItemDescription": "Тауар сипаттамасы",
+      "ItemPurchasePriceDescription": "Тауар тегін болуы үшін мәнді 0-ге орнатыңыз",
       "ItemProducts": "Тауарлар",
       "ItemProductsDescription": "Роли или каналы, которые будут выданы при покупке",
       "ItemOptions": {
@@ -1096,8 +1096,8 @@
         "TemporaryReferences": "Рөлдерді уақытша беру",
         "CustomPurchaseReply": "Индивидуальное сообщение покупки"
       },
-      "ItemQuantity": "Количество предметов",
-      "ItemDuration": "Длительность предмета"
+      "ItemQuantity": "Тауарлар саны",
+      "ItemDuration": "Тауардың ұзақтығы"
     },
     "LevelAward": {
       "AwardConditions": "Марапатты алу шарттары",
@@ -1128,7 +1128,7 @@
       "AntiCapsMinimumSymbols": "Минимальное количество символов",
       "LinksFilter": "Фильтрация ссылок",
       "LinksFilterAllowedRegistry": "Реестр разрешенных ссылок",
-      "LinksFilterBlockedRegistry": "Реестр запрещенных ссылок",
+      "LinksFilterBlockedRegistry": "Тыйым салынған сілтемелер тізілімі",
       "LinksFilterOptions": {
         "DeleteAllLinks": "Барлық сілтемелерді жою",
         "DeleteReferralInvites": "Удалять все сторонние приглашения"
@@ -1137,19 +1137,19 @@
       "NewbiesModerationMinimumAccountAge": "Есептік жазбаның минималды жасы",
       "NewbiesModerationMinimumAccountAgeDescription": "Есептік жазба көрсетілген уақыт бойы тіркелген болуы керек",
       "NicknamesModeration": "Модерирование никнеймов",
-      "NicknamesModerationSelectWhatRemove": "Выберите что убирать из никнеймов",
+      "NicknamesModerationSelectWhatRemove": "Никнеймдерден нені алып тастау керектігін таңдаңыз",
       "NicknamesModerationRemovableSymbols": {
         "SpecialCharacters": "Специальные символы",
         "Zalgo": "Залго",
         "Diacritics": "Диакритические знаки",
         "Emojis": "Эмодзи"
       },
-      "NicknamesModerationContains": "Другие значения",
-      "NicknamesModerationContainsDescription": "Убирать значения из никнеймов, которые содержатся в этом списке",
+      "NicknamesModerationContains": "Басқа мәндер",
+      "NicknamesModerationContainsDescription": "Бұл тізімдегі мәндерді никнеймдерден алып тастау",
       "SwearFilter": "Фильтрация слов",
-      "SwearFilterRegistryTitle": "Реестр запрещенных слов",
+      "SwearFilterRegistryTitle": "Тыйым салынған сөздер тізілімі",
       "UsersSlowdown": "Замедление отправки сообщений",
-      "UsersSlowdownMessagesLimitTitle": "Хабарлама жіберу жиілігінің шегі",
+      "UsersSlowdownMessagesLimitTitle": "Хабарлама жиілігінің шектеуі",
       "UsersSlowdownMessagesLimitDescription": "Сколько сообщений можно отправить в течении 5 секунд",
       "IgnoredPermissionsDescription": "Участники имеющие выбранные права будут игнорироваться",
       "PenaltyTimeout": "Тайм-аут наказания"
@@ -1166,7 +1166,7 @@
       "AddCondition": "Добавить условие",
       "AddAction": "Добавить действие",
       "ComponentNames": {
-        "CompareValues": "Сравнить значения",
+        "CompareValues": "Мәндерді салыстыру",
         "Reply": "Жауап беру",
         "SendMessage": "Хабарлама жіберу",
         "ForwardToCommand": "Перенаправить на команду",
@@ -1188,33 +1188,33 @@
       "CompareValuesLeftPart": "Сол жақ бөлігі",
       "CompareValuesRightPart": "Оң жақ бөлігі",
       "CompareValuesFalseReply": "Жалған жауап",
-      "ModifyRolesUserId": "Идентификатор пользователя",
-      "ModifyRolesUserIdDescription": "Добавить/убрать роли указанному пользователю (по умолчанию указан автор команды)",
+      "ModifyRolesUserId": "Пайдаланушының идентификаторы",
+      "ModifyRolesUserIdDescription": "Көрсетілген пайдаланушыға рөлдерді қосу/алып тастау (әдепкі бойынша пәрмен авторы көрсетіледі)",
       "ModifyWalletAmount": "Валюта мөлшері",
-      "ModifyWalletUserIdDescription": "Көрсетілген пайдаланушының әмиянын өзгерту (әдепкі бойынша команданы жіберген автор көрсетіледі)",
+      "ModifyWalletUserIdDescription": "Көрсетілген пайдаланушының әмиянын өзгерту (әдепкі бойынша пәрмен авторы көрсетіледі)",
       "ModifyWalletCurrencyId": "Валютаның идентификаторы",
       "ModifyWalletCurrencyIdDescription": "Стандартты валютадан басқа валютаны бергіңіз келсе, көрсетіңіз",
-      "OverwriteChannelPermissionsUserOrRoleId": "Идентификатор пользователя или роли",
+      "OverwriteChannelPermissionsUserOrRoleId": "Пайдаланушының немесе рөлдің идентификаторы",
       "ShowModalFieldPlaceholder": "Заполнитель",
       "ShowModalFieldMinLength": "Минимум символов",
       "ShowModalFieldMaxLength": "Максимум символов",
-      "ShowModalFieldDefaultValue": "Значение по умолчанию"
+      "ShowModalFieldDefaultValue": "Әдепкі мән"
     },
     "LacunaDiamond": {
-      "HasSubscription": "Этот сервер уже имеет бонусы, которые истекают {date}, но вы можете их продлить",
+      "HasSubscription": "Бұл қоғамдастықтың {date} дейін Lacuna Diamond жазылымы бар",
       "UnlimitedSubscription": "Серверде уақытпен шектелмеген Lacuna Diamond жазылымы бар",
       "BonusMusicDescription": "Неограниченное количество треков в очереди, прослушивание плейлистов, потоковое воспроизведение аудио и изменение громкости.",
-      "BonusIncreasedLimitsDescription": "Больше наград за уровни, предметов в магазине, подписок, автоматизаций, интерактивных сообщений, голосовых ролей, временных голосовых каналов и другое.",
+      "BonusIncreasedLimitsDescription": "Деңгейлер үшін одан да көп марапаттар, дүкен тауарлары, жазылымдар, автоматтандыру функциялары, интерактивті хабарламалар, дауыстық рөлдер, уақытша дауыстық арналар және тағы басқа артықшылықтар.",
       "BonusCustomBehaviorWithCodeDescription": "Возможность выполнения JavaScript-кода в пользовательских командах и задачах автоматизации.",
       "BonusRespectDescription": "Материальная помощь команде проекта и особая роль на официальном сервере поддержки.",
       "SelectPlan": "Жоспарды таңдаңыз",
       "SelectPaymentMethod": "Төлем тәсілі",
-      "WaysToGet": "Способы получения",
+      "WaysToGet": "Алу әдістері",
       "Pay": "Төлеу",
       "Check": "Тексеру",
-      "CheckForSubscription": "Проверить наличие подписки",
-      "TransferringDescription": "Премиум возможности будут перенесены из выбранного сообщества в текущее.",
-      "PlanComparison": "Сравнение планов",
+      "CheckForSubscription": "Жазылымның бар-жоғын тексеру",
+      "TransferringDescription": "Lacuna Diamond-ты ауыстыру үшін екі қоғамдастықтың да иесі болуыңыз қажет. Қазіргі қоғамдастықта Lacuna Diamond болмауы тиіс.",
+      "PlanComparison": "Жоспарларды салыстыру",
       "PlanComparisonFeatures": {
         "CustomCommandsNumber": "Пайдаланушы пәрмендерінің саны",
         "AutomationNumber": "Автоматтандырулар саны",
@@ -1237,21 +1237,21 @@
         "EarnCurrenciesInVoiceChannels": "Дауыстық арналарда валюталар табу",
         "VoiceExpMembersNumber": "Дауыстық арналарда бір мезгілде отырған, дауыстық белсенділігі үшін тәжірибе берілетін қатысушылар саны",
         "LevelAwardsNumber": "Деңгейлер үшін марапаттардың саны",
-        "StoreItemsNumber": "Количество предметов в магазине",
+        "StoreItemsNumber": "Дүкендегі тауарлар саны",
         "ActivityMultipliersNumber": "Тәжірибе мен табыс көбейткіштерінің саны",
-        "SocialPlatformNumber": "Количество {socialPlatform} подписок",
+        "SocialPlatformNumber": "{socialPlatform} жазылымдарының саны",
         "PrioritySupport": "Приоритетная поддержка",
         "ImageEditorElementsNumber": "Сурет редакторындағы элементтер саны"
       },
       "FAQ": {
-        "Q1": "Подписка оплачена, но Diamond не активируется",
-        "A1": "Чтобы активировать Diamond, проверьте следующие моменты\n\n1. Привязан ли ваш аккаунт Discord к {platform}\n2. Присоединились ли вы к серверу поддержки и получили ли роль подписчика\n3. Нажали ли вы на кнопку проверки подписки\n\nЕсли после этих шагов проблема остаётся, свяжитесь с нами для дальнейшей помощи.",
+        "Q1": "Жазылым төленді, бірақ Diamond белсендірілмейді",
+        "A1": "Diamond мүмкіндігін белсендіру үшін төмендегілерді тексеріңіз:\n\n1. Discord аккаунтыңыз {platform} платформасына байланыстырылған ба\n2. Қолдау серверіне қосылып, жазылушы рөлін алдыңыз ба\n3. Жазылымды тексеру батырмасын бастыңыз ба\n\nЕгер осы қадамдардан кейін мәселе шешілмесе, қосымша көмек алу үшін бізге хабарласыңыз.",
         "Q2": "У меня блокировка на сервере поддержки. Можно ли активировать Diamond?",
         "A2": "Если у вас блокировка на сервере поддержки, активация Diamond будет невозможна, так как она требует наличия доступа к серверу. Рекомендуем связаться с нами, чтобы разобраться с причиной блокировки и попытаться её снять.",
         "Q3": "Я забустил сервер больше 1 раза, но активировать Diamond могу только для одного сервера?",
         "A3": "Да, активировать Diamond можно только 1 раз. Количество выданных бустов не влияет на возможность дополнительной активации.",
-        "Q4": "Как получить жетоны?",
-        "A4": "Чтобы получить жетоны, проголосуйте за нашего бота на странице [Top.gg]({topggLink}). За каждый голос вы получите 1 жетон."
+        "Q4": "Жетондарды қалай алуға болады?",
+        "A4": "Жетондарды алу үшін [Top.gg]({topggLink}) бетінде біздің ботқа дауыс беріңіз. Әрбір дауыс үшін сіз 1 жетон аласыз."
       }
     },
     "CaseType": {
@@ -1264,11 +1264,11 @@
     "Subscriptions": {
       "ChannelName": "Арна атауы",
       "TwitchDisplayStreamPreview": "Показывать предпросмотр стрима",
-      "YoutubeChannelName": "Название или идентификатор канала",
+      "YoutubeChannelName": "Арнаның атауы немесе идентификаторы",
       "NotificationsChannel": "Хабарландыру арнасы",
       "NotificationsText": "Хабарландыру мәтіні",
-      "TelegramHelpNote": "Для того, чтобы связать Telegram и Discord, необходимо добавить бота {botLink} в нужный канал, затем ввести его название или идентификатор в поле ниже.",
-      "TelegramChannelNameDescription": "Уникальный идентификатор или имя выбранного канала (в формате {'@'}channelusername)",
+      "TelegramHelpNote": "Telegram мен Discord-ты байланыстыру үшін {botLink} ботын қажетті арнаға қосып, содан кейін төмендегі өріске оның атауын немесе идентификаторын енгізу қажет.",
+      "TelegramChannelNameDescription": "Тандалған арнаның бірегей идентификаторы немесе атауы ({'@'}channelusername пішімінде)",
       "MentionRoles": "Рөлдерді атап өту",
       "CrosspostMessage": "Хабарламаны жариялау",
       "CreateThread": "Создать ветвь"
@@ -1285,11 +1285,11 @@
       "ThrottlingTimeout": "Қайта қолдану уақыты"
     },
     "UserSurvey": {
-      "ItWouldHelpUs": "Біздің қызметімізді пайдалану тәжірибеңізді бағалауға 10 секунд уақытыңызды бөлсеңіз, қуанышты боламыз.",
+      "ItWouldHelpUs": "Ботты пайдалану тәжірибеңізді бағалауға 10 секунд уақытыңызды бөлсеңіз, қуанышты боламыз.",
       "HowSatisfied": "Ботқа қаншалықты көңіліңіз толады?",
-      "HowManyMembers": "Сколько пользователей на вашем сервере?",
+      "HowManyMembers": "Сіздің серверіңізде қанша пайдаланушы бар?",
       "TellUsMore": "Өзіңіздің пайдалану тәжірибеңіз туралы көбірек айтып берсеңіз",
-      "SurveySubmitted": "Спасибо! Вы помогаете нам стать лучше."
+      "SurveySubmitted": "Рахмет! Сіз біздің жақсаруымызға көмектесіп жатырсыз."
     },
     "AutoReaction": {
       "ReactionsDescription": "10 реакцияны таңдауға болады",
@@ -1306,10 +1306,10 @@
     "InteractiveMessage": {
       "ActionRows": "Операционные ряды",
       "ActionRowButtons": "Батырмалар",
-      "ActionRowSelectMenu": "Выпадающий список",
+      "ActionRowSelectMenu": "Ашылмалы тізім",
       "ButtonName": "Батырма атауы",
-      "ButtonStyle": "Стиль кнопки",
-      "ButtonURL": "Түйме сілтемесі",
+      "ButtonStyle": "Батырма стилі",
+      "ButtonURL": "Батырма сілтемесі",
       "SelectMenuPlaceholder": "Заполнитель",
       "OptionName": "Опцияның атауы",
       "OptionDescription": "Опцияның сипаттамасы",
@@ -1319,7 +1319,7 @@
       "SingleElement": "Одиночный элемент",
       "SingleElementDescription": "Позволяет сделать элемент реакции уникальным",
       "ReverseElement": "Реверсивный элемент",
-      "MessageId": "Идентификатор сообщения",
+      "MessageId": "Хабарламаның идентификаторы",
       "MessageIdDescription": "Можно получить, если при включенном режиме разработчика нажать ПКМ на сообщение и выбрать «Копировать ID». Сообщение должно находится в выбранном канале выше",
       "References": "Направления",
       "ReferencesDescription": "Роли или каналы, которые будут привязаны к выбранной реакции"
@@ -1329,11 +1329,11 @@
       "DefaultName": "Стандартты атауы",
       "DefaultUserLimit": "Пайдаланушыларды шектеу",
       "DefaultCategory": "Категория по умолчанию",
-      "DefaultPosition": "Әдепкі орналасу орны",
+      "DefaultPosition": "Орналасуы",
       "DefaultPositionDescription": "Позиция временного голосового канала относительно других каналов в категории",
       "DefaultPositions": {
-        "Top": "Сверху",
-        "Bottom": "Снизу"
+        "Top": "Жоғарыда",
+        "Bottom": "Төменде"
       },
       "OwnerPermissions": "Разрешения владельца канала",
       "OwnerPermissionsDescription": "Владельцу временного голосового канала будут выданы выбранные права",
@@ -1344,11 +1344,11 @@
       "BoundChannelsDescription": "Оставьте поле пустым, если хотите, чтобы роль выдавалась при подключении к любому каналу"
     },
     "Header": {
-      "Guilds": "Қауымдастықтар",
+      "Guilds": "Қоғамдастықтар",
       "State": "Күй",
-      "Docs": "Анықтамалық",
+      "Docs": "Нұсқаулық",
       "Patrons": "Демеушілер",
-      "Community": "Қауымдастық",
+      "Community": "Қоғамдастық",
       "Login": "Кіру",
       "Logout": "Шығу",
       "ReleaseNotes": "Өзгерістер тізімі"
@@ -1361,7 +1361,7 @@
       "ImageBackgroundURL": "Фондық суретке сілтеме",
       "ImageElements": "Суреттің элементтері",
       "AddSampleImageElements": "Сурет элементтерінің үлгісін қосу",
-      "PositionCoordinate": "{XY} бойынша орналасуы",
+      "PositionCoordinate": "{XY} орналасуы",
       "Height": "Высота",
       "Width": "Ширина",
       "Text": "Текст",
@@ -1429,15 +1429,15 @@
       "Functions": "Функциялар"
     },
     "ScriptEditor": {
-      "MaxNumberOfScriptsReached": "Скрипт не будет выполнен, потому что достигнуто максимальное количество скриптов",
+      "MaxNumberOfScriptsReached": "Скрипттердің саны максималды шекке жеткендіктен, бұл скрипт орындалмайды",
       "ScriptName": "Скрипттің атауы",
-      "ScriptDeleteConfirmation": "Вы уверены, что хотите удалить скрипт?"
+      "ScriptDeleteConfirmation": "Скриптті жойғыңыз келетініне сенімдісіз бе?"
     },
     "EmojiPicker": {
       "Search": "Іздеу",
-      "NotFound": "Сәйкес нәтижелер жоқ",
+      "NotFound": "Ештеңе табылмады",
       "Categories": {
-        "Search": "Іздеу нәтижесі",
+        "Search": "Іздеу нәтижелері",
         "Recent": "Жиі қолданылатындар",
         "Smileys": "Смайлики и эмоции",
         "People": "Люди и тело",
@@ -1445,7 +1445,7 @@
         "Foods": "Тағамдар мен сусындар",
         "Activity": "Белсенділік",
         "Places": "Саяхаттар мен орындар",
-        "Objects": "Предметы",
+        "Objects": "Заттар",
         "Symbols": "Белгілер",
         "Flags": "Тулар",
         "Custom": "Пайдаланушынікі"
@@ -1516,7 +1516,7 @@
     "RoleUpdatedPermissions": "разрешения роли {role}",
     "RoleName": "Рөлдің атауы",
     "RoleColor": "Рөлдің түсі",
-    "RolePosition": "Рөл позициясы",
+    "RolePosition": "Рөлдің орналасуы",
     "StickerCreated": "Стикер қосылды",
     "StickerCreatedTemplate": "{username} добавляет стикер {sticker}",
     "StickerDeleted": "Стикер жойылды",
@@ -1534,9 +1534,9 @@
     "UserUpdated": "Пайдаланушы өзгертілді",
     "UserUpdatedName": "{username} изменяет своё имя пользователя",
     "UserUpdatedDiscriminator": "{username} изменяет свой дискриминатор",
-    "VoiceConnection": "Голосовое подключение",
+    "VoiceConnection": "Дауыстық арнаға қосылды",
     "VoiceConnectionTemplate": "{username} подключается к голосовому каналу {channel}",
-    "VoiceDisconnection": "Голосовое отключение",
+    "VoiceDisconnection": "Дауыстық арнадан шықты",
     "VoiceDisconnectionTemplate": "{username} отключается от голосового канала {channel}",
     "VoiceMove": "Голосовое перемещение",
     "VoiceMoveTemplate": "{username} перемещается из голосового канала {from} в {to}",
@@ -1552,9 +1552,9 @@
       "Kick": "Қатысушы қуып шығарылды",
       "MuteAdd": "Дыбысы өшірулі",
       "MuteRemove": "Дыбысты өшіру алынды",
-      "PruneMessages": "Очистка сообщений",
-      "WarnAdd": "Предупреждение выдано",
-      "WarnRemove": "Предупреждение убрано"
+      "PruneMessages": "Хабарламаларды тазарту",
+      "WarnAdd": "Ескерту берілді",
+      "WarnRemove": "Ескерту алынды"
     },
     "Actions": {
       "Title": "Әрекеттер",
@@ -1570,9 +1570,9 @@
       "OverwriteChannelPermissions": "Переопределить права канала",
       "RestrictRoles": "Рөлдерді шектеу"
     },
-    "CaseNumber": "Случай #{caseNumber}",
+    "CaseNumber": "Оқиға #{caseNumber}",
     "Moderator": "Модератор",
-    "ChangeReason": "Изменить причину"
+    "ChangeReason": "Себебін өзгерту"
   },
   "RoleConnections": {
     "RegistrationDate": {
